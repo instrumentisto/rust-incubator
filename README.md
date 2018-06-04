@@ -31,6 +31,7 @@ This project represents a step-by-step [Rust] learning course from language basi
 - [Cargo Book] is a guide to [Cargo], [Rust]'s build tool and dependency manager.
 - [Rustdoc Book] is a guide to `rustdoc` documentation tool.
 - [Rust By Example] teaches you how to program in Rust using editable examples.
+- [Rust FAQ] answers common question about [Rust].
 - [Rust Playground] allows to share and check runnable [Rust] code snippets online.
 - [Awesome Rust] is a curated list of Rust code and resources.
 - [Baby Steps] blog of [Nicholas Matsakis](https://github.com/nikomatsakis) shares useful [Rust] patterns and ideas.
@@ -66,6 +67,7 @@ Do not hesitate to ask your lead with questions.
 [Rust]: https://www.rust-lang.org
 [Rust Book]: https://doc.rust-lang.org/book
 [Rust By Example]: https://doc.rust-lang.org/rust-by-example
+[Rust FAQ]: https://www.rust-lang.org/faq.html
 [Rust Playground]: https://play.rust-lang.org
 [Rust Reference]: https://doc.rust-lang.org/reference
 [Rust Standard Library]: https://doc.rust-lang.org/std

@@ -1,7 +1,7 @@
 Step 0: Become familiar with Rust basics
 ========================================
 
-Read through [Rust Book] and become familiar with basic [Rust] concepts, syntax, memory model, type and module systems.
+Read through [Rust Book], [Rust FAQ], and become familiar with basic [Rust] concepts, syntax, memory model, type and module systems.
 
 Polish your familiarity by completing [Rust By Example].
 
@@ -35,3 +35,4 @@ Notify your lead in related MR when you're done, and he will exam what you have 
 [Rust]: https://www.rust-lang.org
 [Rust Book]: https://doc.rust-lang.org/book
 [Rust By Example]: https://doc.rust-lang.org/rust-by-example
+[Rust FAQ]: https://www.rust-lang.org/faq.html
