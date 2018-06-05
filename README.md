@@ -48,6 +48,8 @@ Do not hesitate to ask your lead with questions.
 - [ ] [0. Become familiar with Rust basics][Step 0]
 - [ ] 1. Key concepts
     - [ ] [1.1 Type safety][Step 1.1]
+- [ ] 2. Primitives
+    - [ ] [2.1 Date and time][Step 2.1]
 
 
 
@@ -55,6 +57,7 @@ Do not hesitate to ask your lead with questions.
 
 [Step 0]: 0_basics
 [Step 1.1]: 1_key_concepts/1_1_type_safety
+[Step 2.1]: 2_primitives/2_1_date_and_time
 
 [`Makefile`]: Makefile
 
