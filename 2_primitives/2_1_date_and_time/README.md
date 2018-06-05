@@ -17,7 +17,9 @@ To measure a time of some operation, you should not use [Chrono] crate primitive
 
 Implement a struct `User` with a `birthdate` field, and its methods:
 - `age()` which returns current age of user in years;
-- `is_adult()` which checks if user is 18 years old at the moment.   
+- `is_adult()` which checks if user is 18 years old at the moment.
+
+Prove your implementation correctness with tests.
 
 
 
