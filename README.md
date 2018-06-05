@@ -46,12 +46,15 @@ Each step must be performed as separate [MR (Merge Request)][MR] with correspond
 Do not hesitate to ask your lead with questions.
 
 - [ ] [0. Become familiar with Rust basics][Step 0]
+- [ ] 1. Key concepts
+    - [ ] [1.1 Type safety][Step 1.1]
 
 
 
 
 
 [Step 0]: 0_basics
+[Step 1.1]: 1_key_concepts/1_1_type_safety
 
 [`Makefile`]: Makefile
 
