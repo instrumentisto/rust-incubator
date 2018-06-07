@@ -31,6 +31,7 @@ This project represents a step-by-step [Rust] learning course from language basi
 - [Cargo Book] is a guide to [Cargo], [Rust]'s build tool and dependency manager.
 - [Rustdoc Book] is a guide to `rustdoc` documentation tool.
 - [Rust By Example] teaches you how to program in Rust using editable examples.
+- [Rust Cookbook] is a collection of simple examples that demonstrate good practices to accomplish common programming tasks, using the crates of the [Rust] ecosystem.
 - [Rust FAQ] answers common question about [Rust].
 - [Rust Playground] allows to share and check runnable [Rust] code snippets online.
 - [Awesome Rust] is a curated list of Rust code and resources.
@@ -46,11 +47,32 @@ Each step must be performed as separate [MR (Merge Request)][MR] with correspond
 Do not hesitate to ask your lead with questions.
 
 - [ ] [0. Become familiar with Rust basics][Step 0]
-- [ ] 1. Key concepts
+- 1. Key concepts
     - [ ] [1.1 Type safety][Step 1.1]
-- [ ] 2. Primitives
+    - 1.2. `Cell`/`RefCell`: Shared mutation
+    - 1.3. `Cow`: Clone-on-write
+    - 1.4. `Rc`: Reference counting
+    - 1.5. `Default`: Default values
+    - 1.6. `Deref`: Dereferencing
+- 2. Primitives and tools
     - [ ] [2.1 Date and time][Step 2.1]
     - [ ] [2.2 Regular expressions][Step 2.2]
+    - 2.3. Bitmasks
+    - 2.4. Collections
+    - 2.5. Encoding and serialization
+    - 2.6. Randomness
+    - 2.7. Cryptography
+    - 2.8. Logging
+    - 2.9. Command-line arguments
+    - 2.10. Environment variables
+    - 2.11. Configuration
+    - 2.12. Threads, synchronization and parallelism
+    - 2.13. Futures and async I/O
+    - 2.14. Actors
+    - 2.15. Databases and ORMs
+- 3. Architecture
+    - 3.1. Long-running application
+    - 3.2. Clean architecture
 
 
 
@@ -58,8 +80,8 @@ Do not hesitate to ask your lead with questions.
 
 [Step 0]: 0_basics
 [Step 1.1]: 1_key_concepts/1_1_type_safety
-[Step 2.1]: 2_primitives/2_1_date_and_time
-[Step 2.2]: 2_primitives/2_2_regular_expressions
+[Step 2.1]: 2_primitives_and_tools/2_1_date_and_time
+[Step 2.2]: 2_primitives_and_tools/2_2_regular_expressions
 
 [`Makefile`]: Makefile
 
@@ -75,6 +97,7 @@ Do not hesitate to ask your lead with questions.
 [Rust]: https://www.rust-lang.org
 [Rust Book]: https://doc.rust-lang.org/book
 [Rust By Example]: https://doc.rust-lang.org/rust-by-example
+[Rust Cookbook]: https://rust-lang-nursery.github.io/rust-cookbook
 [Rust FAQ]: https://www.rust-lang.org/faq.html
 [Rust Playground]: https://play.rust-lang.org
 [Rust Reference]: https://doc.rust-lang.org/reference
