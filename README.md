@@ -55,9 +55,9 @@ Do not hesitate to ask your lead with questions.
     - 1.5. `Default`: default values
     - 1.6. `Deref`: dereferencing
 - 2. Primitives and tools
-    - [ ] [2.1 Date and time][Step 2.1]
-    - [ ] [2.2 Regular expressions][Step 2.2]
-    - 2.3. Bitmasks
+    - [ ] [2.1. Date and time][Step 2.1]
+    - [ ] [2.2. Regular expressions][Step 2.2]
+    - [ ] [2.3. Bitmasks][Step 2.3]
     - 2.4. Collections
     - 2.5. Encoding and serialization
     - 2.6. Randomness
@@ -83,6 +83,7 @@ Do not hesitate to ask your lead with questions.
 [Step 1.3]: 1_key_concepts/1_3_clone_on_write
 [Step 2.1]: 2_primitives_and_tools/2_1_date_and_time
 [Step 2.2]: 2_primitives_and_tools/2_2_regular_expressions
+[Step 2.3]: 2_primitives_and_tools/2_3_bitmasks
 
 [`Makefile`]: Makefile
 
