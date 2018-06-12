@@ -1,0 +1,3 @@
+[package]
+name = "clone_on_write"
+version = "0.1.0"
