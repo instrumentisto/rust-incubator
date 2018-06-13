@@ -49,9 +49,9 @@ Do not hesitate to ask your lead with questions.
 - [ ] [0. Become familiar with Rust basics][Step 0]
 - 1. Key concepts
     - [ ] [1.1 Type safety][Step 1.1]
-    - 1.2. `Cell`/`RefCell`: shared mutation
+    - 1.2. `Rc`: reference counting
     - [ ] [1.3. `Cow`: clone-on-write][Step 1.3]
-    - 1.4. `Rc`: reference counting
+    - [ ] [1.4. `Cell`/`RefCell`: interior mutability][Step 1.4]
     - 1.5. `Default`: default values
     - 1.6. `Deref`: dereferencing
 - 2. Primitives and tools
@@ -81,6 +81,7 @@ Do not hesitate to ask your lead with questions.
 [Step 0]: 0_basics
 [Step 1.1]: 1_key_concepts/1_1_type_safety
 [Step 1.3]: 1_key_concepts/1_3_clone_on_write
+[Step 1.4]: 1_key_concepts/1_4_interior_mutability
 [Step 2.1]: 2_primitives_and_tools/2_1_date_and_time
 [Step 2.2]: 2_primitives_and_tools/2_2_regular_expressions
 [Step 2.3]: 2_primitives_and_tools/2_3_bitmasks
