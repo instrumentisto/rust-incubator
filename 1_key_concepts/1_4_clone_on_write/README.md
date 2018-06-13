@@ -1,4 +1,4 @@
-Step 1.3: `Cow`: clone-on-write
+Step 1.4: `Cow`: clone-on-write
 ===============================
 
 [Rust] has a [`Cow`] (clone-on-write) smart pointer in its standard library. Understanding how to use it is __essential to write idiomatic and ergonomic__ [Rust] code.

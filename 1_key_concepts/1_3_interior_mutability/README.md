@@ -1,4 +1,4 @@
-Step 1.4: `Cell`/`RefCell`: interior mutability
+Step 1.3: `Cell`/`RefCell`: interior mutability
 ===============================================
 
 [Rust] memory safety is based on the following rule (known as "borrowing rules"):
