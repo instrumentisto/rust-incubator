@@ -52,7 +52,7 @@ Do not hesitate to ask your lead with questions.
     - [ ] [1.2. `Rc`/`Weak`: reference counting][Step 1.2]
     - [ ] [1.3. `Cell`/`RefCell`: interior mutability][Step 1.3]
     - [ ] [1.4. `Cow`: clone-on-write][Step 1.4]
-    - 1.5. `Default`: default values
+    - [ ] [1.5. `Default`: default values][Step 1.5]
     - 1.6. `Deref`: dereferencing
 - 2. Primitives and tools
     - [ ] [2.1. Date and time][Step 2.1]
@@ -83,6 +83,7 @@ Do not hesitate to ask your lead with questions.
 [Step 1.2]: 1_key_concepts/1_2_reference_counting
 [Step 1.3]: 1_key_concepts/1_3_interior_mutability
 [Step 1.4]: 1_key_concepts/1_4_clone_on_write
+[Step 1.5]: 1_key_concepts/1_5_default_values
 [Step 2.1]: 2_primitives_and_tools/2_1_date_and_time
 [Step 2.2]: 2_primitives_and_tools/2_2_regular_expressions
 [Step 2.3]: 2_primitives_and_tools/2_3_bitmasks
