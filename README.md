@@ -63,7 +63,7 @@ Do not hesitate to ask your lead with questions.
     - 2.6. Randomness
     - 2.7. Cryptography
     - 2.8. Logging
-    - 2.9. Command-line arguments
+    - [ ] [2.9. Command-line arguments][Step 2.9]
     - 2.10. Environment variables
     - 2.11. Configuration
     - 2.12. Threads, synchronization and parallelism
@@ -88,6 +88,7 @@ Do not hesitate to ask your lead with questions.
 [Step 2.2]: 2_primitives_and_tools/2_2_regular_expressions
 [Step 2.3]: 2_primitives_and_tools/2_3_bitmasks
 [Step 2.5]: 2_primitives_and_tools/2_5_encoding_and_serialization
+[Step 2.9]: 2_primitives_and_tools/2_9_command_line_arguments
 
 [`Makefile`]: Makefile
 
