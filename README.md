@@ -59,7 +59,7 @@ Do not hesitate to ask your lead with questions.
     - [ ] [2.2. Regular expressions][Step 2.2]
     - [ ] [2.3. Bitmasks][Step 2.3]
     - 2.4. Collections
-    - 2.5. Encoding and serialization
+    - [ ] [2.5. Encoding and serialization][Step 2.5]
     - 2.6. Randomness
     - 2.7. Cryptography
     - 2.8. Logging
@@ -87,6 +87,7 @@ Do not hesitate to ask your lead with questions.
 [Step 2.1]: 2_primitives_and_tools/2_1_date_and_time
 [Step 2.2]: 2_primitives_and_tools/2_2_regular_expressions
 [Step 2.3]: 2_primitives_and_tools/2_3_bitmasks
+[Step 2.5]: 2_primitives_and_tools/2_5_encoding_and_serialization
 
 [`Makefile`]: Makefile
 
