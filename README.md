@@ -53,7 +53,7 @@ Do not hesitate to ask your lead with questions.
     - [ ] [1.3. `Cell`/`RefCell`: interior mutability][Step 1.3]
     - [ ] [1.4. `Cow`: clone-on-write][Step 1.4]
     - [ ] [1.5. `Default`: default values][Step 1.5]
-    - 1.6. `Deref`: dereferencing
+    - [ ] [1.6. `Deref`: dereferencing][Step 1.6]
 - 2. Primitives and tools
     - [ ] [2.1. Date and time][Step 2.1]
     - [ ] [2.2. Regular expressions][Step 2.2]
@@ -84,6 +84,7 @@ Do not hesitate to ask your lead with questions.
 [Step 1.3]: 1_key_concepts/1_3_interior_mutability
 [Step 1.4]: 1_key_concepts/1_4_clone_on_write
 [Step 1.5]: 1_key_concepts/1_5_default_values
+[Step 1.6]: 1_key_concepts/1_6_dereferencing
 [Step 2.1]: 2_primitives_and_tools/2_1_date_and_time
 [Step 2.2]: 2_primitives_and_tools/2_2_regular_expressions
 [Step 2.3]: 2_primitives_and_tools/2_3_bitmasks
