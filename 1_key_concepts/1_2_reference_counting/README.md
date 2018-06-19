@@ -39,8 +39,8 @@ The [`Rc`], however, __should be used wisely__ as __won't deallocate memory on r
 
 For better understanding [`Rc`]/[`Weak`] purpose, design, limitations and use cases read through:
 - [Rust Book: 15.4. Rc, the Reference Counted Smart Pointer][1]
-- [Rust Book: 15.6. Reference Cycles Can Leak Memory][1]
-- [Official `std:rc` docs][`std::rc`]
+- [Rust Book: 15.6. Reference Cycles Can Leak Memory][2]
+- [Official `std::rc` docs][`std::rc`]
 
 
 
