@@ -47,7 +47,7 @@ Each step must be performed as separate [MR (Merge Request)][MR] with correspond
 Do not hesitate to ask your lead with questions.
 
 - [ ] [0. Become familiar with Rust basics][Step 0]
-- 1. Key concepts
+- [ ] [1. Key concepts][Step 1]
     - [ ] [1.1. Type safety][Step 1.1]
     - [ ] [1.2. `Rc`/`Weak`: reference counting][Step 1.2]
     - [ ] [1.3. `Cell`/`RefCell`: interior mutability][Step 1.3]
@@ -55,6 +55,7 @@ Do not hesitate to ask your lead with questions.
     - [ ] [1.5. `Default`: default values][Step 1.5]
     - [ ] [1.6. `Deref`: dereferencing][Step 1.6]
     - [ ] [1.7. Static and dynamic dispatch][Step 1.7]
+    - 1.8. `Send`/`Sync`: thread safety
 - 2. Primitives and tools
     - [ ] [2.1. Date and time][Step 2.1]
     - [ ] [2.2. Regular expressions][Step 2.2]
@@ -80,6 +81,7 @@ Do not hesitate to ask your lead with questions.
 
 
 [Step 0]: 0_basics
+[Step 1]: 1_key_concepts
 [Step 1.1]: 1_key_concepts/1_1_type_safety
 [Step 1.2]: 1_key_concepts/1_2_reference_counting
 [Step 1.3]: 1_key_concepts/1_3_interior_mutability
