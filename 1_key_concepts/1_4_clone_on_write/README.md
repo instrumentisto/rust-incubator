@@ -31,7 +31,7 @@ Also, be friendly with [official `Cow` docs][`Cow`].
 
 Write a simple program which prints out the path to its configuration file. The path should be detected with the following precedence:
 1. Default path is `/etc/app/app.conf`.
-2. If `APP_CONF` env var is specified (or not empty) then use it.
+2. If `APP_CONF` env var is specified (and not empty) then use it.
 3. If `--conf` command line argument is specified (error if empty) then use it.
 
 Path detection must be implemented as a separate function and covered with tests.
