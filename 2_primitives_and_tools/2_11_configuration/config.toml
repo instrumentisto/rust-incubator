@@ -1,0 +1,305 @@
+[mode]
+# Debug mode enables additional logging, tracing and profiling
+# to simplify developing and debugging of application.
+#
+# This option automatically sets log.app.level and log.access.level
+# configuration options to "debug".
+#
+# Default:
+#   debug = false
+
+
+
+
+[server]
+# URL address that this concrete SAPI shard is exposed externally with.
+# Different SAPI shards must have different unique shard URLs.
+#
+# Default:
+#   shard_url = "http://127.0.0.1"
+
+# Port that exposes HTTP interface of SAPI for clients.
+# This one must be reachable externally.
+#
+# Default:
+#   http_port = 8081
+
+# Port that exposes OpenVidu Callback server gRPC interface of SAPI.
+# This one must be reachable only by OpenVidu Server.
+#
+# Default:
+#   grpc_port = 8082
+
+# Port that exposes HTTP healthcheck of SAPI.
+# This one must be reachable only inside Kubernetes Pod.
+#
+# Default:
+#   healthz_port = 10025
+
+# Port that exposes Prometheus metrics of SAPI.
+# This one must be reachable only inside Kubernetes cluster.
+#
+# Default:
+#   metrics_port = 9199
+
+
+
+
+[db.mysql]
+# Host of MySQL database server.
+#
+# Default:
+#   host = "127.0.0.1"
+
+# Port that MySQL database server is listening connections on.
+#
+# Default:
+#   port = 3306
+
+# MySQL database user to connect to MySQL server as.
+#
+# Default:
+#   user = "root"
+
+# Password of MySQL database user to use for authentication on MySQL server.
+#
+# Default:
+#   pass = ""
+
+[db.mysql.databases]
+# Name of dating database on MySQL server.
+#
+# Default:
+#   dating = "dating"
+
+# Name of social database on MySQL server.
+#
+# Default:
+#   social = "social"
+
+[db.mysql.connections]
+# Maximum allowed number of connections in the idle connections pool.
+#
+# Values greater than connections.max_open will be automatically reduced
+# to match connections.max_open limit.
+#
+# Default:
+#   max_idle = 30
+
+# Maximum allowed number of open connections to the MySQL database server
+# at the same time.
+#
+# Default:
+#   max_open = 30
+
+
+
+
+[db.redis]
+# In case of using multiple Redis database instances
+# the data will be distributed across them using consistent hashing
+# algo (Redis Ring).
+
+[[db.redis.addrs]]
+# Host of Redis database server.
+#
+# Default:
+#   host = "127.0.0.1"
+
+# Port that Redis database server is listening connections on.
+#
+# Default:
+#   port = 6379
+
+
+
+
+[ms.openvidu]
+# Host of OpenVidu Server media server.
+#
+# Default:
+#   host = "127.0.0.1"
+
+# Port that OpenVidu Server media server is listening gRPC connections on.
+#
+# Default:
+#   grpc_port = 8080
+
+# Port that OpenVidu Server media server exposes Prometheus metrics on.
+#
+# Default:
+#   grpc_port = 9321
+
+
+
+
+[log.app]
+# Minimum allowed level of application log entries to be logged.
+#
+# Possible values (in ascending order):
+#   "debug", "info", "warn", "error", "fatal", "panic", ""
+#
+# Empty value "" disables logging at all.
+#
+# Default:
+#   level = "info"
+
+[log.access]
+# Minimum allowed level of access log entries to be logged.
+#
+# Possible values (in ascending order):
+#   "debug", "info", "warn", "error", "fatal", "panic", ""
+#
+# Empty value "" disables logging at all.
+#
+# Default:
+#   level = "info"
+
+[log.user]
+# Minimum allowed level of user log entries to be logged.
+#
+# Possible values (in ascending order):
+#   "debug", "info", "warn", "error", "fatal", "panic", ""
+#
+# Empty value "" disables logging at all.
+#
+# Default:
+#   level = "info"
+
+
+
+
+[auth]
+# Salt value that is used for password hash evaluation
+# of authenticating dating user.
+#
+# Default:
+#   user_password_salt = ""
+
+# Duration when access token can be renewed (just before it will expire)
+# with 'access_renew=y' URL query parameter.
+#
+# Default:
+#   renewal_duration = "5m"
+
+
+
+
+[app]
+# Timeout for application to shutdown gracefully.
+#
+# Default:
+#   shutdown_timeout = "30s"
+
+[app.live_stream]
+# Maximum allowed length of message in live stream chat.
+#
+# Default:
+#   max_message_length = 1000
+
+# Timeout for 'active' live stream to be re-checked.
+#
+# Default:
+#   idle_timeout = "5s"
+
+# Timeout for live stream to become 'active' after it was initialized.
+#
+# Default:
+#   starting_timeout = "20s"
+
+
+[app.live_stream.visit]
+# Timeout for 'active' visit to be re-checked.
+#
+# Default:
+#   idle_timeout = "5s"
+
+# Timeout for visit to become 'active' after it was initialized.
+#
+# Default:
+#   starting_timeout = "20s"
+
+
+[app.live_stream.preview]
+# Timeout for 'active' preview to be re-checked.
+#
+# Default:
+#   idle_timeout = "5s"
+
+# Timeout for preview to become 'active' after it was initialized.
+#
+# Default:
+#   starting_timeout = "20s"
+
+
+[app.setup_stream]
+# Timeout for 'active' setup stream to be re-checked.
+#
+# Default:
+#   idle_timeout = "5s"
+
+# Timeout for setup stream to become 'active' after it was initialized.
+#
+# Default:
+#   starting_timeout = "20s"
+
+
+
+
+[background.finalizer]
+# Period to run finalization background job with.
+#
+# Default:
+#   period = "10s"
+
+# Maximum number of entries to finalize per single job run.
+#
+# Default:
+#   limit = 50
+
+
+[background.recounter]
+# Period to run recounting background job with.
+#
+# Default:
+#   period = "5s"
+
+# Maximum number of entries to recount per single job run.
+#
+# Default:
+#   limit = 50
+
+# Timeout for holding recounting lock on entries.
+#
+# Default:
+#   lock_timeout = "4s"
+
+
+[background.watchdog]
+# Period to run watchdog background job with.
+#
+# Default:
+#   period = "5s"
+
+# Maximum number of entries to finish per single job run.
+#
+# Default:
+#   limit = 10
+
+# Timeout for holding watchdog lock on entries.
+#
+# Default:
+#   lock_timeout = "4s"
+
+
+
+
+[ice]
+# List of ICE (STUN/TURN) servers that should be used for NAT traversal
+# in media data communication with this concrete SAPI shard.
+# This list is returned in SAPI response along with media URL of stream,
+# visit, or preview, for web applications being able to perform NAT
+# traversal as required by this concrete SAPI shard.
+#
+# Default:
+#   servers = ["turn:access_token:qwerty@127.0.0.1:3478"]
