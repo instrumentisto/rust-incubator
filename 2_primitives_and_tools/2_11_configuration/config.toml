@@ -128,7 +128,7 @@
 # Port that OpenVidu Server media server exposes Prometheus metrics on.
 #
 # Default:
-#   grpc_port = 9321
+#   metrics_port = 9321
 
 
 
