@@ -64,7 +64,7 @@ Do not hesitate to ask your lead with questions.
     - [ ] [2.5. Encoding and serialization][Step 2.5]
     - [ ] [2.6. Randomness][Step 2.6]
     - 2.7. Cryptography
-    - 2.8. Logging
+    - [ ] [2.8. Logging][Step 2.8]
     - [ ] [2.9. Command-line arguments][Step 2.9]
     - [ ] [2.10. Environment variables][Step 2.10]
     - [ ] [2.11. Configuration][Step 2.11]
@@ -94,6 +94,7 @@ Do not hesitate to ask your lead with questions.
 [Step 2.3]: 2_primitives_and_tools/2_3_bitmasks
 [Step 2.5]: 2_primitives_and_tools/2_5_encoding_and_serialization
 [Step 2.6]: 2_primitives_and_tools/2_6_randomness
+[Step 2.8]: 2_primitives_and_tools/2_8_logging
 [Step 2.9]: 2_primitives_and_tools/2_9_command_line_arguments
 [Step 2.10]: 2_primitives_and_tools/2_10_environment_variables
 [Step 2.11]: 2_primitives_and_tools/2_11_configuration
