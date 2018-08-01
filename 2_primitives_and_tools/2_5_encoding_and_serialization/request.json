@@ -19,7 +19,7 @@
       "client_price": 250,
       "duration": 60,
       "description": "test private tariff"
-    },
+    }
   },
   "gifts": [{
     "id": 1,
