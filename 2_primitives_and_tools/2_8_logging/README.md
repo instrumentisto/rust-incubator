@@ -15,7 +15,7 @@ Crate [log] represents a single unified frontend interface (facade) which is use
 - Executables should choose a logger implementation and initialize it early in the runtime of the program. Logger implementations will typically include a function to do this.
 >>>
 
-One interesting part is that log levels can be [disabled at compile-time][3], thus have __no runtime performance impact at all__, unless you're debugging.
+One interesting part is that log levels can be [disabled at compile time][3], thus have __no runtime performance impact at all__, unless you're debugging.
 
 Read through [log] crate [official documentation][2] for more information and details.
 
