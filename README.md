@@ -55,7 +55,7 @@ Do not hesitate to ask your lead with questions.
     - [ ] [1.5. `Default`: default values][Step 1.5]
     - [ ] [1.6. `Deref`: dereferencing][Step 1.6]
     - [ ] [1.7. Static and dynamic dispatch][Step 1.7]
-    - 1.8. `Send`/`Sync`: thread safety
+    - [ ] [1.8. `Send`/`Sync`: thread safety][Step 1.8]
 - 2. Primitives and tools
     - [ ] [2.1. Date and time][Step 2.1]
     - [ ] [2.2. Regular expressions][Step 2.2]
@@ -89,6 +89,7 @@ Do not hesitate to ask your lead with questions.
 [Step 1.5]: 1_key_concepts/1_5_default_values
 [Step 1.6]: 1_key_concepts/1_6_dereferencing
 [Step 1.7]: 1_key_concepts/1_7_static_and_dynamic_dispatch
+[Step 1.8]: 1_key_concepts/1_8_thread_safety
 [Step 2.1]: 2_primitives_and_tools/2_1_date_and_time
 [Step 2.2]: 2_primitives_and_tools/2_2_regular_expressions
 [Step 2.3]: 2_primitives_and_tools/2_3_bitmasks
