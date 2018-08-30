@@ -68,7 +68,7 @@ Do not hesitate to ask your lead with questions.
     - [ ] [2.9. Command-line arguments][Step 2.9]
     - [ ] [2.10. Environment variables][Step 2.10]
     - [ ] [2.11. Configuration][Step 2.11]
-    - 2.12. Threads, synchronization and parallelism
+    - [ ] [2.12. Threads, synchronization and parallelism][Step 2.12]
     - 2.13. Futures and async I/O
     - 2.14. Actors
     - 2.15. Databases and ORMs
@@ -101,6 +101,7 @@ Do not hesitate to ask your lead with questions.
 [Step 2.9]: 2_primitives_and_tools/2_9_command_line_arguments
 [Step 2.10]: 2_primitives_and_tools/2_10_environment_variables
 [Step 2.11]: 2_primitives_and_tools/2_11_configuration
+[Step 2.12]: 2_primitives_and_tools/2_12_threads_synchronization_and_parallelism
 
 [`Makefile`]: Makefile
 
