@@ -70,7 +70,7 @@ Do not hesitate to ask your lead with questions.
     - [ ] [2.11. Configuration][Step 2.11]
     - [ ] [2.12. Threads, synchronization and parallelism][Step 2.12]
     - [ ] [2.13. Futures and async I/O][Step 2.13]
-    - 2.14. Actors
+    - [ ] [2.14. Actors][Step 2.14]
     - 2.15. Databases and ORMs
 - 3. Architecture
     - 3.1. Long-running application
@@ -103,6 +103,7 @@ Do not hesitate to ask your lead with questions.
 [Step 2.11]: 2_primitives_and_tools/2_11_configuration
 [Step 2.12]: 2_primitives_and_tools/2_12_threads_synchronization_and_parallelism
 [Step 2.13]: 2_primitives_and_tools/2_13_futures_and_async_io
+[Step 2.14]: 2_primitives_and_tools/2_14_actors
 
 [`Makefile`]: Makefile
 
