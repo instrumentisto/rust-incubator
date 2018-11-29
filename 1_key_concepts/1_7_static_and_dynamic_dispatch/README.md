@@ -19,7 +19,7 @@ For better [static][1]/[dynamic][2] understanding and use cases, read through th
 
 ## Task
 
-Implement the simple `Queue<T>` collection of fixed size `n` that can be used both as a single type collection (without performance penalty for dynamic dispatch) and as a heterogeneous collection (which can hold dierent concrete types).
+Implement the simple `Queue<T>` collection of fixed size `n` that can be used both as a single type collection (without performance penalty for dynamic dispatch) and as a heterogeneous collection (which can hold different concrete types).
 
 Cover you implementation with tests.
 
