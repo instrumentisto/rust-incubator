@@ -26,6 +26,8 @@ This project represents a step-by-step [Rust] learning course from language basi
 
 - [Rust Book] teaches and explains [Rust] basics.
 - [Rust Reference] is not a formal spec, but is more detailed and comprehensive than the [Rust Book].
+- [Cheats.rs] and [Rust SVG Cheatsheet] for quick reference.
+- [Rust Edition Guide] for considering improvements of [Rust 2018].
 - [Rust Standard Library] documentation.
 - [Rust Style Guide] is an official style of formatting [Rust] code.
 - [Cargo Book] is a guide to [Cargo], [Rust]'s build tool and dependency manager.
@@ -112,20 +114,24 @@ Do not hesitate to ask your lead with questions.
 [Baby Steps]: http://smallcultfollowing.com/babysteps
 [Cargo]: https://github.com/rust-lang/cargo
 [Cargo Book]: https://doc.rust-lang.org/cargo
+[Cheats.rs]: https://cheats.rs
 [Make]: https://www.gnu.org/software/make
 [MR]: https://docs.gitlab.com/ce/user/project/merge_requests
 [IntelliJ IDEA]: https://www.jetbrains.com/idea
 [IntelliJ Rust]: https://intellij-rust.github.io
 [IntelliJ Toml]: https://plugins.jetbrains.com/plugin/8195-toml
 [Rust]: https://www.rust-lang.org
+[Rust 2018]: https://rust-lang-nursery.github.io/edition-guide/rust-2018/index.html
 [Rust Book]: https://doc.rust-lang.org/book
 [Rust By Example]: https://doc.rust-lang.org/rust-by-example
 [Rust Cookbook]: https://rust-lang-nursery.github.io/rust-cookbook
+[Rust Edition Guide]: https://rust-lang-nursery.github.io/edition-guide
 [Rust FAQ]: https://www.rust-lang.org/faq.html
 [Rust Playground]: https://play.rust-lang.org
 [Rust Reference]: https://doc.rust-lang.org/reference
 [Rust Standard Library]: https://doc.rust-lang.org/std
 [Rust Style Guide]: https://github.com/rust-lang-nursery/fmt-rfcs/blob/master/guide/guide.md
+[Rust SVG Cheatsheet]: https://www.breakdown-notes.com/make/load/rust_cs_canvas/true
 [rustfmt]: https://github.com/rust-lang-nursery/rustfmt
 [Rustdoc Book]: https://doc.rust-lang.org/rustdoc
 [rustup]: https://rustup.rs
