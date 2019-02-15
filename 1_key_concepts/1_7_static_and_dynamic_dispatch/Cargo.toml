@@ -1,3 +1,4 @@
 [package]
 name = "static_and_dynamic_dispatch"
 version = "0.1.0"
+edition = "2018"
