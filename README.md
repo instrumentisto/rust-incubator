@@ -19,7 +19,6 @@ This project represents a step-by-step [Rust] learning course from language basi
 - [rustup] for installing [Rust] toolchain and keeping it up-to-date.
 - [IntelliJ IDEA] + [IntelliJ Rust] and [Toml][IntelliJ Toml] plugins as development environment.
 - [rustfmt] for formatting [Rust] code.
-- [GNU Make][Make] usage ability for performing commands declared in [`Makefile`].
 
 
 ### Bookshelf
@@ -107,8 +106,6 @@ Do not hesitate to ask your lead with questions.
 [Step 2.13]: 2_primitives_and_tools/2_13_futures_and_async_io
 [Step 2.14]: 2_primitives_and_tools/2_14_actors
 [Step 2.15]: 2_primitives_and_tools/2_15_databases_and_orms
-
-[`Makefile`]: Makefile
 
 [Awesome Rust]: https://github.com/rust-unofficial/awesome-rust
 [Baby Steps]: http://smallcultfollowing.com/babysteps
