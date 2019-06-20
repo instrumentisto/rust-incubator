@@ -1,12 +1,10 @@
 Rust Incubator
 ==============
 
->>>
-It wasn’t always so clear, but the Rust programming language is fundamentally about _empowerment_: no matter what kind of code you are writing now, Rust empowers you to reach farther, to program with confidence in a wider variety of domains than you did before.
+> It wasn’t always so clear, but the Rust programming language is fundamentally about _empowerment_: no matter what kind of code you are writing now, Rust empowers you to reach farther, to program with confidence in a wider variety of domains than you did before.
 _<div align="right">Rust Book's Foreword</div>_
->>>
 
-This project represents a step-by-step [Rust] learning course from language basics to production use.
+This project represents a hard-way step-by-step [Rust] learning course from language basics to production use.
 
 
 
@@ -17,35 +15,46 @@ This project represents a step-by-step [Rust] learning course from language basi
 ### Toolchain
 
 - [rustup] for installing [Rust] toolchain and keeping it up-to-date.
-- [IntelliJ IDEA] + [IntelliJ Rust] and [Toml][IntelliJ Toml] plugins as development environment.
-- [rustfmt] for formatting [Rust] code.
+- [CLion]/[IntelliJ IDEA] + [IntelliJ Rust] + [Toml][IntelliJ Toml] plugins as development environment (or any other on your choice).
 
 
 ### Bookshelf
 
 - [Rust Book] teaches and explains [Rust] basics.
+- [Rust By Example] teaches you [Rust] basics using editable examples.
 - [Rust Reference] is not a formal spec, but is more detailed and comprehensive than the [Rust Book].
 - [Cheats.rs] and [Rust SVG Cheatsheet] for quick reference.
 - [Rust Edition Guide] for considering improvements of [Rust 2018].
-- [Rust Standard Library] documentation.
-- [Rust Style Guide] is an official style of formatting [Rust] code.
+- [Rust std lib] documentation.
 - [Cargo Book] is a guide to [Cargo], [Rust]'s build tool and dependency manager.
 - [Rustdoc Book] is a guide to `rustdoc` documentation tool.
-- [Rust By Example] teaches you how to program in Rust using editable examples.
 - [Rust Cookbook] is a collection of simple examples that demonstrate good practices to accomplish common programming tasks, using the crates of the [Rust] ecosystem.
+- [Rust Design Patterns] is an open source repository of [Rust] design patterns and idioms.
 - [Rust FAQ] answers common question about [Rust].
 - [Rust Playground] allows to share and check runnable [Rust] code snippets online.
-- [Awesome Rust] is a curated list of Rust code and resources.
-- [Baby Steps] blog of [Nicholas Matsakis](https://github.com/nikomatsakis) shares useful [Rust] patterns and ideas.
+- [Awesome Rust] is a curated list of [Rust] code and resources.
+- [This Week in Rust] represents handpicked and subscribable [Rust] weekly updates.
+- [Baby Steps] blog of [Nicholas Matsakis](https://github.com/nikomatsakis) shares useful [Rust] patterns, ideas and design decisions.
 
 
 
 
 ## Steps
 
-Each step must be performed as separate [MR (Merge Request)][MR] with correspondent name and checked as done after it's completed.
 
-Do not hesitate to ask your lead with questions.
+### Before you start
+
+1. [Create][1] a new [GitHub repository] for yourself using this one [as template][2].
+2. [Invite as a collaborator][3] of your repository the person you want to review your lessons.
+
+
+### Schedule
+
+Each step must be performed as a separate [PR (pull request)][PR] with an appropriate name and checked here in README's schedule after completion.
+
+Each step has estimated time for being completed. If any deeper investigation on step's theme is required for you, then it's on your own. 
+
+Do not hesitate to ask your lead/reviewer with questions, however you won't receive a concrete answer, but rather a direction for investigation. Lead/reviewer is the one who asks questions about everything here and demands a concrete answers.
 
 - [ ] [0. Become familiar with Rust basics][Step 0]
 - [ ] [1. Key concepts][Step 1]
@@ -112,23 +121,28 @@ Do not hesitate to ask your lead with questions.
 [Cargo]: https://github.com/rust-lang/cargo
 [Cargo Book]: https://doc.rust-lang.org/cargo
 [Cheats.rs]: https://cheats.rs
-[Make]: https://www.gnu.org/software/make
-[MR]: https://docs.gitlab.com/ce/user/project/merge_requests
+[CLion]: https://www.jetbrains.com/clion
+[GitHub repository]: https://help.github.com/articles/github-glossary/#repository
 [IntelliJ IDEA]: https://www.jetbrains.com/idea
 [IntelliJ Rust]: https://intellij-rust.github.io
 [IntelliJ Toml]: https://plugins.jetbrains.com/plugin/8195-toml
+[PR]: https://help.github.com/articles/github-glossary/#pull-request
 [Rust]: https://www.rust-lang.org
 [Rust 2018]: https://rust-lang-nursery.github.io/edition-guide/rust-2018/index.html
 [Rust Book]: https://doc.rust-lang.org/book
 [Rust By Example]: https://doc.rust-lang.org/rust-by-example
 [Rust Cookbook]: https://rust-lang-nursery.github.io/rust-cookbook
+[Rust Design Patterns]: https://github.com/rust-unofficial/patterns
 [Rust Edition Guide]: https://rust-lang-nursery.github.io/edition-guide
 [Rust FAQ]: https://www.rust-lang.org/faq.html
 [Rust Playground]: https://play.rust-lang.org
 [Rust Reference]: https://doc.rust-lang.org/reference
-[Rust Standard Library]: https://doc.rust-lang.org/std
-[Rust Style Guide]: https://github.com/rust-lang-nursery/fmt-rfcs/blob/master/guide/guide.md
+[Rust std lib]: https://doc.rust-lang.org/std
 [Rust SVG Cheatsheet]: https://www.breakdown-notes.com/make/load/rust_cs_canvas/true
-[rustfmt]: https://github.com/rust-lang-nursery/rustfmt
 [Rustdoc Book]: https://doc.rust-lang.org/rustdoc
 [rustup]: https://rustup.rs
+[This Week in Rust]: https://this-week-in-rust.org
+
+[1]: https://github.com/instrumentisto/rust-incubator/generate
+[2]: https://help.github.com/en/articles/creating-a-repository-from-a-template
+[3]: https://help.github.com/en/articles/inviting-collaborators-to-a-personal-repository
