@@ -1,14 +1,19 @@
-Part of <paste issue/MR reference>  
-<and/or>  
-Revealed from <paste issue/MR reference>  
-<and/or>  
-Required for <paste issues/MRs references>  
-<and/or>  
-Requires <paste issues/MRs references>  
-<and/or>  
-Related to <paste issues/MRs references>  
+---
+name: Task
+about: Describe a task to be done.
+---
 
-<Remove the lines above if there are no related issues/MRs>
+Part of <paste issue/PR reference>  
+<and/or>  
+Revealed from <paste issue/PR reference>  
+<and/or>  
+Required for <paste issues/PRs references>  
+<and/or>  
+Requires <paste issues/PRs references>  
+<and/or>  
+Related to <paste issues/PRs references>  
+
+<Remove the lines above if there are no related issues/PRs>
 
 
 

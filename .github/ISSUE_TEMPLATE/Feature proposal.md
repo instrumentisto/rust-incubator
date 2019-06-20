@@ -1,8 +1,14 @@
-Revealed from <paste issues/MRs references>  
-<and/or>  
-Related to <paste issues/MRs references>  
+---
+name: Feature proposal
+about: Suggest a new feature for the project.
+labels: feature
+---
 
-<Remove the lines above if there are no related issues/MRs>
+Revealed from <paste issues/PRs references>  
+<and/or>  
+Related to <paste issues/PRs references>  
+
+<Remove the lines above if there are no related issues/PRs>
 
 
 
@@ -40,8 +46,3 @@ Related to <paste issues/MRs references>
 
 <Provide links and references that are related to this proposal and problem>
 <If there is nothing to refer - just remove this section completely>
-
-
-
-
-/label ~"type: feature"

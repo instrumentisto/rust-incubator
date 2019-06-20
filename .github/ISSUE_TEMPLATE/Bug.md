@@ -1,10 +1,16 @@
-Revealed from <paste issue/MR reference>  
-<and/or>  
-Caused by <paste issues/MRs references>  
-<and/or>  
-Related to <paste issues/MRs references>  
+---
+name: Bug
+about: Report a bug related to the project.
+labels: bug
+---
 
-<Remove the lines above if there are no related issues/MRs>
+Revealed from <paste issue/PR reference>  
+<and/or>  
+Caused by <paste issues/PRs references>  
+<and/or>  
+Related to <paste issues/PRs references>  
+
+<Remove the lines above if there are no related issues/PRs>
 
 
 
@@ -48,8 +54,3 @@ Related to <paste issues/MRs references>
 
 <If you can, link to the line of code that might be responsible for the problem>
 <If there is nothing to propose - just remove this section completely>
-
-
-
-
-/label ~"type: bug"
