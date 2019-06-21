@@ -45,7 +45,7 @@ This project represents a hard-way step-by-step [Rust] learning course from lang
 ### Before you start
 
 1. [Create][1] a new [GitHub repository] for yourself using this one [as template][2].
-2. [Invite as a collaborator][3] of your repository the person you want to review your lessons.
+2. [Invite as a collaborator][3] of your repository the person you want to review your lessons (lead).
 
 
 ### Schedule
@@ -54,9 +54,9 @@ Each step must be performed as a separate [PR (pull request)][PR] with an approp
 
 Each step has estimated time for being completed. If any deeper investigation on step's theme is required for you, then it's on your own. 
 
-Do not hesitate to ask your lead/reviewer with questions, however you won't receive a concrete answer, but rather a direction for investigation. Lead/reviewer is the one who asks questions about everything here and demands a concrete answers.
+Do not hesitate to ask your lead with questions, however you won't receive a concrete answer, but rather a direction for investigation. Lead is the one who asks questions about everything here and demands a concrete answers.
 
-- [ ] [0. Become familiar with Rust basics][Step 0]
+- [ ] [0. Become familiar with Rust basics][Step 0] (3 days)
 - [ ] [1. Key concepts][Step 1]
     - [ ] [1.1. Type safety][Step 1.1]
     - [ ] [1.2. `Rc`/`Weak`: reference counting][Step 1.2]
