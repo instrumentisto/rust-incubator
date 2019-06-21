@@ -1,4 +1,5 @@
 [package]
-name = "databases_and_orms"
+name = "2_15_databases_and_orms"
 version = "0.1.0"
 edition = "2018"
+publish = false

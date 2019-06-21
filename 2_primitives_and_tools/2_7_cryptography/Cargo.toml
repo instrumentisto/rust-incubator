@@ -1,4 +1,5 @@
 [package]
-name = "cryptography"
+name = "2_7_cryptography"
 version = "0.1.0"
 edition = "2018"
+publish = false

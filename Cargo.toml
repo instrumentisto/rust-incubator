@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    "1_key_concepts/1_*",
+    "2_primitives_and_tools/2_*",
+]
