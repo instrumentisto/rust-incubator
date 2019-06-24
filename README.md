@@ -4,7 +4,7 @@ Rust Incubator
 > It wasn’t always so clear, but the Rust programming language is fundamentally about _empowerment_: no matter what kind of code you are writing now, Rust empowers you to reach farther, to program with confidence in a wider variety of domains than you did before.
 _<div align="right">Rust Book's Foreword</div>_
 
-This project represents a hard-way step-by-step [Rust] learning course from language basics to production use.
+This project represents a hard-way step-by-step [Rust] learning course from language basics to a capability of web backend development.
 
 
 
@@ -56,7 +56,39 @@ Each step has estimated time for being completed. If any deeper investigation on
 
 Do not hesitate to ask your lead with questions, however you won't receive a concrete answer, but rather a direction for investigation. Lead is the one who asks questions about everything here and demands a concrete answers.
 
+TODO: use rustfmt and Clippy.
+
 - [ ] [0. Become familiar with Rust basics][Step 0] (3 days)
+- [ ] 1. Concepts
+    - [ ] [1.1. Default values, cloning and copying][Step 1.1] (1 day)
+    - [ ] 1.2. Shared ownership and interior mutability
+    - [ ] 1.3. Boxing and pinning
+    - [ ] 1.4. Clone-on-write
+    - [ ] 1.5. Conversions and dereferencing
+    - [ ] 1.6. Static and dynamic dispatch
+    - [ ] 1.7. `Sized` and `?Sized` types
+    - [ ] 1.8. Thread safety
+- [ ] 2. Idioms
+    - [ ] 2.1. Rich types ensure correctness
+    - [ ] 2.2. Swapping values with `mem::replace`
+    - [ ] 2.3. Trait bounds on impls, not types
+    - [ ] 2.4. Abstract type in, concrete type out
+- [ ] 3. Tools and libraries
+    - [ ] 3.1. Testing and mocking
+    - [ ] 3.2. Declarative and procedural macros
+    - [ ] 3.3. Date and time
+    - [ ] 3.4. Regular expressions and parsers
+    - [ ] 3.5. Collections and iterators
+    - [ ] 3.6. Serialization and deserialization
+    - [ ] 3.7. Randomness and cryptography
+    - [ ] 3.8. Logging
+    - [ ] 3.9. Command-line arguments, environment variables and configs
+    - [ ] 3.10. Multithreading and parallelism
+    - [ ] 3.11. Async I/O, futures and actors
+    - [ ] 3.12. Web frameworks, databases, connection pools and ORMs
+    
+ 
+
 - [ ] [1. Key concepts][Step 1]
     - [ ] [1.1. Type safety][Step 1.1]
     - [ ] [1.2. `Rc`/`Weak`: reference counting][Step 1.2]
@@ -91,8 +123,9 @@ Do not hesitate to ask your lead with questions, however you won't receive a con
 
 
 [Step 0]: 0_basics
+[Step 1.1]: 1_concepts/1_1_default_clone_copy
+
 [Step 1]: 1_key_concepts
-[Step 1.1]: 1_key_concepts/1_1_type_safety
 [Step 1.2]: 1_key_concepts/1_2_reference_counting
 [Step 1.3]: 1_key_concepts/1_3_interior_mutability
 [Step 1.4]: 1_key_concepts/1_4_clone_on_write
