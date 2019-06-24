@@ -61,7 +61,7 @@ TODO: use rustfmt and Clippy.
 - [ ] [0. Become familiar with Rust basics][Step 0] (3 days)
 - [ ] 1. Concepts
     - [ ] [1.1. Default values, cloning and copying][Step 1.1] (1 day)
-    - [ ] 1.2. Shared ownership and interior mutability
+    - [ ] [1.2. Shared ownership and interior mutability][Step 1.2] (1 day)
     - [ ] 1.3. Boxing and pinning
     - [ ] 1.4. Clone-on-write
     - [ ] 1.5. Conversions and dereferencing
@@ -86,37 +86,6 @@ TODO: use rustfmt and Clippy.
     - [ ] 3.10. Multithreading and parallelism
     - [ ] 3.11. Async I/O, futures and actors
     - [ ] 3.12. Web frameworks, databases, connection pools and ORMs
-    
- 
-
-- [ ] [1. Key concepts][Step 1]
-    - [ ] [1.1. Type safety][Step 1.1]
-    - [ ] [1.2. `Rc`/`Weak`: reference counting][Step 1.2]
-    - [ ] [1.3. `Cell`/`RefCell`: interior mutability][Step 1.3]
-    - [ ] [1.4. `Cow`: clone-on-write][Step 1.4]
-    - [ ] [1.5. `Default`: default values][Step 1.5]
-    - [ ] [1.6. `Deref`: dereferencing][Step 1.6]
-    - [ ] [1.7. Static and dynamic dispatch][Step 1.7]
-    - [ ] [1.8. `Send`/`Sync`: thread safety][Step 1.8]
-- 2. Primitives and tools
-    - [ ] [2.1. Date and time][Step 2.1]
-    - [ ] [2.2. Regular expressions][Step 2.2]
-    - [ ] [2.3. Bitmasks][Step 2.3]
-    - [ ] [2.4. Collections][Step 2.4]
-    - [ ] [2.5. Encoding and serialization][Step 2.5]
-    - [ ] [2.6. Randomness][Step 2.6]
-    - [ ] [2.7. Cryptography][Step 2.7]
-    - [ ] [2.8. Logging][Step 2.8]
-    - [ ] [2.9. Command-line arguments][Step 2.9]
-    - [ ] [2.10. Environment variables][Step 2.10]
-    - [ ] [2.11. Configuration][Step 2.11]
-    - [ ] [2.12. Threads, synchronization and parallelism][Step 2.12]
-    - [ ] [2.13. Futures and async I/O][Step 2.13]
-    - [ ] [2.14. Actors][Step 2.14]
-    - [ ] [2.15. Databases and ORMs][Step 2.15]
-- 3. Architecture
-    - 3.1. Long-running application
-    - 3.2. Clean architecture
 
 
 
@@ -124,9 +93,10 @@ TODO: use rustfmt and Clippy.
 
 [Step 0]: 0_basics
 [Step 1.1]: 1_concepts/1_1_default_clone_copy
+[Step 1.2]: 1_concepts/1_2_rc_cell
 
 [Step 1]: 1_key_concepts
-[Step 1.2]: 1_key_concepts/1_2_reference_counting
+
 [Step 1.3]: 1_key_concepts/1_3_interior_mutability
 [Step 1.4]: 1_key_concepts/1_4_clone_on_write
 [Step 1.5]: 1_key_concepts/1_5_default_values
