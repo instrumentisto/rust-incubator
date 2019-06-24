@@ -63,7 +63,7 @@ TODO: use rustfmt and Clippy.
     - [ ] [1.1. Default values, cloning and copying][Step 1.1] (1 day)
     - [ ] [1.2. Boxing and pinning][Step 1.2] (1 day)
     - [ ] [1.3. Shared ownership and interior mutability][Step 1.3] (1 day)
-    - [ ] 1.4. Clone-on-write
+    - [ ] [1.4. Clone-on-write][Step 1.4] (1 day)
     - [ ] 1.5. Conversions and dereferencing
     - [ ] 1.6. Static and dynamic dispatch
     - [ ] 1.7. `Sized` and `?Sized` types
@@ -95,11 +95,12 @@ TODO: use rustfmt and Clippy.
 [Step 1.1]: 1_concepts/1_1_default_clone_copy
 [Step 1.2]: 1_concepts/1_2_box_pin
 [Step 1.3]: 1_concepts/1_3_rc_cell
+[Step 1.4]: 1_concepts/1_4_cow
 
 [Step 1]: 1_key_concepts
 
 [Step 1.3]: 1_key_concepts/1_3_interior_mutability
-[Step 1.4]: 1_key_concepts/1_4_clone_on_write
+
 [Step 1.5]: 1_key_concepts/1_5_default_values
 [Step 1.6]: 1_key_concepts/1_6_dereferencing
 [Step 1.7]: 1_key_concepts/1_7_static_and_dynamic_dispatch
