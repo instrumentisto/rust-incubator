@@ -61,8 +61,8 @@ TODO: use rustfmt and Clippy.
 - [ ] [0. Become familiar with Rust basics][Step 0] (3 days)
 - [ ] 1. Concepts
     - [ ] [1.1. Default values, cloning and copying][Step 1.1] (1 day)
-    - [ ] [1.2. Shared ownership and interior mutability][Step 1.2] (1 day)
-    - [ ] [1.3. Boxing and pinning][Step 1.3] (1 day)
+    - [ ] [1.2. Boxing and pinning][Step 1.2] (1 day)
+    - [ ] [1.3. Shared ownership and interior mutability][Step 1.3] (1 day)
     - [ ] 1.4. Clone-on-write
     - [ ] 1.5. Conversions and dereferencing
     - [ ] 1.6. Static and dynamic dispatch
@@ -93,8 +93,8 @@ TODO: use rustfmt and Clippy.
 
 [Step 0]: 0_basics
 [Step 1.1]: 1_concepts/1_1_default_clone_copy
-[Step 1.2]: 1_concepts/1_2_rc_cell
-[Step 1.3]: 1_concepts/1_3_box_pin
+[Step 1.2]: 1_concepts/1_2_box_pin
+[Step 1.3]: 1_concepts/1_3_rc_cell
 
 [Step 1]: 1_key_concepts
 

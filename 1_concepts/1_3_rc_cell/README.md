@@ -1,4 +1,4 @@
-Step 1.2: Shared ownership and interior mutability
+Step 1.3: Shared ownership and interior mutability
 ==================================================
 
 __Estimated time__: 1 day
