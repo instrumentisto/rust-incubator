@@ -76,8 +76,8 @@ The most spread case is a combination of two previous: `Rc<RefCell<T>>` (or `Arc
 A real-world example would be a database client object: it _must be mutable_, as mutates its state under-the-hood (opens network connections, manages database sessions, etc), yet _we need to own it in multiple places_ of our code, not a single one.
 
 The following articles may explain you this concept better:
-- [Wrapper Types in Rust: Choosing Your Guarantees][4]
-- [Rust, Builder Pattern, Trait Objects, `Box<T>` and `Rc<T>`][5]
+- [Manish Goregaokar: Wrapper Types in Rust: Choosing Your Guarantees][4]
+- [Alexandre Beslic: Rust, Builder Pattern, Trait Objects, `Box<T>` and `Rc<T>`][5]
 
 
 
