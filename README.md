@@ -68,6 +68,7 @@ TODO: use rustfmt and Clippy.
     - [ ] [1.6. Static and dynamic dispatch][Step 1.6] (1 day)
     - [ ] [1.7. `Sized` and `?Sized` types][Step 1.7] (1 day)
     - [ ] [1.8. Thread safety][Step 1.8] (1 day)
+    - [ ] [1.9. Phantom types][Step 1.9] (1 day)
 - [ ] 2. Idioms
     - [ ] 2.1. Rich types ensure correctness
     - [ ] 2.2. Swapping values with `mem::replace`
@@ -100,6 +101,7 @@ TODO: use rustfmt and Clippy.
 [Step 1.6]: 1_concepts/1_6_dispatch
 [Step 1.7]: 1_concepts/1_7_sized
 [Step 1.8]: 1_concepts/1_8_thread_safety
+[Step 1.9]: 1_concepts/1_9_phantom
 
 [Step 1]: 1_key_concepts
 [Step 2.1]: 2_primitives_and_tools/2_1_date_and_time
