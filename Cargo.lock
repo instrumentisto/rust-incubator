@@ -25,11 +25,7 @@ name = "1_5"
 version = "0.1.0"
 
 [[package]]
-name = "1_5_default_values"
-version = "0.1.0"
-
-[[package]]
-name = "1_6_dereferencing"
+name = "1_6"
 version = "0.1.0"
 
 [[package]]
