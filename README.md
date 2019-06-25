@@ -66,7 +66,7 @@ TODO: use rustfmt and Clippy.
     - [ ] [1.4. Clone-on-write][Step 1.4] (1 day)
     - [ ] [1.5. Conversions, casting and dereferencing][Step 1.5] (1 day)
     - [ ] [1.6. Static and dynamic dispatch][Step 1.6] (1 day)
-    - [ ] 1.7. `Sized` and `?Sized` types
+    - [ ] [1.7. `Sized` and `?Sized` types][Step 1.7] (1 day)
     - [ ] 1.8. Thread safety
 - [ ] 2. Idioms
     - [ ] 2.1. Rich types ensure correctness
@@ -98,9 +98,9 @@ TODO: use rustfmt and Clippy.
 [Step 1.4]: 1_concepts/1_4_cow
 [Step 1.5]: 1_concepts/1_5_convert_cast_deref
 [Step 1.6]: 1_concepts/1_6_dispatch
+[Step 1.7]: 1_concepts/1_7_sized
 
 [Step 1]: 1_key_concepts
-[Step 1.7]: 1_key_concepts/1_7_static_and_dynamic_dispatch
 [Step 1.8]: 1_key_concepts/1_8_thread_safety
 [Step 2.1]: 2_primitives_and_tools/2_1_date_and_time
 [Step 2.2]: 2_primitives_and_tools/2_2_regular_expressions

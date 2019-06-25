@@ -29,6 +29,10 @@ name = "1_6"
 version = "0.1.0"
 
 [[package]]
+name = "1_7"
+version = "0.1.0"
+
+[[package]]
 name = "1_7_static_and_dynamic_dispatch"
 version = "0.1.0"
 
