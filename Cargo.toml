@@ -2,4 +2,5 @@
 members = [
     "1_concepts/1_*",
     "2_idioms/2_*",
+    "3_ecosystem/3_*",
 ]

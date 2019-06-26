@@ -74,10 +74,10 @@ TODO: use rustfmt and Clippy.
     - [ ] [2.2. Swapping values with `mem::replace`][Step 2.2] (1 day)
     - [ ] 2.3. Trait bounds on impls, not types
     - [ ] 2.4. Abstract type in, concrete type out
-- [ ] 3. Tools and libraries
+- [ ] 3. Ecosystem
     - [ ] 3.1. Testing and mocking
     - [ ] 3.2. Declarative and procedural macros
-    - [ ] 3.3. Date and time
+    - [ ] [3.3. Date and time][Step 3.3] (1 day)
     - [ ] 3.4. Regular expressions and parsers
     - [ ] 3.5. Collections and iterators
     - [ ] 3.6. Serialization and deserialization
@@ -104,6 +104,7 @@ TODO: use rustfmt and Clippy.
 [Step 1.9]: 1_concepts/1_9_phantom
 [Step 2.1]: 2_idioms/2_1_type_safety
 [Step 2.2]: 2_idioms/2_2_mem_replace
+[Step 3.3]: 3_ecosystem/3_3_date_time
 
 [Step 1]: 1_key_concepts
 [Step 2.3]: 2_primitives_and_tools/2_3_bitmasks
