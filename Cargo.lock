@@ -5,10 +5,6 @@ name = "1_1"
 version = "0.1.0"
 
 [[package]]
-name = "1_1_type_safety"
-version = "0.1.0"
-
-[[package]]
 name = "1_2"
 version = "0.1.0"
 
@@ -41,62 +37,6 @@ name = "1_9"
 version = "0.1.0"
 
 [[package]]
-name = "2_10_environment_variables"
-version = "0.1.0"
-
-[[package]]
-name = "2_11_configuration"
-version = "0.1.0"
-
-[[package]]
-name = "2_12_threads_synchronization_and_parallelism"
-version = "0.1.0"
-
-[[package]]
-name = "2_13_futures_and_async_io"
-version = "0.1.0"
-
-[[package]]
-name = "2_14_actors"
-version = "0.1.0"
-
-[[package]]
-name = "2_15_databases_and_orms"
-version = "0.1.0"
-
-[[package]]
-name = "2_1_date_and_time"
-version = "0.1.0"
-
-[[package]]
-name = "2_2_regular_expressions"
-version = "0.1.0"
-
-[[package]]
-name = "2_3_bitmasks"
-version = "0.1.0"
-
-[[package]]
-name = "2_4_collections"
-version = "0.1.0"
-
-[[package]]
-name = "2_5_encoding_and_serialization"
-version = "0.1.0"
-
-[[package]]
-name = "2_6_randomness"
-version = "0.1.0"
-
-[[package]]
-name = "2_7_cryptography"
-version = "0.1.0"
-
-[[package]]
-name = "2_8_logging"
-version = "0.1.0"
-
-[[package]]
-name = "2_9_command_line_arguments"
+name = "2_1"
 version = "0.1.0"
 

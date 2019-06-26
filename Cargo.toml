@@ -1,6 +1,5 @@
 [workspace]
 members = [
     "1_concepts/1_*",
-    "1_key_concepts/1_*",
-    "2_primitives_and_tools/2_*",
+    "2_idioms/2_*",
 ]
