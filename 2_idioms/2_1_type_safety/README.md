@@ -62,7 +62,7 @@ fn repost(post: &Post, new_author_id: user::Id) -> Post {
 }
 ```
 Now, compiler is able to cut off this type of bugs _totally_ at compile time, and to be quite informative with errors:
-```
+```rust
 error[E0308]: mismatched types
   --> src/main.rs:27:19
    |

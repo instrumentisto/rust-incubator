@@ -20,8 +20,7 @@ let a = Val(5);
 let x = Box::new(a);
 let y = Box::new(a);
 ```
-
-```
+```rust
 error[E0382]: use of moved value: `a`
  --> src/main.rs:6:22
   |

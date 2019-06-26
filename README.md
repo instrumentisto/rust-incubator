@@ -71,7 +71,7 @@ TODO: use rustfmt and Clippy.
     - [ ] [1.9. Phantom types][Step 1.9] (1 day)
 - [ ] 2. Idioms
     - [ ] [2.1. Rich types ensure correctness][Step 2.1] (1 day)
-    - [ ] 2.2. Swapping values with `mem::replace`
+    - [ ] [2.2. Swapping values with `mem::replace`][Step 2.2] (1 day)
     - [ ] 2.3. Trait bounds on impls, not types
     - [ ] 2.4. Abstract type in, concrete type out
 - [ ] 3. Tools and libraries
@@ -103,9 +103,9 @@ TODO: use rustfmt and Clippy.
 [Step 1.8]: 1_concepts/1_8_thread_safety
 [Step 1.9]: 1_concepts/1_9_phantom
 [Step 2.1]: 2_idioms/2_1_type_safety
+[Step 2.2]: 2_idioms/2_2_mem_replace
 
 [Step 1]: 1_key_concepts
-[Step 2.2]: 2_primitives_and_tools/2_2_regular_expressions
 [Step 2.3]: 2_primitives_and_tools/2_3_bitmasks
 [Step 2.4]: 2_primitives_and_tools/2_4_collections
 [Step 2.5]: 2_primitives_and_tools/2_5_encoding_and_serialization
