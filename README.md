@@ -78,7 +78,7 @@ TODO: use rustfmt and Clippy.
     - [ ] 3.1. Testing and mocking
     - [ ] 3.2. Declarative and procedural macros
     - [ ] [3.3. Date and time][Step 3.3] (1 day)
-    - [ ] 3.4. Regular expressions and parsers
+    - [ ] [3.4. Regular expressions and custom parsers][Step 3.4] (1 day)
     - [ ] 3.5. Collections and iterators
     - [ ] 3.6. Serialization and deserialization
     - [ ] 3.7. Randomness and cryptography
@@ -105,6 +105,7 @@ TODO: use rustfmt and Clippy.
 [Step 2.1]: 2_idioms/2_1_type_safety
 [Step 2.2]: 2_idioms/2_2_mem_replace
 [Step 3.3]: 3_ecosystem/3_3_date_time
+[Step 3.4]: 3_ecosystem/3_4_regex_parsing
 
 [Step 1]: 1_key_concepts
 [Step 2.3]: 2_primitives_and_tools/2_3_bitmasks
