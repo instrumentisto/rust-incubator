@@ -94,6 +94,7 @@ A real-world example of applying this idiom in [Rust] is the awesome [state_mach
 
 For better understanding [typestates][3], read through the following articles:
 - [David Teller: Typestates in Rust][3]
+- [Cliff L. Biffle: The Typestate Pattern in Rust][5]
 - [Ana Hobden: Pretty State Machine Patterns in Rust][4]
 
 
@@ -128,3 +129,4 @@ Implement this behavior using [typestates idiom][3], so that calling `delete()` 
 [2]: https://doc.rust-lang.org/rust-by-example/generics/new_types.html
 [3]: https://yoric.github.io/post/rust-typestate
 [4]: https://hoverbear.org/2016/10/12/rust-state-machine-pattern
+[5]: http://cliffle.com/blog/rust-typestate
