@@ -72,7 +72,7 @@ TODO: use rustfmt and Clippy.
 - [ ] 2. Idioms
     - [ ] [2.1. Rich types ensure correctness][Step 2.1] (1 day)
     - [ ] [2.2. Swapping values with `mem::replace`][Step 2.2] (1 day)
-    - [ ] 2.3. Trait bounds on impls, not types
+    - [ ] [2.3. Bound behavior, not data][Step 2.3] (1 day)
     - [ ] 2.4. Abstract type in, concrete type out
 - [ ] 3. Ecosystem
     - [ ] 3.1. Testing and mocking
@@ -104,11 +104,11 @@ TODO: use rustfmt and Clippy.
 [Step 1.9]: 1_concepts/1_9_phantom
 [Step 2.1]: 2_idioms/2_1_type_safety
 [Step 2.2]: 2_idioms/2_2_mem_replace
+[Step 2.3]: 2_idioms/2_3_bound_impl
 [Step 3.3]: 3_ecosystem/3_3_date_time
 [Step 3.4]: 3_ecosystem/3_4_regex_parsing
 
 [Step 1]: 1_key_concepts
-[Step 2.3]: 2_primitives_and_tools/2_3_bitmasks
 [Step 2.4]: 2_primitives_and_tools/2_4_collections
 [Step 2.5]: 2_primitives_and_tools/2_5_encoding_and_serialization
 [Step 2.6]: 2_primitives_and_tools/2_6_randomness
