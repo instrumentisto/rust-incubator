@@ -81,7 +81,7 @@ TODO: use rustfmt and Clippy.
     - [ ] [3.3. Date and time][Step 3.3] (1 day)
     - [ ] [3.4. Regular expressions and custom parsers][Step 3.4] (1 day)
     - [ ] [3.5. Collections and iterators][Step 3.5] (1 day)
-    - [ ] 3.6. Serialization and deserialization
+    - [ ] [3.6. Serialization and deserialization][Step 3.6] (1 day)
     - [ ] 3.7. Randomness and cryptography
     - [ ] 3.8. Logging
     - [ ] 3.9. Command-line arguments, environment variables and configs
@@ -110,9 +110,9 @@ TODO: use rustfmt and Clippy.
 [Step 3.3]: 3_ecosystem/3_3_date_time
 [Step 3.4]: 3_ecosystem/3_4_regex_parsing
 [Step 3.5]: 3_ecosystem/3_5_collections
+[Step 3.6]: 3_ecosystem/3_6_serde
 
 [Step 1]: 1_key_concepts
-[Step 2.5]: 2_primitives_and_tools/2_5_encoding_and_serialization
 [Step 2.6]: 2_primitives_and_tools/2_6_randomness
 [Step 2.7]: 2_primitives_and_tools/2_7_cryptography
 [Step 2.8]: 2_primitives_and_tools/2_8_logging

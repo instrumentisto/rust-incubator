@@ -1,5 +1,5 @@
 [package]
-name = "2_5_encoding_and_serialization"
+name = "3_6"
 version = "0.1.0"
 edition = "2018"
 publish = false

@@ -1,35 +1,33 @@
 {
   "type": "success",
   "stream": {
-    "model_id": 12345,
+    "user_id": "8d234120-0bda-49b2-b7e0-fbd3912f6cbf",
     "is_private": false,
-    "erotic": 32,
-    "places": 23,
-    "shard_url": "http://n3.exmaple.com/sapi",
+    "settings": 45345,
+    "shard_url": "https://n3.example.com/sapi",
     "public_tariff": {
       "id": 1,
-      "model_price": 100,
-      "client_price": 150,
-      "duration": 3600,
+      "price": 100,
+      "duration": "1h",
       "description": "test public tariff"
     },
     "private_tariff": {
-      "id": 2,
-      "model_price": 200,
       "client_price": 250,
-      "duration": 60,
+      "duration": "1m",
       "description": "test private tariff"
     }
   },
   "gifts": [{
     "id": 1,
-    "model_price": 2,
-    "client_price": 3,
+    "price": 2,
     "description": "Gift 1"
   }, {
     "id": 2,
-    "model_price": 3,
-    "client_price": 4,
+    "price": 3,
     "description": "Gift 2"
-  }]
+  }],
+  "debug": {
+    "duration": "234ms",
+    "at": "2019-06-28T08:35:46+00:00"
+  }
 }
