@@ -29,7 +29,7 @@ fn describe(error: &Error) -> Cow<'static, str> {
 ```
 
 For better understanding [`Cow`] purpose, design, limitations and use cases read through:
-- [The Secret Life of Cows][1]
+- [Pascal Hertleif: The Secret Life of Cows][1]
 - [Official `Cow` docs][`Cow`]
 
 

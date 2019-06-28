@@ -30,6 +30,7 @@ This project represents a hard-way step-by-step [Rust] learning course from lang
 - [Rustdoc Book] is a guide to `rustdoc` documentation tool.
 - [Rust Cookbook] is a collection of simple examples that demonstrate good practices to accomplish common programming tasks, using the crates of the [Rust] ecosystem.
 - [Rust Design Patterns] is an open source repository of [Rust] design patterns and idioms.
+- [Rust API Guidelines] is a set of recommendations on how to design and present APIs for [Rust].
 - [Rust FAQ] answers common question about [Rust].
 - [Rust Playground] allows to share and check runnable [Rust] code snippets online.
 - [Awesome Rust] is a curated list of [Rust] code and resources.
@@ -73,7 +74,7 @@ TODO: use rustfmt and Clippy.
     - [ ] [2.1. Rich types ensure correctness][Step 2.1] (1 day)
     - [ ] [2.2. Swapping values with `mem::replace`][Step 2.2] (1 day)
     - [ ] [2.3. Bound behavior, not data][Step 2.3] (1 day)
-    - [ ] 2.4. Abstract type in, concrete type out
+    - [ ] [2.4. Abstract type in, concrete type out][Step 2.4] (1 day)
 - [ ] 3. Ecosystem
     - [ ] 3.1. Testing and mocking
     - [ ] 3.2. Declarative and procedural macros
@@ -105,6 +106,7 @@ TODO: use rustfmt and Clippy.
 [Step 2.1]: 2_idioms/2_1_type_safety
 [Step 2.2]: 2_idioms/2_2_mem_replace
 [Step 2.3]: 2_idioms/2_3_bound_impl
+[Step 2.4]: 2_idioms/2_4_generic_in_type_out
 [Step 3.3]: 3_ecosystem/3_3_date_time
 [Step 3.4]: 3_ecosystem/3_4_regex_parsing
 [Step 3.5]: 3_ecosystem/3_5_collections
@@ -135,6 +137,7 @@ TODO: use rustfmt and Clippy.
 [PR]: https://help.github.com/articles/github-glossary/#pull-request
 [Rust]: https://www.rust-lang.org
 [Rust 2018]: https://rust-lang-nursery.github.io/edition-guide/rust-2018/index.html
+[Rust API Guidelines]: https://rust-lang-nursery.github.io/api-guidelines
 [Rust Book]: https://doc.rust-lang.org/book
 [Rust By Example]: https://doc.rust-lang.org/rust-by-example
 [Rust Cookbook]: https://rust-lang-nursery.github.io/rust-cookbook

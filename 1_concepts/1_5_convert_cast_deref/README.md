@@ -46,6 +46,7 @@ let bytes: &[u8] = string.as_ref();
 For better understanding [`AsRef`]/[`AsMut`] purpose, design, limitations and use cases read through:
 - [Official `AsRef` docs][`AsRef`]
 - [Official `AsMut` docs][`AsMut`]
+- [Ricardo Martins: Convenient and idiomatic conversions in Rust][10]
 
 
 
@@ -136,3 +137,4 @@ Provide conversion and `Deref` implementations for these types on your choice, t
 [7]: https://doc.rust-lang.org/reference/expressions/operator-expr.html#type-cast-expressions
 [8]: https://doc.rust-lang.org/rust-by-example/conversion/from_into.html
 [9]: https://doc.rust-lang.org/rust-by-example/types/cast.html
+[10]: https://ricardomartins.cc/2016/08/03/convenient_and_idiomatic_conversions_in_rust
