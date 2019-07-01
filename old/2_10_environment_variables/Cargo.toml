@@ -1,5 +1,0 @@
-[package]
-name = "2_10_environment_variables"
-version = "0.1.0"
-edition = "2018"
-publish = false

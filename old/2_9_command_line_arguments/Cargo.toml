@@ -1,5 +1,0 @@
-[package]
-name = "2_9_command_line_arguments"
-version = "0.1.0"
-edition = "2018"
-publish = false

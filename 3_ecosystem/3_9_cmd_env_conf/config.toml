@@ -1,0 +1,114 @@
+[mode]
+# Debug mode enables additional logging, tracing and profiling
+# to simplify developing and debugging of application.
+#
+# Default:
+#   debug = false
+
+
+
+
+[server]
+# URL address that this application is exposed externally with.
+#
+# Default:
+#   external_url = "http://127.0.0.1"
+
+# Port that exposes HTTP interface for clients.
+# This one must be reachable externally.
+#
+# Default:
+#   http_port = 8081
+
+# Port that exposes gRPC interface for clients.
+# This one must be reachable externally.
+#
+# Default:
+#   grpc_port = 8082
+
+# Port that exposes HTTP healthcheck of application.
+# This one must be reachable only inside Kubernetes Pod.
+#
+# Default:
+#   healthz_port = 10025
+
+# Port that exposes metrics endpoint for Prometheus.
+# This one must be reachable only inside Kubernetes cluster.
+#
+# Default:
+#   metrics_port = 9199
+
+
+
+
+[db.mysql]
+# Host of MySQL database server.
+#
+# Default:
+#   host = "127.0.0.1"
+
+# Port that MySQL database server is listening connections on.
+#
+# Default:
+#   port = 3306
+
+# Name of database to use on MySQL server.
+#
+# Default:
+#   dating = "default"
+
+# MySQL database user to connect to MySQL server as.
+#
+# Default:
+#   user = "root"
+
+# Password of MySQL database user to use for authentication on MySQL server.
+#
+# Default:
+#   pass = ""
+
+[db.mysql.connections]
+# Maximum allowed number of connections in the idle connections pool.
+#
+# Values greater than connections.max_open will be automatically reduced
+# to match connections.max_open limit.
+#
+# Default:
+#   max_idle = 30
+
+# Maximum allowed number of open connections to the MySQL database server
+# at the same time.
+#
+# Default:
+#   max_open = 30
+
+
+
+
+[log.app]
+# Maximum allowed level of application log entries.
+#
+# Possible values (in ascending order):
+#   "error", "warn", "info", "debug", "trace"
+#
+# Default:
+#   level = "info"
+
+
+
+
+[background.watchdog]
+# Period to run watchdog background job with.
+#
+# Default:
+#   period = "5s"
+
+# Maximum number of entries to finish per single job run.
+#
+# Default:
+#   limit = 10
+
+# Timeout for holding watchdog lock on entries.
+#
+# Default:
+#   lock_timeout = "4s"
