@@ -51,13 +51,11 @@ This project represents a hard-way step-by-step [Rust] learning course from lang
 
 ### Schedule
 
-Each step must be performed as a separate [PR (pull request)][PR] with an appropriate name and checked here in README's schedule after completion.
+Each step must be performed as a separate [PR (pull request)][PR] with an appropriate name and checked here in README's schedule after completion. Each step is a [Cargo workspace member][4], so you can run/test it from a project root (i.e. `cargo run -p 1_8`). Consider to use [rustfmt] and [Clippy] when you're writing [Rust] code.
 
-Each step has estimated time for being completed. If any deeper investigation on step's theme is required for you, then it's on your own. 
+Each step has estimated time for being completed. If any deeper investigation on step's theme is required for you, then it's on your own.
 
-Do not hesitate to ask your lead with questions, however you won't receive a concrete answer, but rather a direction for investigation. Lead is the one who asks questions about everything here and demands a concrete answers.
-
-TODO: use rustfmt and Clippy.
+Do not hesitate to ask your lead with questions, however you won't receive a concrete answer, but rather a direction for investigation. _Lead is the one who asks questions about everything here and demands a concrete answers_.
 
 - [ ] [0. Become familiar with Rust basics][Step 0] (3 days)
 - [ ] [1. Concepts][Step 1] (2 days)
@@ -129,6 +127,7 @@ TODO: use rustfmt and Clippy.
 [Cargo Book]: https://doc.rust-lang.org/cargo
 [Cheats.rs]: https://cheats.rs
 [CLion]: https://www.jetbrains.com/clion
+[Clippy]: https://github.com/rust-lang/rust-clippy
 [GitHub repository]: https://help.github.com/articles/github-glossary/#repository
 [IntelliJ IDEA]: https://www.jetbrains.com/idea
 [IntelliJ Rust]: https://intellij-rust.github.io
@@ -148,9 +147,11 @@ TODO: use rustfmt and Clippy.
 [Rust std lib]: https://doc.rust-lang.org/std
 [Rust SVG Cheatsheet]: https://www.breakdown-notes.com/make/load/rust_cs_canvas/true
 [Rustdoc Book]: https://doc.rust-lang.org/rustdoc
+[rustfmt]: https://github.com/rust-lang/rustfmt
 [rustup]: https://rustup.rs
 [This Week in Rust]: https://this-week-in-rust.org
 
 [1]: https://github.com/instrumentisto/rust-incubator/generate
 [2]: https://help.github.com/en/articles/creating-a-repository-from-a-template
 [3]: https://help.github.com/en/articles/inviting-collaborators-to-a-personal-repository
+[4]: https://doc.rust-lang.org/book/ch14-03-cargo-workspaces.html
