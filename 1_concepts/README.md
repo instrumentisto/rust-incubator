@@ -1,7 +1,9 @@
-Step 1: Key concepts
-====================
+Step 1: Concepts
+================
 
-These steps describe common concepts and idioms that you should know to program in [Rust] in a convenient and idiomatic way.
+__Estimated time__: 2 days
+
+These steps describe common and necessary-to-know concepts for everyday programming in [Rust].
 
 Before completing this step you should complete all its sub-steps. After doing them you should be able to answer the following questions:
 - How do I recognize that data is allocated at the heap rather than at the stack? When data should be allocated at the heap?
@@ -11,13 +13,22 @@ Before completing this step you should complete all its sub-steps. After doing t
 - How to deal with owned and borrowed data simultaneously? When and why is this commonly required?
 - How to share values between threads? What is `Send` and `Sync` markers? Why are they required, when should be used?
 - How do static and dynamic dispatches differ? Why do they exist? When and why should I choose between them?
+- Why `?Sized` types exist? How are they used? Why should I care about them?
+- Why phantom types exist? What problems do they solve?
 
 The following articles may help you to sum up your experience:
 - [Wrapper Types in Rust: Choosing Your Guarantees][1]
 - [Rust, Builder Pattern, Trait Objects, `Box<T>` and `Rc<T>`][2]
 - [Rust's Built-in Traits, the When, How & Why][3]
 
-Notify your lead in related MR when you're done, and he will exam what you have learned.
+
+
+
+## Task
+
+Provide your own implementation of [doubly linked list][11] data structure. It should be [thread safe][12] without a necessity to use explicit synchronization primitives (like `Arc<Mutex<T>>`) on top of it.
+
+Prove your implementation correctness with tests. Provide both single-threaded and multi-threaded examples of usage.  
 
 
 
@@ -28,3 +39,5 @@ Notify your lead in related MR when you're done, and he will exam what you have 
 [1]: https://manishearth.github.io/blog/2015/05/27/wrapper-types-in-rust-choosing-your-guarantees
 [2]: https://abronan.com/rust-trait-objects-box-and-rc
 [3]: https://llogiq.github.io/2015/07/30/traits.html
+[11]: https://en.wikipedia.org/wiki/Doubly_linked_list
+[12]: https://en.wikipedia.org/wiki/Thread_safety
