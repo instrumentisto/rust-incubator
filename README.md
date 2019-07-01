@@ -83,7 +83,7 @@ TODO: use rustfmt and Clippy.
     - [ ] [3.5. Collections and iterators][Step 3.5] (1 day)
     - [ ] [3.6. Serialization and deserialization][Step 3.6] (1 day)
     - [ ] [3.7. Randomness and cryptography][Step 3.7] (1 day)
-    - [ ] 3.8. Logging
+    - [ ] [3.8. Logging][Step 3.8] (1 day)
     - [ ] 3.9. Command-line arguments, environment variables and configs
     - [ ] 3.10. Multithreading and parallelism
     - [ ] 3.11. Async I/O, futures and actors
@@ -112,9 +112,9 @@ TODO: use rustfmt and Clippy.
 [Step 3.5]: 3_ecosystem/3_5_collections
 [Step 3.6]: 3_ecosystem/3_6_serde
 [Step 3.7]: 3_ecosystem/3_7_rand_crypto
+[Step 3.8]: 3_ecosystem/3_8_log
 
 [Step 1]: 1_key_concepts
-[Step 2.8]: 2_primitives_and_tools/2_8_logging
 [Step 2.9]: 2_primitives_and_tools/2_9_command_line_arguments
 [Step 2.10]: 2_primitives_and_tools/2_10_environment_variables
 [Step 2.11]: 2_primitives_and_tools/2_11_configuration

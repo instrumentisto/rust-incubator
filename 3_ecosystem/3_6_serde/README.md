@@ -29,7 +29,7 @@ fn main() {
 
 [serde] by itself represents only an universal serialization frontend, which can be backed by actual implementation for any format. There are already [implemented backends for most used formats][2], and you're free to [implement backend for your own format][3] if it's not implemented yet. 
 
-For better understanding and familiarity with [serde]'s design, concepts, usage, and features (like [zero-copy deserialization][5]) read through the following articles:
+For better understanding and familiarity with [serde]'s design, concepts, usage, and features (like [zero-copy deserialization][5]), read through the following articles:
 - [Official `serde` crate guide][0]
 - [Official `serde` crate docs][serde]
 - [Official `serde_json` crate docs][serde_json]
