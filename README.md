@@ -83,7 +83,7 @@ Do not hesitate to ask your lead with questions, however you won't receive a con
     - [ ] [3.7. Randomness and cryptography][Step 3.7] (1 day)
     - [ ] [3.8. Logging][Step 3.8] (1 day)
     - [ ] [3.9. Command-line arguments, environment variables and configs][Step 3.9] (1 day)
-    - [ ] 3.10. Multithreading and parallelism
+    - [ ] [3.10. Multithreading and parallelism][Step 3.10] (1 day)
     - [ ] 3.11. Async I/O, futures and actors
     - [ ] 3.12. Web frameworks, databases, connection pools and ORMs
 
@@ -113,8 +113,8 @@ Do not hesitate to ask your lead with questions, however you won't receive a con
 [Step 3.7]: 3_ecosystem/3_7_rand_crypto
 [Step 3.8]: 3_ecosystem/3_8_log
 [Step 3.9]: 3_ecosystem/3_9_cmd_env_conf
+[Step 3.10]: 3_ecosystem/3_10_threads
 
-[Step 2.12]: 2_primitives_and_tools/2_12_threads_synchronization_and_parallelism
 [Step 2.13]: 2_primitives_and_tools/2_13_futures_and_async_io
 [Step 2.14]: 2_primitives_and_tools/2_14_actors
 [Step 2.15]: 2_primitives_and_tools/2_15_databases_and_orms

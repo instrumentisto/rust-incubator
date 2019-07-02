@@ -1,5 +1,5 @@
 [package]
-name = "2_12_threads_synchronization_and_parallelism"
+name = "3_10"
 version = "0.1.0"
 edition = "2018"
 publish = false
