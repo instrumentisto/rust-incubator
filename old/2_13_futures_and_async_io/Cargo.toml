@@ -1,5 +1,0 @@
-[package]
-name = "2_13_futures_and_async_io"
-version = "0.1.0"
-edition = "2018"
-publish = false
