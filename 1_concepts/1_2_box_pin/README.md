@@ -45,7 +45,7 @@ trait MutMeSomehow {
 }
 ```
 ```rust
-trait SayHi {
+trait SayHi: fmt::Debug {
     fn say_hi(self: Pin<&Self>) {
         println!("Hi from {:?}", self)
     }
