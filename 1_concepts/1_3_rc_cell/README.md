@@ -64,6 +64,7 @@ These containers __allow to overcome [Rust] borrowing rules and track borrows at
 For better understanding [`Cell`]/[`RefCell`] purpose, design, limitations and use cases read through:
 - [Rust Book: 15.5. RefCell and the Interior Mutability Pattern][3]
 - [Official `std::cell` docs][`std::cell`]
+- [Paul Dicker: Interior mutability patterns][6]
 
 
 
@@ -165,3 +166,4 @@ Write a `GlobalStack<T>` collection which represents a trivial unsized [stack] (
 [3]: https://doc.rust-lang.org/book/ch15-05-interior-mutability.html
 [4]: https://manishearth.github.io/blog/2015/05/27/wrapper-types-in-rust-choosing-your-guarantees
 [5]: https://abronan.com/rust-trait-objects-box-and-rc
+[6]: https://pitdicker.github.io/Interior-mutability-patterns
