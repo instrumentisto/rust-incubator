@@ -44,6 +44,7 @@ For better understanding and familiarity with [Rust] synchronization primitives 
 - [Official `std::sync::atomic` docs][`std::sync::atomic`]
 - [Official `std::sync::mpsc` docs][`std::sync::mpsc`]
 - [Official `crossbeam-channel` crate docs][crossbeam-channel]
+- [Carl Fredrik Samson: Explaining Atomics in Rust][26]
 
 
 
@@ -111,3 +112,4 @@ Write a program with the following workflow:
 [23]: https://doc.rust-lang.org/edition-guide/rust-2018/simd-for-faster-computing.html
 [24]: https://branchfree.org/2019/02/25/paper-parsing-gigabytes-of-json-per-second
 [25]: https://doc.rust-lang.org/edition-guide/rust-2018/simd-for-faster-computing.html
+[26]: https://cfsamsonbooks.gitbook.io/explaining-atomics-in-rust
