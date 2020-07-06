@@ -85,7 +85,7 @@ For better understanding [actix] actors design, concepts, usage, and features, r
 
 Implement an async-driven CLI tool, which downloads specified web pages:
 ```bash
-cargo run -p 3_11 -- [--max-threads=<number>] <file>
+cargo run -p step_3_11 -- [--max-threads=<number>] <file>
 ```
 It must read a list of links from the `<file>`, and then concurrently download a content of each link into a separate `.html` file (named by a link).
 

@@ -75,11 +75,11 @@ The following priority should be applied (in ascending order) when merging:
 [CLI] of the program should look like:
 ```
 $ cargo run -- --help
-3_9 0.1.0
+step_3_9 0.1.0
 Prints its configuration to STDOUT.
 
 USAGE:
-    3_9 [FLAGS] [OPTIONS]
+    step_3_9 [FLAGS] [OPTIONS]
 
 FLAGS:
     -d, --debug      Enables debug mode

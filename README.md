@@ -51,7 +51,7 @@ This project represents a hard-way step-by-step [Rust] learning course from lang
 
 ### Schedule
 
-Each step must be performed as a separate [PR (pull request)][PR] with an appropriate name and checked here in README's schedule after completion. Each step is a [Cargo workspace member][4], so you can run/test it from a project root (i.e. `cargo run -p 1_8`). Consider to use [rustfmt] and [Clippy] when you're writing [Rust] code.
+Each step must be performed as a separate [PR (pull request)][PR] with an appropriate name and checked here in README's schedule after completion. Each step is a [Cargo workspace member][4], so you can run/test it from a project root (i.e. `cargo run -p step_1_8`). Consider to use [rustfmt] and [Clippy] when you're writing [Rust] code.
 
 Each step has estimated time for being completed. If any deeper investigation on step's theme is required for you, then it's on your own.
 
@@ -154,4 +154,4 @@ Do not hesitate to ask your lead with questions, however you won't receive a con
 [1]: https://github.com/instrumentisto/rust-incubator/generate
 [2]: https://help.github.com/en/articles/creating-a-repository-from-a-template
 [3]: https://help.github.com/en/articles/inviting-collaborators-to-a-personal-repository
-[4]: https://doc.rust-lang.org/book/ch14-03-cargo-workspaces.html
+[4]: https://prev.rust-lang.org/book/ch14-03-cargo-workspaces.html

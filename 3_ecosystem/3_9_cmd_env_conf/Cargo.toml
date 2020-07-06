@@ -1,5 +1,5 @@
 [package]
-name = "3_9"
+name = "step_3_9"
 version = "0.1.0"
 edition = "2018"
 publish = false
