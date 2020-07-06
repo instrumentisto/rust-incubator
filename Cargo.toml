@@ -1,9 +1,9 @@
 [workspace]
 members = [
-    "1_concepts",
-    "1_concepts/1_*",
-    "2_idioms",
-    "2_idioms/2_*",
-    "3_ecosystem",
-    "3_ecosystem/3_*",
+    "lsn_1_concepts",
+    "lsn_1_concepts/lsn_1_*",
+    "lsn_2_idioms",
+    "lsn_2_idioms/lsn_2_*",
+    "lsn_3_ecosystem",
+    "lsn_3_ecosystem/lsn_3_*",
 ]
