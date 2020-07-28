@@ -11,6 +11,7 @@ For better understanding [`Sized`] and `?Sized` purpose, design, limitations and
 - [Official `Sized` docs][`Sized`]
 - [Old Rust Book: 3.31. Unsized Types][4]
 - [Rust Forum: Trait Objects and the Sized Trait][5]
+- [pretzelhammer: Sizedness in Rust][6]
 
 
 
@@ -60,3 +61,4 @@ Provide tests for `CommandHandler<CreateUser>` implementation where `dyn UserRep
 [3]: https://doc.rust-lang.org/book/ch17-02-trait-objects.html
 [4]: https://doc.rust-lang.org/1.26.0/book/first-edition/unsized-types.html
 [5]: https://users.rust-lang.org/t/trait-objects-and-the-sized-trait/14410
+[6]: https://github.com/pretzelhammer/rust-blog/blob/master/posts/sizedness-in-rust.md
