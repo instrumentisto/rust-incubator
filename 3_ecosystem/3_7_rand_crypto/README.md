@@ -96,7 +96,7 @@ Despite the fact it's quite a feature rich solution, it [lacks good support for 
 
 ## Task
 
-Implement the following functions functions:
+Implement the following functions:
 1. `generate_password()`: generates random password of given length and symbols set;
 2. `select_rand_val()`: retrieves random element from a given slice;
 3. `new_access_token()`: generates unique cryptographically secure random value in `a-zA-Z0-9` symbols set and has exactly `64` symbols.
