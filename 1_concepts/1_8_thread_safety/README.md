@@ -11,6 +11,7 @@ For better understanding [`Send`]/[`Sync`] purpose, design, limitations and use 
 - [Rust Book: 16.4. Extensible Concurrency with the Sync and Send Traits][3]
 - [Rustonomicon: 8.2. Send and Sync][4]
 - [Huon Wilson: Some notes on Send and Sync][5]
+- [nyanpasu64: An unsafe tour of Rust's Send and Sync][6]
 
 
 
@@ -40,3 +41,4 @@ Play with these types from multiple threads to see how compile time [fearless co
 [3]: https://doc.rust-lang.org/book/ch16-04-extensible-concurrency-sync-and-send.html
 [4]: https://doc.rust-lang.org/stable/nomicon/send-and-sync.html
 [5]: http://huonw.github.io/blog/2015/02/some-notes-on-send-and-sync
+[6]: https://nyanpasu64.github.io/blog/an-unsafe-tour-of-rust-s-send-and-sync
