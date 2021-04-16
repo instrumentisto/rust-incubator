@@ -45,6 +45,7 @@ For better understanding and familiarity with [Rust] synchronization primitives 
 - [Official `std::sync::mpsc` docs][`std::sync::mpsc`]
 - [Official `crossbeam-channel` crate docs][crossbeam-channel]
 - [Carl Fredrik Samson: Explaining Atomics in Rust][26]
+- [Aleksey Kladov: Mutexes Are Faster Than Spinlocks][27]
 
 
 
@@ -113,3 +114,4 @@ Write a program with the following workflow:
 [24]: https://branchfree.org/2019/02/25/paper-parsing-gigabytes-of-json-per-second
 [25]: https://doc.rust-lang.org/edition-guide/rust-2018/simd-for-faster-computing.html
 [26]: https://cfsamsonbooks.gitbook.io/explaining-atomics-in-rust
+[27]: https://matklad.github.io/2020/01/04/mutexes-are-faster-than-spinlocks.html
