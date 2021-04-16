@@ -30,6 +30,9 @@ After completing these steps, you should be able to answer (and understand why) 
 
 After you're done notify your lead in an appropriate PR (pull request), and he will exam what you have learned.
 
+Additional articles, which may help to understand the above topic better:
+- [Chris Morgan: Rust ownership, the hard way][1]
+
 
 
 
@@ -40,3 +43,5 @@ After you're done notify your lead in an appropriate PR (pull request), and he w
 [Rust Book]: https://doc.rust-lang.org/book
 [Rust By Example]: https://doc.rust-lang.org/rust-by-example
 [Rust FAQ]: https://www.rust-lang.org/faq.html
+
+[1]: https://chrismorgan.info/blog/rust-ownership-the-hard-way
