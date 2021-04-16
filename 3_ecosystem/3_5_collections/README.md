@@ -54,6 +54,9 @@ For better understanding [Rust] iterators purpose, design, limitations and use c
 For better understanding immutable collections nature, design, and a motivation behind them, read through the following articles:
 - [Official `im` crate docs][im]
 - [Wikipedia: Persistent data structure][10]
+- [Jean Niklas L'orange: Understanding Clojure's Persistent Vectors, pt. 1][15_1]
+- [Jean Niklas L'orange: Understanding Clojure's Persistent Vectors, pt. 2][15_2]
+- [Jean Niklas L'orange: Understanding Clojure's Persistent Vectors, pt. 3][15_3]
 
 
 
@@ -111,3 +114,6 @@ Prove your implementation correctness with tests.
 [12]: https://en.wikipedia.org/wiki/Non-blocking_algorithm
 [13]: https://aturon.github.io/blog/2015/08/27/epoch
 [14]: https://github.com/instrumentisto/stjepang.github.io/blob/master/_posts/2019-01-29-lock-free-rust-crossbeam-in-2019.md
+[15_1]: https://hypirion.com/musings/understanding-persistent-vector-pt-1
+[15_2]: https://hypirion.com/musings/understanding-persistent-vector-pt-2
+[15_2]: https://hypirion.com/musings/understanding-persistent-vector-pt-3
