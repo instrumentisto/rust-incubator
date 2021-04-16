@@ -42,6 +42,9 @@ If regular expressions are [not powerful enough][2] for your parsing problem, th
 - [lalrpop] is a parser generator framework, which generates [LR(1) parser][6] code from custom grammar files.
 - [combine] is an another [parser combinator][4] library, inspired by the [Haskell] library [Parsec].
 
+For better understanding parsing problem and approaches, read through the following articles:
+- [Laurence Tratt: Which Parsing Approach?][9]
+
 
 
 
@@ -91,3 +94,4 @@ Prove your implementation correctness with tests.
 [6]: https://en.wikipedia.org/wiki/Canonical_LR_parser
 [7]: https://doc.rust-lang.org/std/fmt/index.html#syntax
 [8]: https://en.wikipedia.org/wiki/Abstract_syntax_tree
+[9]: https://tratt.net/laurie/blog/entries/which_parsing_approach.html
