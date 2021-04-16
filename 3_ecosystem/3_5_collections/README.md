@@ -110,4 +110,4 @@ Prove your implementation correctness with tests.
 [11]: https://docs.rs/im/#performance-notes
 [12]: https://en.wikipedia.org/wiki/Non-blocking_algorithm
 [13]: https://aturon.github.io/blog/2015/08/27/epoch
-[14]: https://stjepang.github.io/2019/01/29/lock-free-rust-crossbeam-in-2019.html
+[14]: https://github.com/eshikafe/stjepang.github.io/blob/master/_posts/2019-01-29-lock-free-rust-crossbeam-in-2019.md
