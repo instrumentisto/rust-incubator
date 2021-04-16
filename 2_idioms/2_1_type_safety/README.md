@@ -80,6 +80,7 @@ The downside of using [newtype pattern][1] is a necessity of writing _more boile
 For better understanding [newtype pattern][1], read through the following articles:
 - [Rust Design Patterns: Newtype][1]
 - [Rust By Example: 14.7. New Type Idiom][2]
+- [Alexis King: Parse, don’t validate][7] ([ru][7_ru])
 
 
 
@@ -132,3 +133,5 @@ Implement this behavior using [typestates idiom][3], so that calling `delete()` 
 [4]: https://hoverbear.org/2016/10/12/rust-state-machine-pattern
 [5]: http://cliffle.com/blog/rust-typestate
 [6]: http://willcrichton.net/notes/type-level-programming
+[7]: https://lexi-lambda.github.io/blog/2019/11/05/parse-don-t-validate
+[7_ru]: https://habr.com/ru/post/498042
