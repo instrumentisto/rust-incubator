@@ -116,4 +116,4 @@ Prove your implementation correctness with tests.
 [14]: https://github.com/instrumentisto/stjepang.github.io/blob/master/_posts/2019-01-29-lock-free-rust-crossbeam-in-2019.md
 [15_1]: https://hypirion.com/musings/understanding-persistent-vector-pt-1
 [15_2]: https://hypirion.com/musings/understanding-persistent-vector-pt-2
-[15_2]: https://hypirion.com/musings/understanding-persistent-vector-pt-3
+[15_3]: https://hypirion.com/musings/understanding-persistent-vector-pt-3
