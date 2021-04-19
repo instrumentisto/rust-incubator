@@ -15,6 +15,7 @@ It's more idiomatic to use references (`&T`/`&mut T`) for pointing to the data, 
 For better understanding [`Box`] purpose, design, limitations and use cases read through:
 - [Rust Book: 15.1. Using Box to Point to Data on the Heap][1]
 - [Official `std::boxed` docs][`std::boxed`]
+- [Amos: What's in the box?][3]
 
 
 
@@ -68,3 +69,4 @@ Implement them for the following types: `Box<T>`, `Rc<T>`, `Vec<T>`, `String`, `
 
 [1]: https://doc.rust-lang.org/book/ch15-01-box.html
 [2]: https://www.reddit.com/r/rust/comments/9akmqv/pinned_objects_eli5/
+[3]: https://fasterthanli.me/articles/whats-in-the-box
