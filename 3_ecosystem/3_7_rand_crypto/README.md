@@ -94,6 +94,13 @@ Despite the fact it's quite a feature rich solution, it [lacks good support for 
 
 
 
+## More reading
+
+- [Sylvain Kerkour: Overview of the Rust cryptography ecosystem][15] (Tue, Aug 24, 2021)
+
+
+
+
 ## Task
 
 Implement the following functions:
@@ -143,3 +150,4 @@ Implement the following functions:
 [12]: https://crates.io/search?q=argon2
 [13]: https://codahale.com/a-lesson-in-timing-attacks
 [14]: https://docs.rs/rustls/#non-features
+[15]: https://kerkour.com/blog/rust-cryptography-ecosystem
