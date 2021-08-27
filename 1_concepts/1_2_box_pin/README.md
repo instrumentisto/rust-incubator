@@ -33,6 +33,7 @@ Note, that pinning and [`Unpin`] only affect the pointed-to type `P::Target`, no
 For better understanding [`Pin`] purpose, design, limitations and use cases read through:
 - [Official `std::pin` docs][`std::pin`]
 - [Reddit: Pinned objects ELI5?][1]
+- [Adam Chalmers: Pin, Unpin, and why Rust needs them][4]
 
 
 
@@ -70,3 +71,4 @@ Implement them for the following types: `Box<T>`, `Rc<T>`, `Vec<T>`, `String`, `
 [1]: https://doc.rust-lang.org/book/ch15-01-box.html
 [2]: https://www.reddit.com/r/rust/comments/9akmqv/pinned_objects_eli5/
 [3]: https://fasterthanli.me/articles/whats-in-the-box
+[4]: https://blog.adamchalmers.com/pin-unpin
