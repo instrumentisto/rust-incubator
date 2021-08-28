@@ -33,6 +33,7 @@ After you're done notify your lead in an appropriate PR (pull request), and he w
 _Additional_ articles, which may help to understand the above topic better:
 - [Chris Morgan: Rust ownership, the hard way][1]
 - [Ludwig Stecher: Rusts Module System Explained][2]
+- [Tristan Hume: Models of Generics and Metaprogramming: Go, Rust, Swift, D and More][3]
 
 
 
@@ -47,3 +48,4 @@ _Additional_ articles, which may help to understand the above topic better:
 
 [1]: https://chrismorgan.info/blog/rust-ownership-the-hard-way
 [2]: https://aloso.github.io/2021/03/28/module-system.html
+[3]: https://thume.ca/2019/07/14/a-tour-of-metaprogramming-models-for-generics
