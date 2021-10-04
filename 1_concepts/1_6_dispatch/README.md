@@ -16,6 +16,7 @@ For better understanding [static][1] and [dynamic][2] dispatches purpose, design
 - [Joshleeb: Traits and Trait Objects in Rust][12]
 - [Rust Book: 17.2. Using Trait Objects That Allow for Values of Different Types][3]
 - [Adam Schwalm: Exploring Dynamic Dispatch in Rust][13]
+- [Nicholas Matsakis: Dyn async traits, part 2][17]
 
 
 
@@ -36,6 +37,7 @@ This can lead to quite tricky and non-obvious situations when writing code.
 For better understanding [object safety][5] purpose, design and limitations, read through the following articles:
 - [Rust Book: 17.2. Object Safety Is Required for Trait Objects][5]
 - [Rust Compiler Error Index: E0038][6]
+- [Nicholas Matsakis: Dyn async traits, part 2][17]
 
 
 
@@ -181,3 +183,4 @@ Implement `UserRepository` type with injectable `Storage` implementation, which 
 [14]: https://en.wikipedia.org/wiki/Closed_set
 [15]: https://docs.rs/enum_dispatch#the-benchmarks
 [16]: https://llogiq.github.io/2019/05/18/momo.html
+[17]: https://smallcultfollowing.com/babysteps/blog/2021/10/01/dyn-async-traits-part-2
