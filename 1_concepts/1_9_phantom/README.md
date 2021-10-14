@@ -91,6 +91,7 @@ For better understanding [`PhantomData`] purpose, design, limitations and use ca
 - [Rustonomicon: 3.10. PhantomData][2]
 - [Reddit: Why PhantomData][3]
 - [RIP Tutorial: Using PhantomData as a Type Marker][4]
+- [Sergey Potapov: Phantom Types in Rust][6]
 
 
 
@@ -121,3 +122,4 @@ Fact about Vec: Vec may re-allocate on growing.
 [3]: https://www.reddit.com/r/rust/comments/8oqj14/why_phantomdata
 [4]: https://riptutorial.com/rust/example/24109/using-phantomdata-as-a-type-marker
 [5]: https://stackoverflow.com/questions/28247543/motivation-behind-phantom-types
+[6]: https://www.greyblake.com/blog/2021-10-11-phantom-types-in-rust
