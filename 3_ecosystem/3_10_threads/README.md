@@ -20,6 +20,7 @@ For better understanding [Rust] threads design, concepts, usage, and features (e
 - [Rust Book: 16.1. Using Threads to Run Code Simultaneously][6]
 - [Rust By Example: 20.1. Threads][7]
 - [Official `std::thread` docs][`std::thread`]
+- [Nicky Meuleman: Multithreading in Rust][29]
 
 
 
@@ -44,6 +45,7 @@ For better understanding and familiarity with [Rust] synchronization primitives 
 - [Official `std::sync::atomic` docs][`std::sync::atomic`]
 - [Official `std::sync::mpsc` docs][`std::sync::mpsc`]
 - [Official `crossbeam-channel` crate docs][crossbeam-channel]
+- [Nicky Meuleman: Multithreading in Rust][29]
 - [Carl Fredrik Samson: Explaining Atomics in Rust][26]
 - [Aleksey Kladov: Mutexes Are Faster Than Spinlocks][27]
 
@@ -59,6 +61,7 @@ The important concept to understand is [how concurrency and parallelism differ][
 Another way to perform parallel data processing _without using threads_ is [SIMD] instructions usage. If an algorithm is parallelizable enough, applying [SIMD] instructions may [increase performance drastically][24]. [Rust] ecosystem provides basic support for [SIMD] instructions in a form of [packed_simd] crate.
 
 For better understanding and familiarity with parallelism in [Rust], read through the following articles:
+- [Nicky Meuleman: Concurrent vs parallel][28]
 - [Official `rayon` crate docs][rayon]
 - [`rayon` crate FAQ][22]
 - [`rayon` crate demos][23]
@@ -115,3 +118,5 @@ Write a program with the following workflow:
 [25]: https://doc.rust-lang.org/edition-guide/rust-2018/simd-for-faster-computing.html
 [26]: https://cfsamsonbooks.gitbook.io/explaining-atomics-in-rust
 [27]: https://matklad.github.io/2020/01/04/mutexes-are-faster-than-spinlocks.html
+[28]: https://nickymeuleman.netlify.app/garden/concurrent-vs-parallel
+[29]: https://nickymeuleman.netlify.app/blog/multithreading-rust
