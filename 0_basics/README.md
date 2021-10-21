@@ -35,6 +35,7 @@ _Additional_ articles, which may help to understand the above topic better:
 - [Ludwig Stecher: Rusts Module System Explained][2]
 - [Tristan Hume: Models of Generics and Metaprogramming: Go, Rust, Swift, D and More][3]
 - [Jeff Anderson: Generics Demystified Part 1][4]
+- [Jeff Anderson: Generics Demystified Part 2][5]
 
 
 
@@ -51,3 +52,4 @@ _Additional_ articles, which may help to understand the above topic better:
 [2]: https://aloso.github.io/2021/03/28/module-system.html
 [3]: https://thume.ca/2019/07/14/a-tour-of-metaprogramming-models-for-generics
 [4]: https://jeffa.io/rust_guide_generics_demystified_part_1
+[4]: https://jeffa.io/rust_guide_generics_demystified_part_2
