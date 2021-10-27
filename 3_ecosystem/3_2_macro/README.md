@@ -134,7 +134,7 @@ Provide two implementations: one via declarative macro and other one via procedu
 [15]: https://danielkeep.github.io/tlborm/book/README.html
 [16]: https://doc.rust-lang.org/reference/macros-by-example.html
 [17]: https://doc.rust-lang.org/rust-by-example/macros/variadics.html
-[22]: https://rust-lang-nursery.github.io/api-guidelines/macros.html#item-macros-work-anywhere-that-items-are-allowed-c-anywhere
+[22]: https://rust-lang.github.io/api-guidelines/macros.html#item-macros-work-anywhere-that-items-are-allowed-c-anywhere
 [23]: https://doc.rust-lang.org/book/ch19-06-macros.html#procedural-macros-for-generating-code-from-attributes
 [25]: https://doc.rust-lang.org/reference/attributes.html
 [26]: https://doc.rust-lang.org/reference/procedural-macros.html

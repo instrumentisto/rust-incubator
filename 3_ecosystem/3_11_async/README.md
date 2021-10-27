@@ -119,7 +119,7 @@ It should compile on stable [Rust].
 [6]: https://aturon.github.io/blog/2016/08/11/futures
 [7]: https://en.wikipedia.org/wiki/Lazy_evaluation
 [8]: https://rust-lang.github.io/rfcs/2592-futures.html
-[9]: https://rust-lang-nursery.github.io/futures-rs/blog/2019/04/18/compatibility-layer.html
+[9]: https://rust-lang.github.io/futures-rs/blog/2019/04/18/compatibility-layer.html
 [10]: https://gist.github.com/Diggsey/6f924bf3f741bcdffd240faee102fe92
 [11]: https://dev.to/mindflavor/rust-futures-an-uneducated-short-and-hopefully-not-boring-tutorial---part-1-3k3
 [12]: https://www.snoyman.com/blog/2018/12/rust-crash-course-07-async-futures-tokio

@@ -24,7 +24,7 @@ This project represents a hard-way step-by-step [Rust] learning course from lang
 - [Rust By Example] teaches you [Rust] basics using editable examples.
 - [Rust Reference] is not a formal spec, but is more detailed and comprehensive than the [Rust Book].
 - [Cheats.rs] and [Rust SVG Cheatsheet] for quick reference.
-- [Rust Edition Guide] for considering improvements of [Rust 2018].
+- [Rust Edition Guide] for considering improvements of [Rust 2018] and [Rust 2021].
 - [Rust std lib] documentation.
 - [Cargo Book] is a guide to [Cargo], [Rust]'s build tool and dependency manager.
 - [Rustdoc Book] is a guide to `rustdoc` documentation tool.
@@ -134,13 +134,14 @@ Do not hesitate to ask your lead with questions, however you won't receive a con
 [IntelliJ Toml]: https://plugins.jetbrains.com/plugin/8195-toml
 [PR]: https://help.github.com/articles/github-glossary/#pull-request
 [Rust]: https://www.rust-lang.org
-[Rust 2018]: https://rust-lang-nursery.github.io/edition-guide/rust-2018/index.html
-[Rust API Guidelines]: https://rust-lang-nursery.github.io/api-guidelines
+[Rust 2018]: https://doc.rust-lang.org/edition-guide/rust-2018/index.html
+[Rust 2021]: https://doc.rust-lang.org/edition-guide/rust-2021/index.html
+[Rust API Guidelines]: https://rust-lang.github.io/api-guidelines
 [Rust Book]: https://doc.rust-lang.org/book
 [Rust By Example]: https://doc.rust-lang.org/rust-by-example
 [Rust Cookbook]: https://rust-lang-nursery.github.io/rust-cookbook
 [Rust Design Patterns]: https://github.com/rust-unofficial/patterns
-[Rust Edition Guide]: https://rust-lang-nursery.github.io/edition-guide
+[Rust Edition Guide]: https://doc.rust-lang.org/edition-guide
 [Rust FAQ]: https://www.rust-lang.org/faq.html
 [Rust Playground]: https://play.rust-lang.org
 [Rust Reference]: https://doc.rust-lang.org/reference
