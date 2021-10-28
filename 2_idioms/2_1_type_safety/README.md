@@ -98,6 +98,7 @@ For better understanding [typestates][3], read through the following articles:
 - [Cliff L. Biffle: The Typestate Pattern in Rust][5]
 - [Ana Hobden: Pretty State Machine Patterns in Rust][4]
 - [Will Crichton: Type-level Programming in Rust][6]
+- [Sergey Potapov: Builder with typestate in Rust][8]
 
 
 
@@ -131,7 +132,8 @@ Implement this behavior using [typestates idiom][3], so that calling `delete()` 
 [2]: https://doc.rust-lang.org/rust-by-example/generics/new_types.html
 [3]: https://yoric.github.io/post/rust-typestate
 [4]: https://hoverbear.org/2016/10/12/rust-state-machine-pattern
-[5]: http://cliffle.com/blog/rust-typestate
-[6]: http://willcrichton.net/notes/type-level-programming
+[5]: https://cliffle.com/blog/rust-typestate
+[6]: https://willcrichton.net/notes/type-level-programming
 [7]: https://lexi-lambda.github.io/blog/2019/11/05/parse-don-t-validate
 [7_ru]: https://habr.com/ru/post/498042
+[8]: https://www.greyblake.com/blog/2021-10-25-builder-with-typestate-in-rust
