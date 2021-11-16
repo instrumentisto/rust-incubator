@@ -33,6 +33,8 @@ For better understanding and familiarity with [serde]'s design, concepts, usage,
 - [Official `serde` crate guide][0]
 - [Official `serde` crate docs][serde]
 - [Official `serde_json` crate docs][serde_json]
+- [Owen Gage: Understanding Rust's serde using macro expansion][6]
+- [Owen Gage: Exploring serde's data model with a toy deserializer][7]
 
 
 
@@ -57,3 +59,5 @@ Prove your implementation correctness with tests.
 [3]: https://serde.rs/data-format.html
 [4]: https://serde.rs/examples.html
 [5]: https://serde.rs/lifetimes.html#understanding-deserializer-lifetimes
+[6]: https://owengage.com/writing/2021-07-23-serde-expand
+[7]: https://owengage.com/writing/2021-08-14-serde-toy
