@@ -55,7 +55,10 @@ Fortunately, [Rust] ecosystem provides generic implementations of database-agnos
 
 For _sync connections_ there is [r2d2] crate. You can easily adopt it for your specific case (or database) just by implementing a required trait. Obviously, there are [implementations for common libraries][3] already.
 
-For _async connections_, unfortunately, there is no such mature implementation at the moment. However, the most used are [bb8] and [l337] crates. 
+For _async connections_, unfortunately, there is no such mature implementation at the moment. However, the most used are [bb8] and [l337] crates.
+
+For better understanding [connection pooling][1], read through the following articles:
+- [Charlie Custer: What is Connection Pooling, and Why Should You Care][8]
 
 
 ### ORM
@@ -117,7 +120,8 @@ Avoid architecture [overengineering][30] for this task, just use simple and obvi
 [4]: https://en.wikipedia.org/wiki/Object-relational_mapping
 [5]: http://diesel.rs/guides
 [6]: https://en.wikipedia.org/wiki/Schema_migration
-[7]: http://diesel.rs/guides/getting-started
+[7]: https://diesel.rs/guides/getting-started
+[8]: https://www.cockroachlabs.com/blog/what-is-connection-pooling
 [21]: https://github.com/rust-unofficial/awesome-rust#web-programming
 [22]: https://en.wikipedia.org/wiki/Web_framework
 [23]: https://hyper.rs/guides/client/basic
