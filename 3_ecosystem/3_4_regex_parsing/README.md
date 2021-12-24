@@ -42,9 +42,10 @@ If regular expressions are [not powerful enough][2] for your parsing problem, th
 - [lalrpop] is a parser generator framework, which generates [LR(1) parser][6] code from custom grammar files.
 - [combine] is an another [parser combinator][4] library, inspired by the [Haskell] library [Parsec].
 
-For better understanding parsing problem and approaches, read through the following articles:
+For better understanding parsing problem and approaches, along with some examples, read through the following articles:
 - [Laurence Tratt: Which Parsing Approach?][9]
 - [Richard L. Apodaca: A Beginner's Guide to Parsing in Rust][10]
+- [Brian Kung: Building a CEDICT parser in Rust with Nom][11]
 
 
 
@@ -97,3 +98,4 @@ Prove your implementation correctness with tests.
 [8]: https://en.wikipedia.org/wiki/Abstract_syntax_tree
 [9]: https://tratt.net/laurie/blog/entries/which_parsing_approach.html
 [10]: https://depth-first.com/articles/2021/12/16/a-beginners-guide-to-parsing-in-rust
+[11]: https://briankung.dev/2021/12/07/building-a-cedict-parser-in-rust-with-nom
