@@ -44,6 +44,7 @@ If regular expressions are [not powerful enough][2] for your parsing problem, th
 
 For better understanding parsing problem and approaches, read through the following articles:
 - [Laurence Tratt: Which Parsing Approach?][9]
+- [Richard L. Apodaca: A Beginner's Guide to Parsing in Rust][10]
 
 
 
@@ -95,3 +96,4 @@ Prove your implementation correctness with tests.
 [7]: https://doc.rust-lang.org/std/fmt/index.html#syntax
 [8]: https://en.wikipedia.org/wiki/Abstract_syntax_tree
 [9]: https://tratt.net/laurie/blog/entries/which_parsing_approach.html
+[10]: https://depth-first.com/articles/2021/12/16/a-beginners-guide-to-parsing-in-rust
