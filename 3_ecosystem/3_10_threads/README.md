@@ -56,7 +56,7 @@ For better understanding and familiarity with [Rust] synchronization primitives 
 
 The important concept to understand is [how concurrency and parallelism differ][21].
 
-[Rust] ecosystem has support for parallelism in form of [rayon] crate, which makes it easy to convert a sequential iterator to _execute in parallel threads_.
+[Rust] ecosystem has support for parallelism in form of [rayon] and [dpc-pariter] crates, which make it easy to convert a sequential iterator to _execute in parallel threads_.
 
 Another way to perform parallel data processing _without using threads_ is [SIMD] instructions usage. If an algorithm is parallelizable enough, applying [SIMD] instructions may [increase performance drastically][24]. [Rust] ecosystem provides basic support for [SIMD] instructions in a form of [packed_simd] crate.
 
@@ -65,6 +65,8 @@ For better understanding and familiarity with parallelism in [Rust], read throug
 - [Official `rayon` crate docs][rayon]
 - [`rayon` crate FAQ][22]
 - [`rayon` crate demos][23]
+- [Dawid Ciężarkiewicz: Adding parallelism to your Rust iterators with `dpc-pariter`][30]
+- [Official `dpc-pariter` crate docs][dpc-pariter]
 - [Rust Edition Guide: 3.9. SIMD for faster computing][25]
 - [Official `packed_simd` crate docs][packed_simd]
 
@@ -86,6 +88,7 @@ Write a program with the following workflow:
 [CPU-bound]: https://en.wikipedia.org/wiki/CPU-bound
 [crossbeam]: https://docs.rs/crossbeam
 [crossbeam-channel]: https://docs.rs/crossbeam-channel
+[dpc-pariter]: https://docs.rs/dpc-pariter
 [I/O-bound]: https://en.wikipedia.org/wiki/I/O_bound
 [packed_simd]: https://docs.rs/packed_simd
 [rayon]: https://docs.rs/rayon
@@ -120,3 +123,4 @@ Write a program with the following workflow:
 [27]: https://matklad.github.io/2020/01/04/mutexes-are-faster-than-spinlocks.html
 [28]: https://nickymeuleman.netlify.app/garden/concurrent-vs-parallel
 [29]: https://nickymeuleman.netlify.app/blog/multithreading-rust
+[30]: https://dpc.pw/adding-parallelism-to-your-rust-iterators
