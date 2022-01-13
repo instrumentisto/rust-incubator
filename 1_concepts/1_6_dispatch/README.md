@@ -17,6 +17,8 @@ For better understanding [static][1] and [dynamic][2] dispatches purpose, design
 - [Rust Book: 17.2. Using Trait Objects That Allow for Values of Different Types][3]
 - [Adam Schwalm: Exploring Dynamic Dispatch in Rust][13]
 - [Nicholas Matsakis: Dyn async traits, part 2][17]
+- [Armin Ronacher: Rust Any Part 1: Extension Maps in Rust][18]
+- [Armin Ronacher: Rust Any Part 2: As-Any Hack][19]
 
 
 
@@ -184,3 +186,5 @@ Implement `UserRepository` type with injectable `Storage` implementation, which 
 [15]: https://docs.rs/enum_dispatch#the-benchmarks
 [16]: https://llogiq.github.io/2019/05/18/momo.html
 [17]: https://smallcultfollowing.com/babysteps/blog/2021/10/01/dyn-async-traits-part-2
+[18]: https://lucumr.pocoo.org/2022/1/6/rust-extension-map
+[19]: https://lucumr.pocoo.org/2022/1/7/as-any-hack
