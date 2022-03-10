@@ -35,6 +35,7 @@ For better understanding [`Pin`] purpose, design, limitations and use cases read
 - [Reddit: Pinned objects ELI5?][1]
 - [Adam Chalmers: Pin, Unpin, and why Rust needs them][4]
 - [Tamme Schichler: Pinning in plain English][5]
+- [Yoshua Wuyts: Safe Pin Projections Through View Types][6]
 
 
 
@@ -74,3 +75,4 @@ Implement them for the following types: `Box<T>`, `Rc<T>`, `Vec<T>`, `String`, `
 [3]: https://fasterthanli.me/articles/whats-in-the-box
 [4]: https://blog.adamchalmers.com/pin-unpin
 [5]: https://blog.schichler.dev/pinning-in-plain-english-ckwdq3pd0065zwks10raohh85
+[6]: https://blog.yoshuawuyts.com/safe-pin-projections-through-view-types
