@@ -37,6 +37,7 @@ _Additional_ articles, which may help to understand the above topic better:
 - [Jeff Anderson: Generics Demystified Part 1][4]
 - [Jeff Anderson: Generics Demystified Part 2][5]
 - [Brandon Smith: Three Kinds of Polymorphism in Rust][6]
+- [Jeremy Steward: C++ & Rust: Generics and Specialization][7]
 
 
 
@@ -55,3 +56,4 @@ _Additional_ articles, which may help to understand the above topic better:
 [4]: https://jeffa.io/rust_guide_generics_demystified_part_1
 [5]: https://jeffa.io/rust_guide_generics_demystified_part_2
 [6]: https://www.brandons.me/blog/polymorphism-in-rust
+[7]: https://www.tangramvision.com/blog/c-rust-generics-and-specialization#substitution-ordering--failures
