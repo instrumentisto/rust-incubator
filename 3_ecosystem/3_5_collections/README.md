@@ -113,7 +113,7 @@ Prove your implementation correctness with tests.
 [11]: https://docs.rs/im/#performance-notes
 [12]: https://en.wikipedia.org/wiki/Non-blocking_algorithm
 [13]: https://aturon.github.io/blog/2015/08/27/epoch
-[14]: https://github.com/instrumentisto/stjepang.github.io/blob/master/_posts/2019-01-29-lock-free-rust-crossbeam-in-2019.md
+[14]: ../../archive/Stjepan_Glavina_Lock-free_Rust_Crossbeam_in_2019.md
 [15_1]: https://hypirion.com/musings/understanding-persistent-vector-pt-1
 [15_2]: https://hypirion.com/musings/understanding-persistent-vector-pt-2
 [15_3]: https://hypirion.com/musings/understanding-persistent-vector-pt-3

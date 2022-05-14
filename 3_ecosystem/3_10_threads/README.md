@@ -111,7 +111,7 @@ Write a program with the following workflow:
 [12]: https://en.wikipedia.org/wiki/Linearizability
 [13]: https://doc.rust-lang.org/book/ch16-03-shared-state.html
 [14]: https://en.wikipedia.org/wiki/Channel_(programming)
-[15]: https://github.com/instrumentisto/stjepang.github.io/blob/master/_posts/2017-08-13-designing-a-channel.md
+[15]: ../../archive/Stjepan_Glavina_Designing_a_channel.md
 [16]: https://doc.rust-lang.org/book/ch16-02-message-passing.html
 [21]: https://stackoverflow.com/a/1050257/1828012
 [22]: https://github.com/rayon-rs/rayon/blob/master/FAQ.md
