@@ -24,9 +24,10 @@ impl<T> Buffer<T> {
 }
 ```
 
-For better understanding [`mem::replace`] and [`mem::swap`] purpose, design, limitations and use cases, read through the following articles:
+For better understanding [`mem::replace`], [`mem::swap`] and [`mem::take`] purpose, design, limitations and use cases, read through the following articles:
 - [Official `mem::replace` docs][`mem::replace`]
 - [Official `mem::swap` docs][`mem::swap`]
+- [Official `mem::take` docs][`mem::take`]
 - [Karol Kuczmarski: Moving out of a container in Rust][4]
 
 Some examples of useful applying these functions are described below.
@@ -77,34 +78,57 @@ struct Names {
 impl Names {
     fn apply_exclusions(&mut self) {
         self.exclusions.drain(..).for_each(|name| {
-            self.names.remove(&name);
+            self.remove_name(&name);
         })
+    }
+    
+    fn remove_name(&mut self, name: &str) {
+        self.names.remove(name);
     }
 }
 ```
 which does not compile due to 2 mutable borrows:
 ```rust
-error[E0500]: closure requires unique access to `self` but it is already borrowed
-  --> src/main.rs:10:44
+error[E0500]: closure requires unique access to `*self` but it is already borrowed
+  --> src/lib.rs:10:44
    |
 10 |         self.exclusions.drain(..).for_each(|name| {
-   |         ---------------           -------- ^^^^^^ closure construction occurs here
+   |         ------------------------- -------- ^^^^^^ closure construction occurs here
    |         |                         |
    |         |                         first borrow later used by call
    |         borrow occurs here
-11 |             self.names.remove(&name);
-   |             ---- second borrow occurs due to use of `self` in closure
+11 |             self.remove_name(&name);
+   |             ---- second borrow occurs due to use of `*self` in closure
 ```
 
-Using [`mem::replace`] here allows us to avoid 2 mutable borrows problem at almost no cost (`HashSet::new()` is no-op), by swapping out the value in a temporary variable:
+Using [`mem::take`] here allows us to avoid the problem with 2 mutable borrows at almost no cost (`Vec::defaukt()` is no-op), by swapping out the value in a temporary variable:
 ```rust
 impl Names {
     fn apply_exclusions(&mut self) {
-        let mut names = mem::replace(&mut self.names, HashSet::new());
-        self.exclusions.drain(..).for_each(|name| {
-            names.remove(&name);
+        let mut exclusions = mem::take(&mut self.exclusions);
+        exclusions.drain(..).for_each(|name| {
+            self.remove_name(&name);
         });
-        mem::replace(&mut self.names, names);
+    }
+
+    fn remove_name(&mut self, name: &str) {
+        self.names.remove(name);
+    }
+}
+```
+
+It's worth mentioning, that this problem became much less common after [disjoint capture in closures had been introduced in 2021 Rust edition][5]. For illustration, the `self.name` mutation is intentionally separated into its own method, so we can lock the whole `&mut self`. If we simplify the code straightforwardly, it just compiles fine, due to mutable borrows are disjoint: 
+```rust
+struct Names {
+    exclusions: Vec<String>,
+    names: HashSet<String>,
+}
+
+impl Names {
+    fn apply_exclusions(&mut self) {
+        self.exclusions.drain(..).for_each(|name| {
+            self.names.remove(&name);
+        })
     }
 }
 ```
@@ -119,12 +143,13 @@ Improve and optimize the code contained in [this step's crate](src/main.rs) to c
 
 
 
-
 [`mem::replace`]: https://doc.rust-lang.org/std/mem/fn.replace.html
 [`mem::swap`]: https://doc.rust-lang.org/std/mem/fn.swap.html
+[`mem::take`]: https://doc.rust-lang.org/std/mem/fn.take.html
 [Rust]: https://www.rust-lang.org
 
 [1]: https://stackoverflow.com/a/30290070/1828012
 [2]: https://doc.rust-lang.org/book/ch04-02-references-and-borrowing.html#the-rules-of-references
 [3]: https://github.com/rust-unofficial/patterns/blob/master/idioms/mem-replace.md
 [4]: http://xion.io/post/code/rust-move-out-of-container.html
+[5]: https://doc.rust-lang.org/edition-guide/rust-2021/disjoint-capture-in-closures.html
