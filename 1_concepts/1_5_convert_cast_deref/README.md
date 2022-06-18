@@ -49,6 +49,17 @@ For better understanding [`AsRef`]/[`AsMut`] purpose, design, limitations and us
 - [Ricardo Martins: Convenient and idiomatic conversions in Rust][10]
 
 
+### Difference from [`Borrow`]
+
+Novices in [Rust] are often confused with the fact that [`AsRef`]/[`AsMut`] and [`Borrow`]/[`BorrowMut`] traits have the same signatures, because it may not be clear which trait to use or implement for their needs.
+
+They, however, differ quite clear in their semantics (and so in their blanket and non-blanket `impl`s):
+- [`AsRef`]/[`AsMut`] encode "is a" semantics, meaning that the implementor type may be represented as a reference to the implemented type. More like one type may mimic another one.
+- [`Borrow`]/[`BorrowMut`] encode "has a" semantics, meaning that the implementor type contains the implemented type inside and may borrow it. More like one type is a container for another one.
+
+For example, it's natural for an `UserEmail` type to implement `AsRef<str>`, so it may be easily consumed in the code accepting `&str` (converted to `&str`). And it's good for some execution `Context` to implement `Borrow<dyn Repository>`, so it can be extracted and used where needed, without using the whole `Context`.
+
+
 
 
 ## Dereferencing
@@ -118,6 +129,8 @@ Provide conversion and `Deref` implementations for these types on your choice, t
 [`as`]: https://doc.rust-lang.org/std/keyword.as.html
 [`AsMut`]: https://doc.rust-lang.org/std/convert/trait.AsMut.html
 [`AsRef`]: https://doc.rust-lang.org/std/convert/trait.AsRef.html
+[`Borrow`]: https://doc.rust-lang.org/std/borrow/trait.Borrow.html
+[`BorrowMut`]: https://doc.rust-lang.org/std/borrow/trait.BorrowMut.html
 [`Box`]: https://doc.rust-lang.org/std/boxed/struct.Box.html
 [`Deref`]: https://doc.rust-lang.org/std/ops/trait.Deref.html
 [`DerefMut`]: https://doc.rust-lang.org/std/ops/trait.DerefMut.html

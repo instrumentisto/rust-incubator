@@ -96,6 +96,49 @@ For better understanding [`PhantomData`] purpose, design, limitations and use ca
 
 
 
+## Transparency
+
+[`PhantomData`] is transparent for [auto traits][7], which means, for example, that `PhantomData<usize>` is `Send` and `Sized`, while `PhantomData<dyn Any>` is neither `Send` nor `Sized`.
+
+In some situations this allows us to provide the exact semantics we need for a type (like [invariance][8] for [a lifetime][9], for example). 
+
+In other situations we don't actually care about semantics of the phantom type parameter at all. Moreover, we don't want the substituted type to change [auto traits][7] implementations of the whole type in any way, preserving only the semantics of the actual contained data, as this may impose ergonomic problems to us:
+```rust
+struct Nonce<Of>(PhantomData<Of>, usize);
+
+// This compiles OK, as `Nonce<()>` is `Send`.
+let nonce: Nonce<()> = Nonce(PhantomData, 1);
+thread::spawn(move || {
+    println!("{:?}", nonce);
+});
+
+// This doesn't compile, as `Nonce<Rc<()>>` is not `Send`.
+let nonce: Nonce<Rc<()>> = Nonce(PhantomData, 2);
+thread::spawn(move || {
+    println!("{:?}", nonce);
+});
+
+// This doesn't compile, as `dyn Any` is not `Sized`.
+let nonce: Nonce<dyn Any> = Nonce(PhantomData, 3);
+```
+
+To omit such problems, let's just form the correct type inside [`PhantomData`], so we always have the desired [auto traits][7] implementations despite the substituted type:
+```rust
+struct Nonce<Of: ?Sized>(PhantomData<AtomicPtr<Box<Of>>>, usize);
+
+// This compiles OK now, despite `Rc<()>` is not `Send`.
+let nonce: Nonce<Rc<()>> = Nonce(PhantomData, 2);
+thread::spawn(move || {
+    println!("{:?}", nonce);
+});
+
+// This compiles OK now, as any `?Sized` type is allowed.
+let nonce: Nonce<dyn Any> = Nonce(PhantomData, 3);
+```
+
+
+
+
 ## Task
 
 Implement a `Fact<T>` type which returns some random fact about `T` type that `Fact<T>` is implemented for.
@@ -113,7 +156,6 @@ Fact about Vec: Vec may re-allocate on growing.
 
 
 
-
 [`PhantomData`]: https://doc.rust-lang.org/std/marker/struct.PhantomData.html
 [Rust]: https://www.rust-lang.org
 
@@ -123,3 +165,6 @@ Fact about Vec: Vec may re-allocate on growing.
 [4]: https://riptutorial.com/rust/example/24109/using-phantomdata-as-a-type-marker
 [5]: https://stackoverflow.com/questions/28247543/motivation-behind-phantom-types
 [6]: https://www.greyblake.com/blog/2021-10-11-phantom-types-in-rust
+[7]: https://doc.rust-lang.org/stable/reference/special-types-and-traits.html#auto-traits
+[8]: https://docs.rs/variance/0.1.3/src/variance/lib.rs.html#16
+[9]: https://docs.rs/variance/0.1.3/src/variance/lib.rs.html#92
