@@ -47,7 +47,6 @@ If neither `APP_CONF` env var nor `--conf` command line argument is specified, t
 
 
 
-
 [`Cow`]: https://doc.rust-lang.org/std/borrow/enum.Cow.html
 [Rust]: https://www.rust-lang.org
 
