@@ -108,7 +108,6 @@ Refactor the code contained in [this step's crate](src/main.rs) to reduce trait 
 
 
 
-
 [Rust]: https://www.rust-lang.org
 
 [1]: https://en.wikipedia.org/wiki/Coupling_(computer_programming)
