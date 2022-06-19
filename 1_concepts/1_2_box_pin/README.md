@@ -36,6 +36,7 @@ For better understanding [`Pin`] purpose, design, limitations and use cases read
 - [Adam Chalmers: Pin, Unpin, and why Rust needs them][4]
 - [Tamme Schichler: Pinning in plain English][5]
 - [Yoshua Wuyts: Safe Pin Projections Through View Types][6]
+- [Official `#[pin_project]` docs][7]
 
 
 
@@ -61,7 +62,6 @@ Implement them for the following types: `Box<T>`, `Rc<T>`, `Vec<T>`, `String`, `
 
 
 
-
 [heap]: https://en.wikipedia.org/wiki/Memory_management#HEAP
 [`Box`]: https://doc.rust-lang.org/std/boxed/struct.Box.html
 [`Pin`]: https://doc.rust-lang.org/std/pin/struct.Pin.html
@@ -76,3 +76,4 @@ Implement them for the following types: `Box<T>`, `Rc<T>`, `Vec<T>`, `String`, `
 [4]: https://blog.adamchalmers.com/pin-unpin
 [5]: https://blog.schichler.dev/pinning-in-plain-english-ckwdq3pd0065zwks10raohh85
 [6]: https://blog.yoshuawuyts.com/safe-pin-projections-through-view-types
+[7]: https://docs.rs/pin-project/latest/pin_project/attr.pin_project.html
