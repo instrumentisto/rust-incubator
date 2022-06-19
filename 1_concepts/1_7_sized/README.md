@@ -54,7 +54,6 @@ Provide tests for `CommandHandler<CreateUser>` implementation where `dyn UserRep
 
 
 
-
 [Rust]: https://www.rust-lang.org
 [`Sized`]: https://doc.rust-lang.org/std/marker/trait.Sized.html
 
