@@ -10,12 +10,15 @@ __Estimated time__: 1 day
 
 [`Box`] is a pointer that owns heap-allocated data. This is the most common and simples form of [heap] allocation in [Rust].
 
-It's more idiomatic to use references (`&T`/`&mut T`) for pointing to the data, however they often are coming with lifetimes complexity. [`Box`] allows to avoid this complexity at the cost of heap allocation.
+It's more idiomatic to use references (`&T`/`&mut T`) for pointing to the data, however they often come with lifetimes complexity. [`Box`] allows to avoid this complexity at the cost of heap allocation.
+
+[`Box`] is also a way to go if an owned [slice] is needed, but is not intended to be resized. For example, `Box<str>`/`Box<[T]>` are often used instead `String`/`Vec<T>` in such cases.
 
 For better understanding [`Box`] purpose, design, limitations and use cases read through:
 - [Rust Book: 15.1. Using Box to Point to Data on the Heap][1]
 - [Official `std::boxed` docs][`std::boxed`]
 - [Amos: What's in the box?][3]
+- [Mahdi Dibaiee: What is `Box<str>` and how is it different from `String` in Rust?][8]
 
 
 
@@ -61,14 +64,14 @@ Implement them for the following types: `Box<T>`, `Rc<T>`, `Vec<T>`, `String`, `
 
 
 
-
-[heap]: https://en.wikipedia.org/wiki/Memory_management#HEAP
 [`Box`]: https://doc.rust-lang.org/std/boxed/struct.Box.html
 [`Pin`]: https://doc.rust-lang.org/std/pin/struct.Pin.html
-[Rust]: https://www.rust-lang.org
 [`std::boxed`]: https://doc.rust-lang.org/std/boxed/index.html
 [`std::pin`]: https://doc.rust-lang.org/std/pin/index.html
 [`Unpin`]: https://doc.rust-lang.org/std/marker/trait.Unpin.html
+[heap]: https://en.wikipedia.org/wiki/Memory_management#HEAP
+[Rust]: https://www.rust-lang.org
+[slice]: https://doc.rust-lang.org/std/primitive.slice.html
 
 [1]: https://doc.rust-lang.org/book/ch15-01-box.html
 [2]: https://www.reddit.com/r/rust/comments/9akmqv/pinned_objects_eli5/
@@ -77,3 +80,4 @@ Implement them for the following types: `Box<T>`, `Rc<T>`, `Vec<T>`, `String`, `
 [5]: https://blog.schichler.dev/pinning-in-plain-english-ckwdq3pd0065zwks10raohh85
 [6]: https://blog.yoshuawuyts.com/safe-pin-projections-through-view-types
 [7]: https://docs.rs/pin-project/latest/pin_project/attr.pin_project.html
+[8]: https://mahdi.blog/rust-box-str-vs-string
