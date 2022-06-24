@@ -71,6 +71,7 @@ The downside of this idiom is that compiler generates more code due to monomorph
 Further reading on theme:
 - [Joe Wilm: From &str to Cow][4]
 - [Pascal Hertleif: Elegant Library APIs in Rust: Use conversion traits][5]
+- [Carl M. Kadie: Nine Rules for Elegant Rust Library APIs][10]
 
 
 
@@ -105,3 +106,4 @@ Refactor the code contained in [this step's crate](src/main.rs) to make it more 
 [7]: https://doc.rust-lang.org/std/iter/trait.Iterator.html#method.map
 [8]: https://doc.rust-lang.org/std/iter/trait.Iterator.html#method.enumerate
 [9]: https://doc.rust-lang.org/std/iter/trait.Iterator.html#method.filter
+[10]: https://towardsdatascience.com/nine-rules-for-elegant-rust-library-apis-9b986a465247
