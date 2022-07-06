@@ -109,13 +109,13 @@ struct Nonce<Of>(PhantomData<Of>, usize);
 // This compiles OK, as `Nonce<()>` is `Send`.
 let nonce: Nonce<()> = Nonce(PhantomData, 1);
 thread::spawn(move || {
-    println!("{:?}", nonce);
+    println!("{nonce:?}");
 });
 
 // This doesn't compile, as `Nonce<Rc<()>>` is not `Send`.
 let nonce: Nonce<Rc<()>> = Nonce(PhantomData, 2);
 thread::spawn(move || {
-    println!("{:?}", nonce);
+    println!("{nonce:?}");
 });
 
 // This doesn't compile, as `dyn Any` is not `Sized`.
@@ -129,7 +129,7 @@ struct Nonce<Of: ?Sized>(PhantomData<AtomicPtr<Box<Of>>>, usize);
 // This compiles OK now, despite `Rc<()>` is not `Send`.
 let nonce: Nonce<Rc<()>> = Nonce(PhantomData, 2);
 thread::spawn(move || {
-    println!("{:?}", nonce);
+    println!("{nonce:?}");
 });
 
 // This compiles OK now, as any `?Sized` type is allowed.

@@ -9,6 +9,7 @@ Before completing this step you should complete all its sub-steps. After doing t
 - Why should I care about types and expressing things in types? How do types help to increase guarantees of a program being correct?
 - What is essential for writing well-designed and ergonomic APIs in [Rust] and why?
 - Why `mem::replace` exists and what purpose does it sole? When and why is it really helpful?
+- How input type polymorphism is usually organized in [Rust] APIs? What cost does it have?
 
 
 
@@ -23,7 +24,6 @@ Design and implement a `VendingMachine` type, which behaves like a [vending mach
 - `Coin`s could have only `1`, `2`, `5`, `10`, `20` and `50` nominals.
 
 Make its usage API as convenient as you're capable to.
-
 
 
 

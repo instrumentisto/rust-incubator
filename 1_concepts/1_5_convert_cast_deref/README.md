@@ -8,7 +8,7 @@ As [Rust] is a [strongly typed][1] language, all type conversions must be perfor
 
 
 
-## Value-to-value conversions
+## Value-to-value conversion
 
 Value-to-value conversion in [Rust] is done with [`From`] and [`Into`] mirrored traits (implementing one automatically implements another one). These traits provide __non-fallible conversion__.
 
@@ -32,7 +32,7 @@ For better understanding [`From`]/[`Into`] and [`TryFrom`]/[`TryInto`] purpose, 
 
 
 
-## Reference-to-reference conversions
+## Reference-to-reference conversion
 
 Quite often you don't want to consume ownership of a value for conversion, but rather to refer it as another type. In such case [`AsRef`]/[`AsMut`] should be used. They allow to do a __cheap non-fallible reference-to-reference conversion__.
 
@@ -58,6 +58,52 @@ They, however, differ quite clear in their semantics (and so in their blanket an
 - [`Borrow`]/[`BorrowMut`] encode "has a" semantics, meaning that the implementor type contains the implemented type inside and may borrow it. More like one type is a container for another one.
 
 For example, it's natural for an `UserEmail` type to implement `AsRef<str>`, so it may be easily consumed in the code accepting `&str` (converted to `&str`). And it's good for some execution `Context` to implement `Borrow<dyn Repository>`, so it can be extracted and used where needed, without using the whole `Context`.
+
+
+### Inner-to-outer conversion
+
+[`AsRef`]/[`AsMut`] are able to do only outer-to-inner reference conversion, but obviously not the opposite.
+
+```rust
+struct Id(u8);
+
+impl AsRef<u8> for Id {
+    fn as_ref(&self) -> &u8 {
+        &self.0
+    }
+}
+
+impl AsRef<Id> for u8 {
+    fn as_ref(&self) -> &Id {
+        &Id(*self)
+    }
+}
+```
+```
+error[E0515]: cannot return reference to temporary value
+  --> src/lib.rs:11:9
+   |
+11 |         &Id(*self)
+   |         ^---------
+   |         ||
+   |         |temporary value created here
+   |         returns a reference to data owned by the current function
+```
+
+However, there is nothing wrong with such conversion as long as memory layout of the inner type is the same for the outer type.
+
+```rust
+#[repr(transparent)]
+struct Id(u8);
+
+impl AsRef<Id> for u8 {
+    fn as_ref(&self) -> &Id {
+        unsafe { mem::transmute(self) }
+    }
+}
+```
+
+That's exactly what [`ref-cast`] crate checks and does, without necessity of writing `unsafe` explicitly. See [crate's documentation][`ref-cast`] for more explanations.
 
 
 
@@ -125,7 +171,6 @@ Provide conversion and `Deref` implementations for these types on your choice, t
 
 
 
-
 [`as`]: https://doc.rust-lang.org/std/keyword.as.html
 [`AsMut`]: https://doc.rust-lang.org/std/convert/trait.AsMut.html
 [`AsRef`]: https://doc.rust-lang.org/std/convert/trait.AsRef.html
@@ -137,6 +182,7 @@ Provide conversion and `Deref` implementations for these types on your choice, t
 [`From`]: https://doc.rust-lang.org/std/convert/trait.From.html
 [`Into`]: https://doc.rust-lang.org/std/convert/trait.Into.html
 [Rust]: https://www.rust-lang.org
+[`ref-cast`]: https://docs.rs/ref-cast
 [`std::convert`]: https://doc.rust-lang.org/std/convert/index.html
 [`TryFrom`]: https://doc.rust-lang.org/std/convert/trait.TryFrom.html
 [`TryInto`]: https://doc.rust-lang.org/std/convert/trait.TryInto.html

@@ -38,7 +38,7 @@ This can lead to quite tricky and non-obvious situations when writing code.
 
 For better understanding [object safety][5] purpose, design and limitations, read through the following articles:
 - [Rust Book: 17.2. Object Safety Is Required for Trait Objects][5]
-- [Rust Compiler Error Index: E0038][6]
+- [Rust Reference: 6.1. Traits: Object Safety][6]
 - [Nicholas Matsakis: Dyn async traits, part 2][17]
 
 
@@ -168,7 +168,6 @@ Implement `UserRepository` type with injectable `Storage` implementation, which 
 
 
 
-
 [enum_dispatch]: https://docs.rs/enum_dispatch
 [momo]: https://github.com/llogiq/momo
 [Rust]: https://www.rust-lang.org
@@ -178,7 +177,7 @@ Implement `UserRepository` type with injectable `Storage` implementation, which 
 [3]: https://doc.rust-lang.org/book/ch17-02-trait-objects.html
 [4]: https://en.wikipedia.org/wiki/Type_erasure
 [5]: https://doc.rust-lang.org/book/ch17-02-trait-objects.html#object-safety-is-required-for-trait-objects
-[6]: https://doc.rust-lang.org/error-index.html#E0038
+[6]: https://doc.rust-lang.org/reference/items/traits.html#object-safety
 [11]: https://blog.rust-lang.org/2015/05/11/traits.html
 [12]: https://joshleeb.com/posts/rust-traits-and-trait-objects
 [13]: https://alschwalm.com/blog/static/2017/03/07/exploring-dynamic-dispatch-in-rust

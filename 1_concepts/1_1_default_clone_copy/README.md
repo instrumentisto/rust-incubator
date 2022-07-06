@@ -73,7 +73,6 @@ For better understanding the topic, read through:
 
 
 
-
 [`Clone`]: https://doc.rust-lang.org/std/clone/trait.Clone.html
 [`Copy`]: https://doc.rust-lang.org/std/marker/trait.Copy.html
 [`Default`]: https://doc.rust-lang.org/std/default/trait.Default.html

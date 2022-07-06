@@ -148,7 +148,6 @@ Write a `GlobalStack<T>` collection which represents a trivial unsized [stack] (
 
 
 
-
 [`Arc`]: https://doc.rust-lang.org/std/sync/struct.Arc.html
 [`Cell`]: https://doc.rust-lang.org/std/cell/struct.Cell.html
 [`Mutex`]: https://doc.rust-lang.org/std/sync/struct.Mutex.html

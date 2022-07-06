@@ -73,9 +73,9 @@ error[E0308]: mismatched types
               found type `user::Id`
 ```
 
-This is what is called ["newtype pattern"][1]. [Newtypes][1] are a zero-cost abstraction - __there is no runtime overhead__. Additionally, you may __enforce desired invariants on values of the type__ (for example, `Email` type may allow only valid email address strings to be its values, and another good example is [uom] crate). Also, [newtype pattern][1] __makes code more understandable for developers__, as domain knowledge is reflected in types, so is described and documented more explicitly.
+This is what is called ["newtype pattern"][1]. [Newtypes][1] are a zero-cost abstraction - __there is no runtime overhead__. Additionally, you may __enforce desired invariants on values of the type__ (for example, `Email` type may allow only valid email address strings to be its values, and another good example is [`uom`] crate). Also, [newtype pattern][1] __makes code more understandable for developers__, as domain knowledge is reflected in types, so is described and documented more explicitly.
 
-The downside of using [newtype pattern][1] is a necessity of writing _more boilerplate code_, because you should provide common traits implementations by yourself (like `Clone`, `Copy`, `From`/`Into`/`AsRef`/`AsMut`), as without them the type won't be ergonomic in use. However, most of them can be _derived automatically_ with `std` capabilities or third-party derive-crates (like [derive_more]), so the cost is acceptable in most cases.
+The downside of using [newtype pattern][1] is a necessity of writing _more boilerplate code_, because you should provide common traits implementations by yourself (like `Clone`, `Copy`, `From`/`Into`/`AsRef`/`AsMut`), as without them the type won't be ergonomic in use. However, most of them can be _derived automatically_ with `std` capabilities or third-party derive-crates (like [`derive_more`]), so the cost is acceptable in most cases.
 
 For better understanding [newtype pattern][1], read through the following articles:
 - [Rust Design Patterns: Newtype][1]
@@ -91,7 +91,7 @@ For better understanding [newtype pattern][1], read through the following articl
 
 Not always, but _yes_ in some cases. One possible way is to use [typestates][3] to represent (in types) a _sequence of states_ our type is able to be in, and to declare transitions (via functions) between these states. Doing so will allow compiler to __cut off incorrect state transitions at compile time__.
 
-A real-world example of applying this idiom in [Rust] is the awesome [state_machine_future] crate.
+A real-world example of applying this idiom in [Rust] would be the awesome [`state_machine_future`] crate.
 
 For better understanding [typestates][3], read through the following articles:
 - [David Teller: Typestates in Rust][3]
@@ -122,11 +122,10 @@ Implement this behavior using [typestates idiom][3], so that calling `delete()` 
 
 
 
-
-[derive_more]: https://docs.rs/derive_more
+[`derive_more`]: https://docs.rs/derive_more
+[`state_machine_future`]: https://docs.rs/state_machine_future
+[`uom`]: https://docs.rs/uom
 [Rust]: https://www.rust-lang.org
-[state_machine_future]: https://docs.rs/state_machine_future
-[uom]: https://docs.rs/uom
 
 [1]: https://github.com/rust-unofficial/patterns/blob/master/patterns/newtype.md
 [2]: https://doc.rust-lang.org/rust-by-example/generics/new_types.html

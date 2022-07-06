@@ -42,7 +42,6 @@ _Additional_ articles, which may help to understand the above topic better:
 
 
 
-
 [Cargo]: https://github.com/rust-lang/cargo
 [Cargo Book]: https://doc.rust-lang.org/cargo
 [Rust]: https://www.rust-lang.org

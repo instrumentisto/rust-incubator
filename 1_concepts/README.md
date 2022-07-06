@@ -33,7 +33,6 @@ Prove your implementation correctness with tests. Provide both single-threaded a
 
 
 
-
 [Rust]: https://www.rust-lang.org
 
 [1]: https://manishearth.github.io/blog/2015/05/27/wrapper-types-in-rust-choosing-your-guarantees
