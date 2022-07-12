@@ -33,7 +33,7 @@ macro_rules! vec {
 
 let v = vec![1, 2, 3];
 ```
-The good part about declarative macros is that they are [hygienic][11].
+The good part about declarative macros is that they are [hygienic][11] (and so, have much better [IDE]s support).
 
 Code generation purpose is not the only one declarative macros are used for. Quite often they are used for building abstractions and APIs too, because they all to implement much more ergonomic features than regular functions do: named arguments, [variadics][17], etc.
 
@@ -91,18 +91,23 @@ There are three kinds of procedural macros in [Rust] at the moment:
     Idiomatically, `proc_macro_derive` should be used for _deriving trait implementations only_. For arbitrary functions generation it's better to go with `proc_macro_attribute`.
 
 [Rust] ecosystem has some well-know crates, which almost always are used for procedural macros implementation:
-- [syn] crate represents implementation of [Rust]'s [AST].
-- [quote] crate provides quasi-quoting, which allows to turn [Rust] syntax tree data structures into tokens of source code in an ergonomic and readable way.
-- [proc-macro2] crate provides unified [`proc_macro`] API across all [Rust] compiler versions and makes procedural macros unit testable.
+- [`syn`] crate represents an implementation of [Rust]'s [AST].
+- [`quote`] crate provides quasi-quoting, which allows to turn [Rust] syntax tree data structures into tokens of source code in an ergonomic and readable way.
+- [`proc-macro2`] crate provides unified [`proc_macro`] API across all [Rust] compiler versions and makes procedural macros unit-testable.
 
-Additionally, [darling] crate should be mentioned, which makes declarative attribute parsing more straight-forward and ergonomic.
+Nowadays, these are backbone for writing a procedural macro implementation. Even though, developers tend ot omit using [`syn`] for trivial cases (not requiring much [AST] parsing), as it hits compilation times quite notably.
+
+On top of them, more ecosystem crates may be used for having less boilerplate, better ergonomics and "batteries included". Most notable among them are:
+- [`darling`] crate, making declarative attribute parsing more straight-forward and ergonomic.
+- [`synstructure`] crate, providing helper types for matching against enum variants, and extracting bindings to each of the fields in the deriving struct or enum in a generic way.
+- [`synthez`] crate, providing [derive macros][29] for parsing [AST] (yeah, derive macros for derive macros!) and other helpful "batteries" for daily routine of procedural macro writing.
 
 For better understanding procedural macros design, concepts, usage and features, read through the following articles:
 - [Rust Book: 19.6. Macros: Procedural Macros for Generating Code from Attributes][23]
 - [Rust Reference: 3.2. Procedural Macros][26]
-- [Official `syn` crate docs][syn]
-- [Official `quote` crate docs][quote]
-- [Official `proc-macro2` crate docs][proc-macro2]
+- [Official `syn` crate docs][`syn`]
+- [Official `quote` crate docs][`quote`]
+- [Official `proc-macro2` crate docs][`proc-macro2`]
 
 
 
@@ -116,16 +121,18 @@ Provide two implementations: one via declarative macro and other one via procedu
 
 
 
-
-[AST]: https://en.wikipedia.org/wiki/Abstract_syntax_tree
 [`BTreeMap`]: https://doc.rust-lang.org/std/collections/struct.BTreeMap.html
-[darling]: https://docs.rs/darling
-[DSL]: https://en.wikipedia.org/wiki/Domain-specific_language
+[`darling`]: https://docs.rs/darling
 [`proc_macro`]: https://doc.rust-lang.org/proc_macro
-[proc-macro2]: https://docs.rs/proc-macro2
+[`proc-macro2`]: https://docs.rs/proc-macro2
+[`quote`]: https://docs.rs/quote
+[`syn`]: https://docs.rs/syn
+[`synstructure`]: https://docs.rs/synstructure
+[`synthez`]: https://docs.rs/synthez
+[AST]: https://en.wikipedia.org/wiki/Abstract_syntax_tree
+[DSL]: https://en.wikipedia.org/wiki/Domain-specific_language
+[IDE]: https://en.wikipedia.org/wiki/Integrated_development_environment
 [Rust]: https://www.rust-lang.org
-[syn]: https://docs.rs/syn
-[quote]: https://docs.rs/quote
 
 [1]: https://en.wikipedia.org/wiki/Macro_(computer_science)
 [11]: https://en.wikipedia.org/wiki/Hygienic_macro
