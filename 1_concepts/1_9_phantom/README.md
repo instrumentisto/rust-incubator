@@ -139,6 +139,32 @@ let nonce: Nonce<dyn Any> = Nonce(PhantomData, 3);
 
 
 
+## Custom phantom type
+
+Interesting enough, despite the [`PhantomData`] being a [lang item][10], it's still possible to define a custom type without using the original [`PhantomData`], but behaving like the one. This is demonstrated quite fairly by the [`ghost`] crate.
+
+```rust
+use ghost::phantom;
+
+#[phantom]
+#[derive(Copy, Clone, Default, Hash, PartialOrd, Ord, PartialEq, Eq, Debug)]
+struct Crazy<'a, V: 'a, T> where &'a V: IntoIterator<Item = T>;
+
+fn main() {
+    let _ = Crazy::<'static, Vec<String>, &'static String>;
+
+    // Lifetime elision.
+    let crazy = Crazy::<Vec<String>, &String>;
+    println!("{:?}", crazy);
+}
+```
+
+For more detailed explanation, read through the following articles:
+- [Official `ghost` crate docs][`ghost`]
+
+
+
+
 ## Task
 
 Implement a `Fact<T>` type which returns some random fact about `T` type that `Fact<T>` is implemented for.
@@ -156,6 +182,7 @@ Fact about Vec: Vec may re-allocate on growing.
 
 
 
+[`ghost`]: https://docs.rs/ghost
 [`PhantomData`]: https://doc.rust-lang.org/std/marker/struct.PhantomData.html
 [Rust]: https://www.rust-lang.org
 
@@ -168,3 +195,4 @@ Fact about Vec: Vec may re-allocate on growing.
 [7]: https://doc.rust-lang.org/stable/reference/special-types-and-traits.html#auto-traits
 [8]: https://docs.rs/variance/0.1.3/src/variance/lib.rs.html#16
 [9]: https://docs.rs/variance/0.1.3/src/variance/lib.rs.html#92
+[10]: https://manishearth.github.io/blog/2017/01/11/rust-tidbits-what-is-a-lang-item
