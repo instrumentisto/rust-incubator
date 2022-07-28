@@ -90,12 +90,12 @@ There are three kinds of procedural macros in [Rust] at the moment:
     ```
     Idiomatically, `proc_macro_derive` should be used for _deriving trait implementations only_. For arbitrary functions generation it's better to go with `proc_macro_attribute`.
 
-[Rust] ecosystem has some well-know crates, which almost always are used for procedural macros implementation:
+[Rust] ecosystem has some well-know crates, which almost always are used for procedural macros' implementation:
 - [`syn`] crate represents an implementation of [Rust]'s [AST].
 - [`quote`] crate provides quasi-quoting, which allows to turn [Rust] syntax tree data structures into tokens of source code in an ergonomic and readable way.
 - [`proc-macro2`] crate provides unified [`proc_macro`] API across all [Rust] compiler versions and makes procedural macros unit-testable.
 
-Nowadays, these are backbone for writing a procedural macro implementation. Even though, developers tend ot omit using [`syn`] for trivial cases (not requiring much [AST] parsing), as it hits compilation times quite notably.
+Nowadays, these are backbone for writing a procedural macro implementation. Even though, developers mostly tend ot omit using [`syn`] for trivial cases (not requiring much [AST] parsing), as it [hits compilation times quite notably][30], or prefer to use simpler and less powerful [AST] parsing crates (like [`venial`]).
 
 On top of them, more ecosystem crates may be used for having less boilerplate, better ergonomics and "batteries included". Most notable among them are:
 - [`darling`] crate, making declarative attribute parsing more straight-forward and ergonomic.
@@ -106,6 +106,7 @@ For better understanding procedural macros design, concepts, usage and features,
 - [Rust Book: 19.6. Macros: Procedural Macros for Generating Code from Attributes][23]
 - [Rust Reference: 3.2. Procedural Macros][26]
 - [Official `syn` crate docs][`syn`]
+- [Official `venial` crate docs][`venial`]
 - [Official `quote` crate docs][`quote`]
 - [Official `proc-macro2` crate docs][`proc-macro2`]
 
@@ -129,6 +130,7 @@ Provide two implementations: one via declarative macro and other one via procedu
 [`syn`]: https://docs.rs/syn
 [`synstructure`]: https://docs.rs/synstructure
 [`synthez`]: https://docs.rs/synthez
+[`venial`]: https://docs.rs/venial
 [AST]: https://en.wikipedia.org/wiki/Abstract_syntax_tree
 [DSL]: https://en.wikipedia.org/wiki/Domain-specific_language
 [IDE]: https://en.wikipedia.org/wiki/Integrated_development_environment
@@ -148,3 +150,4 @@ Provide two implementations: one via declarative macro and other one via procedu
 [27]: https://doc.rust-lang.org/reference/procedural-macros.html#function-like-procedural-macros
 [28]: https://doc.rust-lang.org/reference/procedural-macros.html#attribute-macros
 [29]: https://doc.rust-lang.org/reference/procedural-macros.html#derive-macros
+[30]: https://hackmd.io/mxdn4U58Su-UQXwzOHpHag?view#round-13-cargo-timing-opt-j8
