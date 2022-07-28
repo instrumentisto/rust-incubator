@@ -40,6 +40,7 @@ For better understanding and familiarity with [`serde`]'s design, concepts, usag
 - [Official `serde_json` crate docs][`serde_json`]
 - [Owen Gage: Understanding Rust's serde using macro expansion][6]
 - [Owen Gage: Exploring serde's data model with a toy deserializer][7]
+- [Owen Gage: A look at serde-json][11]
 
 
 ### Extras
@@ -83,3 +84,4 @@ Prove your implementation correctness with tests.
 [8]: https://serde.rs/field-attrs.html#with
 [9]: https://doc.rust-lang.org/book/trait-objects.html
 [10]: https://json-schema.org
+[11]: https://owengage.com/writing/2022-07-22-a-look-at-serde-json
