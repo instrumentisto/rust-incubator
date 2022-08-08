@@ -41,6 +41,9 @@ For better understanding and familiarity with [`serde`]'s design, concepts, usag
 - [Owen Gage: Understanding Rust's serde using macro expansion][6]
 - [Owen Gage: Exploring serde's data model with a toy deserializer][7]
 - [Owen Gage: A look at serde-json][11]
+- [Manish Goregaokar: Not a Yoking Matter (Zero-Copy #1)][12]
+- [Manish Goregaokar: Zero-Copy All the Things! (Zero-Copy #2)][13]
+- [Manish Goregaokar: So Zero It's ... Negative? (Zero-Copy #3)][14]
 
 
 ### Extras
@@ -85,3 +88,6 @@ Prove your implementation correctness with tests.
 [9]: https://doc.rust-lang.org/book/trait-objects.html
 [10]: https://json-schema.org
 [11]: https://owengage.com/writing/2022-07-22-a-look-at-serde-json
+[12]: https://manishearth.github.io/blog/2022/08/03/zero-copy-1-not-a-yoking-matter
+[13]: https://manishearth.github.io/blog/2022/08/03/zero-copy-2-zero-copy-all-the-things
+[14]: https://manishearth.github.io/blog/2022/08/03/zero-copy-3-so-zero-its-dot-dot-dot-negative
