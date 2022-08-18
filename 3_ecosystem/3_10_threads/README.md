@@ -49,6 +49,7 @@ For better understanding and familiarity with [Rust] synchronization primitives 
 - [Nicky Meuleman: Multithreading in Rust][29]
 - [Carl Fredrik Samson: Explaining Atomics in Rust][26]
 - [Aleksey Kladov: Mutexes Are Faster Than Spinlocks][27]
+- [Mara Bos: Comparing Rust's and C++'s Concurrency Library][31]
 
 
 
@@ -126,3 +127,4 @@ Write a program with the following workflow:
 [28]: https://nickymeuleman.netlify.app/garden/concurrent-vs-parallel
 [29]: https://nickymeuleman.netlify.app/blog/multithreading-rust
 [30]: https://dpc.pw/adding-parallelism-to-your-rust-iterators
+[31]: https://blog.m-ou.se/rust-cpp-concurrency
