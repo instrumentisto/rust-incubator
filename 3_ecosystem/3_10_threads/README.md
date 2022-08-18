@@ -29,7 +29,7 @@ For better understanding [Rust] threads design, concepts, usage, and features (e
 
 The [threads synchronization][11] is a wide topic, but generally it's done via [atomic operations][12], shared state with an [exclusive access][13], or by [threads communication][14]. [Rust] has built-in support for all of them.
 
-[Atomic operations][12] are represented by [`std::sync::atomic`] module of [Rust] standard library.
+[Atomic operations][12] are represented by [`std::sync::atomic`] module of [Rust] standard library (and, additionally, [`atomic`] crate).
 
 [Exclusive access][13] may be controlled via primitives of [`std::sync`] module of [Rust] standard library.
 
@@ -44,6 +44,7 @@ For better understanding and familiarity with [Rust] synchronization primitives 
 - [Official `std::sync` docs][`std::sync`]
 - [Official `std::sync::atomic` docs][`std::sync::atomic`]
 - [Official `std::sync::mpsc` docs][`std::sync::mpsc`]
+- [Official `atomic` crate docs][`atomic`]
 - [Official `crossbeam-channel` crate docs][`crossbeam-channel`]
 - [Nicky Meuleman: Multithreading in Rust][29]
 - [Carl Fredrik Samson: Explaining Atomics in Rust][26]
@@ -84,6 +85,7 @@ Write a program with the following workflow:
 
 
 
+[`atomic`]: https://docs.rs/atomic
 [`crossbeam`]: https://docs.rs/crossbeam
 [`crossbeam-channel`]: https://docs.rs/crossbeam-channel
 [`dpc-pariter`]: https://docs.rs/dpc-pariter
