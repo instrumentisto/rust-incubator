@@ -8,7 +8,17 @@ __Estimated time__: 1 day
 
 ## Regular expressions
 
-To operate with [regular expressions][1] there is [regex] crate in [Rust] ecosystem.
+To operate with [regular expressions][1] there is the [`regex`] crate in [Rust] ecosystem, which is kinda a default choice to go with in most cases.
+
+> A Rust library for parsing, compiling, and executing regular expressions. Its syntax is similar to Perl-style regular expressions, but lacks a few features like look around and backreferences. In exchange, all searches execute in linear time with respect to the size of the regular expression and search text. Much of the syntax and implementation is inspired by [RE2].
+
+If you need additional features (like look around and backreferences), consider using:
+- [`fancy-regex`] crate, building additional functionality on top of the [`regex`] crate.
+- [`pcre2`] crate, providing a safe high level Rust binding to [PCRE2] library.
+- [`hyperscan`] crate, wrapping a [Hyperscan] library.
+
+
+### Compile only once
 
 Important to know, that in [Rust] __regular expression needs to be compiled before we can use it__. The compilation is not cheap. So, the following code introduces a performance problem:
 ```rust
@@ -18,11 +28,11 @@ fn is_email(email: &str) -> bool {
 }
 ```
 
-To omit unnecessary performance penalty we should __compile regular expression once and reuse its compilation result__. This is easily achieved by using [lazy_static] crate both in global and/or local scopes:
+To omit unnecessary performance penalty we should __compile regular expression once and reuse its compilation result__. This is easily achieved by using the [`once_cell`] crate both in global and/or local scopes:
 ```rust
-lazy_static! {
-    static ref REGEX_EMAIL: Regex = Regex::new(".+@.+").unwrap();
-}  // compiles once on first use 
+static REGEX_EMAIL: Regex = once_cell::sync::Lazy::new(|| {
+    Regex::new(".+@.+").unwrap()
+}); // compiles once on the first use
 
 fn is_email(email: &str) -> bool {
     REGEX_EMAIL.is_match(email)
@@ -37,10 +47,16 @@ This may feel different with how [regular expressions][1] are used in other prog
 ## Custom parsers
 
 If regular expressions are [not powerful enough][2] for your parsing problem, then you are ended up with writing your own parser. [Rust] ecosystem has [numerous][3] crates to help with that:
-- [nom] is a [parser combinator][4] library. Nearly most performant among others. Especially good for parsing binary stuff (byte/bit-oriented).
-- [pest] is a general purpose parser, which uses [PEG (parsing expression grammar)][5] as input and derives parser's code for it.
-- [lalrpop] is a parser generator framework, which generates [LR(1) parser][6] code from custom grammar files.
-- [combine] is an another [parser combinator][4] library, inspired by the [Haskell] library [Parsec].
+- [Parser combinators][4]:
+    - [`nom`] crate, nearly the most performant among others, and especially good for parsing binary stuff (byte/bit-oriented).
+    - [`chumsky`] crate, focusing on high-quality errors and ergonomics over performance.
+    - [`combine`] crate, inspired by the [Parsec] library in [Haskell].
+    - [`pom`] crate, providing [PEG][5] parser combinators created using operator overloading without macros.
+    - [`chomp`] crate, a fast [monadic][13]-style [parser combinator][4] library.
+- [Parser generators][12]:
+    - [`pest`] crate, a simple yet flexible [parser generator][12] that makes it easy to write robust parsers, based on the [Parsing Expression Grammar][5] formalism.
+    - [`pest`] crate, with a focus on accessibility, correctness, and performance, using [PEG (parsing expression grammar)][5] as an input and deriving parser's code for it.
+    - [`lalrpop`] crate, generating [LR(1) parser][6] code from custom grammar files.
 
 For better understanding parsing problem and approaches, along with some examples, read through the following articles:
 - [Laurence Tratt: Which Parsing Approach?][9]
@@ -67,25 +83,33 @@ parameter := argument '$'
 
 Implement a parser to parse `sign`, `width` and `precision` from a given input (assumed to be a `format_spec`).
 
-Provide implementations in two flavours: [regex]-based and via building a custom parser.
+Provide implementations in two flavours: [`regex`]-based and via building a custom parser.
 
 Prove your implementation correctness with tests.
 
 
 
 
-
-[combine]: https://docs.rs/combine
+[`chomp`]: https://docs.rs/chomp
+[`chumsky`]: https://docs.rs/chumsky
+[`combine`]: https://docs.rs/combine
+[`fancy-regex`]: https://docs.rs/fancy-regex
+[`hyperscan`]: https://docs.rs/hyperscan
+[`lalrpop`]: https://docs.rs/lalrpop
+[`nom`]: https://docs.rs/nom
+[`once_cell`]: https://docs.rs/once_cell
+[`pest`]: https://docs.rs/pest
+[`pcre2`]: https://docs.rs/pcre2
+[`pom`]: https://docs.rs/pom
+[`regex`]: https://docs.rs/regex
 [Go]: https://golang.org
 [Haskell]: https://www.haskell.org
+[Hyperscan]: https://github.com/intel/hyperscan
 [Java]: https://www.java.com
-[lalrpop]: https://docs.rs/lalrpop
-[lazy_static]: https://docs.rs/lazy_static
-[nom]: https://docs.rs/nom
 [Parsec]: https://hackage.haskell.org/package/parsec
+[PCRE2]: https://www.pcre.org
 [PHP]: https://php.net
-[pest]: https://docs.rs/pest
-[regex]: https://docs.rs/regex
+[RE2]: https://github.com/google/re2
 [Rust]: https://www.rust-lang.org
 
 [1]: https://en.wikipedia.org/wiki/Regular_expression
@@ -99,3 +123,5 @@ Prove your implementation correctness with tests.
 [9]: https://tratt.net/laurie/blog/entries/which_parsing_approach.html
 [10]: https://depth-first.com/articles/2021/12/16/a-beginners-guide-to-parsing-in-rust
 [11]: https://briankung.dev/2021/12/07/building-a-cedict-parser-in-rust-with-nom
+[12]: https://en.wikipedia.org/wiki/Parser_generator
+[13]: https://en.wikipedia.org/wiki/Monad_(functional_programming)
