@@ -50,6 +50,7 @@ For better understanding and familiarity with [Rust] synchronization primitives 
 - [Carl Fredrik Samson: Explaining Atomics in Rust][26]
 - [Aleksey Kladov: Mutexes Are Faster Than Spinlocks][27]
 - [Mara Bos: Comparing Rust's and C++'s Concurrency Library][31]
+- [Mahmoud Al-Qudsi: Implementing truly safe semaphores in rust][32]
 
 
 
@@ -128,3 +129,4 @@ Write a program with the following workflow:
 [29]: https://nickymeuleman.netlify.app/blog/multithreading-rust
 [30]: https://dpc.pw/adding-parallelism-to-your-rust-iterators
 [31]: https://blog.m-ou.se/rust-cpp-concurrency
+[32]: https://neosmart.net/blog/2022/implementing-truly-safe-semaphores-in-rust
