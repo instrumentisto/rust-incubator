@@ -39,6 +39,7 @@ _Additional_ articles, which may help to understand the above topic better:
 - [Brandon Smith: Three Kinds of Polymorphism in Rust][6]
 - [Jeremy Steward: C++ & Rust: Generics and Specialization][7]
 - [cooscoos: &stress about &Strings][8]
+- [Jimmy Hartzell: RAII: Compile-Time Memory Management in C++ and Rust][9]
 
 
 
@@ -58,3 +59,4 @@ _Additional_ articles, which may help to understand the above topic better:
 [6]: https://www.brandons.me/blog/polymorphism-in-rust
 [7]: https://www.tangramvision.com/blog/c-rust-generics-and-specialization#substitution-ordering--failures
 [8]: https://cooscoos.github.io/blog/stress-about-strings
+[9]: https://www.thecodedmessage.com/posts/raii
