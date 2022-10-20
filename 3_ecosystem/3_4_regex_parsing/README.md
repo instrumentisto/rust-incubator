@@ -61,6 +61,7 @@ If regular expressions are [not powerful enough][2] for your parsing problem, th
 For better understanding parsing problem and approaches, along with some examples, read through the following articles:
 - [Laurence Tratt: Which Parsing Approach?][9]
 - [Richard L. Apodaca: A Beginner's Guide to Parsing in Rust][10]
+- [Eshan Singh: Practical Parsing in Rust with nom][14]
 - [Brian Kung: Building a CEDICT parser in Rust with Nom][11]
 
 
@@ -125,3 +126,4 @@ Prove your implementation correctness with tests.
 [11]: https://briankung.dev/2021/12/07/building-a-cedict-parser-in-rust-with-nom
 [12]: https://en.wikipedia.org/wiki/Parser_generator
 [13]: https://en.wikipedia.org/wiki/Monad_(functional_programming)
+[14]: https://naiveai.hashnode.dev/practical-parsing-nom
