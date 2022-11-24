@@ -13,6 +13,7 @@ For better understanding [`Send`]/[`Sync`] purpose, design, limitations and use 
 - [Huon Wilson: Some notes on Send and Sync][5]
 - [nyanpasu64: An unsafe tour of Rust's Send and Sync][6]
 - [Josh Haberman: Thread Safety in C++ and Rust][7]
+- [Cliff L. Biffle: Safely writing code that isn't thread-safe][8]
 
 
 
@@ -43,3 +44,4 @@ Play with these types from multiple threads to see how compile time [fearless co
 [5]: http://huonw.github.io/blog/2015/02/some-notes-on-send-and-sync
 [6]: https://nyanpasu64.github.io/blog/an-unsafe-tour-of-rust-s-send-and-sync
 [7]: https://blog.reverberate.org/2021/12/18/thread-safety-cpp-rust.html
+[8]: https://cliffle.com/blog/not-thread-safe
