@@ -63,7 +63,7 @@ This makes tests more granular (and so, more meaningful test failures) and testi
 
 [Rust] ecosystem has [enough solutions][1] for [mocking][41], some of them are quite mature.
 
-The most interested one is [`mockiato`] crate at the moment, as is quite ergonomic in use and supports stable [Rust].
+The most interested one is [`mockiato`] crate at the moment, as is quite ergonomic in use and supports stable [Rust]. [`unimock`] crate works in the very similar way, but supports supertraits, as uses the single `Unimock` type for mocking.
 
 Additionally, [`mockito`] crate should be mentioned as a quite useful one for HTTP testing.
 
@@ -74,6 +74,7 @@ For better overview and familiarity with [mocking][41] in [Rust], read through t
 - [Official `mockall` crate docs][`mockall`]
 - [Official `mockiato` crate docs][`mockiato`]
 - [Official `mockito` crate docs][`mockito`]
+- [Official `unimock` crate docs][`unimock`]
 
 
 
@@ -127,6 +128,7 @@ For the implementation of a small [guessing game][51] in [this step's crate](src
 [`mockito`]: https://docs.rs/mockito
 [`proptest`]: https://docs.rs/proptest
 [`quickcheck`]: https://docs.rs/quickcheck
+[`unimock`]: https://docs.rs/unimock
 [AFL]: http://lcamtuf.coredump.cx/afl
 [afl.rs]: https://github.com/rust-fuzz/afl.rs
 [BDD]: https://en.wikipedia.org/wiki/Behavior-driven_development
