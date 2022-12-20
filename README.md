@@ -12,7 +12,7 @@ This project represents a hard-way step-by-step [Rust] learning course from lang
 
 ### Before you start
 
-1. [Create][1] a new [GitHub repository] for yourself using this one [as template][2].
+1. [Create][1] a new [GitHub repository] for yourself using this one [as template][2]. Don't forget to make it private.
 2. [Invite as a collaborator][3] of your repository the person you want to review your lessons (lead).
 
 
