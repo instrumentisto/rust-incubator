@@ -120,7 +120,7 @@ Do not hesitate to ask your lead with questions, however you won't receive a con
 [rustup]: https://rustup.rs
 [This Week in Rust]: https://this-week-in-rust.org
 
-[1]: https://github.com/instrumentisto/rust-incubator/generate
+[1]: https://github.com/rust-lang-ua/rust_incubator_eng/generate
 [2]: https://help.github.com/en/articles/creating-a-repository-from-a-template
 [3]: https://help.github.com/en/articles/inviting-collaborators-to-a-personal-repository
 [4]: https://prev.rust-lang.org/book/ch14-03-cargo-workspaces.html
