@@ -74,7 +74,7 @@ Implement them for the following types: `Box<T>`, `Rc<T>`, `Vec<T>`, `String`, `
 [slice]: https://doc.rust-lang.org/std/primitive.slice.html
 
 [1]: https://doc.rust-lang.org/book/ch15-01-box.html
-[2]: https://www.reddit.com/r/rust/comments/9akmqv/pinned_objects_eli5/
+[2]: https://www.reddit.com/r/rust/comments/9akmqv/pinned_objects_eli5
 [3]: https://fasterthanli.me/articles/whats-in-the-box
 [4]: https://blog.adamchalmers.com/pin-unpin
 [5]: https://blog.schichler.dev/pinning-in-plain-english-ckwdq3pd0065zwks10raohh85

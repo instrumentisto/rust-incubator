@@ -53,11 +53,24 @@ For better understanding [`AsRef`]/[`AsMut`] purpose, design, limitations and us
 
 Novices in [Rust] are often confused with the fact that [`AsRef`]/[`AsMut`] and [`Borrow`]/[`BorrowMut`] traits have the same signatures, because it may not be clear which trait to use or implement for their needs.
 
-They, however, differ quite clear in their semantics (and so in their blanket and non-blanket `impl`s):
-- [`AsRef`]/[`AsMut`] encode "is a" semantics, meaning that the implementor type may be represented as a reference to the implemented type. More like one type may mimic another one.
-- [`Borrow`]/[`BorrowMut`] encode "has a" semantics, meaning that the implementor type contains the implemented type inside and may borrow it. More like one type is a container for another one.
+See [explanation in `Borrow` trait docs][`Borrow`]:
 
-For example, it's natural for an `UserEmail` type to implement `AsRef<str>`, so it may be easily consumed in the code accepting `&str` (converted to `&str`). And it's good for some execution `Context` to implement `Borrow<dyn Repository>`, so it can be extracted and used where needed, without using the whole `Context`.
+> Further, when providing implementations for additional traits, it needs to be considered whether they should behave identical to those of the underlying type as a consequence of acting as a representation of that underlying type. Generic code typically uses `Borrow<T>` when it relies on the identical behavior of these additional trait implementations. These traits will likely appear as additional trait bounds.
+> 
+> In particular `Eq`, `Ord` and `Hash` must be equivalent for borrowed and owned values: `x.borrow() == y.borrow()` should give the same result as `x == y`.
+> 
+> If generic code merely needs to work for all types that can provide a reference to related type `T`, it is often better to use `AsRef<T>` as more types can safely implement it.
+
+And [another one in `AsRef` trait docs][`AsRef`]:
+
+> - Unlike `AsRef`, `Borrow` has a blanket impl for any `T`, and can be used to accept either a reference or a value.
+> - `Borrow` also requires that `Hash`, `Eq` and `Ord` for a borrowed value are equivalent to those of the owned value. For this reason, if you want to borrow only a single field of a struct you can implement `AsRef`, but not `Borrow`.
+
+So, as a conclusion:
+- [`AsRef`]/[`AsMut`] means that the implementor type may be represented as a reference to the implemented type. More like one type contains another one, or is just generally reference-convertible to the one.
+- [`Borrow`]/[`BorrowMut`] means that the implementor type is equivalent to the implemented type in its semantics, differing only in how its data is stored. More like one type is just a pointer to another one.
+
+For example, it's natural for an `UserEmail` type to implement `Borrow<str>`, so it may be easily consumed in the code accepting `&str` (converted to `&str`), as they're semantically equivalent regarding `Hash`, `Eq` and `Ord`. And it's good for some execution `Context` to implement `AsRef<dyn Repository>`, so it can be extracted and used where needed, without using the whole `Context`.
 
 
 ### Inner-to-outer conversion
@@ -151,7 +164,7 @@ fn average(values: &[f64]) -> f64 {
 }
 ```
 
-However, it supports only a [small, fixed set of transformations][7], and __is not idiomatic to use when other conversion possibilities are available__ (like [`From`], [`TryFrom`], [`AsRef`]).
+However, it supports only a [small, fixed set of transformations][7], and __is [not idiomatic][11] to use when other conversion possibilities are available__ (like [`From`], [`TryFrom`], [`AsRef`]).
 
 See also:
 - [Rust By Example: 5.1. Casting][9]
@@ -197,3 +210,4 @@ Provide conversion and `Deref` implementations for these types on your choice, t
 [8]: https://doc.rust-lang.org/rust-by-example/conversion/from_into.html
 [9]: https://doc.rust-lang.org/rust-by-example/types/cast.html
 [10]: https://ricardomartins.cc/2016/08/03/convenient_and_idiomatic_conversions_in_rust
+[11]: https://rust-lang.github.io/rust-clippy/master/index.html#as_conversions
