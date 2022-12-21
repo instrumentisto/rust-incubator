@@ -35,7 +35,7 @@ Note, that pinning and [`Unpin`] only affect the pointed-to type `P::Target`, no
 
 For better understanding [`Pin`] purpose, design, limitations and use cases read through:
 - [Official `std::pin` docs][`std::pin`]
-- [Reddit: Pinned objects ELI5?][1]
+- [Reddit: Pinned objects ELI5?][2]
 - [Adam Chalmers: Pin, Unpin, and why Rust needs them][4]
 - [Tamme Schichler: Pinning in plain English][5]
 - [Yoshua Wuyts: Safe Pin Projections Through View Types][6]
