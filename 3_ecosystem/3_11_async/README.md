@@ -81,6 +81,25 @@ For better understanding [actix] actors design, concepts, usage, and features, r
 
 
 
+## Mutlithreading vs Async
+
+Multithreading programming is all about concurrent execution of different functions. Async programming is about non-blocking execution between functions, and we can apply async with single-threaded or multithreaded programming.
+
+So, multithreading is one form of asynchronous programming.
+
+Let’s take a simple analogy:
+
+- Synchronous: you cook the eggs, then you cook the toast.
+- Asynchronous, single threaded: you start the eggs cooking and set a timer. You start the toast cooking, and set a timer. While they are both cooking, you clean the kitchen. When the timers go off you take the eggs off the heat and the toast out of the toaster and serve them.
+- Asynchronous, multithreaded: you hire two more cooks, one to cook eggs and one to cook toast. Now you have the problem of coordinating the cooks so that they do not conflict with each other in the kitchen when sharing resources. And you have to pay them.
+
+From that analogy, we can conclude that **Multithreading is about workers, Async is about tasks.**
+
+![Synchronous vs Async vs Multithreading](https://i.imgur.com/o0wETfj.png)
+
+
+
+
 ## Task
 
 Implement an async-driven CLI tool, which downloads specified web pages:
