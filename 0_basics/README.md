@@ -14,7 +14,7 @@ After completing these steps, you should be able to answer (and understand why) 
 - What runtime [Rust] has? Does it use a GC (garbage collector)?
 - What statically typing means? What is a benefit of using it? Weak typing vs strong typing? Implicit / explicit?
 - What are generics and parametric polymorphism? Which problems do they solve?
-- What are traits? How are they used? How do they compare to interfaces? What are an auto trait and a blanket impl? What is a marker trait?
+- What are traits? How are they used? How do they compare to interfaces? What are an auto trait and a blanket impl? Uncovered type? What is a marker trait?
 - What are static and dynamic dispatches? Which should I use, and when?
 - What is a crate and what is a module in Rust? How do they differ? How are the used?
 - What are move semantics? What are borrowing rules? What is the benefit of using them?
