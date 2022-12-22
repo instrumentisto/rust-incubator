@@ -54,8 +54,8 @@ _Additional_ articles, which may help to understand the above topic better:
 [1]: https://chrismorgan.info/blog/rust-ownership-the-hard-way
 [2]: https://aloso.github.io/2021/03/28/module-system.html
 [3]: https://thume.ca/2019/07/14/a-tour-of-metaprogramming-models-for-generics
-[4]: https://jeffa.io/rust_guide_generics_demystified_part_1
-[5]: https://jeffa.io/rust_guide_generics_demystified_part_2
+[4]: https://web.archive.org/web/20220525213911/http://jeffa.io/rust_guide_generics_demystified_part_1
+[5]: https://web.archive.org/web/20220328114028/https://jeffa.io/rust_guide_generics_demystified_part_2
 [6]: https://www.brandons.me/blog/polymorphism-in-rust
 [7]: https://www.tangramvision.com/blog/c-rust-generics-and-specialization#substitution-ordering--failures
 [8]: https://cooscoos.github.io/blog/stress-about-strings
