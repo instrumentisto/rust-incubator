@@ -77,6 +77,27 @@ For better understanding and familiarity with parallelism in [Rust], read throug
 
 
 
+## Multiprocessing
+
+Multiprocessing is a system that has more than one or two processors. In Multiprocessing, CPUs are added for increasing computing speed of the system. Because of Multiprocessing, There are many processes are executed simultaneously.
+
+
+
+
+## Multiprocessing vs Multithreading
+
+|     Parameter    |                                                              Multiprocessing                                                              |                                                        Multithreading                                                        |
+|:----------------:|:-----------------------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------:|
+| Basic            | Multiprocessing helps you to increase computing power.                                                                                    | Multithreading helps you to create computing threads of a single process to increase computing power.                        |
+| Execution        | It allows you to execute multiple processes concurrently.                                                                                 | Multiple threads of a single process are executed concurrently.                                                              |
+| CPU switching    | In Multiprocessing, CPU has to switch between multiple programs so  that it looks like that multiple programs are running simultaneously. | In multithreading, CPU has to switch between multiple threads to make it appear that all threads are running simultaneously. |
+| Creation         | The creation of a process is slow and resource-specific.                                                                                  | The creation of a thread is economical in time and resource.                                                                 |
+| Classification   | Multiprocessing can be symmetric or asymmetric.                                                                                           | Multithreading is not classified.                                                                                            |
+| Memory           | Multiprocessing allocates separate memory and resources for each process or program.                                                      | Multithreading threads belonging to the same process share the same memory and resources as that of the process.             |
+| Pickling objects | Multithreading avoids pickling.                                                                                                           | Multiprocessing relies on pickling objects in memory to send to other processes.                                             |
+| Program          | Multiprocessing system allows executing multiple programs and tasks.                                                                      | Multithreading system executes multiple threads of the same or different processes.                                          |
+
+
 ## Task
 
 Write a program with the following workflow:
