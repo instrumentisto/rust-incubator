@@ -18,7 +18,7 @@ After completing these steps, you should be able to answer (and understand why) 
 - What are static and dynamic dispatches? Which should I use, and when?
 - What is a crate and what is a module in Rust? How do they differ? How are the used? What is workspace?
 - What is immutability? What is the benefit of using it?
-- What is cloning? What is copying? How do they compare?
+- What is cloning? What is copying? How do they compare? What is for trait drop? What is special about the trait?
 - What are move semantics? What are borrowing rules? What is the benefit of using them?
 - What is RAII? How is it implemented in [Rust]? What is the benefit of using it?
 - What is an iterator? What is a collection? How do they differ? How are they used?
