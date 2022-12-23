@@ -53,6 +53,13 @@ Do not hesitate to ask your lead with questions, however you won't receive a con
     - [ ] [3.10. Multithreading and parallelism][Step 3.10] (1 day)
     - [ ] [3.11. Async I/O, futures and actors][Step 3.11] (2 days)
     - [ ] [3.12. Web frameworks, databases, connection pools and ORMs][Step 3.12] (1 day)
+- [ ] [4. Zero To Production][Step 4]
+    - [ ] [4.1. Basic actix-web][Step 4.1]
+    - [ ] [4.2. Logging][Step 4.2]
+    - [ ] [4.3. Docker and deployment][Step 4.3]
+    - [ ] [4.4. Type-Driven Development and testing][Step 4.4]
+    - [ ] [4.5. Advanced actix-web and error handling][Step 4.5]
+    - [ ] [4.6. Authorization][Step 4.6]
 
 
 
@@ -87,6 +94,13 @@ Do not hesitate to ask your lead with questions, however you won't receive a con
 [Step 3.10]: 3_ecosystem/3_10_threads
 [Step 3.11]: 3_ecosystem/3_11_async
 [Step 3.12]: 3_ecosystem/3_12_web_db
+[Step 4]: 4_zero2prod
+[Step 4.1]: 4_zero2prod/3_chapter
+[Step 4.2]: 4_zero2prod/4_chapter
+[Step 4.3]: 4_zero2prod/5_chapter
+[Step 4.4]: 4_zero2prod/6_chapter
+[Step 4.5]: 4_zero2prod/7_chapter
+[Step 4.6]: 4_zero2prod/10_chapter
 
 [Awesome Rust]: https://github.com/rust-unofficial/awesome-rust
 [Baby Steps]: http://smallcultfollowing.com/babysteps
