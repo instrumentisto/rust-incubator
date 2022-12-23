@@ -108,9 +108,9 @@ Do not hesitate to ask your lead with questions, however you won't receive a con
 [Rust Book]: https://doc.rust-lang.org/book
 [Rust By Example]: https://doc.rust-lang.org/rust-by-example
 [Rust Cookbook]: https://rust-lang-nursery.github.io/rust-cookbook
-[Rust Design Patterns]: https://github.com/rust-unofficial/patterns
+[Rust Design Patterns]: https://rust-unofficial.github.io/patterns
 [Rust Edition Guide]: https://doc.rust-lang.org/edition-guide
-[Rust FAQ]: https://www.rust-lang.org/faq.html
+[Rust FAQ]: https://prev.rust-lang.org/faq.html
 [Rust Playground]: https://play.rust-lang.org
 [Rust Reference]: https://doc.rust-lang.org/reference
 [Rust std lib]: https://doc.rust-lang.org/std
@@ -123,4 +123,4 @@ Do not hesitate to ask your lead with questions, however you won't receive a con
 [1]: https://github.com/rust-lang-ua/rust_incubator_eng/generate
 [2]: https://help.github.com/en/articles/creating-a-repository-from-a-template
 [3]: https://help.github.com/en/articles/inviting-collaborators-to-a-personal-repository
-[4]: https://prev.rust-lang.org/book/ch14-03-cargo-workspaces.html
+[4]: https://doc.rust-lang.org/book/ch14-03-cargo-workspaces.html

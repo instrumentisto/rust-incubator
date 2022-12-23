@@ -130,4 +130,4 @@ It should compile on stable [Rust].
 [22]: https://dev.to/gruberb/explained-how-does-async-work-in-rust-46f8
 [41]: https://en.wikipedia.org/wiki/Actor_model
 [42]: https://en.wikipedia.org/wiki/Concurrency_(computer_science)
-[43]: https://actix.rs/book/actix
+[43]: https://actix.rs/docs

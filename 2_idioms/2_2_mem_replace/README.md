@@ -150,6 +150,6 @@ Improve and optimize the code contained in [this step's crate](src/main.rs) to c
 
 [1]: https://stackoverflow.com/a/30290070/1828012
 [2]: https://doc.rust-lang.org/book/ch04-02-references-and-borrowing.html#the-rules-of-references
-[3]: https://github.com/rust-unofficial/patterns/blob/master/idioms/mem-replace.md
+[3]: https://rust-unofficial.github.io/patterns/idioms/mem-replace.html
 [4]: http://xion.io/post/code/rust-move-out-of-container.html
 [5]: https://doc.rust-lang.org/edition-guide/rust-2021/disjoint-capture-in-closures.html
