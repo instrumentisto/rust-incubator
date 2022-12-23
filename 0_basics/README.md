@@ -61,3 +61,4 @@ _Additional_ articles, which may help to understand the above topic better:
 [7]: https://www.tangramvision.com/blog/c-rust-generics-and-specialization#substitution-ordering--failures
 [8]: https://cooscoos.github.io/blog/stress-about-strings
 [9]: https://www.thecodedmessage.com/posts/raii
+[10]: https://vojtechkral.github.io/blag/rust-drop-order/
