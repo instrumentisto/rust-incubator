@@ -13,6 +13,8 @@
     "pattern": "^https://dalek.rs"
   }, {
     "pattern": "^https://www.cs.bgu.ac.il"
+  }, {
+    "pattern": "^https://www.java.com"
   }],
   "timeout": "30s"
 }
