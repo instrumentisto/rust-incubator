@@ -191,7 +191,7 @@ Fact about Vec: Vec may re-allocate on growing.
 [3]: https://www.reddit.com/r/rust/comments/8oqj14/why_phantomdata
 [4]: https://riptutorial.com/rust/example/24109/using-phantomdata-as-a-type-marker
 [5]: https://stackoverflow.com/questions/28247543/motivation-behind-phantom-types
-[6]: https://www.greyblake.com/blog/2021-10-11-phantom-types-in-rust
+[6]: https://www.greyblake.com/blog/phantom-types-in-rust
 [7]: https://doc.rust-lang.org/stable/reference/special-types-and-traits.html#auto-traits
 [8]: https://docs.rs/variance/0.1.3/src/variance/lib.rs.html#16
 [9]: https://docs.rs/variance/0.1.3/src/variance/lib.rs.html#92

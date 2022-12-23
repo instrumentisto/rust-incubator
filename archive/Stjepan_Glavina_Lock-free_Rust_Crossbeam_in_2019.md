@@ -90,7 +90,7 @@ working on the project and asked the Rust community to take it over. Many
 people showed interest in contributing and that is how I got involved, too.
 
 [aaron-turon]: https://github.com/aturon
-[aaron-blog-post]: https://aturon.github.io/blog/2015/08/27/epoch/
+[aaron-blog-post]: https://aturon.github.io/blog/2015/08/27/epoch
 [internals-post]: https://internals.rust-lang.org/t/crossbeam-request-for-help/4933
 [old-crossbeam]: https://docs.rs/crossbeam/0.3.2/crossbeam/index.html
 [old-scoped]: https://docs.rs/crossbeam/0.3.2/crossbeam/fn.scope.html
@@ -695,4 +695,4 @@ I've learned a lot from you and still am!
 
 [patreon]: https://www.patreon.com/stjepang
 [boats]: https://github.com/withoutboats
-[org-debt]: https://boats.gitlab.io/blog/post/rust-2019/
+[org-debt]: https://boats.gitlab.io/blog/post/rust-2019

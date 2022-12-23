@@ -127,7 +127,7 @@ Implement this behavior using [typestates idiom][3], so that calling `delete()` 
 [`uom`]: https://docs.rs/uom
 [Rust]: https://www.rust-lang.org
 
-[1]: https://github.com/rust-unofficial/patterns/blob/master/patterns/newtype.md
+[1]: https://rust-unofficial.github.io/patterns/patterns/behavioural/newtype.html
 [2]: https://doc.rust-lang.org/rust-by-example/generics/new_types.html
 [3]: https://yoric.github.io/post/rust-typestate
 [4]: https://hoverbear.org/2016/10/12/rust-state-machine-pattern
@@ -135,4 +135,4 @@ Implement this behavior using [typestates idiom][3], so that calling `delete()` 
 [6]: https://willcrichton.net/notes/type-level-programming
 [7]: https://lexi-lambda.github.io/blog/2019/11/05/parse-don-t-validate
 [7_ru]: https://habr.com/ru/post/498042
-[8]: https://www.greyblake.com/blog/2021-10-25-builder-with-typestate-in-rust
+[8]: https://www.greyblake.com/blog/builder-with-typestate-in-rust

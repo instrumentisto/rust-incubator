@@ -203,9 +203,9 @@ Provide conversion and `Deref` implementations for these types on your choice, t
 [1]: https://en.wikipedia.org/wiki/Strong_and_weak_typing
 [2]: https://doc.rust-lang.org/std/string/struct.String.html#impl-From%3C%26%27_%20str%3E
 [3]: https://doc.rust-lang.org/book/ch15-02-deref.html
-[4]: https://github.com/rust-unofficial/patterns/blob/master/patterns/newtype.md
+[4]: https://rust-unofficial.github.io/patterns/patterns/behavioural/newtype.html
 [5]: https://stackoverflow.com/questions/45086595/is-it-considered-a-bad-practice-to-implement-deref-for-newtypes
-[6]: https://github.com/rust-unofficial/patterns/blob/master/anti_patterns/deref.md
+[6]: https://rust-unofficial.github.io/patterns/anti_patterns/deref.html
 [7]: https://doc.rust-lang.org/reference/expressions/operator-expr.html#type-cast-expressions
 [8]: https://doc.rust-lang.org/rust-by-example/conversion/from_into.html
 [9]: https://doc.rust-lang.org/rust-by-example/types/cast.html

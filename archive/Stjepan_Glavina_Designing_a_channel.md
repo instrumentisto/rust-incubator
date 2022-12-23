@@ -229,7 +229,7 @@ than that.
 Selection almost certainly won't be stabilized and is likely to be deprecated. Perhaps even removed?
 
 Commonly suggested alternatives that do support selection are
-[chan](https://github.com/BurntSushi/chan) and [Tokio](https://tokio.rs/).
+[chan](https://github.com/BurntSushi/chan) and [Tokio](https://tokio.rs).
 The problem with chan is that it's very inefficient - performance is explicitly a non-goal.
 And Tokio, while a good solution, is simply not a drop-in replacement.
 

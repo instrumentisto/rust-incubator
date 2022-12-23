@@ -49,7 +49,7 @@ _Additional_ articles, which may help to understand the above topic better:
 [Rust]: https://www.rust-lang.org
 [Rust Book]: https://doc.rust-lang.org/book
 [Rust By Example]: https://doc.rust-lang.org/rust-by-example
-[Rust FAQ]: https://www.rust-lang.org/faq.html
+[Rust FAQ]: https://prev.rust-lang.org/faq.html
 
 [1]: https://chrismorgan.info/blog/rust-ownership-the-hard-way
 [2]: https://aloso.github.io/2021/03/28/module-system.html

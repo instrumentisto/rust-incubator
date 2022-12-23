@@ -116,7 +116,7 @@ Avoid architecture [overengineering][30] for this task, just use simple and obvi
 
 [1]: https://github.com/rust-unofficial/awesome-rust#database-1
 [2]: https://en.wikipedia.org/wiki/Connection_pool
-[3]: https://crates.io/search?q=r2d2-
+[3]: https://crates.io/search?q=r2d2
 [4]: https://en.wikipedia.org/wiki/Object-relational_mapping
 [5]: http://diesel.rs/guides
 [6]: https://en.wikipedia.org/wiki/Schema_migration
