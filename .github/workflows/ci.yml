@@ -1,0 +1,32 @@
+name: CI
+
+on:
+  push:
+    branches: ["main"]
+    tags: ["*"]
+  pull_request:
+    branches: ["main"]
+  schedule:
+    - cron: "7 7 * * 3"
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+
+  ###########
+  # Testing #
+  ###########
+
+  markdown-link:
+    name: check (links)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: gaurav-nelson/github-action-markdown-link-check@v1
+        with:
+          config-file: .markdown-link-check.json
+          folder-path: ./
+          use-quiet-mode: "yes"
+          use-verbose-mode: "yes"
