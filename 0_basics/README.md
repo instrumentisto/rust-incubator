@@ -41,9 +41,7 @@ _Additional_ articles, which may help to understand the above topic better:
 - [Jeremy Steward: C++ & Rust: Generics and Specialization][7]
 - [cooscoos: &stress about &Strings][8]
 - [Jimmy Hartzell: RAII: Compile-Time Memory Management in C++ and Rust][9]
-
-
-
+- [https://vojtechkral.github.io/blag/rust-drop-order/][10]
 
 [Cargo]: https://github.com/rust-lang/cargo
 [Cargo Book]: https://doc.rust-lang.org/cargo
