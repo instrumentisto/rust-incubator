@@ -21,12 +21,12 @@ After completing these steps, you should be able to answer (and understand why) 
 - What is cloning? What is copying? How do they compare? What is for trait drop? What is special about the trait?
 - What are move semantics? What are borrowing rules? What is the benefit of using them?
 - What is RAII? How is it implemented in [Rust]? What is the benefit of using it?
+- What are lifetimes? Which problems do they solve? Which benefits do they give?
 - What is an iterator? What is a collection? How do they differ? How are they used?
 - What are macros? Which problems do they solve? What is the difference between declarative and procedural macro?
 - How code is tested in [Rust]? Where should you put tests and why?
 - What is special about slice? What is layout of Rust standard data types? Difference between fat and thin pointers?
 - Why [Rust] has `&str` and `String` types? How do they differ? When should you use them? Why str slice coexist with slice? 
-- What are lifetimes? Which problems do they solve? Which benefits do they give?
 - Is [Rust] OOP language? Is it possible to use SOLID/GRASP? Does it have an inheritance? Is Rust functional language?
 
 After you're done notify your lead in an appropriate PR (pull request), and he will exam what you have learned.
