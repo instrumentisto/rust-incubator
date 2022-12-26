@@ -43,6 +43,7 @@ _Additional_ articles, which may help to understand the above topic better:
 - [Jimmy Hartzell: RAII: Compile-Time Memory Management in C++ and Rust][9]
 - [Trait Drop][10]
 - [Common Lifetime Misconception][11]
+- [Visualizing Memory Layout][12]
 
 [Cargo]: https://github.com/rust-lang/cargo
 [Cargo Book]: https://doc.rust-lang.org/cargo
@@ -62,3 +63,4 @@ _Additional_ articles, which may help to understand the above topic better:
 [9]: https://www.thecodedmessage.com/posts/raii
 [10]: https://vojtechkral.github.io/blag/rust-drop-order/
 [11]: https://github.com/pretzelhammer/rust-blog/blob/master/posts/common-rust-lifetime-misconceptions.md
+[12]: https://www.youtube.com/watch?v=rDoqT-a6UFg
