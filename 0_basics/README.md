@@ -17,8 +17,8 @@ After completing these steps, you should be able to answer (and understand why) 
 - What are traits? How are they used? How do they compare to interfaces? What are an auto trait and a blanket impl? Uncovered type? What is a marker trait?
 - What are static and dynamic dispatches? Which should I use, and when?
 - What is a crate and what is a module in Rust? How do they differ? How are the used? What is workspace?
-- What is immutability? What is the benefit of using it?
 - What is cloning? What is copying? How do they compare? What is for trait drop? What is special about the trait?
+- What is immutability? What is the benefit of using it?
 - What are move semantics? What are borrowing rules? What is the benefit of using them?
 - What is RAII? How is it implemented in [Rust]? What is the benefit of using it?
 - What are lifetimes? Which problems do they solve? Which benefits do they give?
