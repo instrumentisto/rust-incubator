@@ -42,6 +42,7 @@ _Additional_ articles, which may help to understand the above topic better:
 - [cooscoos: &stress about &Strings][8]
 - [Jimmy Hartzell: RAII: Compile-Time Memory Management in C++ and Rust][9]
 - [Trait Drop][10]
+- [Common Lifetime Misconception][11]
 
 [Cargo]: https://github.com/rust-lang/cargo
 [Cargo Book]: https://doc.rust-lang.org/cargo
@@ -60,3 +61,4 @@ _Additional_ articles, which may help to understand the above topic better:
 [8]: https://cooscoos.github.io/blog/stress-about-strings
 [9]: https://www.thecodedmessage.com/posts/raii
 [10]: https://vojtechkral.github.io/blag/rust-drop-order/
+[11]: https://github.com/pretzelhammer/rust-blog/blob/master/posts/common-rust-lifetime-misconceptions.md
