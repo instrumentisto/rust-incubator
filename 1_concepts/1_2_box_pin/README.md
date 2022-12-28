@@ -46,25 +46,42 @@ For better understanding [`Pin`] purpose, design, limitations and use cases read
 
 ## Task
 
-Given the following traits:
-```rust
-trait MutMeSomehow {
-    fn mut_me_somehow(self: Pin<&mut Self>);
-}
-```
-```rust
-trait SayHi: fmt::Debug {
-    fn say_hi(self: Pin<&Self>) {
-        println!("Hi from {:?}", self)
-    }
-}
-```
+1. For the following types: `Box<T>`, `Rc<T>`, `Vec<T>`, `String`, `&[u8]`, `T`.  
+   Implement the following traits:
+   ```rust
+   trait SayHi: fmt::Debug {
+       fn say_hi(self: Pin<&Self>) {
+           println!("Hi from {:?}", self)
+       }
+   }
+   ```
+   ```rust
+   trait MutMeSomehow {
+       fn mut_me_somehow(self: Pin<&mut Self>) {
+           // Implementation must be meaningful, and
+           // obviously call something requiring `&mut self`.
+           // The point here is to practice dealing with
+           // `Pin<&mut Self>` -> `&mut self` conversion
+           // in different contexts, without introducing 
+           // any `Unpin` trait bounds.
+       }
+   }
+   ```
 
-Implement them for the following types: `Box<T>`, `Rc<T>`, `Vec<T>`, `String`, `&[u8]`, `T`.
+2. For the following structure:
+   ```rust
+   struct MeasurableFuture<Fut> {
+       inner_future: Fut,
+       started_at: Option<std::time::Instant>,
+   }
+   ```
+   Provide a [`Future`] trait implementation, transparently polling the `inner_future`, and printing its execution time in nanoseconds once it's ready. Using `Fut: Unpin` trait bound (or similar) is not allowed. 
+
 
 
 
 [`Box`]: https://doc.rust-lang.org/std/boxed/struct.Box.html
+[`Future`]: https://doc.rust-lang.org/std/future/trait.Future.html
 [`Pin`]: https://doc.rust-lang.org/std/pin/struct.Pin.html
 [`std::boxed`]: https://doc.rust-lang.org/std/boxed/index.html
 [`std::pin`]: https://doc.rust-lang.org/std/pin/index.html
