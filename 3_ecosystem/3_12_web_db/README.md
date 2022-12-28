@@ -95,6 +95,7 @@ The `Article` entity must consist of the following fields (except `id`):
 - `labels` - the list of `Article` labels.
 
 Avoid architecture [overengineering][30] for this task, just use simple and obvious solutions.
+Prove your implementation correctness with [end-to-end tests][31].
 
 
 
@@ -129,3 +130,4 @@ Avoid architecture [overengineering][30] for this task, just use simple and obvi
 [25]: https://hyper.rs/guides/server/hello-world
 [26]: https://actix.rs/docs/server
 [30]: https://en.wikipedia.org/wiki/Overengineering
+[31]: https://www.lpalmieri.com/posts/2020-08-31-zero-to-production-3-5-html-forms-databases-integration-tests/#3-3-integration-testing-with-side-effects

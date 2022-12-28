@@ -120,6 +120,7 @@ Implement a `btreemap!` macro, which allows to create [`BTreeMap`] in an ergonom
 
 Provide two implementations: one via declarative macro and other one via procedural macro.
 
+Prove your implementation correctness with tests.
 
 
 

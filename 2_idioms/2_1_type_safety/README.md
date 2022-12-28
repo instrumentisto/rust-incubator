@@ -118,7 +118,7 @@ For the `Post` type described above, assume the following behavior in our applic
 ```
 
 Implement this behavior using [typestates idiom][3], so that calling `delete()` on `New` post (or calling `deny()` on `Deleted` post) will be a compile-time error.
-
+Write simple tests for the task.
 
 
 

@@ -60,8 +60,9 @@ trait SayHi: fmt::Debug {
 }
 ```
 
-Implement them for the following types: `Box<T>`, `Rc<T>`, `Vec<T>`, `String`, `&[u8]`, `T`.
-
+Implement them for the following types: `Box<T>`, `Rc<T>`, `Vec<T>`, `String`, `&[u8]`, `T`. 
+`mut_me_somehow` must mutate self somehow. You can add trait bounds to the types.
+Write simple tests to demonstrate `mut_me_somehow`.
 
 
 [`Box`]: https://doc.rust-lang.org/std/boxed/struct.Box.html

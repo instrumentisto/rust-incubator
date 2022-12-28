@@ -164,7 +164,7 @@ struct User {
 ```
 
 Implement `UserRepository` type with injectable `Storage` implementation, which can get, add, update and remove `User` in the injected `Storage`. Make two different implementations: one should use [dynamic dispatch][2] for `Storage` injecting, and the other one should use [static dispatch][1].
-
+Prove your implementation correctness with tests.
 
 
 

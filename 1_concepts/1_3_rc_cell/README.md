@@ -145,6 +145,7 @@ Write a `GlobalStack<T>` collection which represents a trivial unsized [stack] (
 - can be mutated through multiple shared references (`&GlobalStack<T>`);
 - cloning doesn't clone data, but only produces a pointer, so multiple owners mutate the same data.
 
+Implement tests for `GlobalStack<T>`.
 
 
 

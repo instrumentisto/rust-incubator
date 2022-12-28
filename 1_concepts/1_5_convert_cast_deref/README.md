@@ -181,6 +181,7 @@ Implement the following types:
 
 Provide conversion and `Deref` implementations for these types on your choice, to make their usage and interoperability with `std` types easy and ergonomic.
 
+Write simple tests for the task.
 
 
 

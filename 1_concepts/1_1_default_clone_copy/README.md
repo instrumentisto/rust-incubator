@@ -69,6 +69,7 @@ For better understanding the topic, read through:
 
 - Create a `Point` type which represents a 2D point (`x` and `y` coordinates). This type has to be `Copy` and `Default`.
 - Create a `Polyline` type which represents a non-empty set of `Point`s of unknown size. This type has to be `Clone` and non-`Default`. 
+- Write simple tests for the task.
 
 
 
