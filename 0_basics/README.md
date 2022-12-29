@@ -40,6 +40,7 @@ _Additional_ articles, which may help to understand the above topic better:
 - [Jeremy Steward: C++ & Rust: Generics and Specialization][7]
 - [cooscoos: &stress about &Strings][8]
 - [Jimmy Hartzell: RAII: Compile-Time Memory Management in C++ and Rust][9]
+- [Georgios Antonopoulos: Rust vs Common C++ Bugs][10]
 
 
 
@@ -60,3 +61,4 @@ _Additional_ articles, which may help to understand the above topic better:
 [7]: https://www.tangramvision.com/blog/c-rust-generics-and-specialization#substitution-ordering--failures
 [8]: https://cooscoos.github.io/blog/stress-about-strings
 [9]: https://www.thecodedmessage.com/posts/raii
+[10]: https://geo-ant.github.io/blog/2022/common-cpp-errors-vs-rust
