@@ -17,6 +17,9 @@ For random values generation [Rust] ecosystem has the [`rand`] crate, providing 
 
 One of the most common cases when you need to deal with generating random values is a generation of universally unique identifiers (such as [UUID]). Fortunately, [Rust] has the [`uuid`] crate already, which implements [all versions of UUID specification][3].
 
+More reading:
+- [Aleksey Kladov: On Random Numbers][16]
+
 
 
 
@@ -150,3 +153,4 @@ Implement the following functions:
 [13]: https://codahale.com/a-lesson-in-timing-attacks
 [14]: https://docs.rs/rustls/#non-features
 [15]: https://kerkour.com/blog/rust-cryptography-ecosystem
+[16]: https://matklad.github.io/2023/01/04/on-random-numbers.html 
