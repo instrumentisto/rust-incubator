@@ -19,6 +19,7 @@ One of the most common cases when you need to deal with generating random values
 
 More reading:
 - [Aleksey Kladov: On Random Numbers][16]
+- [Orhun Parmaksız: Zero-dependency random number generation in Rust][17]
 
 
 
@@ -154,3 +155,4 @@ Implement the following functions:
 [14]: https://docs.rs/rustls/#non-features
 [15]: https://kerkour.com/blog/rust-cryptography-ecosystem
 [16]: https://matklad.github.io/2023/01/04/on-random-numbers.html 
+[17]: https://blog.orhun.dev/zero-deps-random-in-rust
