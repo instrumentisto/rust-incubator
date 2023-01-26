@@ -108,6 +108,7 @@ For better understanding and familiarity with [fuzzing][31] in [Rust], read thro
 - [Rust Fuzz Book][34]
 - [Official `cargo-fuzz` crate docs][`cargo-fuzz`]
 - [Official `honggfuzz` crate docs][`honggfuzz`]
+- [Adrian Taylor: Comparative fuzzing parallel Rust tools][35]
 
 
 
@@ -153,6 +154,7 @@ For the implementation of a small [guessing game][51] in [this step's crate](src
 [32]: https://github.com/rust-fuzz/trophy-case
 [33]: https://crates.io/search?q=fuzzing
 [34]: https://rust-fuzz.github.io/book/cargo-fuzz.html
+[35]: https://medium.com/@adetaylor/comparative-fuzzing-parallel-rust-tools-fac5ce9c9c2d
 [41]: https://en.wikipedia.org/wiki/Mock_object
 [43]: https://asomers.github.io/mock_shootout
 [51]: https://doc.rust-lang.org/book/ch02-00-guessing-game-tutorial.html
