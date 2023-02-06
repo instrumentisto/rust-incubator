@@ -91,7 +91,7 @@ After completing these steps, you should be able to answer (and understand why) 
 - What is RAII? How is it implemented in [Rust]? What is the benefit of using it?
 
 [x]
-    Пременные не только держат данные в стеке, они так же могуть владеть ресурсами. Явный пример - Box<T>. - Владеет памятью в куче. Когда обьет выходит за область видимости, вызывается его деструктор, а ресурс которым он владеет освобождается. 
+    Пременные не только держат данные в стеке, они так же могут владеть ресурсами. Явный пример - Box<T>. - Владеет памятью в куче. Когда обьет выходит за область видимости, вызывается его деструктор, а ресурс которым он владеет освобождается. 
     
 
 - What is an iterator? What is a collection? How do they differ? How are they used?
