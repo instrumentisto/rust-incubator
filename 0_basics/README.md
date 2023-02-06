@@ -44,6 +44,13 @@ After completing these steps, you should be able to answer (and understand why) 
    
 - What are static and dynamic dispatches? Which should I use, and when?
 
+[x]
+    Методы выполняются двумя способами.
+    Статическая диспетчеризация - когда известен тип экземпляра, у нас есть прямое прежстваление о том какую функцию вызывать.
+    И динамическая диспетчеризация - когда тип экземпляра неизвестен, мы должны найти способ вызвать правильную функцию.
+    &dyn MyTrait - работаем с экземплярами обьектов косвенно, используя динамическую диспетчеризацию.
+    Динамическая диспетчеризация всегда немного медленнее статической.
+
 - What is a crate and what is a module in Rust? How do they differ? How are the used?
 
 [x]
