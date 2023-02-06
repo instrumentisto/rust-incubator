@@ -31,14 +31,17 @@ After completing these steps, you should be able to answer (and understand why) 
     Дженерики - используются для того, что бы функция работала с несколькими типами аргументов, исключают необходимость создавать копии "идентичных" функций для обработки каждого конкретного типа данных.
     
     fn some_here<T>(x: T) {}
-    
-    
+
     Дженерики используют static dispath
     
     Dynamic dispath - Сокращают размер двоичного файла, но приводят к снижению производительности. Компилятор требует использовать ключевое слово "dyn"
 
 - What are traits? How are they used? How do they compare to interfaces? What are an auto trait and a blanket impl? What is a marker trait?
 
+[x]
+    Трейты - перечисления функций в области видимости. Группа методов, определенных для некого типа. Абстрактное определение общего поведения.
+    Маркерный признак трейта - опеределяется через #[marker], если реализации не разрешено ничего переопределять - черта может согласиться на наличие перекрывающихся реализаций.
+   
 - What are static and dynamic dispatches? Which should I use, and when?
 
 - What is a crate and what is a module in Rust? How do they differ? How are the used?
