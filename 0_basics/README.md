@@ -26,8 +26,20 @@ After completing these steps, you should be able to answer (and understand why) 
     Статическая типизация дает самый простой машинный код, = она удобна для языков, дающих исполняемые файлы операционных систем, или JIT-комплируемые промежуточные коды. Многие ошибки исключаются на стадии компиляции(в отличии от динамически типизированных языков, где многие ошибки отлавливаются во время исполнения) 
     
 - What are generics and parametric polymorphism? Which problems do they solve?
+
+[x] 
+    Дженерики - используются для того, что бы функция работала с несколькими типами аргументов, исключают необходимость создавать копии "идентичных" функций для обработки каждого конкретного типа данных.
+    
+    fn some_here<T>(x: T) {}
+    
+    Дженерики испозьзуют static dispath
+    
+    Dynamic dispath - Сокразают размер двоичного файла, но приводят к снижению производительности. Компилятор требует использовать ключевое слово "dyn"
+
 - What are traits? How are they used? How do they compare to interfaces? What are an auto trait and a blanket impl? What is a marker trait?
+
 - What are static and dynamic dispatches? Which should I use, and when?
+
 - What is a crate and what is a module in Rust? How do they differ? How are the used?
 
 [x]
