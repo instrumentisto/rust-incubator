@@ -33,7 +33,7 @@ After completing these steps, you should be able to answer (and understand why) 
     fn some_here<T>(x: T) {}
     
     
-    Дженерики испозьзуют static dispath
+    Дженерики используют static dispath
     
     Dynamic dispath - Сокращают размер двоичного файла, но приводят к снижению производительности. Компилятор требует использовать ключевое слово "dyn"
 
