@@ -11,14 +11,17 @@ Read through [Cargo Book] and become familiar with [Cargo] and its workspaces.
 
 After completing these steps, you should be able to answer (and understand why) the following questions:
 - What memory model [Rust] has? Is it single-threaded or multiple-threaded? Is it synchronous or asynchronous?
+
 [x] 
     Раст поддерживает многопоточность из коробки, по умолчанию синхронен, с возможностью асинхронного программирования с помощью крейтов в виде tokio, async-std и других.
     
 - What runtime [Rust] has? Does it use a GC (garbage collector)?
+
 [x] 
     Имеет нулевой рантайм, не имеет сборщика мусора, вместо этого использует концепцию "владения и заимствования"
     
 - What statically typing means? What is a benefit of using it?
+
 [x] 
     Статическая типизация дает самый простой машинный код, = она удобна для языков, дающих исполняемые файлы операционных систем, или JIT-комплируемые промежуточные коды. Многие ошибки исключаются на стадии компиляции(в отличии от динамически типизированных языков, где многие ошибки отлавливаются во время исполнения) 
     
