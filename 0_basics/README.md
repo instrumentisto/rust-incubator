@@ -11,21 +11,76 @@ Read through [Cargo Book] and become familiar with [Cargo] and its workspaces.
 
 After completing these steps, you should be able to answer (and understand why) the following questions:
 - What memory model [Rust] has? Is it single-threaded or multiple-threaded? Is it synchronous or asynchronous?
+[x] 
+    Раст поддерживает многопоточность из коробки, по умолчанию синхронен, с возможностью асинхронного программирования с помощью крейтов в виде tokio, async-std и других.
+    
 - What runtime [Rust] has? Does it use a GC (garbage collector)?
+[x] 
+    Имеет нулевой рантайм, не имеет сборщика мусора, вместо этого использует концепцию "владения и заимствования"
+    
 - What statically typing means? What is a benefit of using it?
+[x] 
+    Статическая типизация дает самый простой машинный код, = она удобна для языков, дающих исполняемые файлы операционных систем, или JIT-комплируемые промежуточные коды. Многие ошибки исключаются на стадии компиляции(в отличии от динамически типизированных языков, где многие ошибки отлавливаются во время исполнения) 
+    
 - What are generics and parametric polymorphism? Which problems do they solve?
 - What are traits? How are they used? How do they compare to interfaces? What are an auto trait and a blanket impl? What is a marker trait?
 - What are static and dynamic dispatches? Which should I use, and when?
 - What is a crate and what is a module in Rust? How do they differ? How are the used?
+[x]
+    Крейт - некая библиотека, которую мы можем вызывать из вне (extern crate)
+    Модуль - обозначается ключевым словом "mod", чаще всего использется для разделения программы на множество модулей (модульное программирование)
+    
 - What are move semantics? What are borrowing rules? What is the benefit of using them?
+[x] 
+    Семантика перемещения - move semantic 
+        В раст все типы являются перемещаемями, и все операции перемещения представляют собой битовую копию исходных данных в новое место.
+        Перемещение - операция по уболчанию, мы должны явно указывать иное (передача ссылки, &mut ссылки)
+    Польза - помогает писать полее безопасный по памяти код.
+    
 - What is immutability? What is the benefit of using it?
+[x]
+    Неизмениемость - помогает лучше контролировать поведение, позволяет писать более читабельный код, вместо mut переменных часто можно использовать "замещение"
+    
 - What is cloning? What is copying? How do they compare?
 - What is RAII? How is it implemented in [Rust]? What is the benefit of using it?
 - What is an iterator? What is a collection? How do they differ? How are they used?
+[x] 
+    iter - это некий процесс, для перебора значений. В rust итераторы помогают создать процесс зацикливания, мы можем перебирать массив значений.
+    collection - это структуры данных, предоставляемые стандартной библиотекой Rust. Хранят информацию в виде последовательностей или групп. Могут содержать несколько значений одновременно. (Vec, HashMap) 
+    Обычно Vec - выбор по умолчанию для совместного хранения элементов.
+    
 - What are macros? Which problems do they solve? What is the difference between declarative and procedural macro?
+[x]
+    Макросы - обозначаются "!"в конце, как print!, println!. Помогают отхватывать множество шаблонов повторного использования кода. Помогают расширить синтакис языка. Rust включает в себя 2 вида макросов - процедурные и декларативные. Процедурные - легко включить в код. Декларативные - лучше подойдут для генерации кода, который не впишется в окружающий код. В остальном их работа схожа. Создать макрос можно через macro_rules!. 
+    
+    macro_rules! hello_world {
+        () => {
+            println!("Hello, World!");
+        };
+    }
+    
 - How code is tested in [Rust]? Where should you put tests and why?
+[x]
+    Тесты в раст - cargo test
+    обьявляем модуль с помощью #[cfg(test)]
+    пример:
+    
+    #[cfg(test)]
+    mod tests {
+        #[test]
+        fn test1() {
+            let resutl = 2+2;
+            assert_eq!(result, 4);
+        }
+    }
+
 - Why [Rust] has `&str` and `String` types? How do they differ? When should you use them?
+[x] 
+    String - относится к предварительно выделенному тексту, хранящемуся вместе с машинным кодом программы.
+    &str - ссылка на набор текста, принадлежащего кому-то другому.
 - What are lifetimes? Which problems do they solve? Which benefits do they give?
+[x] 
+    Это время жизни переменной, решают проблемы утечки памяти, как пример: доступ по указателю к переменной, которая была освобождена.
 - Is [Rust] OOP language? Is it possible to use SOLID/GRASP? Does it have an inheritance?
 
 After you're done notify your lead in an appropriate PR (pull request), and he will exam what you have learned.
