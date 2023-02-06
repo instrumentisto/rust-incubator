@@ -62,7 +62,7 @@ After completing these steps, you should be able to answer (and understand why) 
 [x] 
     Семантика перемещения - move semantic 
         В раст все типы являются перемещаемями, и все операции перемещения представляют собой битовую копию исходных данных в новое место.
-        Перемещение - операция по уболчанию, мы должны явно указывать иное (передача ссылки, &mut ссылки)
+        Перемещение - операция по умолчанию, мы должны явно указывать иное (передача ссылки, &mut ссылки)
     Польза - помогает писать полее безопасный по памяти код.
     
 - What is immutability? What is the benefit of using it?
@@ -89,6 +89,11 @@ After completing these steps, you should be able to answer (and understand why) 
     Это работает потому что происходит копирование а не перемещение.
 
 - What is RAII? How is it implemented in [Rust]? What is the benefit of using it?
+
+[x]
+    Пременные не только держат данные в стеке, они так же могуть владеть ресурсами. Явный пример - Box<T>. - Владеет памятью в куче. Когда обьет выходит за область видимости, вызывается его деструктор, а ресурс которым он владеет освобождается. 
+    
+
 - What is an iterator? What is a collection? How do they differ? How are they used?
 
 [x]
