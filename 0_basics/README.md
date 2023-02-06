@@ -148,7 +148,7 @@ After completing these steps, you should be able to answer (and understand why) 
 - Is [Rust] OOP language? Is it possible to use SOLID/GRASP? Does it have an inheritance?
 
 [x]
-    Определений ООП достаточно много, но можно выделить главные черты: наследование, инкапсуляция, абстракция и полиморфизм. Поэтому раст не является класситечки обьектно-ориентированным языком, но основные иснтрументы ООП можно применять.
+    Определений ООП достаточно много, но можно выделить главные черты: наследование, инкапсуляция, абстракция и полиморфизм. Поэтому раст не является класситечки обьектно-ориентированным языком, но основные иснтрументы ООП можно применять, так же можем наследовать трейты
 
 After you're done notify your lead in an appropriate PR (pull request), and he will exam what you have learned.
 
