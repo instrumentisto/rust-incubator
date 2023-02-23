@@ -41,6 +41,7 @@ _Additional_ articles, which may help to understand the above topic better:
 - [cooscoos: &stress about &Strings][8]
 - [Jimmy Hartzell: RAII: Compile-Time Memory Management in C++ and Rust][9]
 - [Georgios Antonopoulos: Rust vs Common C++ Bugs][10]
+- [Yurii Shymon: True Observer Pattern with Unsubscribe mechanism using Rust][11]
 
 
 
@@ -62,3 +63,4 @@ _Additional_ articles, which may help to understand the above topic better:
 [8]: https://cooscoos.github.io/blog/stress-about-strings
 [9]: https://www.thecodedmessage.com/posts/raii
 [10]: https://geo-ant.github.io/blog/2022/common-cpp-errors-vs-rust
+[11]: https://ybnesm.github.io/blah/articles/true-observer-pattern-rust
