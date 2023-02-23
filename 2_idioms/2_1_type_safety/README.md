@@ -99,6 +99,7 @@ For better understanding [typestates][3], read through the following articles:
 - [Ana Hobden: Pretty State Machine Patterns in Rust][4]
 - [Will Crichton: Type-level Programming in Rust][6]
 - [Sergey Potapov: Builder with typestate in Rust][8]
+- [Azriel Hoh: Compile Time Correctness: Type State][9]
 
 
 
@@ -136,3 +137,4 @@ Implement this behavior using [typestates idiom][3], so that calling `delete()` 
 [7]: https://lexi-lambda.github.io/blog/2019/11/05/parse-don-t-validate
 [7_ru]: https://habr.com/ru/post/498042
 [8]: https://www.greyblake.com/blog/builder-with-typestate-in-rust
+[9]: https://peace.mk/blog/compile-time-correctness-type-state
