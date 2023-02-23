@@ -81,6 +81,7 @@ For better understanding [newtype pattern][1], read through the following articl
 - [Rust Design Patterns: Newtype][1]
 - [Rust By Example: 14.7. New Type Idiom][2]
 - [Alexis King: Parse, don’t validate][7] ([ru][7_ru])
+- [Stefan Baumgartner: Refactoring in Rust: Abstraction with the Newtype Pattern][10]
 
 
 
@@ -138,3 +139,4 @@ Implement this behavior using [typestates idiom][3], so that calling `delete()` 
 [7_ru]: https://habr.com/ru/post/498042
 [8]: https://www.greyblake.com/blog/builder-with-typestate-in-rust
 [9]: https://peace.mk/blog/compile-time-correctness-type-state
+[10]: https://fettblog.eu/refactoring-rust-abstraction-newtype
