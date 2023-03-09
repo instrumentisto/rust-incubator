@@ -60,7 +60,7 @@ Do not hesitate to ask your lead with questions, however you won't receive a con
     - [ ] [4.4. Type-Driven Development and testing][Step 4.4]
     - [ ] [4.5. Advanced actix-web and error handling][Step 4.5]
     - [ ] [4.6. Authorization][Step 4.6]
-
+- [ ] [5. Final Task][Step 5]
 
 
 
@@ -101,6 +101,7 @@ Do not hesitate to ask your lead with questions, however you won't receive a con
 [Step 4.4]: 4_zero2prod/6_chapter
 [Step 4.5]: 4_zero2prod/7_chapter
 [Step 4.6]: 4_zero2prod/10_chapter
+[Step 5]: 5_final_task/
 
 [Awesome Rust]: https://github.com/rust-unofficial/awesome-rust
 [Baby Steps]: http://smallcultfollowing.com/babysteps
