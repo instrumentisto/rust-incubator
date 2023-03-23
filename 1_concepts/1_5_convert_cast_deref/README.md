@@ -72,6 +72,9 @@ So, as a conclusion:
 
 For example, it's natural for an `UserEmail` type to implement `Borrow<str>`, so it may be easily consumed in the code accepting `&str` (converted to `&str`), as they're semantically equivalent regarding `Hash`, `Eq` and `Ord`. And it's good for some execution `Context` to implement `AsRef<dyn Repository>`, so it can be extracted and used where needed, without using the whole `Context`.
 
+For better understanding [`AsRef`]/[`Borrow`] differences, read through:
+- [Anup Jadhav: AsRef vs Borrow trait (ft. ChatGPT)][12]
+
 
 ### Inner-to-outer conversion
 
@@ -211,3 +214,4 @@ Provide conversion and `Deref` implementations for these types on your choice, t
 [9]: https://doc.rust-lang.org/rust-by-example/types/cast.html
 [10]: https://ricardomartins.cc/2016/08/03/convenient_and_idiomatic_conversions_in_rust
 [11]: https://rust-lang.github.io/rust-clippy/master/index.html#as_conversions
+[12]: https://rusty-ferris.pages.dev/blog/asref-vs-borrow-trait
