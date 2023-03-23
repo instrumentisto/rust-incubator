@@ -31,6 +31,7 @@ fn describe(error: &Error) -> Cow<'static, str> {
 For better understanding [`Cow`] purpose, design, limitations and use cases read through:
 - [Official `Cow` docs][`Cow`]
 - [Pascal Hertleif: The Secret Life of Cows][1]
+- [Yashodhan Joshi: Using `Cow` in Rust for efficient memory utilization][3]
 - [Konstantin Grechishchev: 6 things you can do with the Cow 🐄 in Rust 🦀][2]
 
 
@@ -53,3 +54,4 @@ If neither `APP_CONF` env var nor `--conf` command line argument is specified, t
 
 [1]: https://deterministic.space/secret-life-of-cows.html
 [2]: https://dev.to/kgrech/6-things-you-can-do-with-the-cow-in-rust-4l55
+[3]: https://blog.logrocket.com/using-cow-rust-efficient-memory-utilization
