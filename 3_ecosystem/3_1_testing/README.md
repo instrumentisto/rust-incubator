@@ -75,6 +75,7 @@ For better overview and familiarity with [mocking][41] in [Rust], read through t
 - [Official `mockiato` crate docs][`mockiato`]
 - [Official `mockito` crate docs][`mockito`]
 - [Official `unimock` crate docs][`unimock`]
+- [Audun Halland: How to write a type-level mock library in Rust][44]
 
 
 
@@ -157,5 +158,6 @@ For the implementation of a small [guessing game][51] in [this step's crate](src
 [35]: https://medium.com/@adetaylor/comparative-fuzzing-parallel-rust-tools-fac5ce9c9c2d
 [41]: https://en.wikipedia.org/wiki/Mock_object
 [43]: https://asomers.github.io/mock_shootout
+[44]: https://audunhalland.github.io/blog/how-to-write-a-type-level-mock-library-in-rust
 [51]: https://doc.rust-lang.org/book/ch02-00-guessing-game-tutorial.html
 [61]: https://matklad.github.io/2021/05/31/how-to-test.html
