@@ -40,6 +40,7 @@ For better understanding [`Pin`] purpose, design, limitations and use cases read
 - [Tamme Schichler: Pinning in plain English][5]
 - [Yoshua Wuyts: Safe Pin Projections Through View Types][6]
 - [Official `#[pin_project]` docs][7]
+- [Alice Ryhl answers on "Pin tutorial are confusing me"][9]
 
 
 
@@ -98,3 +99,4 @@ For better understanding [`Pin`] purpose, design, limitations and use cases read
 [6]: https://blog.yoshuawuyts.com/safe-pin-projections-through-view-types
 [7]: https://docs.rs/pin-project/latest/pin_project/attr.pin_project.html
 [8]: https://mahdi.blog/rust-box-str-vs-string
+[9]: https://users.rust-lang.org/t/pin-tutorial-are-confusing-me/91003/18
