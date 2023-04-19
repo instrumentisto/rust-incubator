@@ -95,7 +95,6 @@ For better understanding [`PhantomData`] purpose, design, limitations and use ca
 
 
 
-
 ## Transparency
 
 [`PhantomData`] is transparent for [auto traits][7], which means, for example, that `PhantomData<usize>` is `Send` and `Sized`, while `PhantomData<dyn Any>` is neither `Send` nor `Sized`.

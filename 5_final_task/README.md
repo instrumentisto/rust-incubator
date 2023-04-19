@@ -1,3 +1,7 @@
+## To read
+
+- [GraphQL](https://graphql.org/learn)
+- [Juniper Book](https://graphql-rust.github.io/juniper/master/index.html)
 
 ## Task
 

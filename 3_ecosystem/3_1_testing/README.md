@@ -110,6 +110,10 @@ For better understanding and familiarity with [fuzzing][31] in [Rust], read thro
 - [Official `honggfuzz` crate docs][`honggfuzz`]
 
 
+## Integrated tests
+
+- [Integrated tests are scam (J.B. Rainsberg)][61]
+- [nextest][62]
 
 
 ## Task
@@ -149,3 +153,5 @@ For the implementation of a small [guessing game][51] in [this step's crate](src
 [41]: https://en.wikipedia.org/wiki/Mock_object
 [43]: https://asomers.github.io/mock_shootout
 [51]: https://doc.rust-lang.org/book/ch02-00-guessing-game-tutorial.html
+[61]: https://www.youtube.com/watch?v=VDfX44fZoMc
+[62]: https://nexte.st/

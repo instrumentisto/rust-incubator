@@ -49,7 +49,7 @@ For better understanding [mio] and [tokio] design, concepts, usage, and features
 - [Official `tokio` crate docs][tokio]
 - [Official `tokio` crate guide][13]
 - [Nick Cameron: Asynchronous programming with Rust: Introduction][14]
-
+- [Tokio on asyncronous tasks and executors][15]
 
 
 
@@ -64,7 +64,8 @@ For better understanding `async`/`await` design, concepts, usage, and features, 
 - [Nick Cameron: Asynchronous programming with Rust: `async` and `await`][21]
 - [Bastian Gruber: Explained: How does async work in Rust?][22]
 - [Official `runtime` crate docs][runtime]
-
+- [Manual async function implementation (as by compiler) and optimization][23]
+- [Why are async traits hard to make?][24]
 
 
 
@@ -144,9 +145,12 @@ It should compile on stable [Rust].
 [12]: https://www.snoyman.com/blog/2018/12/rust-crash-course-07-async-futures-tokio
 [13]: https://tokio.rs/docs/overview
 [14]: https://github.com/nrc/apr-intro/blob/master/intro.md
+[15]: https://tokio.rs/tokio/tutorial/async
 [20]: https://rust-lang.github.io/rfcs/2394-async_await.html
 [21]: https://github.com/nrc/apr-intro/blob/master/async-await.md
 [22]: https://dev.to/gruberb/explained-how-does-async-work-in-rust-46f8
+[23]: https://tmandry.gitlab.io/blog/posts/optimizing-await-1/
+[24]: https://smallcultfollowing.com/babysteps/blog/2019/10/26/async-fn-in-traits-are-hard/
 [41]: https://en.wikipedia.org/wiki/Actor_model
 [42]: https://en.wikipedia.org/wiki/Concurrency_(computer_science)
 [43]: https://actix.rs/docs

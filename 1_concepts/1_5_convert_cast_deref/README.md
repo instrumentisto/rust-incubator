@@ -137,6 +137,7 @@ hello(&m);
 For better understanding [`Deref`] purpose, design, limitations and use cases read through:
 - [Rust Book: 15.2. Treating Smart Pointers Like Regular References with the Deref Trait][3]
 - [Official `Deref` docs][`Deref`]
+- [Deref vs AsRef vs Borrow vs Cow][12]
 
 
 ### Incorrect usage
@@ -212,3 +213,4 @@ Write simple tests for the task.
 [9]: https://doc.rust-lang.org/rust-by-example/types/cast.html
 [10]: https://ricardomartins.cc/2016/08/03/convenient_and_idiomatic_conversions_in_rust
 [11]: https://rust-lang.github.io/rust-clippy/master/index.html#as_conversions
+[12]: https://dev.to/zhanghandong/rust-concept-clarification-deref-vs-asref-vs-borrow-vs-cow-13g6

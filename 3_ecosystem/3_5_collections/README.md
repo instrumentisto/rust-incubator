@@ -57,7 +57,7 @@ For better understanding immutable collections' nature, design, and a motivation
 - [Jean Niklas L'orange: Understanding Clojure's Persistent Vectors, pt. 1][15_1]
 - [Jean Niklas L'orange: Understanding Clojure's Persistent Vectors, pt. 2][15_2]
 - [Jean Niklas L'orange: Understanding Clojure's Persistent Vectors, pt. 3][15_3]
-
+- [Immutable Data Structures and why You want them][15_4]
 
 
 
@@ -119,3 +119,4 @@ Prove your implementation correctness with tests.
 [15_1]: https://hypirion.com/musings/understanding-persistent-vector-pt-1
 [15_2]: https://hypirion.com/musings/understanding-persistent-vector-pt-2
 [15_3]: https://hypirion.com/musings/understanding-persistent-vector-pt-3
+[15_4]: https://www.youtube.com/watch?v=Gfe-JKn7G0I

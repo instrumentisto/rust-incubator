@@ -31,3 +31,5 @@ Make its usage API as convenient as you're capable to.
 [Rust]: https://www.rust-lang.org
 
 [1]: https://en.wikipedia.org/wiki/Vending_machine
+[2]: https://doc.rust-lang.org/book/ch11-03-test-organization.html
+[3]: https://youtu.be/Vw8BFScm0K0

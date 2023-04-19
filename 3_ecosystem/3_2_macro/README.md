@@ -110,8 +110,8 @@ For better understanding procedural macros design, concepts, usage and features,
 - [Official `quote` crate docs][`quote`]
 - [Official `proc-macro2` crate docs][`proc-macro2`]
 - [Vitaly Bragilevsky: What Every Rust Developer Should Know About Macro Support in IDEs][31]
-
-
+- [Proc macro workshop][32]
+- [Macros in Rust: A tutorial with examples][33]
 
 
 ## Task
@@ -154,3 +154,5 @@ Prove your implementation correctness with tests.
 [29]: https://doc.rust-lang.org/reference/procedural-macros.html#derive-macros
 [30]: https://hackmd.io/mxdn4U58Su-UQXwzOHpHag?view#round-13-cargo-timing-opt-j8
 [31]: https://blog.jetbrains.com/rust/2022/12/05/what-every-rust-developer-should-know-about-macro-support-in-ides
+[32]: https://github.com/dtolnay/proc-macro-workshop
+[33]: https://blog.logrocket.com/macros-in-rust-a-tutorial-with-examples/
