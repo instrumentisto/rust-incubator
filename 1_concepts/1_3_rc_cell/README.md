@@ -136,6 +136,9 @@ owner1.mutate_somehow();
 owner2.mutate_somehow();
 ```
 
+And even when there is no possibility to hide lock guards behind API boundary, it may be feasible to try encoding the described property via type system, using zero-sized wrapper types on guards. See the following articles for examples and design insights:
+- [Adrian Taylor: Can the Rust type system prevent deadlocks?][7]
+
 
 
 
@@ -166,3 +169,4 @@ Write a `GlobalStack<T>` collection which represents a trivial unsized [stack] (
 [4]: https://manishearth.github.io/blog/2015/05/27/wrapper-types-in-rust-choosing-your-guarantees
 [5]: https://abronan.com/rust-trait-objects-box-and-rc
 [6]: https://pitdicker.github.io/Interior-mutability-patterns
+[7]: https://medium.com/@adetaylor/can-the-rust-type-system-prevent-deadlocks-9ae6e4123037
