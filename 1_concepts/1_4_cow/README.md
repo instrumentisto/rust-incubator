@@ -37,6 +37,34 @@ For better understanding [`Cow`] purpose, design, limitations and use cases read
 
 
 
+## Alternative implementations
+
+[`beef`] crate provides alternative `Cow` types, being faster and leaner.
+
+> There are two versions of `Cow` exposed by this crate:
+>
+> - `beef::Cow` is 3 words wide: pointer, length, and capacity. It stores the ownership tag in capacity.
+> - `beef::lean::Cow` is 2 words wide, storing length, capacity, and the ownership tag all in one word.
+> 
+> Both versions are leaner than the `std::borrow::Cow`:
+> ```rust
+> use std::mem::size_of;
+> 
+> const WORD: usize = size_of::<usize>();
+> 
+> assert_eq!(size_of::<std::borrow::Cow<str>>(), 4 * WORD);
+> assert_eq!(size_of::<beef::Cow<str>>(), 3 * WORD);
+> 
+> // Lean variant is two words on 64-bit architecture
+> #[cfg(target_pointer_width = "64")]
+> assert_eq!(size_of::<beef::lean::Cow<str>>(), 2 * WORD);
+> ```
+
+Read implementation details and design insights in [its README][4].
+
+
+
+
 ## Task
 
 Write a simple program which prints out the path to its configuration file. The path should be detected with the following precedence:
@@ -49,9 +77,11 @@ If neither `APP_CONF` env var nor `--conf` command line argument is specified, t
 
 
 
+[`beef`]: https://docs.rs/beef
 [`Cow`]: https://doc.rust-lang.org/std/borrow/enum.Cow.html
 [Rust]: https://www.rust-lang.org
 
 [1]: https://deterministic.space/secret-life-of-cows.html
 [2]: https://dev.to/kgrech/6-things-you-can-do-with-the-cow-in-rust-4l55
 [3]: https://blog.logrocket.com/using-cow-rust-efficient-memory-utilization
+[4]: https://github.com/maciejhirsz/beef#how-does-it-work
