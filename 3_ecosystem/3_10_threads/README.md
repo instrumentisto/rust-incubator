@@ -130,5 +130,5 @@ Write a program with the following workflow:
 [29]: https://nickymeuleman.netlify.app/blog/multithreading-rust
 [30]: https://dpc.pw/adding-parallelism-to-your-rust-iterators
 [31]: https://blog.m-ou.se/rust-cpp-concurrency
-[32]: https://neosmart.net/blog/2022/implementing-truly-safe-semaphores-in-rust
+[32]: https://neosmart.net/blog/implementing-truly-safe-semaphores-in-rust/
 [33]: https://vgatherps.github.io/2022-11-28-dec

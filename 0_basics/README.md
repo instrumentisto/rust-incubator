@@ -63,4 +63,4 @@ _Additional_ articles, which may help to understand the above topic better:
 [8]: https://cooscoos.github.io/blog/stress-about-strings
 [9]: https://www.thecodedmessage.com/posts/raii
 [10]: https://geo-ant.github.io/blog/2022/common-cpp-errors-vs-rust
-[11]: https://ybnesm.github.io/blah/articles/true-observer-pattern-rust
+[11]: https://web.archive.org/web/20230319015854/https://ybnesm.github.io/blah/articles/true-observer-pattern-rust
