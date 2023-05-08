@@ -97,7 +97,7 @@ Despite the fact it's quite a feature rich solution, it [lacks good support for 
 ## More reading
 
 - [Sylvain Kerkour: Overview of the Rust cryptography ecosystem][15] (Tue, Aug 24, 2021)
-
+- [Cheatsheat on cyphering, hashing adn security][16]
 
 
 
@@ -150,3 +150,4 @@ Implement the following functions:
 [13]: https://codahale.com/a-lesson-in-timing-attacks
 [14]: https://docs.rs/rustls/#non-features
 [15]: https://kerkour.com/blog/rust-cryptography-ecosystem
+[16]: https://cheatsheetseries.owasp.org/index.html

@@ -74,6 +74,8 @@ Prove your implementation correctness with tests.
 [`serde_state`]: https://docs.rs/serde_state
 [`serde_valid`]: https://docs.rs/serde_valid
 [`serde_with`]: https://docs.rs/serde_with
+[`rkyv`]: https://rkyv.org/
+[`borsh-rs`]: https://github.com/near/borsh-rs
 [Rust]: https://www.rust-lang.org
 
 [0]: https://serde.rs

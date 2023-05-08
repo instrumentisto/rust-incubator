@@ -23,9 +23,16 @@ Before completing this step you should complete all its sub-steps. After doing t
 - How should I interact with databases in [Rust] application and why? How can I organize migrations for my project?
 
 
+## Some usefull tools
 
+- [cross-rs/cross](https://github.com/cross-rs/cross)
+- [cargo-hack](https://github.com/taiki-e/cargo-hack)
+- [Miri: unsafe core interpreter](https://github.com/rust-lang/miri)
+- [cargo-outdated](https://crates.io/crates/cargo-outdated)
+- [cargo-modules](https://github.com/regexident/cargo-modules)
+- [cargo-make](https://github.com/sagiegurari/cargo-make)
+- [cargo-audit](https://github.com/RustSec/rustsec/tree/main/cargo-audit)
 
 
 [BDD]: https://en.wikipedia.org/wiki/Behavior-driven_development
-[GraphQL]: https://graphql.org/learn
 [Rust]: https://www.rust-lang.org

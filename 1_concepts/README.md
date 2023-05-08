@@ -21,7 +21,8 @@ The following articles may help you to sum up your experience:
 - [Rust, Builder Pattern, Trait Objects, `Box<T>` and `Rc<T>`][2]
 - [Rust's Built-in Traits, the When, How & Why][3]
 - [Learn Rust With Entirely Too Many Linked Lists][4]
-
+- [Rustonomicon: Subtyping and Variance][13]
+- [Crust of Rust: Subtyping and Variance][14]
 
 
 
@@ -42,3 +43,5 @@ Prove your implementation correctness with tests. Provide both single-threaded a
 [4]: https://rust-unofficial.github.io/too-many-lists/
 [11]: https://en.wikipedia.org/wiki/Doubly_linked_list
 [12]: https://en.wikipedia.org/wiki/Thread_safety
+[13]: https://doc.rust-lang.org/nomicon/subtyping.html
+[14]: https://www.youtube.com/watch?v=iVYWDIW71jk

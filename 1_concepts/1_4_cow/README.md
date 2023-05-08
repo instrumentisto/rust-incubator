@@ -32,8 +32,9 @@ For better understanding [`Cow`] purpose, design, limitations and use cases read
 - [Official `Cow` docs][`Cow`]
 - [Pascal Hertleif: The Secret Life of Cows][1]
 - [Konstantin Grechishchev: 6 things you can do with the Cow 🐄 in Rust 🦀][2]
-
-
+- [Deref vs AsRef vs Borrow vs Cow][3]
+- [&str docs][4]
+- [dealing with ownerchip and borrowing in public interfaces][5]
 
 
 ## Task
@@ -53,3 +54,6 @@ If neither `APP_CONF` env var nor `--conf` command line argument is specified, t
 
 [1]: https://deterministic.space/secret-life-of-cows.html
 [2]: https://dev.to/kgrech/6-things-you-can-do-with-the-cow-in-rust-4l55
+[3]: https://dev.to/zhanghandong/rust-concept-clarification-deref-vs-asref-vs-borrow-vs-cow-13g6
+[4]: https://doc.rust-lang.org/std/primitive.str.html
+[5]: https://phaazon.net/blog/on-owning-borrowing-pub-interface

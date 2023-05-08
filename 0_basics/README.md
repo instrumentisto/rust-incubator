@@ -44,6 +44,15 @@ _Additional_ articles, which may help to understand the above topic better:
 - [Trait Drop][10]
 - [Common Lifetime Misconception][11]
 - [Visualizing Memory Layout][12]
+- [Package vs. Crate terminology (r/rust)][13]
+- [Packages and crates (Rust wiki)][14]
+- [Full list of available crates on Rust Playground][16]
+- [Blanket impl definition][17]
+- [Auto-trait definition][18]
+
+Additional:
+- [Rust API guidline checklist][19]
+- [Interview Questions on Rust Programming][20]
 
 [Cargo]: https://github.com/rust-lang/cargo
 [Cargo Book]: https://doc.rust-lang.org/cargo
@@ -64,3 +73,10 @@ _Additional_ articles, which may help to understand the above topic better:
 [10]: https://vojtechkral.github.io/blag/rust-drop-order/
 [11]: https://github.com/pretzelhammer/rust-blog/blob/master/posts/common-rust-lifetime-misconceptions.md
 [12]: https://www.youtube.com/watch?v=rDoqT-a6UFg
+[13]: https://www.reddit.com/r/rust/comments/lvtzri/confused_about_package_vs_crate_terminology/
+[14]: https://rustwiki.org/en/book/ch07-01-packages-and-crates.html
+[16]: https://github.com/integer32llc/rust-playground/blob/master/compiler/base/Cargo.toml
+[17]: https://doc.rust-lang.org/reference/glossary.html#blanket-implementation
+[18]: https://doc.rust-lang.org/reference/special-types-and-traits.html#auto-traits
+[19]: https://rust-lang.github.io/api-guidelines/checklist.html
+[20]: https://iq.opengenus.org/questions-on-rust/
