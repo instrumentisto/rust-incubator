@@ -46,4 +46,4 @@ Play with these types from multiple threads to see how compile time [fearless co
 [6]: https://nyanpasu64.github.io/blog/an-unsafe-tour-of-rust-s-send-and-sync
 [7]: https://blog.reverberate.org/2021/12/18/thread-safety-cpp-rust.html
 [8]: https://cliffle.com/blog/not-thread-safe
-[9]: https://itsallaboutthebit.com/arc-mutex
+[9]: https://web.archive.org/web/20220929143451/https://itsallaboutthebit.com/arc-mutex
