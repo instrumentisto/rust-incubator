@@ -74,6 +74,7 @@ Do not hesitate to ask your lead with questions, however you won't receive a con
     - [ ] [2.2. Swapping values with `mem::replace`][Step 2.2] (1 day)
     - [ ] [2.3. Bound behavior, not data][Step 2.3] (1 day)
     - [ ] [2.4. Abstract type in, concrete type out][Step 2.4] (1 day)
+    - [ ] [2.5. Exhaustivity][Step 2.5] (1 day)
 - [ ] [3. Ecosystem][Step 3] (5 days)
     - [ ] [3.1. Testing and mocking][Step 3.1] (1 day)
     - [ ] [3.2. Declarative and procedural macros][Step 3.2] (1 day)
@@ -108,6 +109,7 @@ Do not hesitate to ask your lead with questions, however you won't receive a con
 [Step 2.2]: 2_idioms/2_2_mem_replace
 [Step 2.3]: 2_idioms/2_3_bound_impl
 [Step 2.4]: 2_idioms/2_4_generic_in_type_out
+[Step 2.5]: 2_idioms/2_5_exhaustivity
 [Step 3]: 3_ecosystem
 [Step 3.1]: 3_ecosystem/3_1_testing
 [Step 3.2]: 3_ecosystem/3_2_macro
