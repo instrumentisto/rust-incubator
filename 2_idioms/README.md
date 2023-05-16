@@ -10,6 +10,7 @@ Before completing this step you should complete all its sub-steps. After doing t
 - What is essential for writing well-designed and ergonomic APIs in [Rust] and why?
 - Why `mem::replace` exists and what purpose does it sole? When and why is it really helpful?
 - How input type polymorphism is usually organized in [Rust] APIs? What cost does it have?
+- Which ways and tools do exist for future-proofing source code in [Rust]?
 
 
 

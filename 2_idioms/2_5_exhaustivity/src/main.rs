@@ -1,75 +1,139 @@
-use std::net::{IpAddr, SocketAddr};
-
-fn main() {
-    println!("Refactor me!");
-
-    let mut err = Error::new("NO_USER".to_string());
-    err.status(404).message("User not found".to_string());
+pub trait EventSourced<Ev: ?Sized> {
+    fn apply(&mut self, event: &Ev);
 }
 
-#[derive(Debug)]
-pub struct Error {
-    code: String,
-    status: u16,
-    message: String,
-}
+pub mod user {
+    use std::time::SystemTime;
 
-impl Default for Error {
-    #[inline]
-    fn default() -> Self {
-        Self {
-            code: "UNKNOWN".to_string(),
-            status: 500,
-            message: "Unknown error has happened.".to_string(),
+    use super::{event, EventSourced};
+
+    #[derive(Debug)]
+    pub struct User {
+        pub id: Id,
+        pub name: Option<Name>,
+        pub online_since: Option<SystemTime>,
+        pub created_at: CreationDateTime,
+        pub last_activity_at: LastActivityDateTime,
+        pub deleted_at: Option<DeletionDateTime>,
+    }
+
+    impl EventSourced<event::UserCreated> for User {
+        fn apply(&mut self, ev: &event::UserCreated) {
+            self.id = ev.user_id;
+            self.created_at = ev.at;
+            self.last_activity_at = LastActivityDateTime(ev.at.0);
         }
     }
-}
 
-impl Error {
-    pub fn new(code: String) -> Self {
-        let mut err = Self::default();
-        err.code = code;
-        err
-    }
-
-    pub fn status(&mut self, s: u16) -> &mut Self {
-        self.status = s;
-        self
-    }
-
-    pub fn message(&mut self, m: String) -> &mut Self {
-        self.message = m;
-        self
-    }
-}
-
-#[derive(Debug, Default)]
-pub struct Server(Option<SocketAddr>);
-
-impl Server {
-    pub fn bind(&mut self, ip: IpAddr, port: u16) {
-        self.0 = Some(SocketAddr::new(ip, port))
-    }
-}
-
-#[cfg(test)]
-mod server_spec {
-    use super::*;
-
-    mod bind {
-        use std::net::Ipv4Addr;
-
-        use super::*;
-
-        #[test]
-        fn sets_provided_address_to_server() {
-            let mut server = Server::default();
-
-            server.bind(IpAddr::V4(Ipv4Addr::new(127, 0, 0, 1)), 8080);
-            assert_eq!(format!("{}", server.0.unwrap()), "127.0.0.1:8080");
-
-            server.bind("::1".parse().unwrap(), 9911);
-            assert_eq!(format!("{}", server.0.unwrap()), "[::1]:9911");
+    impl EventSourced<event::UserNameUpdated> for User {
+        fn apply(&mut self, ev: &event::UserNameUpdated) {
+            self.name = ev.name.clone();
         }
     }
+
+    impl EventSourced<event::UserBecameOnline> for User {
+        fn apply(&mut self, ev: &event::UserBecameOnline) {
+            self.online_since = Some(ev.at);
+        }
+    }
+
+    impl EventSourced<event::UserBecameOffline> for User {
+        fn apply(&mut self, ev: &event::UserBecameOffline) {
+            self.online_since = None;
+            self.last_activity_at = LastActivityDateTime(ev.at);
+        }
+    }
+
+    impl EventSourced<event::UserDeleted> for User {
+        fn apply(&mut self, ev: &event::UserDeleted) {
+            self.deleted_at = Some(ev.at);
+            self.last_activity_at = LastActivityDateTime(ev.at.0);
+        }
+    }
+
+    #[derive(Debug)]
+    pub enum Event {
+        Created(event::UserCreated),
+        NameUpdated(event::UserNameUpdated),
+        Online(event::UserBecameOnline),
+        Offline(event::UserBecameOffline),
+        Deleted(event::UserDeleted),
+    }
+
+    impl EventSourced<Event> for User {
+        fn apply(&mut self, ev: &Event) {
+            // Creation
+            if let Event::Created(ev) = ev {
+                self.apply(ev);
+                return;
+            }
+            // Online/Offline
+            if let Event::Online(ev) = ev {
+                self.apply(ev);
+                return;
+            }
+            if let Event::Offline(ev) = ev {
+                self.apply(ev);
+                return;
+            }
+            // Deletion
+            if let Event::Deleted(ev) = ev {
+                self.apply(ev);
+            }
+        }
+    }
+
+    #[derive(Clone, Copy, Debug)]
+    pub struct Id(pub u64);
+
+    #[derive(Clone, Debug)]
+    pub struct Name(pub Box<str>);
+
+    #[derive(Clone, Copy, Debug)]
+    pub struct CreationDateTime(pub SystemTime);
+
+    #[derive(Clone, Copy, Debug)]
+    pub struct LastActivityDateTime(pub SystemTime);
+
+    #[derive(Clone, Copy, Debug)]
+    pub struct DeletionDateTime(pub SystemTime);
 }
+
+pub mod event {
+    use std::time::SystemTime;
+
+    use super::user;
+
+    #[derive(Debug)]
+    pub struct UserCreated {
+        pub user_id: user::Id,
+        pub at: user::CreationDateTime,
+    }
+
+    #[derive(Debug)]
+    pub struct UserNameUpdated {
+        pub user_id: user::Id,
+        pub name: Option<user::Name>,
+        pub at: SystemTime,
+    }
+
+    #[derive(Debug)]
+    pub struct UserBecameOnline {
+        pub user_id: user::Id,
+        pub at: SystemTime,
+    }
+
+    #[derive(Debug)]
+    pub struct UserBecameOffline {
+        pub user_id: user::Id,
+        pub at: SystemTime,
+    }
+
+    #[derive(Debug)]
+    pub struct UserDeleted {
+        pub user_id: user::Id,
+        pub at: user::DeletionDateTime,
+    }
+}
+
+fn main() {}

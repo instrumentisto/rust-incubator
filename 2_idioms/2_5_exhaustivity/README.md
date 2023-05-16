@@ -155,6 +155,13 @@ For better understanding `#[non_exhaustive]` attribute purpose, design, limitati
 
 
 
+## Task
+
+Refactor the code contained in [this step's crate](src/main.rs), so the bugs introduced there will be uncovered at compile-time, and fix them appropriately.
+
+
+
+
 [1]: https://doc.rust-lang.org/book/ch18-00-patterns.html
 [2]: https://news.ycombinator.com/item?id=27553775
 [3]: https://doc.rust-lang.org/book/ch18-01-all-the-places-for-patterns.html#match-arms
