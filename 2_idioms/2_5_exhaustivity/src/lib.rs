@@ -135,5 +135,3 @@ pub mod event {
         pub at: user::DeletionDateTime,
     }
 }
-
-fn main() {}

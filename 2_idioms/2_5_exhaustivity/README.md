@@ -157,7 +157,7 @@ For better understanding `#[non_exhaustive]` attribute purpose, design, limitati
 
 ## Task
 
-Refactor the code contained in [this step's crate](src/main.rs), so the bugs introduced there will be uncovered at compile-time, and fix them appropriately.
+Refactor the code contained in [this step's crate](src/lib.rs), so the bugs introduced there will be uncovered at compile-time, and fix them appropriately.
 
 
 

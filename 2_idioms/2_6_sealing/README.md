@@ -59,7 +59,18 @@ It's important to note that __trait sealing fully relies on__ tricking over visi
 For better understanding traits sealing, its design and use-cases, read through the following articles:
 - [Rust API Guidelines: 10. Future proofing: Sealed traits protect against downstream implementations (C-SEALED)][3]
 - [Predrag Gruevski: A definitive guide to sealed traits in Rust][4]
+- [Jack Wrenn: Private Methods on a Public Trait][13]
 - [Official `sealed` crate docs][`sealed`]
+
+
+
+
+## Task
+
+Seal the traits defined in [this step's crate](src/lib.rs) in the following way:
+- Make the [`MyIteratorExt` trait](src/my_iterator_ext.rs) fully sealed. Do it manually, using the [`sealed`] crate or a similar one is __not allowed__.
+- Make the [`MyError` trait](src/my_error.rs) partially sealed. Only seal the method marked with `#[doc(hidden)]` attribute.
+- Sealing should work on both module level (disallowing to implement the sealed trait or the sealed method in the root module of the crate or any other module outside the one where the traits are defined, prove it by providing commented implementations in the root module of the crate, which doesn't compile due to the seal, if uncommented) and crate level (prove it by creating [documentation tests which doesn't compile][12] due to the seal).
 
 
 
@@ -79,3 +90,5 @@ For better understanding traits sealing, its design and use-cases, read through 
 [9]: https://doc.rust-lang.org/reference/items/implementations.html#trait-implementation-coherence
 [10]: https://stackoverflow.com/questions/50012745/is-there-a-way-to-tell-the-compiler-that-nobody-will-implement-a-trait-for-a-ref
 [11]: https://internals.rust-lang.org/t/sealed-traits/16797
+[12]: https://doc.rust-lang.org/rustdoc/write-documentation/documentation-tests.html#attributes
+[13]: https://jack.wrenn.fyi/blog/private-trait-methods
