@@ -40,9 +40,9 @@ For better understanding [`Cow`] purpose, design, limitations and use cases read
 ## Task
 
 Write a simple program which prints out the path to its configuration file. The path should be detected with the following precedence:
-1. default path is `/etc/app/app.conf`;
+1. if `--conf` command line argument is specified (error if empty) then use it.  <--- highest priority
 2. if `APP_CONF` env var is specified (and not empty) then use it;
-3. if `--conf` command line argument is specified (error if empty) then use it.
+3. default path is `/etc/app/app.conf`;
 
 If neither `APP_CONF` env var nor `--conf` command line argument is specified, then no allocation should happen for path detection.
 

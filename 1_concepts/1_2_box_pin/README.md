@@ -49,7 +49,14 @@ For better understanding [`Pin`] purpose, design, limitations and use cases read
 Given the following traits:
 ```rust
 trait MutMeSomehow {
-    fn mut_me_somehow(self: Pin<&mut Self>);
+    fn mut_me_somehow(self: Pin<&mut Self>) {
+        // Implementation must be meaningful, and
+        // obviously call something requiring `&mut self`.
+        // The point here is to practice dealing with
+        // `Pin<&mut Self>` -> `&mut self` conversion
+        // in different contexts, without introducing 
+        // any `Unpin` trait bounds.
+    }
 }
 ```
 ```rust

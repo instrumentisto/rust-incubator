@@ -27,7 +27,7 @@ Do not hesitate to ask your lead with questions, however you won't receive a con
 - [ ] [0. Become familiar with Rust basics][Step 0] (3 days)
 - [ ] [1. Concepts][Step 1] (2 days)
     - [ ] [1.1. Default values, cloning and copying][Step 1.1] (1 day)
-    - [ ] [1.2. Boxing and pinning][Step 1.2] (1 day)
+    - [ ] [1.2. Boxing and pinning][Step 1.2] (2 day)
     - [ ] [1.3. Shared ownership and interior mutability][Step 1.3] (1 day)
     - [ ] [1.4. Clone-on-write][Step 1.4] (1 day)
     - [ ] [1.5. Conversions, casting and dereferencing][Step 1.5] (1 day)
@@ -35,12 +35,12 @@ Do not hesitate to ask your lead with questions, however you won't receive a con
     - [ ] [1.7. `Sized` and `?Sized` types][Step 1.7] (1 day)
     - [ ] [1.8. Thread safety][Step 1.8] (1 day)
     - [ ] [1.9. Phantom types][Step 1.9] (1 day)
-- [ ] [2. Idioms][Step 2] (2 days)
+- [ ] [2. Idioms][Step 2] (1 days)
     - [ ] [2.1. Rich types ensure correctness][Step 2.1] (1 day)
     - [ ] [2.2. Swapping values with `mem::replace`][Step 2.2] (1 day)
     - [ ] [2.3. Bound behavior, not data][Step 2.3] (1 day)
     - [ ] [2.4. Abstract type in, concrete type out][Step 2.4] (1 day)
-- [ ] [3. Ecosystem][Step 3] (5 days)
+- [ ] [3. Ecosystem][Step 3] (3 days)
     - [ ] [3.1. Testing and mocking][Step 3.1] (1 day)
     - [ ] [3.2. Declarative and procedural macros][Step 3.2] (1 day)
     - [ ] [3.3. Date and time][Step 3.3] (1 day)
@@ -54,13 +54,13 @@ Do not hesitate to ask your lead with questions, however you won't receive a con
     - [ ] [3.11. Async I/O, futures and actors][Step 3.11] (2 days)
     - [ ] [3.12. Web frameworks, databases, connection pools and ORMs][Step 3.12] (1 day)
 - [ ] [4. Zero To Production][Step 4]
-    - [ ] [4.1. Basic actix-web][Step 4.1]
-    - [ ] [4.2. Logging][Step 4.2]
-    - [ ] [4.3. Docker and deployment][Step 4.3]
-    - [ ] [4.4. Type-Driven Development and testing][Step 4.4]
-    - [ ] [4.5. Advanced actix-web and error handling][Step 4.5]
-    - [ ] [4.6. Authorization][Step 4.6]
-- [ ] [5. Final Task][Step 5]
+    - [ ] [4.1. Basic actix-web][Step 4.1] (2 days)
+    - [ ] [4.2. Logging][Step 4.2] (3 days)
+    - [ ] [4.3. Docker and deployment][Step 4.3] (2 days)
+    - [ ] [4.4. Type-Driven Development and testing][Step 4.4] (5 days)
+    - [ ] [4.5. Advanced actix-web and error handling][Step 4.5] (2 days)
+    - [ ] [4.6. Authorization][Step 4.6] (5 days)
+- [ ] [5. Final Task][Step 5] (7 days)
 
 
 
