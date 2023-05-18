@@ -32,6 +32,7 @@ After you're done notify your lead in an appropriate PR (pull request), and he w
 
 _Additional_ articles, which may help to understand the above topic better:
 - [Chris Morgan: Rust ownership, the hard way][1]
+- [Adolfo Ochagavía: You are holding it wrong][12]
 - [Ludwig Stecher: Rusts Module System Explained][2]
 - [Tristan Hume: Models of Generics and Metaprogramming: Go, Rust, Swift, D and More][3]
 - [Jeff Anderson: Generics Demystified Part 1][4]
@@ -64,3 +65,4 @@ _Additional_ articles, which may help to understand the above topic better:
 [9]: https://www.thecodedmessage.com/posts/raii
 [10]: https://geo-ant.github.io/blog/2022/common-cpp-errors-vs-rust
 [11]: https://web.archive.org/web/20230319015854/https://ybnesm.github.io/blah/articles/true-observer-pattern-rust
+[12]: https://ochagavia.nl/blog/you-are-holding-it-wrong
