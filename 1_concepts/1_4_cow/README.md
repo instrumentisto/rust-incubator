@@ -69,8 +69,8 @@ Read implementation details and design insights in [its README][4].
 
 Write a simple program which prints out the path to its configuration file. The path should be detected with the following precedence:
 1. default path is `/etc/app/app.conf`;
-2. if `APP_CONF` env var is specified (and not empty) then use it;
-3. if `--conf` command line argument is specified (error if empty) then use it.
+2. if `APP_CONF` env var is specified (and not empty) then use it with higher priority than default;
+3. if `--conf` command line argument is specified (error if empty) then use it with the highest priority.
 
 If neither `APP_CONF` env var nor `--conf` command line argument is specified, then no allocation should happen for path detection.
 
