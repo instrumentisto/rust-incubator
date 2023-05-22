@@ -64,6 +64,8 @@ For better understanding parsing problem and approaches, along with some example
 - [Eshan Singh: Practical Parsing in Rust with nom][14]
 - [Brian Kung: Building a CEDICT parser in Rust with Nom][11]
 - [Aleksey Kladov: Resilient LL Parsing Tutorial][15]
+- [Aleksey Kladov: Simple but Powerful Pratt Parsing][16]
+- [Aleksey Kladov: From Pratt to Dijkstra][17]
 
 
 
@@ -139,3 +141,5 @@ Prove your implementation correctness with tests.
 [13]: https://en.wikipedia.org/wiki/Monad_(functional_programming)
 [14]: https://naiveai.hashnode.dev/practical-parsing-nom
 [15]: https://matklad.github.io/2023/05/21/resilient-ll-parsing-tutorial.html
+[16]: https://matklad.github.io/2020/04/13/simple-but-powerful-pratt-parsing.html
+[17]: https://matklad.github.io/2020/04/15/from-pratt-to-dijkstra.html
