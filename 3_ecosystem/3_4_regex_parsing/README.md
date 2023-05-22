@@ -63,6 +63,7 @@ For better understanding parsing problem and approaches, along with some example
 - [Richard L. Apodaca: A Beginner's Guide to Parsing in Rust][10]
 - [Eshan Singh: Practical Parsing in Rust with nom][14]
 - [Brian Kung: Building a CEDICT parser in Rust with Nom][11]
+- [Aleksey Kladov: Resilient LL Parsing Tutorial][15]
 
 
 
@@ -137,3 +138,4 @@ Prove your implementation correctness with tests.
 [12]: https://en.wikipedia.org/wiki/Parser_generator
 [13]: https://en.wikipedia.org/wiki/Monad_(functional_programming)
 [14]: https://naiveai.hashnode.dev/practical-parsing-nom
+[15]: https://matklad.github.io/2023/05/21/resilient-ll-parsing-tutorial.html
