@@ -63,17 +63,17 @@ This makes tests more granular (and so, more meaningful test failures) and testi
 
 [Rust] ecosystem has [enough solutions][1] for [mocking][41], some of them are quite mature.
 
-The most interested one is [`mockiato`] crate at the moment, as is quite ergonomic in use and supports stable [Rust]. [`unimock`] crate works in the very similar way, but supports supertraits, as uses the single `Unimock` type for mocking.
+The most interested one is [`mockiato`] crate at the moment, as is quite ergonomic in use and supports stable [Rust]. [`unimock`] crate works in the very similar way, but supports supertraits, as uses the single `Unimock` type for mocking. [`faux`] and [`mry`] crates are focused on struct mocking (instead of traits).
 
-Additionally, [`mockito`] crate should be mentioned as a quite useful one for HTTP testing.
+Additionally, [`mockito`] and [`wiremock`] crates should be mentioned as a quite useful one for HTTP testing.
 
 The most powerful, however, is [`mockall`] crate. See [this overview][43] for more details.
 
 For better overview and familiarity with [mocking][41] in [Rust], read through the following articles:
 - [Alan Somers: Rust Mock Shootout!][43]
+- [Oduah Chigozie: Mocking in Rust: Mockall and alternatives][45]
 - [Official `mockall` crate docs][`mockall`]
 - [Official `mockiato` crate docs][`mockiato`]
-- [Official `mockito` crate docs][`mockito`]
 - [Official `unimock` crate docs][`unimock`]
 - [Audun Halland: How to write a type-level mock library in Rust][44]
 
@@ -130,14 +130,17 @@ For the implementation of a small [guessing game][51] in [this step's crate](src
 
 [`cargo-fuzz`]: https://docs.rs/cargo-fuzz
 [`cucumber`]: https://docs.rs/cucumber
+[`faux`]: https://docs.rs/faux
 [`honggfuzz`]: https://docs.rs/honggfuzz
 [`libFuzzer`]: https://llvm.org/docs/LibFuzzer.html
 [`mockall`]: https://docs.rs/mockall
 [`mockiato`]: https://docs.rs/mockiato
 [`mockito`]: https://docs.rs/mockito
+[`mry`]: https://docs.rs/mry
 [`proptest`]: https://docs.rs/proptest
 [`quickcheck`]: https://docs.rs/quickcheck
 [`unimock`]: https://docs.rs/unimock
+[`wiremock`]: https://docs.rs/wiremock
 [AFL]: http://lcamtuf.coredump.cx/afl
 [afl.rs]: https://github.com/rust-fuzz/afl.rs
 [BDD]: https://en.wikipedia.org/wiki/Behavior-driven_development
@@ -159,5 +162,6 @@ For the implementation of a small [guessing game][51] in [this step's crate](src
 [41]: https://en.wikipedia.org/wiki/Mock_object
 [43]: https://asomers.github.io/mock_shootout
 [44]: https://audunhalland.github.io/blog/how-to-write-a-type-level-mock-library-in-rust
+[45]: https://blog.logrocket.com/mocking-rust-mockall-alternatives
 [51]: https://doc.rust-lang.org/book/ch02-00-guessing-game-tutorial.html
 [61]: https://matklad.github.io/2021/05/31/how-to-test.html
