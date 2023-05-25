@@ -62,7 +62,9 @@ For better understanding parsing problem and approaches, along with some example
 - [Laurence Tratt: Which Parsing Approach?][9]
 - [Richard L. Apodaca: A Beginner's Guide to Parsing in Rust][10]
 - [Eshan Singh: Practical Parsing in Rust with nom][14]
+- [Nazmul Idris: Guide to parsing with nom][18]
 - [Brian Kung: Building a CEDICT parser in Rust with Nom][11]
+- [The Nom Guide (Nominomicon)][19]
 - [Aleksey Kladov: Resilient LL Parsing Tutorial][15]
 - [Aleksey Kladov: Simple but Powerful Pratt Parsing][16]
 - [Aleksey Kladov: From Pratt to Dijkstra][17]
@@ -143,3 +145,5 @@ Prove your implementation correctness with tests.
 [15]: https://matklad.github.io/2023/05/21/resilient-ll-parsing-tutorial.html
 [16]: https://matklad.github.io/2020/04/13/simple-but-powerful-pratt-parsing.html
 [17]: https://matklad.github.io/2020/04/15/from-pratt-to-dijkstra.html
+[18]: https://developerlife.com/2023/02/20/guide-to-nom-parsing
+[19]: https://tfpk.github.io/nominomicon/introduction.html
