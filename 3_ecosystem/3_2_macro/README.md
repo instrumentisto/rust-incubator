@@ -109,6 +109,7 @@ For better understanding procedural macros design, concepts, usage and features,
 - [Official `venial` crate docs][`venial`]
 - [Official `quote` crate docs][`quote`]
 - [Official `proc-macro2` crate docs][`proc-macro2`]
+- [Nazmul Idris: Guide to Rust procedural macros][34]
 - [Vitaly Bragilevsky: What Every Rust Developer Should Know About Macro Support in IDEs][31]
 - [Proc macro workshop][32]
 - [Macros in Rust: A tutorial with examples][33]
@@ -156,3 +157,4 @@ Prove your implementation correctness with tests.
 [31]: https://blog.jetbrains.com/rust/2022/12/05/what-every-rust-developer-should-know-about-macro-support-in-ides
 [32]: https://github.com/dtolnay/proc-macro-workshop
 [33]: https://blog.logrocket.com/macros-in-rust-a-tutorial-with-examples/
+[34]: https://developerlife.com/2022/03/30/rust-proc-macro

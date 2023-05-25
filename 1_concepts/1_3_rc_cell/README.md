@@ -65,6 +65,7 @@ For better understanding [`Cell`]/[`RefCell`] purpose, design, limitations and u
 - [Rust Book: 15.5. RefCell and the Interior Mutability Pattern][3]
 - [Official `std::cell` docs][`std::cell`]
 - [Paul Dicker: Interior mutability patterns][6]
+- [David Tolnay: Accurate mental model for Rust’s reference types][8]
 
 
 
@@ -136,6 +137,9 @@ owner1.mutate_somehow();
 owner2.mutate_somehow();
 ```
 
+And even when there is no possibility to hide lock guards behind API boundary, it may be feasible to try encoding the described property via type system, using zero-sized wrapper types on guards. See the following articles for examples and design insights:
+- [Adrian Taylor: Can the Rust type system prevent deadlocks?][7]
+
 
 
 
@@ -167,3 +171,5 @@ Implement tests for `GlobalStack<T>`.
 [4]: https://manishearth.github.io/blog/2015/05/27/wrapper-types-in-rust-choosing-your-guarantees
 [5]: https://abronan.com/rust-trait-objects-box-and-rc
 [6]: https://pitdicker.github.io/Interior-mutability-patterns
+[7]: https://medium.com/@adetaylor/can-the-rust-type-system-prevent-deadlocks-9ae6e4123037
+[8]: https://docs.rs/dtolnay/latest/dtolnay/macro._02__reference_types.html

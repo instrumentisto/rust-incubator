@@ -112,5 +112,5 @@ OPTIONS:
 [4]: https://serde.rs/attributes.html#field-attributes
 [5]: https://github.com/mehcode/config-rs/tree/master/examples
 [6]: https://docs.rs/clap/latest/clap#example
-[7]: https://docs.rs/clap/latest/clap/builder/struct.Arg.html#method.env
+[7]: https://docs.rs/clap/latest/clap/parser/enum.ValueSource.html#variant.EnvVariable
 [8]: https://github.com/bkeepers/dotenv#usage
