@@ -33,6 +33,8 @@ After you're done notify your lead in an appropriate PR (pull request), and he w
 
 _Additional_ articles, which may help to understand the above topic better:
 - [Chris Morgan: Rust ownership, the hard way][1]
+- [Adolfo Ochagavía: You are holding it wrong][23]
+- [HashRust: A guide to closures in Rust][24]
 - [Ludwig Stecher: Rusts Module System Explained][2]
 - [Tristan Hume: Models of Generics and Metaprogramming: Go, Rust, Swift, D and More][3]
 - [Jeff Anderson: Generics Demystified Part 1][4]
@@ -49,6 +51,8 @@ _Additional_ articles, which may help to understand the above topic better:
 - [Full list of available crates on Rust Playground][16]
 - [Blanket impl definition][17]
 - [Auto-trait definition][18]
+- [Georgios Antonopoulos: Rust vs Common C++ Bugs][21]
+- [Yurii Shymon: True Observer Pattern with Unsubscribe mechanism using Rust][22]
 
 Additional:
 - [Rust API guidline checklist][19]
@@ -80,3 +84,7 @@ Additional:
 [18]: https://doc.rust-lang.org/reference/special-types-and-traits.html#auto-traits
 [19]: https://rust-lang.github.io/api-guidelines/checklist.html
 [20]: https://iq.opengenus.org/questions-on-rust/
+[21]: https://geo-ant.github.io/blog/2022/common-cpp-errors-vs-rust
+[22]: https://web.archive.org/web/20230319015854/https://ybnesm.github.io/blah/articles/true-observer-pattern-rust
+[23]: https://ochagavia.nl/blog/you-are-holding-it-wrong
+[24]: https://hashrust.com/blog/a-guide-to-closures-in-rust

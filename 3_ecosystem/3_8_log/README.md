@@ -19,6 +19,7 @@ One interesting part is that log levels can be [disabled at compile time][3], th
 
 For better understanding and familiarity with [`log`]'s design, concepts, usage, and features, read through the following articles:
 - [Official `log` crate docs][`log`]
+- [Jimmy Hartzell: Using the Log Crate in Your Rust Projects][12]
 
 
 
@@ -95,3 +96,4 @@ Examples:
 [9]: https://www.reddit.com/r/rust/comments/kdo29n/slog_vs_tracing_which_one_do_you_prefer
 [10]: https://en.wikipedia.org/wiki/Tracing_(software)
 [11]: https://www.aspecto.io/blog/distributed-tracing-with-opentelemetry-rust
+[12]: https://www.thecodedmessage.com/posts/logging

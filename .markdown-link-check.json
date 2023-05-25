@@ -12,6 +12,8 @@
   }, {
     "pattern": "^https://dalek.rs"
   }, {
+    "pattern": "^https://www.aspecto.io"
+  }, {
     "pattern": "^https://www.cs.bgu.ac.il"
   }, {
     "pattern": "^https://www.java.com"
