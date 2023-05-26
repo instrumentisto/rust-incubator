@@ -1,5 +1,5 @@
-Step 3: Ecosystem
-=================
+Step 3: Common ecosystem
+========================
 
 __Estimated time__: <!-- TODO --> days
 

@@ -1,5 +1,5 @@
-Step 4: Backend
-===============
+Step 4: Backend ecosystem
+=========================
 
 __Estimated time__: 5 days
 
