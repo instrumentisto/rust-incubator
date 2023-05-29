@@ -47,6 +47,30 @@ For more details, read through the following articles:
 
 
 
+## Query builder
+
+Query builder is effectively a __[builder pattern][81] applied for building [SQL]__ (or other [data query languages][82]) queries, and __allowing to write them as a regular [Rust] code__ (and so, [using an embedded DSL instead of external DSL][83]).
+
+The canonical implementation of this pattern in [Rust] ecosystem is represented by [`sea-query`] and [`sql_query_builder`] crates.
+
+[`barrel`] crate, on the other hand, allows to write [schema migrations][61], rather than querying data.
+
+For more details, read through the following articles:
+- [Official `sea-query` crate docs][`sea-query`]
+- [Official `sql_query_builder` crate docs][`sql_query_builder`]
+- [Official `barrel` crate docs][`barrel`]
+
+
+### Non-[DSL] toolkit
+
+[`sqlx`] crate, while being a feature-rich toolkit for [SQL], takes a [completely opposite approach][91] here: it focuses on writing pure [SQL] queries (no custom [DSL], no [query building](#query-builder)), which are statically checked to be correct at compile-time.
+
+For better understanding [`sqlx`] design, concepts, usage, and features, read through the following articles:
+- [Official `sqlx` crate docs][`sqlx`]
+
+
+
+
 ## ORM
 
 Regarding the [ORM pattern][41], there are [multiple][42] feature-rich and mature implementation in [Rust] ecosystem at the moment. Every one has its own unique design, advantages and disadvantages.
@@ -105,13 +129,15 @@ For being familiar with [migrations][61] tools, their similarities and differenc
 [`qp`]: https://github.com/Astro36/qp
 [`r2d2`]: https://docs.rs/r2d2
 [`refinery`]: https://docs.rs/refinery
-[`rustorm`]: https://github.com/ivanceras/rustorm
+[`rustorm`]: https://docs.rs/crate/rustorm
 [`sea-orm`]: https://docs.rs/sea-orm
 [`sea-query`]: https://docs.rs/sea-query
-[`sqlx`]: https://docs.rs/sqlx
-[`sqlx-cli`]: https://crates.io/crates/sqlx-cli
+[`sql_query_builder`]: https://docs.rs/sql_query_builder
+[`sqlx`]: https://docs.rs/crate/sqlx
+[`sqlx-cli`]: https://docs.rs/crate/sqlx-cli
 [`tokio`]: https://docs.rs/tokio
 [CLI]: https://en.wikipedia.org/wiki/Command-line_interface
+[DSL]: https://en.wikipedia.org/wiki/Domain-specific_language
 [Rust]: https://www.rust-lang.org
 [SQL]: https://en.wikipedia.org/wiki/SQL
 
@@ -145,3 +171,7 @@ For being familiar with [migrations][61] tools, their similarities and differenc
 [64]: https://crates.io/crates/sqlx-cli#create-and-run-migrations
 [65]: https://docs.rs/sqlx/latest/sqlx/macro.migrate.html
 [66]: https://docs.rs/refinery/latest/refinery/macro.embed_migrations.html
+[81]: https://en.wikipedia.org/wiki/Builder_pattern
+[82]: https://en.wikipedia.org/wiki/Query_language
+[83]: https://en.wikipedia.org/wiki/Domain-specific_language#External_and_Embedded_Domain_Specific_Languages
+[91]: https://github.com/launchbadge/sqlx#sqlx-is-not-an-orm
