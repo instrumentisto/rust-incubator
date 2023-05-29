@@ -94,7 +94,7 @@ For better understanding [ORMs][41] design, concepts, usage, and features, read 
 
 
 
-### Migrations
+## Migrations
 
 For [database migrations][61] there are [multiple tools][62] in [Rust] ecosystem.
 
@@ -111,6 +111,25 @@ For being familiar with [migrations][61] tools, their similarities and differenc
 - [Official `sqlx` crate docs: Macro `sqlx::migrate`][65]
 - [Official `refinery` crate docs][`refinery`]
 - [Official `migrant` crate docs][`migrant`]
+
+
+
+
+## Task
+
+Create an [SQL] database ([PostgreSQL], [MySQL] or [SQLite], on your choice) consisting of the following tables:
+- `users`: `id`, `name` and any other fields on your choice; 
+- `roles`: [`slug`][201] as a primary key, `name` and `permissions` (the concrete format on your choice) fields;
+- `users_roles`: `users.id` to `roles.slug` many-to-many relationship.
+
+Write a simple [CLI] application which allows to [CRUD] data in your database tables in the following ways:
+- create and delete `users` and `roles` (a `user` must always have an assigned `role`);
+- update fields of a single `user` or a `role`;
+- assign or unassign a `role` to/from a `user`;
+- list all `roles` or a single `role` by its `slug`;
+- list all `users` or a single `user` by its `id` (a `user` should be displayed with all the `roles` assigned to him).
+
+Consider to ensure [data consistency][202] in your database as much as possible.
 
 
 
@@ -137,9 +156,13 @@ For being familiar with [migrations][61] tools, their similarities and differenc
 [`sqlx-cli`]: https://docs.rs/crate/sqlx-cli
 [`tokio`]: https://docs.rs/tokio
 [CLI]: https://en.wikipedia.org/wiki/Command-line_interface
+[CRUD]: https://en.wikipedia.org/wiki/Create,_read,_update_and_delete
 [DSL]: https://en.wikipedia.org/wiki/Domain-specific_language
+[MySQL]: https://www.mysql.com
+[PostgreSQL]: https://www.postgresql.org
 [Rust]: https://www.rust-lang.org
 [SQL]: https://en.wikipedia.org/wiki/SQL
+[SQLite]: https://www.sqlite.org
 
 [1]: https://github.com/rust-unofficial/awesome-rust#database-1
 [2]: https://www.arewewebyet.org/topics/database
@@ -175,3 +198,5 @@ For being familiar with [migrations][61] tools, their similarities and differenc
 [82]: https://en.wikipedia.org/wiki/Query_language
 [83]: https://en.wikipedia.org/wiki/Domain-specific_language#External_and_Embedded_Domain_Specific_Languages
 [91]: https://github.com/launchbadge/sqlx#sqlx-is-not-an-orm
+[201]: https://en.wikipedia.org/wiki/Clean_URL#Slug 
+[202]: https://en.wikipedia.org/wiki/Consistency_(database_systems)
