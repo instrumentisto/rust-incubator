@@ -43,6 +43,7 @@ Though, [`async` keyword in not supported in trait methods yet][2], there is the
 For better understanding `async`/`.await` keywords design, desugaring, usage, and features, read through the following articles:
 - [Rust RFC 2394: `async_await`][16]
 - [Asynchronous Programming in Rust: 3. `async`/`.await`][21]
+- [Hayden Stainsby: how I finally understood async/await in Rust (part 1)][61]
 - [David Tolnay: Await a minute, why bother?][19]
 - [Arpad Borsos: Implementation Details of async Rust][27]
 - [Tyler Madry: How Rust optimizes async/await I][29]
@@ -267,3 +268,4 @@ It must read a list of links from the `<file>`, and then concurrently download a
 [60]: https://kerkour.com/cooperative-vs-preemptive-scheduling
 [61]: https://kerkour.com/rust-async-await-what-is-a-runtime
 [62]: https://quickwit.io/blog/quickwit-actor-framework
+[63]: https://hegdenu.net/posts/understanding-async-await-1
