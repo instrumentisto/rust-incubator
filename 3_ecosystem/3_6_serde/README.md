@@ -58,6 +58,59 @@ Being the de facto ecosystem standard, [`serde`] crate itself is quite conservat
 
 
 
+## [`musli`] framework
+
+[`musli`] is a relatively fresh and alternative framework for serialization and deserialization, which succeeds the principles of [`serde`], but also rethinks and overcomes some of its fundamental limitations.
+
+> Müsli is designed on similar principles as [`serde`]. Relying on Rust’s powerful trait system to generate code which can largely be optimized away. The end result should be very similar to handwritten highly optimized code.
+
+> Where Müsli differs in design philosophy is twofold:
+>
+> We make use of GATs to provide tighter abstractions, which should be easier for Rust to optimize.
+>
+> We make less use of the Visitor pattern in certain instances where it’s deemed unnecessary, such as [when decoding collections][21]. The result is usually cleaner decode implementations
+
+However, the __main "killer feature"__ of [`musli`] is its __ability to serialize/deserialize the same data model in different [modes][22]__. 
+
+> Another major aspect where Müsli differs is in the concept of [modes][22] (note the `M` parameter above). Since this is a parameter of the `Encode` and `Decode` traits it allows for the same data model to be serialized in many different ways.
+
+> ```rust
+> use musli::mode::{DefaultMode, Mode};
+> use musli::{Decode, Encode};
+> use musli_json::Encoding;
+>
+> enum Alt {}
+> impl Mode for Alt {}
+>
+> #[derive(Decode, Encode)]
+> #[musli(mode = Alt, packed)]
+> #[musli(default_field_name = "name")]
+> struct Word<'a> {
+>     text: &'a str,
+>     teineigo: bool,
+> }
+>
+> let CONFIG: Encoding<DefaultMode> = Encoding::new();
+> let ALT_CONFIG: Encoding<Alt> = Encoding::new();
+>
+> let word = Word {
+>     text: "あります",
+>     teineigo: true,
+> };
+>
+> let out = CONFIG.to_string(&word)?;
+> assert_eq!(out, r#"{"text":"あります","teineigo":true}"#);
+>
+> let out = ALT_CONFIG.to_string(&word)?;
+> assert_eq!(out, r#"["あります",true]"#);
+> ```
+
+For better understanding and familiarity with [`musli`]'s design, concepts, usage, and features, read through the following articles:
+- [Official `musli` crate docs][`musli`]
+
+
+
+
 ## Task
 
 Write a program which deserializes the [following JSON](request.json) into a static `Request` type and prints out its serialization in a YAML and TOML formats. Consider to choose correct types for data representation.
@@ -68,6 +121,7 @@ Prove your implementation correctness with tests.
 
 
 [`erased-serde`]: https://docs.rs/erased-serde
+[`musli`]: https://docs.rs/musli
 [`serde`]: https://docs.rs/serde
 [`serde_json`]: https://docs.rs/serde_json
 [`serde_repr`]: https://docs.rs/serde_repr
@@ -91,3 +145,5 @@ Prove your implementation correctness with tests.
 [12]: https://manishearth.github.io/blog/2022/08/03/zero-copy-1-not-a-yoking-matter
 [13]: https://manishearth.github.io/blog/2022/08/03/zero-copy-2-zero-copy-all-the-things
 [14]: https://manishearth.github.io/blog/2022/08/03/zero-copy-3-so-zero-its-dot-dot-dot-negative
+[21]: https://docs.rs/serde/latest/serde/trait.Deserializer.html#tymethod.deserialize_seq
+[22]: https://docs.rs/musli#modes
