@@ -68,6 +68,7 @@ For better understanding and familiarity with parallelism in [Rust], read throug
 - [Official `rayon` crate docs][`rayon`]
 - [`rayon` crate FAQ][22]
 - [`rayon` crate demos][23]
+- [Kofi Otuo: Implementing data parallelism with Rayon Rust][34]
 - [Dawid Ciężarkiewicz: Adding parallelism to your Rust iterators with `dpc-pariter`][30]
 - [Official `dpc-pariter` crate docs][`dpc-pariter`]
 - [Rust Edition Guide: 3.9. SIMD for faster computing][25]
@@ -132,3 +133,4 @@ Write a program with the following workflow:
 [31]: https://blog.m-ou.se/rust-cpp-concurrency
 [32]: https://neosmart.net/blog/implementing-truly-safe-semaphores-in-rust/
 [33]: https://vgatherps.github.io/2022-11-28-dec
+[34]: https://blog.logrocket.com/implementing-data-parallelism-rayon-rust
