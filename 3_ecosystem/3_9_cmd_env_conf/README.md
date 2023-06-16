@@ -18,6 +18,7 @@ For better understanding and familiarity with [CLI] tools in [Rust] ecosystem, r
 - [Rust Book: 12.1. Accepting Command Line Arguments][1]
 - [Official `std::env::Arg` docs][`std::env::Arg`]
 - [Official `clap` crate docs][`clap`]
+- [Pavlo Myroniuk: Rust Clap recipes][9]
 
 
 
@@ -114,3 +115,4 @@ OPTIONS:
 [6]: https://docs.rs/clap/latest/clap#example
 [7]: https://docs.rs/clap/latest/clap/parser/enum.ValueSource.html#variant.EnvVariable
 [8]: https://github.com/bkeepers/dotenv#usage
+[9]: https://tbt.qkation.com/posts/clap-recipes
