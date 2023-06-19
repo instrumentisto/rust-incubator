@@ -6,7 +6,7 @@ __Estimated time__: 1 day
 
 
 
-## [`serde`] framework
+## [`serde`]
 
 [Rust] ecosystem has the well-known [`serde`] crate, which provides a common (standard, de facto) approach and toolset for serialization and deserialization.
 
@@ -58,7 +58,7 @@ Being the de facto ecosystem standard, [`serde`] crate itself is quite conservat
 
 
 
-## [`musli`] framework
+## [`musli`]
 
 [`musli`] is a relatively fresh and alternative framework for serialization and deserialization, which succeeds the principles of [`serde`], but also rethinks and overcomes some of its fundamental limitations.
 
@@ -111,6 +111,23 @@ For better understanding and familiarity with [`musli`]'s design, concepts, usag
 
 
 
+## [`rkyv`]
+
+[`rkyv`] (_archive_)  is an another alternative serialization/deserialization framework, __fully focused on [zero-copy][31] operations__.
+
+> Like [serde][0], rkyv uses Rust’s powerful trait system to serialize data without the need for reflection. Despite having a wide array of features, you also only pay for what you use. If your data checks out, the serialization process can be as simple as a `memcpy`! Like serde, this allows rkyv to perform at speeds similar to handwritten serializers.
+>
+> Unlike serde, rkyv produces data that is guaranteed deserialization free. If you wrote your data to disk, you can just `mmap` your file into memory, cast a pointer, and your data is ready to use. This makes it ideal for high-performance and IO-bound applications.
+
+> While rkyv is a great format for final data, it lacks a full schema system and isn’t well equipped for data migration and schema upgrades. If your use case requires these capabilities, you may need additional libraries the build these features on top of rkyv. You can use other serialization frameworks like serde with the same types as rkyv conflict-free.
+
+For better understanding and familiarity with [`rkyv`]'s design, concepts, usage, and features, read through the following articles:
+- [Official `rkyv` crate docs][`rkyv`]
+- [`rkyv` book][30]
+
+
+
+
 ## Task
 
 Write a program which deserializes the [following JSON](request.json) into a static `Request` type and prints out its serialization in a YAML and TOML formats. Consider to choose correct types for data representation.
@@ -122,6 +139,7 @@ Prove your implementation correctness with tests.
 
 [`erased-serde`]: https://docs.rs/erased-serde
 [`musli`]: https://docs.rs/musli
+[`rkyv`]: https://docs.rs/rkyv
 [`serde`]: https://docs.rs/serde
 [`serde_json`]: https://docs.rs/serde_json
 [`serde_repr`]: https://docs.rs/serde_repr
@@ -147,3 +165,5 @@ Prove your implementation correctness with tests.
 [14]: https://manishearth.github.io/blog/2022/08/03/zero-copy-3-so-zero-its-dot-dot-dot-negative
 [21]: https://docs.rs/serde/latest/serde/trait.Deserializer.html#tymethod.deserialize_seq
 [22]: https://docs.rs/musli#modes
+[30]: https://rkyv.org/rkyv.html
+[31]: https://rkyv.org/zero-copy-deserialization.html
