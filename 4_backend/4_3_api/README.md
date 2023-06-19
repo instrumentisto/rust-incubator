@@ -20,7 +20,7 @@ One of the strongest parts of [GraphQL] is its [whole ecosystem][203] built arou
 Another strong part of [GraphQL] is that its __protocol is [transport][204]-agnostic__, so the same schema and queries, used via [HTTP], are __easily reusable via [WebSocket]__, allowing to [stream data][205] with almost zero effort atop.
 
 For more familiarity with [GraphQL], read through the following articles:
-- [Introduction to GraphQL][206]
+- [GraphQL docs: Introduction to GraphQL][206]
 - [The Fullstack Tutorial for GraphQL][207]
 
 
@@ -56,6 +56,23 @@ For more familiarity with making [GraphQL] requests in [Rust], read through the 
 
 ## gRPC
 
+[gRPC] is a widely-adopted high performance [RPC] framework, having a __strict schema__, powered with pluggable support for load balancing, tracing, health checking and authentication, built on top of [HTTP/2] (and so, having a __mandatory encryption__), and __heavily using code-from-schema generation__.
+
+For more familiarity with [gRPC], read through the following articles:
+- [gRPC docs: Introduction to gRPC][301]
+- [gRPC docs: Core concepts, architecture and lifecycle][302]
+
+
+### Server and client
+
+For implementing a [gRPC] server in [Rust], there are two main production-ready crates in its ecosystem: [`tonic`] (pure [Rust] implementation, based on [`tokio`]) and [`grpcio`] (wrapper around [gRPC core][311] implementation).
+
+In [gRPC] ecosystem, usually, implementing a [gRPC] client doesn't differ much from implementing a server, since both are auto-generated from the same `.proto` schema. So, for [Rust], the same [`tonic`] and [`grpcio`] crates do the job when it comes to making [gRPC] requests. 
+
+For more familiarity with using [gRPC] in [Rust], read through the following articles:
+- [Official `tonic` crate docs][`tonic`]
+- [Official `grpcio` crate docs][`grpcio`]
+
 
 
 
@@ -77,18 +94,24 @@ Avoid architecture [over-engineering][42] for this task, just use simple, straig
 [`async-graphql`]: https://docs.rs/async-graphql
 [`cynic`]: https://docs.rs/cynic
 [`graphql-client`]: https://github.com/graphql-rust/graphql-client
+[`grpcio`]: https://docs.rs/crate/grpcio
 [`juniper`]: https://docs.rs/juniper
 [`juniper-from-schema`]: https://docs.rs/juniper-from-schema
+[`tonic`]: https://docs.rs/tonic
+[`tokio`]: https://docs.rs/tokio
 [API]: https://en.wikipedia.org/wiki/API
 [Async-graphql Book]: https://async-graphql.github.io/async-graphql/en
 [CLI]: https://en.wikipedia.org/wiki/Command-line_interface
 [cURL]: https://en.wikipedia.org/wiki/CURL
 [GraphQL]: https://graphql.org
+[gRPC]: https://grpc.io
 [HTML]: https://en.wikipedia.org/wiki/HTML
 [HTTP]: https://en.wikipedia.org/wiki/HTTP
+[HTTP/2]: https://en.wikipedia.org/wiki/HTTP/2
 [Juniper Book]: https://graphql-rust.github.io/juniper/master
 [OpenAPI]: https://en.wikipedia.org/wiki/OpenAPI_Specification
 [REST]: https://en.wikipedia.org/wiki/Representational_state_transfer
+[RPC]: https://en.wikipedia.org/wiki/Remote_procedure_call
 [Rust]: https://www.rust-lang.org
 [WebSocket]: https://en.wikipedia.org/wiki/WebSocket
 
@@ -104,5 +127,8 @@ Avoid architecture [over-engineering][42] for this task, just use simple, straig
 [207]: https://www.howtographql.com
 [231]: ../4_2_http/README.md#client
 [232]: https://graphql.org/learn/serving-over-http
+[301]: https://grpc.io/docs/what-is-grpc/introduction
+[302]: https://grpc.io/docs/what-is-grpc/core-concepts
+[311]: https://github.com/grpc/grpc
 [41]: https://en.wikipedia.org/wiki/Rich_client
 [42]: https://en.wikipedia.org/wiki/Overengineering
