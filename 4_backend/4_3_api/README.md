@@ -3,10 +3,41 @@ Step 4.3: API servers, clients and tools
 
 __Estimated time__: 1 day
 
+Naturally, in [client-server][4] applications, a client and a server negotiate with each other via some [API (application programming interface)][API], which often takes form of [RPC (remote procedure call)][RPC] for better structuring and standardizing (due [IDL (interface definition language)][IDL] usage).
+
+[Rust] ecosystem provides support for all modern widely-used and adopted [RPC] technologies, and even comes with its [own unique ones][`tarpc`].
+
 
 
 
 ## RESTful
+
+Since [REST] is rather an __architecture convention/style__ than a strict [specification][3] for [RPC], and [REST]ful [API]s are typically __loosely based on [HTTP] methods__ directly, there is usually __no need in special frameworks__ in [Rust] to implement a [REST]ful [API] server or to request the one. Just any [HTTP server][101] or [HTTP client][231] will do.
+
+This approach, however, __suffers from lacking [API] schema__, and so, makes it hard to build a rich ecosystem around with ready-to-use tooling (or connect with existing ones). Fortunately, this is easily solved by using a concrete [RPC specification][3] on top of [REST] conventions, and following it strictly. 
+
+For more information about [REST], read through the following articles:
+- [Tyler Charboneau: What’s the Difference Between RPC and REST?][111]
+
+
+### OpenAPI
+
+[OpenAPI] (former [Swagger]) is a [specification][3] for a [machine-readable][102] [IDL (interface definition language)][IDL], allowing to describe, produce, consume and visualize [REST]ful web [API]s. In a nutshell, [OpenAPI] is a __kind of [REST]-based [RPC]__.
+
+> The OpenAPI Specification (OAS) defines a standard, language-agnostic interface to HTTP APIs which allows both humans and computers to discover and understand the capabilities of the service without access to source code, documentation, or through network traffic inspection. When properly defined, a consumer can understand and interact with the remote service with a minimal amount of implementation logic.
+>
+> An OpenAPI definition can then be used by documentation generation tools to display the API, code generation tools to generate servers and clients in various programming languages, testing tools, and many other use cases.
+
+In [Rust] ecosystem, most [OpenAPI] crates follow the __code-first approach__ (generating [OpenAPI] schema from source code). The most notable crates for this are [`utoipa`] and [`okapi`].
+
+For the opposite (generating source code from [OpenAPI] schema) [Rust] ecosystem lacks its own pure implementation, and the original [OpenAPI] tool [`openapi-generator`] should be used (powered by the [`swagger`] crate).
+
+For more familiarity with [OpenAPI] and using it in [Rust], read through the following articles:
+- [OpenAPI Initiative]
+- [SwaggerHub Documentation: OpenAPI 3.0 Tutorial][122]
+- [Official `utoipa` crate docs][`cynic`]
+- [Official `okapi` crate docs][`okapi`]
+- [Twilio Docs: Generate a Rust client for Twilio's API][121]
 
 
 
@@ -84,7 +115,7 @@ Rework [the task from the previous step](../4_2_http/README.md#task) in a ["thic
 
 It should be possible to perform all the operations via [cURL] (or any other [HTTP]/[API] client) directly on the [REST]ful [API] server, without using the [CLI] client.
 
-Additionally, implement generation of [OpenAPI] specification out of you server [REST]ful [API] code, and generate [HTML] documentation from the generated [OpenAPI] spec.
+Additionally, implement generation of [OpenAPI] schema out of you server [REST]ful [API] code, and generate [HTML] documentation from the generated [OpenAPI] schema.
 
 Avoid architecture [over-engineering][42] for this task, just use simple, straightforward and obvious solutions.
 
@@ -97,8 +128,13 @@ Avoid architecture [over-engineering][42] for this task, just use simple, straig
 [`grpcio`]: https://docs.rs/crate/grpcio
 [`juniper`]: https://docs.rs/juniper
 [`juniper-from-schema`]: https://docs.rs/juniper-from-schema
+[`okapi`]: https://github.com/GREsau/okapi
+[`openapi-generator`]: https://github.com/OpenAPITools/openapi-generator
+[`swagger`]: https://docs.rs/swagger
+[`tarpc`]: https://docs.rs/tarpc
 [`tonic`]: https://docs.rs/tonic
 [`tokio`]: https://docs.rs/tokio
+[`utoipa`]: https://docs.rs/utoipa
 [API]: https://en.wikipedia.org/wiki/API
 [Async-graphql Book]: https://async-graphql.github.io/async-graphql/en
 [CLI]: https://en.wikipedia.org/wiki/Command-line_interface
@@ -108,15 +144,25 @@ Avoid architecture [over-engineering][42] for this task, just use simple, straig
 [HTML]: https://en.wikipedia.org/wiki/HTML
 [HTTP]: https://en.wikipedia.org/wiki/HTTP
 [HTTP/2]: https://en.wikipedia.org/wiki/HTTP/2
+[IDL]: https://en.wikipedia.org/wiki/Interface_description_language
 [Juniper Book]: https://graphql-rust.github.io/juniper/master
 [OpenAPI]: https://en.wikipedia.org/wiki/OpenAPI_Specification
+[OpenAPI Initiative]: https://learn.openapis.org
 [REST]: https://en.wikipedia.org/wiki/Representational_state_transfer
 [RPC]: https://en.wikipedia.org/wiki/Remote_procedure_call
 [Rust]: https://www.rust-lang.org
+[Swagger]: https://en.wikipedia.org/wiki/Swagger_(software)
 [WebSocket]: https://en.wikipedia.org/wiki/WebSocket
 
 [1]: https://en.wikipedia.org/wiki/Type_system
 [2]: https://en.wikipedia.org/wiki/Type_introspection
+[3]: https://en.wikipedia.org/wiki/Specification_(technical_standard)
+[4]: https://en.wikipedia.org/wiki/Client%E2%80%93server_model
+[101]: ../4_2_http/README.md#server
+[102]: https://en.wikipedia.org/wiki/Machine-readable_medium_and_data
+[111]: https://nordicapis.com/whats-the-difference-between-rpc-and-rest
+[121]: https://www.twilio.com/docs/openapi/generating-a-rust-client-for-twilios-api
+[122]: https://support.smartbear.com/swaggerhub/docs/tutorials/openapi-3-tutorial.html
 [200]: https://graphql.org/learn/queries
 [201]: https://graphql.org/learn/schema
 [202]: https://graphql.org/learn/introspection
