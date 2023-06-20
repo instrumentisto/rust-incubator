@@ -113,7 +113,7 @@ For better understanding and familiarity with [`musli`]'s design, concepts, usag
 
 ## [`rkyv`]
 
-[`rkyv`] (_archive_)  is an another alternative serialization/deserialization framework, __fully focused on [zero-copy][31] operations__.
+[`rkyv`] (_archive_) is an another alternative serialization/deserialization framework, __fully focused on [zero-copy][31] operations__.
 
 > Like [serde][0], rkyv uses Rust’s powerful trait system to serialize data without the need for reflection. Despite having a wide array of features, you also only pay for what you use. If your data checks out, the serialization process can be as simple as a `memcpy`! Like serde, this allows rkyv to perform at speeds similar to handwritten serializers.
 >
