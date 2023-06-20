@@ -187,11 +187,11 @@ Consider to ensure [data consistency][202] in your database as much as possible.
 [44]: https://diesel.rs/guides
 [45]: https://www.sea-ql.org/SeaORM/docs/index
 [46]: https://docs.rs/sea-orm#whos-using-seaorm
-[47]: https://www.sea-ql.org/SeaORM/docs/latest/internal-design/diesel#programming-paradigm
+[47]: https://www.sea-ql.org/SeaORM/docs/internal-design/diesel#programming-paradigm
 [61]: https://en.wikipedia.org/wiki/Schema_migration
 [62]: https://www.arewewebyet.org/topics/database#tooling
 [63]: https://diesel.rs/guides/getting-started
-[64]: https://crates.io/crates/sqlx-cli#create-and-run-migrations
+[64]: https://github.com/launchbadge/sqlx/tree/main/sqlx-cli#create-and-run-migrations
 [65]: https://docs.rs/sqlx/latest/sqlx/macro.migrate.html
 [66]: https://docs.rs/refinery/latest/refinery/macro.embed_migrations.html
 [81]: https://en.wikipedia.org/wiki/Builder_pattern
