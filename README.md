@@ -46,17 +46,32 @@ This project represents a hard-way step-by-step [Rust] learning course from lang
 
 ### Before you start
 
-1. [Create][1] a new [GitHub repository] for yourself using this one [as template][2].
-2. [Invite as a collaborator][3] of your repository the person you want to review your lessons (lead).
+1. [Create][1] a new [GitHub repository] for yourself using this one [as template][11].
+2. [Invite as a collaborator][12] of your repository the person you want to review your lessons (mentor or lead).
+
+> __NOTE__: __This learning course is constantly improving and evolving over time.__ 
+>
+> To be up-to-date with the recent changes in your own copy of this repository, attach the upstream history with the following commands:
+> ```bash
+> git remote add upstream https://github.com/instrumentisto/rust-incubator.git
+> git fetch upstream main
+> git merge upstream/main --allow-unrelated-histories
+> ```
+> And then, whenever you want to grab some new changes, do the following:
+> ```bash
+> git fetch upstream main
+> git merge upstream/main
+> ```
+> Additionally, to be aware about new changes, you may either [watch this repository on GitHub][2], or even track it via [RSS subscription].
 
 
 ### Schedule
 
-Each step must be performed as a separate [PR (pull request)][PR] with an appropriate name and checked here in README's schedule after completion. Each step is a [Cargo workspace member][4], so you can run/test it from a project root (i.e. `cargo run -p step_1_8`). Consider to use [rustfmt] and [Clippy] when you're writing [Rust] code.
+Each step must be performed as a separate [PR (pull request)][PR] with an appropriate name and checkmarked here in README's schedule after completion. Each step is a [Cargo workspace member][13], so you can run/test it from the project root (i.e. `cargo run -p step_1_8`). __Consider to use [rustfmt] and [Clippy] when you're writing [Rust] code.__
 
-Each step has estimated time for being completed. If any deeper investigation on step's theme is required for you, then it's on your own.
+Each step has the estimated time for completion. If any deeper investigation on step's theme is needed by you, then it's on your own.
 
-Do not hesitate to ask your lead with questions, however you won't receive a concrete answer, but rather a direction for investigation. _Lead is the one who asks questions about everything here and demands a concrete answers_.
+Do not hesitate to ask your mentor/lead with questions, however you won't receive any concrete answer, but rather a direction for your own investigation. _Mentor/Lead is the one who asks questions here, demanding concrete and complete answers._
 
 - [ ] [0. Become familiar with Rust basics][Step 0] (3 days)
 - [ ] [1. Concepts][Step 1] (2 days)
@@ -144,6 +159,7 @@ Do not hesitate to ask your lead with questions, however you won't receive a con
 [IntelliJ Rust]: https://intellij-rust.github.io
 [IntelliJ Toml]: https://plugins.jetbrains.com/plugin/8195-toml
 [PR]: https://help.github.com/articles/github-glossary/#pull-request
+[RSS subscription]: https://github.com/instrumentisto/rust-incubator/commits/main.atom
 [Rust]: https://www.rust-lang.org
 [Rust 2018]: https://doc.rust-lang.org/edition-guide/rust-2018/index.html
 [Rust 2021]: https://doc.rust-lang.org/edition-guide/rust-2021/index.html
@@ -164,6 +180,7 @@ Do not hesitate to ask your lead with questions, however you won't receive a con
 [This Week in Rust]: https://this-week-in-rust.org
 
 [1]: https://github.com/instrumentisto/rust-incubator/generate
-[2]: https://help.github.com/en/articles/creating-a-repository-from-a-template
-[3]: https://help.github.com/en/articles/inviting-collaborators-to-a-personal-repository
-[4]: https://doc.rust-lang.org/book/ch14-03-cargo-workspaces.html
+[2]: https://github.com/instrumentisto/rust-incubator/subscription
+[11]: https://help.github.com/en/articles/creating-a-repository-from-a-template
+[12]: https://help.github.com/en/articles/inviting-collaborators-to-a-personal-repository
+[13]: https://doc.rust-lang.org/book/ch14-03-cargo-workspaces.html
