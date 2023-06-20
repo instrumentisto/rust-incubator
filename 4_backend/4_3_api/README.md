@@ -122,6 +122,19 @@ Avoid architecture [over-engineering][42] for this task, just use simple, straig
 
 
 
+## Questions
+
+After completing everything above, you should be able to answer (and understand why) the following questions:
+- What is API? What is RPC? How do they relate?
+- What does "code-first" approach mean? What does "schema-first" approach mean? Which advantages and disadvantages do they have?
+- What does REST paradigm mean? What are essentials of RESTful API? Which strengths does it have? What does it lack?  
+- What is OpenAPI? What is Swagger? How do they relate? Why are they beneficial for RESTful API?
+- What is GraphQL? Which are strong sides of this technology? What problems does it bring in practice? 
+- What is gRPC? What are its strengths? Which are good use-cases for it, and which are not? Why? 
+
+
+
+
 [`async-graphql`]: https://docs.rs/async-graphql
 [`cynic`]: https://docs.rs/cynic
 [`graphql-client`]: https://github.com/graphql-rust/graphql-client

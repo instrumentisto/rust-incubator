@@ -3,7 +3,7 @@ Step 4.2: HTTP servers and clients
 
 __Estimated time__: 1 day
 
-The current situation regarding [HTTP] in [Rust] ecosystem can be grasped quite well in [the "Web programming" section of "Awesome Rust"][1] and in the ["Web Frameworks"][2], ["HTTP Clients"][3] and [" Lower Web-Stack" topics of "Are we web yet?"][4]. Of course, most of them use [async I/O][5].
+The current situation regarding [HTTP] in [Rust] ecosystem can be grasped quite well in [the "Web programming" section of "Awesome Rust"][1] and in the ["Web Frameworks"][2], ["HTTP Clients"][3] and ["Lower Web-Stack" topics of "Are we web yet?"][4]. Of course, most of them use [async I/O][5].
 
 
 
@@ -96,6 +96,17 @@ For better understanding and familiarity with [WebSocket] implementations in [Ru
 Rework [the task from the previous step](../4_1_db/README.md#task) in a [client-server architecture][51]. It should consist of a [CLI] client and a server [daemon][52], and utilize the ["thin client" approach][53]:
 - [CLI] client does nothing except sending commands "as is" to the server and rendering its responses.
 - Server [daemon][52], having a single [HTTP] endpoint, does all the parsing and executing of commands sent by the [CLI] client.
+
+
+
+
+## Questions
+
+After completing everything above, you should be able to answer (and understand why) the following questions:
+- What is HTTP? What does HTTP/2 imply? What does HTTP/3 imply?
+- How do work-stealing and thread-per-core paradigms affect programming a web server in practice? Which one is better and when? When does this question (choosing) become meaningful, in practice?
+- What are common crates for making HTTP requests in [Rust]? Which trade-offs do they have?
+- What is WebSocket? How is it used and when? How does it work, in a nutshell?
 
 
 

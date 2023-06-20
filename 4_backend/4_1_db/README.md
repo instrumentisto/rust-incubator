@@ -134,6 +134,18 @@ Consider to ensure [data consistency][202] in your database as much as possible.
 
 
 
+## Questions
+
+After completing everything above, you should be able to answer (and understand why) the following questions:
+- What is connection pool pattern? How does it work? Which problems does it solve?
+- What is ORM pattern? How does it differ from query building? What benefits do they give?
+- Why writing raw SQL queries could be meaningful? Which are use-cases for it and when is it preferred over ORMs?
+- What are migrations? Why should we use them? How do they work? 
+- Which kinds of migrations do exist? What are their advantages and disadvantages? When and which kind is preferred?  
+
+
+
+
 [`async-std`]: https://docs.rs/async-std
 [`barrel`]: https://docs.rs/barrel
 [`bb8`]: https://docs.rs/bb8
