@@ -6,7 +6,7 @@ __Estimated time__: 1 day
 
 
 
-## [`serde`]
+## `serde`
 
 [Rust] ecosystem has the well-known [`serde`] crate, which provides a common (standard, de facto) approach and toolset for serialization and deserialization.
 
@@ -58,7 +58,7 @@ Being the de facto ecosystem standard, [`serde`] crate itself is quite conservat
 
 
 
-## [`musli`]
+## `musli`
 
 [`musli`] is a relatively fresh and alternative framework for serialization and deserialization, which succeeds the principles of [`serde`], but also rethinks and overcomes some of its fundamental limitations.
 
@@ -111,7 +111,7 @@ For better understanding and familiarity with [`musli`]'s design, concepts, usag
 
 
 
-## [`rkyv`]
+## `rkyv`
 
 [`rkyv`] (_archive_) is an another alternative serialization/deserialization framework, __fully focused on [zero-copy][31] operations__.
 
@@ -133,6 +133,16 @@ For better understanding and familiarity with [`rkyv`]'s design, concepts, usage
 Write a program which deserializes the [following JSON](request.json) into a static `Request` type and prints out its serialization in a YAML and TOML formats. Consider to choose correct types for data representation.
 
 Prove your implementation correctness with tests.
+
+
+
+
+## Questions
+
+After completing everything above, you should be able to answer (and understand why) the following questions:
+- How does [`serde`] achieve its performance? How does it model data and decouple responsibilities?
+- When does it have sense to prefer [`musli`] rather than [`serde`]?
+- What is zero-copy deserialization? Why is it beneficial? How does it work in [`serde`]? How does it work in [`rkyv`]?
 
 
 

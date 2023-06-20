@@ -138,7 +138,7 @@ The most famous [actors][49] implementation in [Rust] is [`actix`]. At the time 
 
 [`quickwit-actors`] is another simple implementation of [actors][49], with its own advantages, built [specifically for Quickwit needs][62].
 
-More general-purpose and complex [actors system][49] implementations (similar to [Akka]) are  [`bastion`] and [`riker`].
+More general-purpose and complex [actors system][49] implementations (similar to [Akka]) are [`bastion`] and [`riker`].
 
 For better understanding [actors][49] design, concepts, usage, and implementations, read through the following articles:
 - [Karan Pratap Singh: CSP vs Actor model for concurrency][55]
@@ -158,6 +158,24 @@ cargo run -p step_3_11 -- [--max-threads=<number>] <file>
 It must read a list of links from the `<file>`, and then concurrently download a content of each link into a separate `.html` file (named by a link).
 
 `--max-threads` argument must control the maximum number of _simultaneously running threads_ in the program (should default to CPUs number).
+
+
+
+
+## Questions
+
+After completing everything above, you should be able to answer (and understand why) the following questions:
+- What is asynchronous programming? How does it relate to multithreading? Which problems does it solve? What are the prerequisites for its existing?
+- How does non-blocking I/O works? How does it differs from blocking I/O?
+- What is a [`Future`]? Why do we need it? How does it work in [Rust] and how do its semantics differ from other programming languages? What makes it zero-cost?
+- What is `async`/`.await`? Ho do they desugar into a [`Future`]? Why are they vital for ergonomics?
+- What is an asynchronous task? How does it compare to a [`Future`]?
+- What is a [`Waker`]? How does it work? Why is it required?
+- What is an asynchronous runtime? From which parts does it usually consist?
+- What kind of multitasking is represented by [`Future`]s in [Rust]? Which advantages and disadvantages does it have?
+- What kinds of asynchronous runtimes do exist in [Rust] regarding multithreading? Which advantages and disadvantages does each one have?
+- Why blocking an asynchronous runtime is bad? How to avoid it in practice?
+- What are the key points of actor model concurrency paradigm? How may it be useful in [Rust]?
 
 
 

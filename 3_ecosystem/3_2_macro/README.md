@@ -125,6 +125,18 @@ Provide two implementations: one via declarative macro and other one via procedu
 
 
 
+## Questions
+
+After completing everything above, you should be able to answer (and understand why) the following questions:
+- What are macros? Which problem do they solve?
+- Which benefits do declarative macros have in [Rust] comparing to procedural ones? Which downsides and limitations?
+- Which kinds of procedural macros do exist in [Rust]?
+- What are common crates for implementing procedural macros in [Rust]? What responsibilities does each one have? Which are mandatory, which are not?
+- What are good practices for implementing procedural macros in [Rust]?
+
+
+
+
 [`BTreeMap`]: https://doc.rust-lang.org/std/collections/struct.BTreeMap.html
 [`darling`]: https://docs.rs/darling
 [`proc_macro`]: https://doc.rust-lang.org/proc_macro

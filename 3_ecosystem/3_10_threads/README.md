@@ -84,7 +84,17 @@ Write a program with the following workflow:
 - `Producer` is a separate thread, which continuously generates square matrixes of random `u8` elements and size `4096`.
 - `Consumer` is a separate thread, which takes a generated matrix, counts sum of all its elements and prints the sum to STDOUT.
 - There are only 1 `Producer` and 2 `Consumer`s.
-- Counting sum of matrix elements should be parallelized. 
+- Counting sum of matrix elements should be parallelized.
+
+
+
+
+## Questions
+
+After completing everything above, you should be able to answer (and understand why) the following questions:
+- What is concurrency? What is parallelism? How do they relate to each other and how do they differ?
+- How parallelism is represented in [Rust]? Which are common crates for using it?
+- What are the main ways of threads synchronization in [Rust]? Which advantages and disadvantages does each one have? What are the use-cases for each one?
 
 
 

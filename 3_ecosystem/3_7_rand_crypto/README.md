@@ -128,6 +128,19 @@ Implement the following functions:
 
 
 
+## Questions
+
+After completing everything above, you should be able to answer (and understand why) the following questions:
+- What is the main trade-off of generating random numbers? How is it applied in practice?
+- What is symmetric cryptography? What is asymmetric cryptography? Which befits does each one have? 
+- What is signing in asymmetric cryptography? What is encryption in asymmetric cryptography? How do they work given the same private and public keys?
+- What is hash function? What is password hashing? Why is it not enough to use just a raw hash function for password hashing?
+- What is constant-time comparison? When and why it should be used?
+- Which are options of using [TLS] in [Rust]? Which advantages and disadvantages does each one have?
+
+
+
+
 [`aws-lc-rs`]: https://docs.rs/aws-lc-rs
 [`native-tls`]: https://docs.rs/native-tls
 [`openssl`]: https://docs.rs/openssl
