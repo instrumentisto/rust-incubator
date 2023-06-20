@@ -5,7 +5,7 @@ __Estimated time__: 3 days
 
 Read through [Rust Book], [Rust FAQ], and become familiar with basic [Rust] concepts, syntax, memory model, type and module systems.
 
-Polish your familiarity by completing [Rust By Example].
+Polish your familiarity by completing [Rust By Example] and [rustlings].
 
 Read through [Cargo Book] and become familiar with [Cargo] and its workspaces.
 
@@ -55,6 +55,7 @@ _Additional_ articles, which may help to understand the above topic better:
 [Rust Book]: https://doc.rust-lang.org/book
 [Rust By Example]: https://doc.rust-lang.org/rust-by-example
 [Rust FAQ]: https://prev.rust-lang.org/faq.html
+[rustlings]: https://rustlings.cool
 
 [1]: https://chrismorgan.info/blog/rust-ownership-the-hard-way
 [2]: https://aloso.github.io/2021/03/28/module-system.html

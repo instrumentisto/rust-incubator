@@ -111,6 +111,15 @@ Do not hesitate to ask your mentor/lead with questions, however you won't receiv
 
 
 
+## More practice
+
+- [rustlings] are small exercises to get you used to reading and writing [Rust] code.
+- [Rust on Exercism] provides coding exercises with mentoring.
+- [Rust Quiz] is medium to hard [Rust] questions with explanations.
+
+
+
+
 [Step 0]: 0_basics
 [Step 1]: 1_concepts
 [Step 1.1]: 1_concepts/1_1_default_clone_copy
@@ -170,12 +179,15 @@ Do not hesitate to ask your mentor/lead with questions, however you won't receiv
 [Rust Design Patterns]: https://rust-unofficial.github.io/patterns
 [Rust Edition Guide]: https://doc.rust-lang.org/edition-guide
 [Rust FAQ]: https://prev.rust-lang.org/faq.html
+[Rust on Exercism]: https://exercism.org/tracks/rust/exercises
 [Rust Playground]: https://play.rust-lang.org
+[Rust Quiz]: https://github.com/dtolnay/rust-quiz
 [Rust Reference]: https://doc.rust-lang.org/reference
 [Rust std lib]: https://doc.rust-lang.org/std
 [Rust SVG Cheatsheet]: https://www.breakdown-notes.com/make/load/rust_cs_canvas/true
 [Rustdoc Book]: https://doc.rust-lang.org/rustdoc
 [rustfmt]: https://github.com/rust-lang/rustfmt
+[rustlings]: https://rustlings.cool
 [rustup]: https://rustup.rs
 [This Week in Rust]: https://this-week-in-rust.org
 
