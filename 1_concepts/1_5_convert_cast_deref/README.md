@@ -187,6 +187,18 @@ Provide conversion and `Deref` implementations for these types on your choice, t
 
 
 
+## Questions
+
+After completing everything above, you should be able to answer (and understand why) the following questions:
+- How value-to-value conversion is represented in [Rust]? What is relation between fallible and infallible one?
+- How reference-to-reference conversion is represented in [Rust]? Hot its traits differ? When and which one should be used?
+- How can inner-to-outer reference conversion be achieved in [Rust]? Which prerequisites does it have?
+- What is dereferencing in [Rust]? How it can be abused? Why it shouldn't be abused?
+- Why using [`as`] keyword is not a good practice in [Rust]? Why do we still use it?
+
+
+
+
 [`as`]: https://doc.rust-lang.org/std/keyword.as.html
 [`AsMut`]: https://doc.rust-lang.org/std/convert/trait.AsMut.html
 [`AsRef`]: https://doc.rust-lang.org/std/convert/trait.AsRef.html

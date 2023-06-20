@@ -152,6 +152,18 @@ Write a `GlobalStack<T>` collection which represents a trivial unsized [stack] (
 
 
 
+## Questions
+
+After completing everything above, you should be able to answer (and understand why) the following questions:
+- What is shared ownership? Which problem does it solve? Which penalties does it have?
+- What is interior mutability? Why is it required in [Rust]? In what price it comes?
+- Is it possible to write a custom type with interior mutability without using `std`? Why?
+- What is shared mutability? Which are its common use-cases?
+- How can we expose panic/deadlock-free API to users when using interior mutability?
+
+
+
+
 [`Arc`]: https://doc.rust-lang.org/std/sync/struct.Arc.html
 [`Cell`]: https://doc.rust-lang.org/std/cell/struct.Cell.html
 [`Mutex`]: https://doc.rust-lang.org/std/sync/struct.Mutex.html

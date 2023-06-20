@@ -168,6 +168,18 @@ Implement `UserRepository` type with injectable `Storage` implementation, which 
 
 
 
+## Questions
+
+After completing everything above, you should be able to answer (and understand why) the following questions:
+- What is dispatch? When a function call represents a dispatch and when not?
+- How does static dispatch work?
+- How does dynamic dispatch work? Why is it required? Which limitations does it have in [Rust]? Why does it have them?
+- When dynamic dispatch can be replaced with static dispatch? When not? What are the trade-offs?
+- How can we reduce the size of compiler-generated code when using static dispatch?
+
+
+
+
 [enum_dispatch]: https://docs.rs/enum_dispatch
 [momo]: https://github.com/llogiq/momo
 [Rust]: https://www.rust-lang.org

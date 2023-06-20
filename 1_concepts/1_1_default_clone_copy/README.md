@@ -68,7 +68,18 @@ For better understanding the topic, read through:
 ## Task
 
 - Create a `Point` type which represents a 2D point (`x` and `y` coordinates). This type has to be `Copy` and `Default`.
-- Create a `Polyline` type which represents a non-empty set of `Point`s of unknown size. This type has to be `Clone` and non-`Default`. 
+- Create a `Polyline` type which represents a non-empty set of `Point`s of unknown size. This type has to be `Clone` and non-`Default`.
+
+
+
+
+## Questions
+
+After completing everything above, you should be able to answer (and understand why) the following questions:
+- What purpose does [`Default`] trait serve in [Rust]?
+- What is `#[derive(Default)]` from `std` capable of? What it does wrong? Which are alternatives?
+- What does [`Clone`] mean semantically?
+- What does [`Copy`] mean semantically? How is it connected with [`Clone`]? Which limitations does it have and why?
 
 
 

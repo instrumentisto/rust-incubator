@@ -81,6 +81,19 @@ For better understanding [`Pin`] purpose, design, limitations and use cases read
 
 
 
+## Questions
+
+After completing everything above, you should be able to answer (and understand why) the following questions:
+- What does "boxing" mean in [Rust]? How is it useful? When and why is it required?
+- What is [`Pin`] and why is it required? What guarantees does it provide? How it fulfills them?
+- How does [`Unpin`] affect the [`Pin`]? What does it mean?
+- Is it allowed to move pinned data after the [`Pin`] dies? Why?
+- What is structural pinning? When it should be used and why?
+- What is [`Pin`] projection? Why does it exist? How is it used?
+
+
+
+
 [`Box`]: https://doc.rust-lang.org/std/boxed/struct.Box.html
 [`Future`]: https://doc.rust-lang.org/std/future/trait.Future.html
 [`Pin`]: https://doc.rust-lang.org/std/pin/struct.Pin.html
