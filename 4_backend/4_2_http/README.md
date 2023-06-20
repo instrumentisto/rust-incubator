@@ -94,7 +94,7 @@ For better understanding and familiarity with [WebSocket] implementations in [Ru
 ## Task
 
 Rework [the task from the previous step](../4_1_db/README.md#task) in a [client-server architecture][51]. It should consist of a [CLI] client and a server [daemon][52], and utilize the ["thin client" approach][53]:
-- [CLI] client does nothing except sending commands "as is" to the server and rendering its responses;
+- [CLI] client does nothing except sending commands "as is" to the server and rendering its responses.
 - Server [daemon][52], having a single [HTTP] endpoint, does all the parsing and executing of commands sent by the [CLI] client.
 
 
