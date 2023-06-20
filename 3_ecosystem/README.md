@@ -3,9 +3,11 @@ Step 3: Common ecosystem
 
 __Estimated time__: 2 days
 
-These steps describe common crates and tools in [Rust] ecosystem required for web backend development.
+These steps describe common crates and tools in [Rust] ecosystem required for application and library development.
 
-Before completing this step you should complete all its sub-steps. After doing them you should be able to answer the following questions:
+> ❗️Before completing this step you should complete all its sub-steps.
+
+After doing them you should be able to answer the following questions:
 - What testing capabilities does [Rust] offer and when should I use them? Why should I follow [BDD] style?
 - What are macros? How do they differ? What benefits does their usage give? When should I write one?
 - How to work with date and time in [Rust]? How should I store time? How should I return it to other applications?

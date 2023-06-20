@@ -5,7 +5,9 @@ __Estimated time__: 3 days
 
 These steps describe common crates and tools in [Rust] ecosystem required for web backend development.
 
-Before completing this step you should complete all its sub-steps. After doing them you should be able to answer the following questions:
+> ❗️Before completing this step you should complete all its sub-steps.
+
+After doing them you should be able to answer the following questions:
 - How should I interact with databases in [Rust] application and why? How can I organize migrations for my project?
 - What should I use for [HTTP] server implementation in [Rust], when and why? What about [WebSocket] connections?
 - What are options for making [HTTP] request (including [WebSocket] ones)?
