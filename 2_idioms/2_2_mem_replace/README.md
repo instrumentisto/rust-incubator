@@ -143,6 +143,15 @@ Improve and optimize the code contained in [this step's crate](src/main.rs) to c
 
 
 
+## Questions
+
+After completing everything above, you should be able to answer (and understand why) the following questions:
+- What is the reason of [`mem::replace`] existing in [Rust]? What does it give to us? Why cannot we solve the same problems without it?
+- Provide some meaningful examples of using [`mem::replace`] in [Rust].
+
+
+
+
 [`mem::replace`]: https://doc.rust-lang.org/std/mem/fn.replace.html
 [`mem::swap`]: https://doc.rust-lang.org/std/mem/fn.swap.html
 [`mem::take`]: https://doc.rust-lang.org/std/mem/fn.take.html

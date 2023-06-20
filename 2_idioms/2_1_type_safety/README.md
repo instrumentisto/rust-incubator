@@ -125,6 +125,16 @@ Implement this behavior using [typestates idiom][3], so that calling `delete()` 
 
 
 
+## Questions
+
+After completing everything above, you should be able to answer (and understand why) the following questions:
+- Why expressing semantics in types is good? What are the benefits and downsides?
+- What is newtype pattern? How does it work? Which guarantees does it give?
+- What is typestates pattern? How does it work? Which guarantees does it give?
+
+
+
+
 [`derive_more`]: https://docs.rs/derive_more
 [`nutype`]: https://docs.rs/nutype
 [`state_machine_future`]: https://docs.rs/state_machine_future
