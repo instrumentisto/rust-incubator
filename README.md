@@ -50,7 +50,7 @@ Do not hesitate to ask your mentor/lead with questions, however you won't receiv
     - [ ] [1.7. `Sized` and `?Sized` types][Step 1.7]
     - [ ] [1.8. Thread safety][Step 1.8]
     - [ ] [1.9. Phantom types][Step 1.9]
-    - [ ] [Final Task][Step 1]
+    - [ ] [Summary Task][Step 1 Summary Task]
 - [ ] [2. Idioms][Step 2] (2 weeks)
     - [ ] [2.1. Rich types ensure correctness][Step 2.1]
     - [ ] [2.2. Swapping values with `mem::replace`][Step 2.2]
@@ -58,7 +58,7 @@ Do not hesitate to ask your mentor/lead with questions, however you won't receiv
     - [ ] [2.4. Abstract type in, concrete type out][Step 2.4]
     - [ ] [2.5. Exhaustivity][Step 2.5]
     - [ ] [2.6. Sealing][Step 2.6]
-    - [ ] [Final Task][Step 2]
+    - [ ] [Summary Task][Step 2 Summary Task]
 - [ ] [3. Ecosystem][Step 3] (3 weeks)
     - [ ] [3.1. Testing and mocking][Step 3.1]
     - [ ] [3.2. Declarative and procedural macros][Step 3.2]
@@ -72,12 +72,12 @@ Do not hesitate to ask your mentor/lead with questions, however you won't receiv
     - [ ] [3.10. Multithreading and parallelism][Step 3.10]
     - [ ] [3.11. Async I/O, futures and actors][Step 3.11]
     - [ ] [3.12. Web frameworks, databases, connection pools and ORMs][Step 3.12]
-    - [ ] [Final Task][Step 3]
+    - [ ] [Summary Task][Step 3 Summary Task]
 - [ ] [4. Backend ecosystem][Step 4] (1 week)
     - [ ] [4.1. Databases, connection pools and ORMs][Step 4.1]
     - [ ] [4.2. HTTP servers and clients][Step 4.2]
     - [ ] [4.3. API servers, clients and tools][Step 4.3]
-    - [ ] [Final Task][Step 4]
+    - [ ] [Summary Task][Step 4 Summary Task]
 - [ ] [5. Zero To Production][Step 5] (3 weeks)
     - [ ] [5.1. Basic actix-web][Step 5.1]
     - [ ] [5.2. Logging][Step 5.2]
@@ -85,7 +85,6 @@ Do not hesitate to ask your mentor/lead with questions, however you won't receiv
     - [ ] [5.4. Type-Driven Development and testing][Step 5.4]
     - [ ] [5.5. Advanced actix-web and error handling][Step 5.5]
     - [ ] [5.6. Authorization][Step 5.6]
-    - [ ] [Final Task][Step 5]
 
 
 
@@ -110,6 +109,7 @@ Do not hesitate to ask your mentor/lead with questions, however you won't receiv
 [Step 1.7]: 1_concepts/1_7_sized
 [Step 1.8]: 1_concepts/1_8_thread_safety
 [Step 1.9]: 1_concepts/1_9_phantom
+[Step 1 Summary Task]: 1_concepts/README.md#task
 [Step 2]: 2_idioms
 [Step 2.1]: 2_idioms/2_1_type_safety
 [Step 2.2]: 2_idioms/2_2_mem_replace
@@ -117,6 +117,7 @@ Do not hesitate to ask your mentor/lead with questions, however you won't receiv
 [Step 2.4]: 2_idioms/2_4_generic_in_type_out
 [Step 2.5]: 2_idioms/2_5_exhaustivity
 [Step 2.6]: 2_idioms/2_6_sealing
+[Step 2 Summary Task]: 2_idioms/README.md#task
 [Step 3]: 3_ecosystem
 [Step 3.1]: 3_ecosystem/3_1_testing
 [Step 3.2]: 3_ecosystem/3_2_macro
@@ -130,10 +131,12 @@ Do not hesitate to ask your mentor/lead with questions, however you won't receiv
 [Step 3.10]: 3_ecosystem/3_10_threads
 [Step 3.11]: 3_ecosystem/3_11_async
 [Step 3.12]: 3_ecosystem/3_12_web_db
+[Step 3 Summary Task]: 3_ecosystem/README.md#task
 [Step 4]: 4_backend
 [Step 4.1]: 4_backend/4_1_db
 [Step 4.2]: 4_backend/4_2_http
 [Step 4.3]: 4_backend/4_3_api
+[Step 4 Summary Task]: 4_backend/README.md#task
 [Step 5]: 5_zero2prod
 [Step 5.1]: 5_zero2prod/3_chapter
 [Step 5.2]: 5_zero2prod/4_chapter
