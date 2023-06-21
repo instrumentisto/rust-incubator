@@ -12,20 +12,35 @@ This project represents a hard-way step-by-step [Rust] learning course from lang
 
 ### Before you start
 
-1. [Create][1] a new [GitHub repository] for yourself using this one [as template][2]. Don't forget to make it private.
-2. [Invite as a collaborator][3] of your repository the person you want to review your lessons (lead).
+1. [Create][1] a new [GitHub repository] for yourself using this one [as template][11]. Don't forget to make it private.
+2. [Invite as a collaborator][12] of your repository the person you want to review your lessons (mentor or lead).
+
+> __NOTE__: __This learning course is constantly improving and evolving over time.__ 
+>
+> To be up-to-date with the recent changes in your own copy of this repository, attach the upstream history with the following commands:
+> ```bash
+> git remote add upstream https://github.com/rust-lang-ua/rust_incubator_eng.git
+> git fetch upstream main
+> git merge upstream/main --allow-unrelated-histories
+> ```
+> And then, whenever you want to grab some new changes, do the following:
+> ```bash
+> git fetch upstream main
+> git merge upstream/main
+> ```
+> Additionally, to be aware about new changes, you may either [watch this repository on GitHub][2], or even track it via [RSS subscription].
 
 
 ### Schedule
 
-Each step must be performed as a separate [PR (pull request)][PR] with an appropriate name and checked here in README's schedule after completion. Each step is a [Cargo workspace member][4], so you can run/test it from a project root (i.e. `cargo run -p step_1_8`). Consider to use [rustfmt] and [Clippy] when you're writing [Rust] code.
+Each step must be performed as a separate [PR (pull request)][PR] with an appropriate name and checkmarked here in README's schedule after completion. Each step is a [Cargo workspace member][13], so you can run/test it from the project root (i.e. `cargo run -p step_1_8`). __Consider to use [rustfmt] and [Clippy] when you're writing [Rust] code.__
 
-Each step has estimated time for being completed. If any deeper investigation on step's theme is required for you, then it's on your own.
+Each step has the estimated time for completion. If any deeper investigation on step's theme is needed by you, then it's on your own.
 
-Do not hesitate to ask your lead with questions, however you won't receive a concrete answer, but rather a direction for investigation. _Lead is the one who asks questions about everything here and demands a concrete answers_.
+Do not hesitate to ask your mentor/lead with questions, however you won't receive any concrete answer, but rather a direction for your own investigation. _Mentor/Lead is the one who asks questions here, demanding concrete and complete answers._
 
 - [ ] [0. Become familiar with Rust basics][Step 0] (3 days)
-- [ ] [1. Concepts][Step 1] (2 days)
+- [ ] [1. Concepts][Step 1] (2 days, after all sub-steps)
     - [ ] [1.1. Default values, cloning and copying][Step 1.1] (1 day)
     - [ ] [1.2. Boxing and pinning][Step 1.2] (2 days)
     - [ ] [1.3. Shared ownership and interior mutability][Step 1.3] (1 day)
@@ -55,14 +70,26 @@ Do not hesitate to ask your lead with questions, however you won't receive a con
     - [ ] [3.10. Multithreading and parallelism][Step 3.10] (1 day)
     - [ ] [3.11. Async I/O, futures and actors][Step 3.11] (2 days)
     - [ ] [3.12. Web frameworks, databases, connection pools and ORMs][Step 3.12] (1 day)
-- [ ] [4. Zero To Production][Step 4]
-    - [ ] [4.1. Basic actix-web][Step 4.1] (2 days)
-    - [ ] [4.2. Logging][Step 4.2] (3 days)
-    - [ ] [4.3. Docker and deployment][Step 4.3] (2 days)
-    - [ ] [4.4. Type-Driven Development and testing][Step 4.4] (5 days)
-    - [ ] [4.5. Advanced actix-web and error handling][Step 4.5] (2 days)
-    - [ ] [4.6. Authorization][Step 4.6] (5 days)
-- [ ] [5. Final Task][Step 5] (7 days)
+- [ ] [4. Backend ecosystem][Step 4] (3 days, after all sub-steps)
+    - [ ] [4.1. Databases, connection pools and ORMs][Step 4.1] (1 day)
+    - [ ] [4.2. HTTP servers and clients][Step 4.2] (1 day)
+    - [ ] [4.3. API servers, clients and tools][Step 4.3] (1 day)
+- [ ] [5. Zero To Production][Step 5]
+    - [ ] [5.1. Basic actix-web][Step 5.1] (2 days)
+    - [ ] [5.2. Logging][Step 5.2] (3 days)
+    - [ ] [5.3. Docker and deployment][Step 5.3] (2 days)
+    - [ ] [5.4. Type-Driven Development and testing][Step 5.4] (5 days)
+    - [ ] [5.5. Advanced actix-web and error handling][Step 5.5] (2 days)
+    - [ ] [5.6. Authorization][Step 5.6] (5 days)
+
+
+
+
+## More practice
+
+- [rustlings] are small exercises to get you used to reading and writing [Rust] code.
+- [Rust on Exercism] provides coding exercises with mentoring.
+- [Rust Quiz] is medium to hard [Rust] questions with explanations.
 
 
 
@@ -98,14 +125,17 @@ Do not hesitate to ask your lead with questions, however you won't receive a con
 [Step 3.10]: 3_ecosystem/3_10_threads
 [Step 3.11]: 3_ecosystem/3_11_async
 [Step 3.12]: 3_ecosystem/3_12_web_db
-[Step 4]: 4_zero2prod
-[Step 4.1]: 4_zero2prod/3_chapter
-[Step 4.2]: 4_zero2prod/4_chapter
-[Step 4.3]: 4_zero2prod/5_chapter
-[Step 4.4]: 4_zero2prod/6_chapter
-[Step 4.5]: 4_zero2prod/7_chapter
-[Step 4.6]: 4_zero2prod/10_chapter
-[Step 5]: 5_final_task/
+[Step 4]: 4_backend
+[Step 4.1]: 4_backend/4_1_db
+[Step 4.2]: 4_backend/4_2_http
+[Step 4.3]: 4_backend/4_3_api
+[Step 5]: 5_zero2prod
+[Step 5.1]: 5_zero2prod/3_chapter
+[Step 5.2]: 5_zero2prod/4_chapter
+[Step 5.3]: 5_zero2prod/5_chapter
+[Step 5.4]: 5_zero2prod/6_chapter
+[Step 5.5]: 5_zero2prod/7_chapter
+[Step 5.6]: 5_zero2prod/10_chapter
 
 [Awesome Rust]: https://github.com/rust-unofficial/awesome-rust
 [Baby Steps]: http://smallcultfollowing.com/babysteps
@@ -120,6 +150,7 @@ Do not hesitate to ask your lead with questions, however you won't receive a con
 [IntelliJ Rust]: https://intellij-rust.github.io
 [IntelliJ Toml]: https://plugins.jetbrains.com/plugin/8195-toml
 [PR]: https://help.github.com/articles/github-glossary/#pull-request
+[RSS subscription]: https://github.com/rust-lang-ua/rust_incubator_eng/commits/main.atom
 [Rust]: https://www.rust-lang.org
 [Rust 2018]: https://doc.rust-lang.org/edition-guide/rust-2018/index.html
 [Rust 2021]: https://doc.rust-lang.org/edition-guide/rust-2021/index.html
@@ -130,16 +161,20 @@ Do not hesitate to ask your lead with questions, however you won't receive a con
 [Rust Design Patterns]: https://rust-unofficial.github.io/patterns
 [Rust Edition Guide]: https://doc.rust-lang.org/edition-guide
 [Rust FAQ]: https://prev.rust-lang.org/faq.html
+[Rust on Exercism]: https://exercism.org/tracks/rust/exercises
 [Rust Playground]: https://play.rust-lang.org
+[Rust Quiz]: https://github.com/dtolnay/rust-quiz
 [Rust Reference]: https://doc.rust-lang.org/reference
 [Rust std lib]: https://doc.rust-lang.org/std
 [Rust SVG Cheatsheet]: https://www.breakdown-notes.com/make/load/rust_cs_canvas/true
 [Rustdoc Book]: https://doc.rust-lang.org/rustdoc
 [rustfmt]: https://github.com/rust-lang/rustfmt
+[rustlings]: https://rustlings.cool
 [rustup]: https://rustup.rs
 [This Week in Rust]: https://this-week-in-rust.org
 
 [1]: https://github.com/rust-lang-ua/rust_incubator_eng/generate
-[2]: https://help.github.com/en/articles/creating-a-repository-from-a-template
-[3]: https://help.github.com/en/articles/inviting-collaborators-to-a-personal-repository
-[4]: https://doc.rust-lang.org/book/ch14-03-cargo-workspaces.html
+[2]: https://github.com/rust-lang-ua/rust_incubator_eng/subscription
+[11]: https://help.github.com/en/articles/creating-a-repository-from-a-template
+[12]: https://help.github.com/en/articles/inviting-collaborators-to-a-personal-repository
+[13]: https://doc.rust-lang.org/book/ch14-03-cargo-workspaces.html

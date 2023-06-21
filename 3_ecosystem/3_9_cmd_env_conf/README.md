@@ -18,6 +18,7 @@ For better understanding and familiarity with [CLI] tools in [Rust] ecosystem, r
 - [Rust Book: 12.1. Accepting Command Line Arguments][1]
 - [Official `std::env::Arg` docs][`std::env::Arg`]
 - [Official `clap` crate docs][`clap`]
+- [Pavlo Myroniuk: Rust Clap recipes][9]
 
 
 
@@ -94,6 +95,16 @@ OPTIONS:
 
 
 
+## Questions
+
+After completing everything above, you should be able to answer (and understand why) the following questions:
+- What are the benefits of having strongly-type configuration?
+- Why environment variables are useful for configuring an application? What is the main use-case for them?
+- How is [`config`] crate really useful? Why should we it and cannot just deserialize a file into structs via [`serde`]?
+
+
+
+
 [`clap`]: https://docs.rs/clap
 [`config`]: https://docs.rs/config
 [`dotenv`]: https://docs.rs/dotenv
@@ -114,3 +125,4 @@ OPTIONS:
 [6]: https://docs.rs/clap/latest/clap#example
 [7]: https://docs.rs/clap/latest/clap/parser/enum.ValueSource.html#variant.EnvVariable
 [8]: https://github.com/bkeepers/dotenv#usage
+[9]: https://tbt.qkation.com/posts/clap-recipes

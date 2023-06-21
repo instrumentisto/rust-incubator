@@ -89,6 +89,16 @@ Prove your implementation correctness with tests.
 
 
 
+## Questions
+
+After completing everything above, you should be able to answer (and understand why) the following questions:
+- What is a collection? What is an iterator? How do they differ? How are they used? Which limitations does each one have?
+- What are immutable collections? How do they work? Why shouldn't we use them all the time? When does it make sense to use them?
+- What are concurrent collections? How do they work? Why are they better than explicit synchronization on a normal collection?
+
+
+
+
 [`chashmap`]: https://docs.rs/chashmap
 [`crossbeam`]: https://docs.rs/crossbeam
 [`flurry`]: https://docs.rs/flurry

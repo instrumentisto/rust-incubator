@@ -34,9 +34,18 @@ Play with these types from multiple threads to see how compile time [fearless co
 
 
 
-[Rust]: https://www.rust-lang.org
+## Questions
+
+After completing everything above, you should be able to answer (and understand why) the following questions:
+- What does "fearless concurrency" mean in [Rust]? With which mechanisms does [Rust] fulfill this guarantee exactly?
+- Why do [`Send`] and [`Sync`] exist at all? How is it related to interior mutability?
+
+
+
+
 [`Send`]: https://doc.rust-lang.org/std/marker/trait.Send.html
 [`Sync`]: https://doc.rust-lang.org/std/marker/trait.Sync.html
+[Rust]: https://www.rust-lang.org
 
 [1]: https://doc.rust-lang.org/nomicon/races.html
 [2]: https://doc.rust-lang.org/book/ch16-00-concurrency.html

@@ -94,6 +94,15 @@ Refactor the code contained in [this step's crate](src/main.rs) to make it more 
 
 
 
+## Questions
+
+After completing everything above, you should be able to answer (and understand why) the following questions:
+- Why abstracting over input type is good? Which problems does it have and how can they be overcome?
+- When returning a concrete type is good? When not? What are the trade-offs?
+
+
+
+
 [`Iterator`]: https://doc.rust-lang.org/std/iter/trait.Iterator.html
 [Rust]: https://www.rust-lang.org
 

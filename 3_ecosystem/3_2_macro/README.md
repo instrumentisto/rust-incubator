@@ -113,6 +113,9 @@ For better understanding procedural macros design, concepts, usage and features,
 - [Vitaly Bragilevsky: What Every Rust Developer Should Know About Macro Support in IDEs][31]
 - [Proc macro workshop][32]
 - [Macros in Rust: A tutorial with examples][33]
+- [Arthur Cohen: Looking at Rust builtin derives][35]
+
+
 
 
 ## Task
@@ -122,6 +125,18 @@ Implement a `btreemap!` macro, which allows to create [`BTreeMap`] in an ergonom
 Provide two implementations: one via declarative macro and other one via procedural macro.
 
 Prove your implementation correctness with tests.
+
+
+
+## Questions
+
+After completing everything above, you should be able to answer (and understand why) the following questions:
+- What are macros? Which problem do they solve?
+- Which benefits do declarative macros have in [Rust] comparing to procedural ones? Which downsides and limitations?
+- Which kinds of procedural macros do exist in [Rust]?
+- What are common crates for implementing procedural macros in [Rust]? What responsibilities does each one have? Which are mandatory, which are not?
+- What are good practices for implementing procedural macros in [Rust]?
+
 
 
 
@@ -158,3 +173,4 @@ Prove your implementation correctness with tests.
 [32]: https://github.com/dtolnay/proc-macro-workshop
 [33]: https://blog.logrocket.com/macros-in-rust-a-tutorial-with-examples/
 [34]: https://developerlife.com/2022/03/30/rust-proc-macro
+[35]: https://cohenarthur.github.io/2023/06/05/rust-derives.html

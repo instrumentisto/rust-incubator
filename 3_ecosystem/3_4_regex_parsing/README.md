@@ -106,6 +106,17 @@ Prove your implementation correctness with tests.
 
 
 
+## Questions
+
+After completing everything above, you should be able to answer (and understand why) the following questions:
+- How does [`regex`] crate achieve linear time complexity? In what price?
+- How to avoid regular expression recompilation in [Rust]? Why is it important?
+- Which are the common kinds of libraries for writing custom parses in [Rust]? Which benefits does each one have?
+- What advantages does libraries give for writing a custom parser? Are they mandatory? When does it make sense to avoid using a library for implementing a parser?
+
+
+
+
 [`chomp`]: https://docs.rs/chomp
 [`chumsky`]: https://docs.rs/chumsky
 [`combine`]: https://docs.rs/combine

@@ -162,6 +162,15 @@ Refactor the code contained in [this step's crate](src/lib.rs), so the bugs intr
 
 
 
+## Questions
+
+After completing everything above, you should be able to answer (and understand why) the following questions:
+- How can exhaustiveness checking be useful in [Rust] code for enums and structs? When should we use it, when not?
+- How does `#[non_exhaustive]` attribute work in [Rust]? What are its use-cases? When should it be used, when not?
+
+
+
+
 [API]: https://en.wikipedia.org/wiki/API
 
 [1]: https://doc.rust-lang.org/book/ch18-00-patterns.html

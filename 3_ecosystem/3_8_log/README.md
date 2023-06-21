@@ -73,6 +73,18 @@ Examples:
 
 
 
+## Questions
+
+After completing everything above, you should be able to answer (and understand why) the following questions:
+- How does [`log`] crate achieve its reusability over ecosystem? What are the ideas behind it?
+- Why logging is preferred over printing (`println!` usage)? When it's not?
+- What is structured logging? What benefits does it provide?
+- Why [`tracing`] crate is good for logging? What makes it preferred over [`slog`] and [`log`] crates?
+- What is tracing? Why is it beneficial for observability?
+
+
+
+
 [`log`]: https://docs.rs/log
 [`serde`]: https://docs.rs/serde
 [`slog`]: https://docs.rs/slog

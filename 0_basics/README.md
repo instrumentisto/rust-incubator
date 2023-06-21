@@ -5,7 +5,7 @@ __Estimated time__: 3 days
 
 Read through [Rust Book], [Rust FAQ], and become familiar with basic [Rust] concepts, syntax, memory model, type and module systems.
 
-Polish your familiarity by completing [Rust By Example].
+Polish your familiarity by completing [Rust By Example] and [rustlings].
 
 Read through [Cargo Book] and become familiar with [Cargo] and its workspaces.
 
@@ -39,6 +39,7 @@ _Additional_ articles, which may help to understand the above topic better:
 - [Tristan Hume: Models of Generics and Metaprogramming: Go, Rust, Swift, D and More][3]
 - [Jeff Anderson: Generics Demystified Part 1][4]
 - [Jeff Anderson: Generics Demystified Part 2][5]
+- [Bradford Hovinen: Demystifying trait generics in Rust][25]
 - [Brandon Smith: Three Kinds of Polymorphism in Rust][6]
 - [Jeremy Steward: C++ & Rust: Generics and Specialization][7]
 - [cooscoos: &stress about &Strings][8]
@@ -64,6 +65,7 @@ Additional:
 [Rust Book]: https://doc.rust-lang.org/book
 [Rust By Example]: https://doc.rust-lang.org/rust-by-example
 [Rust FAQ]: https://prev.rust-lang.org/faq.html
+[rustlings]: https://rustlings.cool
 
 [1]: https://chrismorgan.info/blog/rust-ownership-the-hard-way
 [2]: https://aloso.github.io/2021/03/28/module-system.html
@@ -88,3 +90,4 @@ Additional:
 [22]: https://web.archive.org/web/20230319015854/https://ybnesm.github.io/blah/articles/true-observer-pattern-rust
 [23]: https://ochagavia.nl/blog/you-are-holding-it-wrong
 [24]: https://hashrust.com/blog/a-guide-to-closures-in-rust
+[25]: https://gruebelinchen.wordpress.com/2023/06/06/demystifying-trait-generics-in-rust
