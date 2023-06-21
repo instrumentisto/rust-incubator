@@ -39,48 +39,48 @@ Each step has the estimated time for completion. If any deeper investigation on 
 
 Do not hesitate to ask your mentor/lead with questions, however you won't receive any concrete answer, but rather a direction for your own investigation. _Mentor/Lead is the one who asks questions here, demanding concrete and complete answers._
 
-- [ ] [0. Become familiar with Rust basics][Step 0] (3 days)
-- [ ] [1. Concepts][Step 1] (2 days, after all sub-steps)
-    - [ ] [1.1. Default values, cloning and copying][Step 1.1] (1 day)
-    - [ ] [1.2. Boxing and pinning][Step 1.2] (2 days)
-    - [ ] [1.3. Shared ownership and interior mutability][Step 1.3] (1 day)
-    - [ ] [1.4. Clone-on-write][Step 1.4] (1 day)
-    - [ ] [1.5. Conversions, casting and dereferencing][Step 1.5] (1 day)
-    - [ ] [1.6. Static and dynamic dispatch][Step 1.6] (1 day)
-    - [ ] [1.7. `Sized` and `?Sized` types][Step 1.7] (1 day)
-    - [ ] [1.8. Thread safety][Step 1.8] (1 day)
-    - [ ] [1.9. Phantom types][Step 1.9] (1 day)
-- [ ] [2. Idioms][Step 2] (1 day)
-    - [ ] [2.1. Rich types ensure correctness][Step 2.1] (1 day)
-    - [ ] [2.2. Swapping values with `mem::replace`][Step 2.2] (1 day)
-    - [ ] [2.3. Bound behavior, not data][Step 2.3] (1 day)
-    - [ ] [2.4. Abstract type in, concrete type out][Step 2.4] (1 day)
-    - [ ] [2.5. Exhaustivity][Step 2.5] (1 day)
-    - [ ] [2.6. Sealing][Step 2.6] (1 day)
-- [ ] [3. Ecosystem][Step 3] (3 days)
-    - [ ] [3.1. Testing and mocking][Step 3.1] (1 day)
-    - [ ] [3.2. Declarative and procedural macros][Step 3.2] (1 day)
-    - [ ] [3.3. Date and time][Step 3.3] (1 day)
-    - [ ] [3.4. Regular expressions and custom parsers][Step 3.4] (1 day)
-    - [ ] [3.5. Collections and iterators][Step 3.5] (1 day)
-    - [ ] [3.6. Serialization and deserialization][Step 3.6] (1 day)
-    - [ ] [3.7. Randomness and cryptography][Step 3.7] (1 day)
-    - [ ] [3.8. Logging and tracing][Step 3.8] (1 day)
-    - [ ] [3.9. Command-line arguments, environment variables and configs][Step 3.9] (1 day)
-    - [ ] [3.10. Multithreading and parallelism][Step 3.10] (1 day)
-    - [ ] [3.11. Async I/O, futures and actors][Step 3.11] (2 days)
-    - [ ] [3.12. Web frameworks, databases, connection pools and ORMs][Step 3.12] (1 day)
-- [ ] [4. Backend ecosystem][Step 4] (3 days, after all sub-steps)
-    - [ ] [4.1. Databases, connection pools and ORMs][Step 4.1] (1 day)
-    - [ ] [4.2. HTTP servers and clients][Step 4.2] (1 day)
-    - [ ] [4.3. API servers, clients and tools][Step 4.3] (1 day)
-- [ ] [5. Zero To Production][Step 5]
-    - [ ] [5.1. Basic actix-web][Step 5.1] (2 days)
-    - [ ] [5.2. Logging][Step 5.2] (3 days)
-    - [ ] [5.3. Docker and deployment][Step 5.3] (2 days)
-    - [ ] [5.4. Type-Driven Development and testing][Step 5.4] (5 days)
-    - [ ] [5.5. Advanced actix-web and error handling][Step 5.5] (2 days)
-    - [ ] [5.6. Authorization][Step 5.6] (5 days)
+- [ ] [0. Become familiar with Rust basics][Step 0] (1 week)
+- [ ] [1. Concepts][Step 1] (2 weeks)
+    - [ ] [1.1. Default values, cloning and copying][Step 1.1]
+    - [ ] [1.2. Boxing and pinning][Step 1.2]
+    - [ ] [1.3. Shared ownership and interior mutability][Step 1.3]
+    - [ ] [1.4. Clone-on-write][Step 1.4]
+    - [ ] [1.5. Conversions, casting and dereferencing][Step 1.5]
+    - [ ] [1.6. Static and dynamic dispatch][Step 1.6]
+    - [ ] [1.7. `Sized` and `?Sized` types][Step 1.7]
+    - [ ] [1.8. Thread safety][Step 1.8]
+    - [ ] [1.9. Phantom types][Step 1.9]
+- [ ] [2. Idioms][Step 2] (2 weeks)
+    - [ ] [2.1. Rich types ensure correctness][Step 2.1]
+    - [ ] [2.2. Swapping values with `mem::replace`][Step 2.2]
+    - [ ] [2.3. Bound behavior, not data][Step 2.3]
+    - [ ] [2.4. Abstract type in, concrete type out][Step 2.4]
+    - [ ] [2.5. Exhaustivity][Step 2.5]
+    - [ ] [2.6. Sealing][Step 2.6]
+- [ ] [3. Ecosystem][Step 3] (3 weeks)
+    - [ ] [3.1. Testing and mocking][Step 3.1]
+    - [ ] [3.2. Declarative and procedural macros][Step 3.2]
+    - [ ] [3.3. Date and time][Step 3.3]
+    - [ ] [3.4. Regular expressions and custom parsers][Step 3.4]
+    - [ ] [3.5. Collections and iterators][Step 3.5]
+    - [ ] [3.6. Serialization and deserialization][Step 3.6]
+    - [ ] [3.7. Randomness and cryptography][Step 3.7]
+    - [ ] [3.8. Logging and tracing][Step 3.8]
+    - [ ] [3.9. Command-line arguments, environment variables and configs][Step 3.9]
+    - [ ] [3.10. Multithreading and parallelism][Step 3.10]
+    - [ ] [3.11. Async I/O, futures and actors][Step 3.11]
+    - [ ] [3.12. Web frameworks, databases, connection pools and ORMs][Step 3.12]
+- [ ] [4. Backend ecosystem][Step 4] (1 week)
+    - [ ] [4.1. Databases, connection pools and ORMs][Step 4.1]
+    - [ ] [4.2. HTTP servers and clients][Step 4.2]
+    - [ ] [4.3. API servers, clients and tools][Step 4.3]
+- [ ] [5. Zero To Production][Step 5] (3 weeks)
+    - [ ] [5.1. Basic actix-web][Step 5.1]
+    - [ ] [5.2. Logging][Step 5.2]
+    - [ ] [5.3. Docker and deployment][Step 5.3]
+    - [ ] [5.4. Type-Driven Development and testing][Step 5.4]
+    - [ ] [5.5. Advanced actix-web and error handling][Step 5.5]
+    - [ ] [5.6. Authorization][Step 5.6]
 
 
 
