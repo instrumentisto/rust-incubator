@@ -50,6 +50,7 @@ Do not hesitate to ask your mentor/lead with questions, however you won't receiv
     - [ ] [1.7. `Sized` and `?Sized` types][Step 1.7]
     - [ ] [1.8. Thread safety][Step 1.8]
     - [ ] [1.9. Phantom types][Step 1.9]
+    - [ ] [Final Task][Step 1]
 - [ ] [2. Idioms][Step 2] (2 weeks)
     - [ ] [2.1. Rich types ensure correctness][Step 2.1]
     - [ ] [2.2. Swapping values with `mem::replace`][Step 2.2]
@@ -57,6 +58,7 @@ Do not hesitate to ask your mentor/lead with questions, however you won't receiv
     - [ ] [2.4. Abstract type in, concrete type out][Step 2.4]
     - [ ] [2.5. Exhaustivity][Step 2.5]
     - [ ] [2.6. Sealing][Step 2.6]
+    - [ ] [Final Task][Step 2]
 - [ ] [3. Ecosystem][Step 3] (3 weeks)
     - [ ] [3.1. Testing and mocking][Step 3.1]
     - [ ] [3.2. Declarative and procedural macros][Step 3.2]
@@ -70,10 +72,12 @@ Do not hesitate to ask your mentor/lead with questions, however you won't receiv
     - [ ] [3.10. Multithreading and parallelism][Step 3.10]
     - [ ] [3.11. Async I/O, futures and actors][Step 3.11]
     - [ ] [3.12. Web frameworks, databases, connection pools and ORMs][Step 3.12]
+    - [ ] [Final Task][Step 3]
 - [ ] [4. Backend ecosystem][Step 4] (1 week)
     - [ ] [4.1. Databases, connection pools and ORMs][Step 4.1]
     - [ ] [4.2. HTTP servers and clients][Step 4.2]
     - [ ] [4.3. API servers, clients and tools][Step 4.3]
+    - [ ] [Final Task][Step 4]
 - [ ] [5. Zero To Production][Step 5] (3 weeks)
     - [ ] [5.1. Basic actix-web][Step 5.1]
     - [ ] [5.2. Logging][Step 5.2]
@@ -81,6 +85,7 @@ Do not hesitate to ask your mentor/lead with questions, however you won't receiv
     - [ ] [5.4. Type-Driven Development and testing][Step 5.4]
     - [ ] [5.5. Advanced actix-web and error handling][Step 5.5]
     - [ ] [5.6. Authorization][Step 5.6]
+    - [ ] [Final Task][Step 5]
 
 
 
