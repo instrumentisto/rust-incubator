@@ -75,6 +75,16 @@ Seal the traits defined in [this step's crate](src/lib.rs) in the following way:
 
 
 
+## Questions
+
+After completing everything above, you should be able to answer (and understand why) the following questions:
+- What does sealing mean in programming in a broad sense?
+- What is trait sealing in [Rust]? When is it useful?
+- What limitations does trait sealing in [Rust] have? What could it be able to provide if supported by compiler?
+
+
+
+
 [`sealed`]: https://docs.rs/sealed
 [API]: https://en.wikipedia.org/wiki/API
 [Rust]: https://www.rust-lang.org

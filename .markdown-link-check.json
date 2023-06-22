@@ -1,6 +1,11 @@
 {
   "httpHeaders": [{
-    "urls": ["https://github.com/", "https://guides.github.com/", "https://help.github.com/", "https://docs.github.com/"],
+    "urls": [
+      "https://github.com/",
+      "https://guides.github.com/",
+      "https://help.github.com/",
+      "https://docs.github.com/"
+    ],
     "headers": {
       "Accept-Encoding": "zstd, br, gzip, deflate"
     }
@@ -17,6 +22,10 @@
     "pattern": "^https://www.cs.bgu.ac.il"
   }, {
     "pattern": "^https://www.java.com"
+  }, {
+    "pattern": "^https://www.mysql.com"
+  }, {
+    "pattern": "^https://web.archive.org/web/"
   }],
-  "timeout": "30s"
+  "timeout": "60s"
 }
