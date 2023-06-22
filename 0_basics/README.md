@@ -58,6 +58,9 @@ _Additional_ articles, which may help to understand the above topic better:
 Additional:
 - [Rust API guidline checklist][19]
 - [Interview Questions on Rust Programming][20]
+- [Step-by-step instruction to start development in Rust][26]
+- [Awesome collection of crates for productive development in Rust][27]
+- [Awesome Collection of Materials to Learn Rust][28]
 
 [Cargo]: https://github.com/rust-lang/cargo
 [Cargo Book]: https://doc.rust-lang.org/cargo
@@ -91,3 +94,6 @@ Additional:
 [23]: https://ochagavia.nl/blog/you-are-holding-it-wrong
 [24]: https://hashrust.com/blog/a-guide-to-closures-in-rust
 [25]: https://gruebelinchen.wordpress.com/2023/06/06/demystifying-trait-generics-in-rust
+[26]: https://github.com/rust-lang-ua/learn_rust_together/blob/master/introduction.md
+[27]: https://github.com/rust-lang-ua/learn_rust_together/blob/master/toolbox_general.md
+[28]: https://github.com/rust-lang-ua/learn_rust_together/blob/master/learn.md

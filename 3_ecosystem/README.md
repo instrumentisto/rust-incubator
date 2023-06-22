@@ -32,6 +32,7 @@ After doing them you should be able to answer the following questions:
 - [cargo-modules](https://github.com/regexident/cargo-modules)
 - [cargo-make](https://github.com/sagiegurari/cargo-make)
 - [cargo-audit](https://github.com/RustSec/rustsec/tree/main/cargo-audit)
+- [Rust Developer's Toolbox](https://github.com/rust-lang-ua/learn_rust_together/blob/master/toolbox_general.md)
 
 ## Task
 
