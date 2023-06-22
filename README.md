@@ -51,7 +51,7 @@ Do not hesitate to ask your mentor/lead with questions, however you won't receiv
     - [ ] [1.8. Thread safety][Step 1.8]
     - [ ] [1.9. Phantom types][Step 1.9]
     - [ ] [Summary Task][Step 1 Summary Task]
-- [ ] [2. Idioms][Step 2] (2 weeks)
+- [ ] [2. Idioms][Step 2] (1 week)
     - [ ] [2.1. Rich types ensure correctness][Step 2.1]
     - [ ] [2.2. Swapping values with `mem::replace`][Step 2.2]
     - [ ] [2.3. Bound behavior, not data][Step 2.3]
@@ -73,18 +73,26 @@ Do not hesitate to ask your mentor/lead with questions, however you won't receiv
     - [ ] [3.11. Async I/O, futures and actors][Step 3.11]
     - [ ] [3.12. Web frameworks, databases, connection pools and ORMs][Step 3.12]
     - [ ] [Summary Task][Step 3 Summary Task]
-- [ ] [4. Backend ecosystem][Step 4] (1 week)
+- [ ] [4. Backend ecosystem][Step 4] (2 weeks)
     - [ ] [4.1. Databases, connection pools and ORMs][Step 4.1]
     - [ ] [4.2. HTTP servers and clients][Step 4.2]
     - [ ] [4.3. API servers, clients and tools][Step 4.3]
     - [ ] [Summary Task][Step 4 Summary Task]
-- [ ] [5. Zero To Production][Step 5] (3 weeks)
+- [ ] [5. Zero To Production][Step 5] (2 weeks)
     - [ ] [5.1. Basic actix-web][Step 5.1]
     - [ ] [5.2. Logging][Step 5.2]
     - [ ] [5.3. Docker and deployment][Step 5.3]
     - [ ] [5.4. Type-Driven Development and testing][Step 5.4]
     - [ ] [5.5. Advanced actix-web and error handling][Step 5.5]
     - [ ] [5.6. Authorization][Step 5.6]
+- [ ] [6. Milestone Project][Step 6] (1 week)
+
+
+
+
+## Useful links
+
+- [Introduction] is a setup and meta step-by-step instruction to start development in Rust.
 
 
 
@@ -144,6 +152,7 @@ Do not hesitate to ask your mentor/lead with questions, however you won't receiv
 [Step 5.4]: 5_zero2prod/6_chapter
 [Step 5.5]: 5_zero2prod/7_chapter
 [Step 5.6]: 5_zero2prod/10_chapter
+[Step 6]: 6_project
 
 [Awesome Rust]: https://github.com/rust-unofficial/awesome-rust
 [Baby Steps]: http://smallcultfollowing.com/babysteps
@@ -180,6 +189,7 @@ Do not hesitate to ask your mentor/lead with questions, however you won't receiv
 [rustlings]: https://rustlings.cool
 [rustup]: https://rustup.rs
 [This Week in Rust]: https://this-week-in-rust.org
+[Introduction]: https://github.com/rust-lang-ua/learn_rust_together/blob/master/introduction.md
 
 [1]: https://github.com/rust-lang-ua/rust_incubator_eng/generate
 [2]: https://github.com/rust-lang-ua/rust_incubator_eng/subscription
