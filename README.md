@@ -163,7 +163,7 @@ Do not hesitate to ask your mentor/lead with questions, however you won't receiv
 [IntelliJ Rust]: https://intellij-rust.github.io
 [IntelliJ Toml]: https://plugins.jetbrains.com/plugin/8195-toml
 [PR]: https://help.github.com/articles/github-glossary/#pull-request
-[RSS subscription]: https://github.com/rust-lang-ua/rust_incubator_eng/commits/main.atom
+[RSS subscription]: https://github.com/rust-lang-ua/rust_incubator_eng/commits/master.atom
 [Rust]: https://www.rust-lang.org
 [Rust 2018]: https://doc.rust-lang.org/edition-guide/rust-2018/index.html
 [Rust 2021]: https://doc.rust-lang.org/edition-guide/rust-2021/index.html
