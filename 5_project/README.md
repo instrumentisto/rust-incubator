@@ -1,9 +1,9 @@
-Step 6: Milestone Project
+Step 5: Choose your capstone project
 =========================
 
-__Estimated time__: 7 days
+__Estimated time__: 1 day
 
-Create a portfolio project using Rust within a one-week timeframe. The project should showcase your proficiency in Rust, demonstrate your coding style, and highlight your problem-solving skills. The goal is to create a functional project that can be presented to potential employers or shared with the programming community.
+Choose your capstone project. The project should showcase your proficiency in Rust, demonstrate your coding style, and highlight your problem-solving skills. The goal is to create a functional project that can be presented to potential employers or shared with the programming community.
 
 Choose a project idea that is suitable for implementation within a one-week timeframe. Consider the complexity and feasibility of the project.
 
