@@ -78,15 +78,15 @@ Do not hesitate to ask your mentor/lead with questions, however you won't receiv
     - [ ] [4.2. HTTP servers and clients][Step 4.2]
     - [ ] [4.3. API servers, clients and tools][Step 4.3]
     - [ ] [4.4. Summary Task][Step 4 Summary Task]
-- [ ] [5. Choose your capstone project][Step 5]
-- [ ] [6. Zero To Production][Step 6] (2 weeks)
-    - [ ] [5.1. Basic actix-web][Step 6.1]
-    - [ ] [5.2. Logging][Step 6.2]
-    - [ ] [5.3. Docker and deployment][Step 6.3]
-    - [ ] [5.4. Type-Driven Development and testing][Step 6.4]
-    - [ ] [5.5. Advanced actix-web and error handling][Step 6.5]
-    - [ ] [5.6. Authorization][Step 6.6]
-- [ ] [7. Capstone Project][Step 5] (1 week)
+- [ ] [Choose your capstone project][Choose your project]
+- [ ] [5. Zero To Production][Step 5] (2 weeks)
+    - [ ] [5.1. Basic actix-web][Step 5.1]
+    - [ ] [5.2. Logging][Step 5.2]
+    - [ ] [5.3. Docker and deployment][Step 5.3]
+    - [ ] [5.4. Type-Driven Development and testing][Step 5.4]
+    - [ ] [5.5. Advanced actix-web and error handling][Step 5.5]
+    - [ ] [5.6. Authorization][Step 5.6]
+- [ ] [6. Capstone Project][Step 6] (1 week)
 
 
 
@@ -146,14 +146,15 @@ Do not hesitate to ask your mentor/lead with questions, however you won't receiv
 [Step 4.2]: 4_backend/4_2_http
 [Step 4.3]: 4_backend/4_3_api
 [Step 4 Summary Task]: 4_backend/README.md#task
-[Step 5]: 5_project
-[Step 6]: 6_zero2prod
-[Step 6.1]: 6_zero2prod/3_chapter
-[Step 6.2]: 6_zero2prod/4_chapter
-[Step 6.3]: 6_zero2prod/5_chapter
-[Step 6.4]: 6_zero2prod/6_chapter
-[Step 6.5]: 6_zero2prod/7_chapter
-[Step 6.6]: 6_zero2prod/10_chapter
+[Step 5]: 5_zero2prod
+[Step 5.1]: 5_zero2prod/3_chapter
+[Step 5.2]: 5_zero2prod/4_chapter
+[Step 5.3]: 5_zero2prod/5_chapter
+[Step 5.4]: 5_zero2prod/6_chapter
+[Step 5.5]: 5_zero2prod/7_chapter
+[Step 5.6]: 5_zero2prod/10_chapter
+[Step 6]: 6_project
+[Choose your project]: 6_project/README.md#choose-your-capstone-project
 
 [Awesome Rust]: https://github.com/rust-unofficial/awesome-rust
 [Baby Steps]: http://smallcultfollowing.com/babysteps

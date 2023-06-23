@@ -1,4 +1,4 @@
-Step 6: Zero To Production
+Step 5: Zero To Production
 ================= 
 
 __Estimated time__: 14 days
