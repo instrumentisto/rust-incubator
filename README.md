@@ -91,18 +91,12 @@ Do not hesitate to ask your mentor/lead with questions, however you won't receiv
 
 
 
-## Useful links
-
-- [Introduction] is a setup and meta step-by-step instruction to start development in Rust.
-
-
-
-
 ## More practice
 
 - [rustlings] are small exercises to get you used to reading and writing [Rust] code.
 - [Rust on Exercism] provides coding exercises with mentoring.
 - [Rust Quiz] is medium to hard [Rust] questions with explanations.
+- [Introduction] is a setup and meta step-by-step instruction to start development in Rust. Follow this link if you find the incubator too hard.
 
 
 
