@@ -14,7 +14,7 @@ Everyone was enrolled in one of the groups. Every group has 2 mentors. If you ar
 
 ### Routines
 
-You are going to have calls with your peers and mentor(s) 4 days a week you will have a call with your group and mentor(s). During a call, you are encouraged to ask questions. A mentor is going to ask you questions as well.
+You will engage in calls with your peers and mentors four days a week. During these group calls, you are encouraged to ask questions, and you should expect to answer questions from your mentor as well.
 
 ### Topology of curriculum
 
