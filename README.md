@@ -168,10 +168,10 @@ It means you are not ready to become certified. Follow these links if you find t
 [Step 5.5]: 5_zero2prod/7_chapter
 [Step 5.6]: 5_zero2prod/10_chapter
 [Step 6]: 6_project
-[Step 6.1]: 6_project/README.md#choose-your-capstone-project
-[Step 6.2]: 6_project/README.md#choose-your-capstone-project
-[Step 6.3]: 6_project/README.md#choose-your-capstone-project
-[Step 6.4]: 6_project/README.md#choose-your-capstone-project
+[Step 6.1]: 6_project/README.md#step-61-agree-on-your-capstone-project
+[Step 6.2]: 6_project/README.md#step-62-get-approvement-of-basic-implementation-from-the-first-mentor
+[Step 6.3]: 6_project/README.md#step-63-get-4-reviews-from-peers-and-mentors
+[Step 6.4]: 6_project/README.md#step-64-present-your-project
 
 [Awesome Rust]: https://github.com/rust-unofficial/awesome-rust
 [Baby Steps]: http://smallcultfollowing.com/babysteps
