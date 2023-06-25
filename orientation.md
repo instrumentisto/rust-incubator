@@ -94,7 +94,8 @@ To get started, please [follow the instruction][Get Started].
 
 ## Useful links
 
-- ⏩ [Getting started][Get Started].
+- 🧭 [Orientation] - how to get the maximum out of bootcamp
+- ⏩ [Get Started][Get Started].
 - :school: [Exercism] provides coding exercises with mentoring.
 - :grey_question: [Rust Quiz] is medium to hard [Rust] questions with explanations.
 - :mortar_board: [Collection][Learning Materials] of Awesome Rust Learning Materials
@@ -114,9 +115,10 @@ Perhaps you are not ready to become certified? That's okay. Follow these links i
 [Plagiarism]: #honor-code
 [deadlines]: #deadlines
 [Rust Incubator]: https://github.com/rust-lang-ua/rust_incubator/README.md
-[Get Started]: https://github.com/rust-lang-ua/rust_incubator#getting-started
 [certification test]: https://www.youtube.com/watch?v=cInMjEaH1q0
 
+[Orientation]: ./orientation.md
+[Get Started]: https://github.com/rust-lang-ua/rust_incubator#getting-started
 [Exercism]: https://exercism.org/tracks/rust
 [Rust Quiz]: https://github.com/dtolnay/rust-quiz
 [Learning Materials]: https://github.com/rust-lang-ua/learn_rust_together/blob/master/learn.md

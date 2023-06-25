@@ -104,12 +104,14 @@ Do not hesitate to ask your mentor/lead with questions, however, you won't recei
 
 ## Useful links
 
-- :school: [Exercism] provides coding exercises with mentoring.
-- :grey_question: [Rust Quiz] is medium to hard [Rust] questions with explanations.
+- 🧭 [Orientation] - how to get the maximum out of bootcamp
+- ⏩ [Get Started][Get Started].
+- :question: [FAQ] - frequently asked questions
 - :mortar_board: [Collection][Learning Materials] of Awesome Rust Learning Materials
 - :globe_with_meridians: [Zero To Production] - back-end focused book
   - The book as a [series of articles][Zero To Production as a series of articles]
-- :question: [FAQ] - frequently asked questions
+- :school: [Exercism] provides coding exercises with mentoring.
+- :grey_question: [Rust Quiz] is medium to hard [Rust] questions with explanations.
 
 ## Too hard?
 
@@ -205,9 +207,10 @@ Perhaps you are not ready to become certified? That's okay. Follow these links i
 [rustup]: https://rustup.rs
 [This Week in Rust]: https://this-week-in-rust.org
 [bot]: https://github.com/1tbot
-[Rust Book]: https://doc.rust-lang.org/book/title-page.html
 [how_to_fork]: ./how_to_fork.md
-[FAQ]: ./faq.md
+
+[Orientation]: ./orientation.md
+[Get Started]: https://github.com/rust-lang-ua/rust_incubator#getting-started
 [Exercism]: https://exercism.org/tracks/rust
 [Rust Quiz]: https://github.com/dtolnay/rust-quiz
 [Learning Materials]: https://github.com/rust-lang-ua/learn_rust_together/blob/master/learn.md
