@@ -1,4 +1,4 @@
-## How to do exersices
+## How to fork
 
 First of all, you need to fork the [Rust Incubator](https://github.com/rust-lang-ua/rust_incubator) into a **private** repo. For each exercise, you'll need to create separate pull requests. Then, when the reviewer checks and approves your pull request, you can merge it into the master/main branch. After that, the exercise will be considered done.
 

@@ -4,7 +4,7 @@ Rust Incubator
 > It wasn't always so clear, but the Rust programming language is fundamentally about _empowerment_: no matter what kind of code you are writing now, Rust empowers you to reach farther, to program with confidence in a wider variety of domains than you did before.
 _<div align="right">Rust Book's Foreword</div>_
 
-In this boot camp, you will be doing [Rust Incubator](https://github.com/rust-lang-ua/rust_incubator) -
+In this boot camp, you will be doing [Rust Incubator] -
 a hard-way step-by-step Rust certification program 🏆 to make you **Strong Junior Rust Developer**. That, by the way, is much stronger than switchers from other languages without rigorous training similar to this. If you are a mid- or senior-level switcher, you may freely aim for Middle vacancies after getting certified.
 
 ## Prerequisites
@@ -19,12 +19,12 @@ You'll interactively track your progress. You will be asked to design, develop a
 
 ## Getting Started
 
-Fork the [Rust Incubator](https://github.com/rust-lang-ua/rust_incubator) into a **private** repo. For each exercise, you'll need to create separate pull requests. Then, when the reviewer checks and approves your pull request, you can merge it into the master/main branch. After that, the exercise will be considered done.
+Fork the [Rust Incubator] into a **private** repo. For each exercise, you'll need to create separate pull requests. Then, when the reviewer checks and approves your pull request, you can merge it into the master/main branch. After that, the exercise will be considered done.
 
 1. [Create][1] a new [GitHub repository] for yourself using this one [as template][11]. Remember to make it private.
 2. [Invite][12] as a collaborator of your repository [our bot][bot].
 
-Look here for more [detailed instructions][how to start], and here you can find [FAQ].
+Look here for more [detailed instructions][how_to_fork], and here you can find [FAQ].
 
 > __NOTE__: __This learning course is constantly improving and evolving over time.__
 >
@@ -106,20 +106,19 @@ Do not hesitate to ask your mentor/lead with questions, however, you won't recei
 
 - :school: [Exercism] provides coding exercises with mentoring.
 - :grey_question: [Rust Quiz] is medium to hard [Rust] questions with explanations.
-- :mortar_board: [Collection of Awesome Rust Learning Materials](https://github.com/rust-lang-ua/learn_rust_together/blob/master/learn.md)
+- :mortar_board: [Collection][Learning Materials] of Awesome Rust Learning Materials
 - :globe_with_meridians: [Zero To Production] - back-end focused book
   - The book as a [series of articles][Zero To Production as a series of articles]
-- :question: [FAQ](./faq.md) - frequently asked questions
+- :question: [FAQ] - frequently asked questions
 
 ## Too hard?
 
-It means you are not ready to become certified. Follow these links if you find the incubator too hard.
+Perhaps you are not ready to become certified? That's okay. Follow these links if you find the incubator too hard.
 
 - :footprints:️ [Step-by-Step Introduction]
 - :baby: [Rustlings] are small exercises to get you used to reading and writing [Rust] code.
-- :file_folder: [Awesome list of Learning Materials on Git](https://github.com/Learn-Together-Pro/LearnGitTogether) - must have so far
+- :file_folder: [Awesome list of Learning Materials on Git][Learning Materials on Git] - must have so far
 - :blue_book: [Rust Book] - must have so far, but we encourage to reread it
-
 
 [Step 0]: 0_basics
 [Step 1]: 1_concepts
@@ -191,31 +190,34 @@ It means you are not ready to become certified. Follow these links if you find t
 [Rust 2018]: https://doc.rust-lang.org/edition-guide/rust-2018/index.html
 [Rust 2021]: https://doc.rust-lang.org/edition-guide/rust-2021/index.html
 [Rust API Guidelines]: https://rust-lang.github.io/api-guidelines
-[Rust Book]: https://doc.rust-lang.org/book
 [Rust By Example]: https://doc.rust-lang.org/rust-by-example
 [Rust Cookbook]: https://rust-lang-nursery.github.io/rust-cookbook
 [Rust Design Patterns]: https://rust-unofficial.github.io/patterns
 [Rust Edition Guide]: https://doc.rust-lang.org/edition-guide
 [Rust FAQ]: https://prev.rust-lang.org/faq.html
-[Exercism]: https://exercism.org/tracks/rust
 [Rust Playground]: https://play.rust-lang.org
-[Rust Quiz]: https://github.com/dtolnay/rust-quiz
 [Rust Reference]: https://doc.rust-lang.org/reference
 [Rust std lib]: https://doc.rust-lang.org/std
 [Rust SVG Cheatsheet]: https://www.breakdown-notes.com/make/load/rust_cs_canvas/true
 [Rustdoc Book]: https://doc.rust-lang.org/rustdoc
 [rustfmt]: https://github.com/rust-lang/rustfmt
-
-[Rustlings]: https://github.com/rust-lang/rustlings
+[Rust Incubator]: https://github.com/rust-lang-ua/rust_incubator
 [rustup]: https://rustup.rs
 [This Week in Rust]: https://this-week-in-rust.org
-[Step-by-Step Introduction]: https://github.com/rust-lang-ua/learn_rust_together/blob/master/introduction.md
 [bot]: https://github.com/1tbot
+[Rust Book]: https://doc.rust-lang.org/book/title-page.html
+[how_to_fork]: ./how_to_fork.md
+[FAQ]: ./faq.md
+[Exercism]: https://exercism.org/tracks/rust
+[Rust Quiz]: https://github.com/dtolnay/rust-quiz
+[Learning Materials]: https://github.com/rust-lang-ua/learn_rust_together/blob/master/learn.md
 [Zero To Production]: https://www.zero2prod.com/index.html?country=Ukraine&discount_code=EEU60
 [Zero To Production as a series of articles]: ./backend_book.md
-[Rust Book]: https://doc.rust-lang.org/book/title-page.html
-[how to start]: ./how_to_start.md
 [FAQ]: ./faq.md
+[Step-by-Step Introduction]: https://github.com/rust-lang-ua/learn_rust_together/blob/master/introduction.md
+[Rustlings]: https://github.com/rust-lang/rustlings
+[Learning Materials on Git]: https://github.com/Learn-Together-Pro/LearnGitTogether
+[Rust Book]: https://doc.rust-lang.org/book
 
 [1]: https://github.com/rust-lang-ua/rust_incubator/generate
 [2]: https://github.com/rust-lang-ua/rust_incubator/subscription
