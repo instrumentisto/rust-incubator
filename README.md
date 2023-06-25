@@ -5,7 +5,7 @@ Rust Incubator
 _<div align="right">Rust Book's Foreword</div>_
 
 In this boot camp, you will be doing [Rust Incubator](https://github.com/rust-lang-ua/rust_incubator) -
-a hard-way step-by-step Rust certification program to make you **Strong Junior Rust Developer**. That, by the way, is much stronger than switchers from other languages without rigorous training similar to this. If you are a Middle or Senior switcher, then you may aim for Middle vacancies after getting certified.
+a hard-way step-by-step Rust certification program 🏆 to make you **Strong Junior Rust Developer**. That, by the way, is much stronger than switchers from other languages without rigorous training similar to this. If you are a mid- or senior-level switcher, you may freely aim for Middle vacancies after getting certified.
 
 ## Prerequisites
 
@@ -17,7 +17,7 @@ Members of the certification program will be divided into a few small groups. Th
 
 You'll interactively track your progress. You will be asked to design, develop and present a capstone project. You'll have to do a final assessment at the end of the certification program. If you pass, you'll receive a certificate. Your employer will love you for using best practices and writing idiomatic code.
 
-## Starting
+## Getting Started
 
 Fork the [Rust Incubator](https://github.com/rust-lang-ua/rust_incubator) into a **private** repo. For each exercise, you'll need to create separate pull requests. Then, when the reviewer checks and approves your pull request, you can merge it into the master/main branch. After that, the exercise will be considered done.
 
