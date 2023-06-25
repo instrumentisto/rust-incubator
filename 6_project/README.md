@@ -17,14 +17,14 @@ If you're having trouble finding a suitable subject for your project, don't hesi
 
 ## Step 6.2: Get approvement of basic implementation from the first mentor
 
-Design and develop your project. Don't aim to get the product ready. You have just a few days on this. Make sure you are implementing a minimal version of your project, don't bother to write a perfect implementation. Get the approval of your mentor.
+Focus on designing and developing a minimum viable version of your project, rather than a fully finished product, given the limited time frame. Don't worry about achieving perfection in your implementation at this stage. Just ensure you get your mentor's approval on your work.
 
 ## Step 6.3: Get 4 reviews from peers and mentors
 
-It's important to be able to work in a team and respect senior members of your team as well as value the strengths of your peers. Get 4 reviews from peers and mentors, and follow most of the pieces of advice you will get. Among 4 reviews should be at least one peer and at least one mentor from another group.
+Teamwork is crucial in our program, as is respecting senior team members and acknowledging the strengths of your peers. You are required to obtain four reviews of your work from your peers and mentors. These reviews should incorporate diverse perspectives: at least one should be from a peer and at least one from a mentor outside your immediate group. You're encouraged to consider and apply the majority of the feedback you receive in these reviews.
 
 ## Step 6.4: Present your project
 
-In an efficient team, teammates are not afraid to be vulnerable. Present your project to peers and mentors. Receive more feedback.
+In a successful team, members feel comfortable being vulnerable and open to feedback. As such, you are expected to present your project to your peers and mentors. This will allow you to receive more feedback, further facilitating your growth and learning.
 
 Congrats! At this stage, you already have a minimum portfolio.

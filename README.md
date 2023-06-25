@@ -115,7 +115,7 @@ Do not hesitate to ask your mentor/lead with questions, however, you won't recei
 
 Perhaps you are not ready to become certified? That's okay. Follow these links if you find the incubator too hard.
 
-- :footprints:️ [Step-by-Step Introduction]
+- :footprints:️ [Step-by-Step Introduction] to Rust
 - :baby: [Rustlings] are small exercises to get you used to reading and writing [Rust] code.
 - :file_folder: [Awesome list of Learning Materials on Git][Learning Materials on Git] - must have so far
 - :blue_book: [Rust Book] - must have so far, but we encourage to reread it

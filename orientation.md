@@ -29,27 +29,40 @@ Bootcamp consists of 4 parts:
 
 Currently, we offer only one specialization: "web back-end." The second and third parts can be performed in parallel with the first. You have to work on the third part parallel to the second; otherwise, you can fail to meet the deadline.
 
-### Certification Test
+### Captstone project
 
-Certification is done [in a way which][certification test] makes it nearly impossible to cheat. We go to extreme lengths to make certificates trustworthy. During the test, a participant is watched by a proctor. We ask a participant to use two cameras and share a desktop to exclude chatting. Also, we check running processes at the beginning and during testing. Attempt to cheat during certification test cause exclusion from the boot camp.
+You will create a portfolio project using Rust within a one-week timeframe. The project should showcase your proficiency in Rust, demonstrate your coding style, and highlight your problem-solving skills. The goal is to create a functional project that can be presented to potential employers or shared with the programming community.
 
-> 💡 Advice: It is worth going through as many quizzes as you can find online before taking the certification test. You should master rustlings and exorcism drills and review as much code of others as you can because certification tests evaluate not only your understanding of concepts but also your ability to read code quickly.
+Choose a project idea that is suitable for implementation within a **one-week timeframe**. Consider the complexity and feasibility of the project. You are expected to present your project to your peers and mentors. This will allow you to receive more feedback, further facilitating your growth and learning.
 
 ### Certificate
 
-If you'll do all tasks on time, present the capstone project and earn a high enough score on the certification test -- you will **get a professional certificate**. We work hard to make it recognizable in Ukraine and abroad.
+If you complete all tasks on time, successfully present your capstone project, and achieve a high score on the certification test, you will earn a **professional certificate**. We're dedicated to ensuring our certificate is recognized both in Ukraine and internationally.
 
-### Deadlines
+### Certification Test
 
-There are 2 kinds of deadlines: soft and hard. Failure to meet hard deadline cause exclusion. We tolerate up to 2 failures to meet soft deadlines.
+Our certification process is designed to uphold the utmost integrity and trustworthiness. We employ stringent measures to prevent cheating and ensure a fair testing environment for all participants.
 
-Each section has a deadline. Every soft deadline is on Thursday at midnight. Every hard deadline is on Sunday at midnight.
+During the certification test, participants will be [supervised by a proctor][certification test]. We require participants to use two cameras and share their desktop throughout the test, to prevent unauthorized communication. Additionally, we will monitor all active processes on the participant's computer at the beginning and throughout the test to further prevent any fraudulent activities.
+
+It's worth mentioning that passing the certification test is a challenge due to its complex and tricky questions. Each participant is allowed **only one attempt** to pass the test. However, a shortened version of the test will be publicly available for practice. Participants who finish the first or second part of the program ahead of others, or those whose capstone project receives the most likes from mentors during presentation, will be awarded an extra attempt.
+
+Any attempt to cheat during the certification test will result in immediate exclusion from the boot camp.
+
+> 💡 Advice: It is worth going through as many quizzes as you can find online before taking the certification test. You should master rustlings and exorcism drills and review as much code of others as you can because certification tests evaluate not only your understanding of concepts but also your ability to read code quickly.
+
+### Deadlines and softlines
+
+In this bootcamp, we implement two types of deadlines: soft deadlines and hard deadlines.
+
+1. Soft Deadlines: These are flexible deadlines designed to help keep you on track. Every soft deadline is set for Thursday at midnight. We tolerate up to two instances of not meeting a soft deadline. However, if you fail to meet a soft deadline for a third time, this will lead to exclusion.
+2. Hard Deadlines: These are strict deadlines that must be adhered to. Each hard deadline is set for Sunday at midnight. Failing to meet a hard deadline will result in immediate exclusion.
+
+Each section of our program has its own deadline. Please note that some sections may take more than one week to complete. We use a week as our standard unit of measurement.
+
+We encourage you to meet all deadlines to maximize your learning experience and successfully complete the bootcamp.
 
 > 💡 Advice: Tasks 4.4 and 6 are non-trivial and will easily take a week of work. Make sure you reserve more than a few days for these tasks.
-
-### Getting started
-
-To get started, please [follow the instruction][Get Started].
 
 ### Honor code
 
@@ -68,14 +81,20 @@ Please be **respectful and polite** to peers and mentors.
 The list of reasons for being excluded from the group includes but is not limited to
 
 - [Plagiarism]
-- Failure to meet [deadlines]
+- Failure to meet more that 2 [softlines]
+- Failure to meet any of [deadlines]
 - Systematic violation of the rules
 - On your own request
 
 > 💡 Advice: Please don't leave your group silently or with a loud slam of the door. Be accountable and **give a few words of acknowledgments** leaving the group ahead of time. We all are human, so we understand and don't blame you for leaving boot camp, whatever circumstances you have.
 
+### Getting started
+
+To get started, please [follow the instruction][Get Started].
+
 ## Useful links
 
+- ⏩ [Getting started][Get Started].
 - :school: [Exercism] provides coding exercises with mentoring.
 - :grey_question: [Rust Quiz] is medium to hard [Rust] questions with explanations.
 - :mortar_board: [Collection][Learning Materials] of Awesome Rust Learning Materials
@@ -87,7 +106,7 @@ The list of reasons for being excluded from the group includes but is not limite
 
 Perhaps you are not ready to become certified? That's okay. Follow these links if you find the incubator too hard.
 
-- :footprints:️ [Step-by-Step Introduction]
+- :footprints:️ [Step-by-Step Introduction] to Rust
 - :baby: [Rustlings] are small exercises to get you used to reading and writing [Rust] code.
 - :file_folder: [Awesome list of Learning Materials on Git][Learning Materials on Git] - must have so far
 - :blue_book: [Rust Book] - must have so far, but we encourage to reread it
