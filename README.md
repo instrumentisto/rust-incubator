@@ -1,55 +1,53 @@
 Rust Incubator
 ==============
 
-> It wasn’t always so clear, but the Rust programming language is fundamentally about _empowerment_: no matter what kind of code you are writing now, Rust empowers you to reach farther, to program with confidence in a wider variety of domains than you did before.
+> It wasn't always so clear, but the Rust programming language is fundamentally about _empowerment_: no matter what kind of code you are writing now, Rust empowers you to reach farther, to program with confidence in a wider variety of domains than you did before.
 _<div align="right">Rust Book's Foreword</div>_
 
-In this bootcamp, you will be doing [Rust Incubator](https://github.com/rust-lang-ua/rust_incubator) -
-a hard-way step-by-step Rust certification program to make you **Strong Junior Rust Developer** with level of skills of Middle, but maybe with less than 2 years of experience.
+In this boot camp, you will be doing [Rust Incubator](https://github.com/rust-lang-ua/rust_incubator) -
+a hard-way step-by-step Rust certification program to make you **Strong Junior Rust Developer**. That, by the way, is much stronger than switchers from other languages without rigorous training similar to this. If you are a Middle or Senior switcher, then you may aim for Middle vacancies after getting certified.
 
 ## Prerequisites
 
-Before you start the certification program, you need to have confident knowledge of Rust and Git/GitHub. The [Rust Book] is a must. Nice if you did [Rustlings] and [Exercism] as well as had some practice. If you are a switcher, this certification program is also will be useful for you.
+Before you start the certification program, you need to have confident knowledge of Rust and Git/GitHub. The [Rust Book] is a must. Nice if you did [Rustlings] and [Exercism] and had some practice. If you are a switcher, this certification program will also be useful for you.
 
 ## Organization and certification
 
-Members of the certification program will be divided into a few small groups. There will be meetings four days a week but on weekends. During each meeting, we will discuss and answer your questions as well as you will be asked to answer mentor's questions. The learning process is built on top of your everyday work on improving your skills using the best learning materials available.
+Members of the certification program will be divided into a few small groups. There will be meetings four days a week but on weekends. During each meeting, we will discuss and answer your questions as well as you will be asked to answer your mentor's questions. The learning process is built on top of your everyday work on improving your skills using the best learning materials available.
 
-You'll track your progress in an interactive manner. You'll have to do a final assessment at the end of the certification program. If you pass, you'll receive a certificate. Your employer will love you for using best practices and writing idiomatic code.
+You'll interactively track your progress. You will be asked to design, develop and present a capstone project. You'll have to do a final assessment at the end of the certification program. If you pass, you'll receive a certificate. Your employer will love you for using best practices and writing idiomatic code.
 
-## Steps
-
-### Before you start
+## Starting
 
 Fork the [Rust Incubator](https://github.com/rust-lang-ua/rust_incubator) into a **private** repo. For each exercise, you'll need to create separate pull requests. Then, when the reviewer checks and approves your pull request, you can merge it into the master/main branch. After that, the exercise will be considered done.
 
-1. [Create][1] a new [GitHub repository] for yourself using this one [as template][11]. Don't forget to make it private.
+1. [Create][1] a new [GitHub repository] for yourself using this one [as template][11]. Remember to make it private.
 2. [Invite][12] as a collaborator of your repository [our bot][bot].
 
-Look here for a more [detailed instruction][how to start] and here you can find [FAQ].
+Look here for more [detailed instructions][how to start], and here you can find [FAQ].
 
 > __NOTE__: __This learning course is constantly improving and evolving over time.__
 >
 > To be up-to-date with the recent changes in your own copy of this repository, attach the upstream history with the following commands:
-> ```bash
+> "`bash
 > git remote add upstream https://github.com/rust-lang-ua/rust_incubator.git
 > git fetch upstream main
 > git merge upstream/main --allow-unrelated-histories
 > ```
 > And then, whenever you want to grab some new changes, do the following:
-> ```bash
+> "`bash
 > git fetch upstream main
 > git merge upstream/main
 > ```
-> Additionally, to be aware about new changes, you may either [watch this repository on GitHub][2], or even track it via [RSS subscription].
+> Additionally, to be aware of new changes, you may either [watch this repository on GitHub][2], or even track it via [RSS subscription].
 
-### Curriculum
+## Curriculum
 
-Each step must be performed as a separate [PR (pull request)][PR] with an appropriate name and checkmarked here in README's schedule after completion. Each step is a [Cargo workspace member][13], so you can run/test it from the project root (i.e. `cargo run -p step_1_8`). __Consider to use [rustfmt] and [Clippy] when you're writing [Rust] code.__
+Each step must be performed as a separate [PR (pull request)][PR] with an appropriate name and check-marked here in README's schedule after completion. Each step is a [Cargo workspace member][13], so you can run/test it from the project root (i.e. `cargo run -p step_1_8`). Consider using [rustfmt] and [Clippy] when you're writing [Rust] code.
 
-Each step has the estimated time for completion. If any deeper investigation on step's theme is needed by you, then it's on your own.
+Each step has an estimated time for completion. If any deeper investigation on the step's theme is needed by you, then it's on your own.
 
-Do not hesitate to ask your mentor/lead with questions, however you won't receive any concrete answer, but rather a direction for your own investigation. _Mentor/Lead is the one who asks questions here, demanding concrete and complete answers._
+Do not hesitate to ask your mentor/lead with questions, however, you won't receive any concrete answer, but rather a direction for your own investigation. _Mentor/Lead is the one who asks questions here, demanding concrete and complete answers._
 
 - [ ] [0. Become familiar with Rust basics][Step 0] (1 week)
 - [ ] [1. Concepts][Step 1] (2 weeks)
@@ -115,7 +113,7 @@ Do not hesitate to ask your mentor/lead with questions, however you won't receiv
 
 ## Too hard?
 
-It means you are not ready for certification. Follow this links if you find the incubator too hard.
+It means you are not ready to become certified. Follow these links if you find the incubator too hard.
 
 - :footprints:️ [Step-by-Step Introduction]
 - :baby: [Rustlings] are small exercises to get you used to reading and writing [Rust] code.
