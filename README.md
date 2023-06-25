@@ -13,9 +13,9 @@ Before you start the certification program, you need to have confident knowledge
 
 ## Organization and certification
 
-Members of the certification program will be divided into a few small groups. There will be meetings four days a week but on weekends. During each meeting, we will discuss and answer your questions as well as you will be asked to answer your mentor's questions. The learning process is built on top of your everyday work on improving your skills using the best learning materials available.
+Participants in the boot camp will be divided into several small groups. Group meetings will occur four times a week, excluding weekends. These meetings will provide an opportunity to discuss and answer any questions, and you should also expect to answer questions posed by your mentor. Our learning process is designed around daily skill development, leveraging the best learning materials available.
 
-You'll interactively track your progress. You will be asked to design, develop and present a capstone project. You'll have to do a final assessment at the end of the certification program. If you pass, you'll receive a certificate. Your employer will love you for using best practices and writing idiomatic code.
+We provide an interactive platform for tracking your progress. You will be tasked with designing, developing, and presenting a capstone project. Finally, you will undergo a final assessment at the end of the certification program. Successful completion will earn you a certificate, a testament to your ability to utilize best practices and write idiomatic code that will impress your employer.
 
 ## Getting Started
 
