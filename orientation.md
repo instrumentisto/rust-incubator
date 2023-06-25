@@ -55,8 +55,8 @@ Any attempt to cheat during the certification test will result in immediate excl
 
 In this bootcamp, we implement two types of deadlines: soft deadlines and hard deadlines.
 
-1. Soft Deadlines: These are flexible deadlines designed to help keep you on track. Every soft deadline is set for Thursday at midnight. We tolerate up to two instances of not meeting a soft deadline. However, if you fail to meet a soft deadline for a third time, this will lead to exclusion.
-2. Hard Deadlines: These are strict deadlines that must be adhered to. Each hard deadline is set for Sunday at midnight. Failing to meet a hard deadline will result in immediate exclusion.
+1. **Soft Deadlines**: These are flexible deadlines designed to help keep you on track. Every soft deadline is set for **Thursday** at midnight. We tolerate up to two instances of not meeting a soft deadline. However, if you fail to meet a soft deadline for a third time, this will lead to exclusion.
+2. **Hard Deadlines**: These are strict deadlines that must be adhered to. Each hard deadline is set for **Sunday** at midnight. Failing to meet a hard deadline will result in immediate exclusion.
 
 Each section of our program has its own deadline. Please note that some sections may take more than one week to complete. We use a week as our standard unit of measurement.
 
@@ -86,7 +86,7 @@ The list of reasons for being excluded from the group includes but is not limite
 - Systematic violation of the rules
 - On your own request
 
-> 💡 Advice: Please don't leave your group silently or with a loud slam of the door. Be accountable and **give a few words of acknowledgments** leaving the group ahead of time. We all are human, so we understand and don't blame you for leaving boot camp, whatever circumstances you have.
+> 💡 Advice: If you must leave the group prematurely, please do so respectfully. We encourage you to provide publicly a brief explanation or acknowledgment before departing. Remember, we are all human and understand that unforeseen circumstances may arise, so there will be no hard feelings if you must leave the bootcamp early.
 
 ### Getting started
 
