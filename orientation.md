@@ -90,12 +90,12 @@ The list of reasons for being excluded from the group includes but is not limite
 
 ### Getting started
 
-To get started, please [follow the instruction][Get Started].
+To get started, please [follow the instruction][Geting Started].
 
 ## Useful links
 
 - 🧭 [Orientation] - how to get the maximum out of bootcamp
-- ⏩ [Get Started][Get Started].
+- ⏩ [Geting Started][Geting Started].
 - :school: [Exercism] provides coding exercises with mentoring.
 - :grey_question: [Rust Quiz] is medium to hard [Rust] questions with explanations.
 - :mortar_board: [Collection][Learning Materials] of Awesome Rust Learning Materials
@@ -118,7 +118,7 @@ Perhaps you are not ready to become certified? That's okay. Follow these links i
 [certification test]: https://www.youtube.com/watch?v=cInMjEaH1q0
 
 [Orientation]: ./orientation.md
-[Get Started]: https://github.com/rust-lang-ua/rust_incubator#getting-started
+[Geting Started]: https://github.com/rust-lang-ua/rust_incubator#getting-started
 [Exercism]: https://exercism.org/tracks/rust
 [Rust Quiz]: https://github.com/dtolnay/rust-quiz
 [Learning Materials]: https://github.com/rust-lang-ua/learn_rust_together/blob/master/learn.md
