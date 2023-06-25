@@ -4,8 +4,7 @@ Rust Incubator
 > It wasn't always so clear, but the Rust programming language is fundamentally about _empowerment_: no matter what kind of code you are writing now, Rust empowers you to reach farther, to program with confidence in a wider variety of domains than you did before.
 _<div align="right">Rust Book's Foreword</div>_
 
-In this boot camp, you will be doing [Rust Incubator] -
-a hard-way step-by-step Rust certification program 🏆 to make you **Strong Junior Rust Developer**. That, by the way, is much stronger than switchers from other languages without rigorous training similar to this. If you are a mid- or senior-level switcher, you may freely aim for Middle vacancies after getting certified.
+In this bootcamp, you will participate in the [Rust Incubator], a rigorous, step-by-step Rust certification program 🏆. The aim of this program is to shape you into a proficient Junior Rust Developer. Indeed, with this rigorous training, you will find yourself better prepared than developers switching from other languages without a similar level of instruction. If you are a mid- or senior-level developer transitioning to Rust, you can confidently target Middle-level positions after achieving this certification.
 
 ## Prerequisites
 
