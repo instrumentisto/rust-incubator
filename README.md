@@ -4,22 +4,35 @@ Rust Incubator
 > It wasn’t always so clear, but the Rust programming language is fundamentally about _empowerment_: no matter what kind of code you are writing now, Rust empowers you to reach farther, to program with confidence in a wider variety of domains than you did before.
 _<div align="right">Rust Book's Foreword</div>_
 
-This project represents a hard-way step-by-step [Rust] learning course from language basics to a capability of web backend development.
+In this bootcamp, you will be doing [Rust Incubator](https://github.com/rust-lang-ua/rust_incubator) -
+a hard-way step-by-step Rust certification program to make you **Strong Junior Rust Developer** with level of skills of Middle, but maybe with less than 2 years of experience.
 
+## Prerequisites
+
+Before you start the certification program, you need to have confident knowledge of Rust and Git/GitHub. The [Rust Book] is a must. Nice if you did [Rustlings] and [Exercism] as well as had some practice. If you are a switcher, this certification program is also will be useful for you.
+
+## Organization and certification
+
+Members of the certification program will be divided into a few small groups. There will be meetings four days a week but on weekends. During each meeting, we will discuss and answer your questions as well as you will be asked to answer mentor's questions. The learning process is built on top of your everyday work on improving your skills using the best learning materials available.
+
+You'll track your progress in an interactive manner. You'll have to do a final assessment at the end of the certification program. If you pass, you'll receive a certificate. Your employer will love you for using best practices and writing idiomatic code.
 
 ## Steps
 
-
 ### Before you start
 
-1. [Create][1] a new [GitHub repository] for yourself using this one [as template][11]. Don't forget to make it private.
-2. [Invite as a collaborator][12] of your repository the person you want to review your lessons (mentor or lead).
+Fork the [Rust Incubator](https://github.com/rust-lang-ua/rust_incubator) into a **private** repo. For each exercise, you'll need to create separate pull requests. Then, when the reviewer checks and approves your pull request, you can merge it into the master/main branch. After that, the exercise will be considered done.
 
-> __NOTE__: __This learning course is constantly improving and evolving over time.__ 
+1. [Create][1] a new [GitHub repository] for yourself using this one [as template][11]. Don't forget to make it private.
+2. [Invite][12] as a collaborator of your repository [our bot][bot].
+
+Look here for a more [detailed instruction][how to start] and here you can find [FAQ].
+
+> __NOTE__: __This learning course is constantly improving and evolving over time.__
 >
 > To be up-to-date with the recent changes in your own copy of this repository, attach the upstream history with the following commands:
 > ```bash
-> git remote add upstream https://github.com/rust-lang-ua/rust_incubator_eng.git
+> git remote add upstream https://github.com/rust-lang-ua/rust_incubator.git
 > git fetch upstream main
 > git merge upstream/main --allow-unrelated-histories
 > ```
@@ -30,8 +43,7 @@ This project represents a hard-way step-by-step [Rust] learning course from lang
 > ```
 > Additionally, to be aware about new changes, you may either [watch this repository on GitHub][2], or even track it via [RSS subscription].
 
-
-### Schedule
+### Curriculum
 
 Each step must be performed as a separate [PR (pull request)][PR] with an appropriate name and checkmarked here in README's schedule after completion. Each step is a [Cargo workspace member][13], so you can run/test it from the project root (i.e. `cargo run -p step_1_8`). __Consider to use [rustfmt] and [Clippy] when you're writing [Rust] code.__
 
@@ -78,7 +90,7 @@ Do not hesitate to ask your mentor/lead with questions, however you won't receiv
     - [ ] [4.2. HTTP servers and clients][Step 4.2]
     - [ ] [4.3. API servers, clients and tools][Step 4.3]
     - [ ] [4.4. Summary Task][Step 4 Summary Task]
-- [ ] [Choose your capstone project][Choose your project]
+- [ ] [Agree your capstone project][Step 6.1]
 - [ ] [5. Zero To Production][Step 5] (2 weeks)
     - [ ] [5.1. Basic actix-web][Step 5.1]
     - [ ] [5.2. Logging][Step 5.2]
@@ -87,18 +99,28 @@ Do not hesitate to ask your mentor/lead with questions, however you won't receiv
     - [ ] [5.5. Advanced actix-web and error handling][Step 5.5]
     - [ ] [5.6. Authorization][Step 5.6]
 - [ ] [6. Capstone Project][Step 6] (1 week)
+    - [ ] [6.1. Agree your capstone project][Step 6.1]
+    - [ ] [6.2. Get approvement of basic implementation from the first mentor][Step 6.2]
+    - [ ] [6.3. Get 4 reviews from peers and mentors][Step 6.3]
+    - [ ] [6.4. Present your project][Step 6.4]
 
+## Useful links
 
+- :school: [Exercism] provides coding exercises with mentoring.
+- :grey_question: [Rust Quiz] is medium to hard [Rust] questions with explanations.
+- :mortar_board: [Collection of Awesome Rust Learning Materials](https://github.com/rust-lang-ua/learn_rust_together/blob/master/learn.md)
+- :globe_with_meridians: [Zero To Production] - back-end focused book
+  - The book as a [series of articles][Zero To Production as a series of articles]
+- :question: [FAQ](./faq.md) - frequently asked questions
 
+## Too hard?
 
-## More practice
+It means you are not ready for certification. Follow this links if you find the incubator too hard.
 
-- [rustlings] are small exercises to get you used to reading and writing [Rust] code.
-- [Rust on Exercism] provides coding exercises with mentoring.
-- [Rust Quiz] is medium to hard [Rust] questions with explanations.
-- [Introduction] is a setup and meta step-by-step instruction to start development in Rust. Follow this link if you find the incubator too hard.
-
-
+- :footprints:️ [Step-by-Step Introduction]
+- :baby: [Rustlings] are small exercises to get you used to reading and writing [Rust] code.
+- :file_folder: [Awesome list of Learning Materials on Git](https://github.com/Learn-Together-Pro/LearnGitTogether) - must have so far
+- :blue_book: [Rust Book] - must have so far, but we encourage to reread it
 
 
 [Step 0]: 0_basics
@@ -148,7 +170,10 @@ Do not hesitate to ask your mentor/lead with questions, however you won't receiv
 [Step 5.5]: 5_zero2prod/7_chapter
 [Step 5.6]: 5_zero2prod/10_chapter
 [Step 6]: 6_project
-[Choose your project]: 6_project/README.md#choose-your-capstone-project
+[Step 6.1]: 6_project/README.md#choose-your-capstone-project
+[Step 6.2]: 6_project/README.md#choose-your-capstone-project
+[Step 6.3]: 6_project/README.md#choose-your-capstone-project
+[Step 6.4]: 6_project/README.md#choose-your-capstone-project
 
 [Awesome Rust]: https://github.com/rust-unofficial/awesome-rust
 [Baby Steps]: http://smallcultfollowing.com/babysteps
@@ -163,7 +188,7 @@ Do not hesitate to ask your mentor/lead with questions, however you won't receiv
 [IntelliJ Rust]: https://intellij-rust.github.io
 [IntelliJ Toml]: https://plugins.jetbrains.com/plugin/8195-toml
 [PR]: https://help.github.com/articles/github-glossary/#pull-request
-[RSS subscription]: https://github.com/rust-lang-ua/rust_incubator_eng/commits/master.atom
+[RSS subscription]: https://github.com/rust-lang-ua/rust_incubator/commits/master.atom
 [Rust]: https://www.rust-lang.org
 [Rust 2018]: https://doc.rust-lang.org/edition-guide/rust-2018/index.html
 [Rust 2021]: https://doc.rust-lang.org/edition-guide/rust-2021/index.html
@@ -174,7 +199,7 @@ Do not hesitate to ask your mentor/lead with questions, however you won't receiv
 [Rust Design Patterns]: https://rust-unofficial.github.io/patterns
 [Rust Edition Guide]: https://doc.rust-lang.org/edition-guide
 [Rust FAQ]: https://prev.rust-lang.org/faq.html
-[Rust on Exercism]: https://exercism.org/tracks/rust/exercises
+[Exercism]: https://exercism.org/tracks/rust
 [Rust Playground]: https://play.rust-lang.org
 [Rust Quiz]: https://github.com/dtolnay/rust-quiz
 [Rust Reference]: https://doc.rust-lang.org/reference
@@ -182,13 +207,20 @@ Do not hesitate to ask your mentor/lead with questions, however you won't receiv
 [Rust SVG Cheatsheet]: https://www.breakdown-notes.com/make/load/rust_cs_canvas/true
 [Rustdoc Book]: https://doc.rust-lang.org/rustdoc
 [rustfmt]: https://github.com/rust-lang/rustfmt
-[rustlings]: https://rustlings.cool
+
+[Rustlings]: https://github.com/rust-lang/rustlings
 [rustup]: https://rustup.rs
 [This Week in Rust]: https://this-week-in-rust.org
-[Introduction]: https://github.com/rust-lang-ua/learn_rust_together/blob/master/introduction.md
+[Step-by-Step Introduction]: https://github.com/rust-lang-ua/learn_rust_together/blob/master/introduction.md
+[bot]: https://github.com/1tbot
+[Zero To Production]: https://www.zero2prod.com/index.html?country=Ukraine&discount_code=EEU60
+[Zero To Production as a series of articles]: ./backend_book.md
+[Rust Book]: https://doc.rust-lang.org/book/title-page.html
+[how to start]: ./how_to_start.md
+[FAQ]: ./faq.md
 
-[1]: https://github.com/rust-lang-ua/rust_incubator_eng/generate
-[2]: https://github.com/rust-lang-ua/rust_incubator_eng/subscription
+[1]: https://github.com/rust-lang-ua/rust_incubator/generate
+[2]: https://github.com/rust-lang-ua/rust_incubator/subscription
 [11]: https://help.github.com/en/articles/creating-a-repository-from-a-template
 [12]: https://help.github.com/en/articles/inviting-collaborators-to-a-personal-repository
 [13]: https://doc.rust-lang.org/book/ch14-03-cargo-workspaces.html
