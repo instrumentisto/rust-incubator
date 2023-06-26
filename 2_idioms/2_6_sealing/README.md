@@ -1,8 +1,6 @@
 Step 2.6: Sealing
 =================
 
-__Estimated time__: 1 day
-
 Sealing, in programming, usually means that some API (mostly public) cannot be inherited, extended or implemented outside its definition place. For example, a [sealed class or interface in Kotlin][1] cannot be inherited or implemented outside the library where it's defined. In [Rust], this idiom may be applied to [traits][2]. 
 
 
@@ -66,6 +64,11 @@ For better understanding traits sealing, its design and use-cases, read through 
 
 
 ## Task
+
+__Estimated time__: 1 day
+
+
+
 
 Seal the traits defined in [this step's crate](src/lib.rs) in the following way:
 - Make the [`MyIteratorExt` trait](src/my_iterator_ext.rs) fully sealed. Do it manually, using the [`sealed`] crate or a similar one is __not allowed__.

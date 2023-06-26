@@ -1,8 +1,6 @@
 Step 1.1: Default values, cloning and copying
 =============================================
 
-__Estimated time__: 1 day
-
 
 
 
@@ -66,6 +64,11 @@ For better understanding the topic, read through:
 
 
 ## Task
+
+__Estimated time__: 1 day
+
+
+
 
 - Create a `Point` type which represents a 2D point (`x` and `y` coordinates). This type has to be `Copy` and `Default`.
 - Create a `Polyline` type which represents a non-empty set of `Point`s of unknown size. This type has to be `Clone` and non-`Default`.

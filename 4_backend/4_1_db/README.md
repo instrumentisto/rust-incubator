@@ -1,8 +1,6 @@
 Step 4.1: Databases, connection pools and ORMs
 ==============================================
 
-__Estimated time__: 1 day
-
 The current situation with databases integration in [Rust] ecosystem is illustrated quite well in [this "Awesome Rust" section][1] and in ["Database" topic of "Are we web yet?"][2]: the majority of the drivers are implemented fully in [Rust], and only few wrap existing libraries, and of course, most of them use [async I/O][3].
 
 
@@ -116,6 +114,11 @@ For being familiar with [migrations][61] tools, their similarities and differenc
 
 
 ## Task
+
+__Estimated time__: 1 day
+
+
+
 
 Create an [SQL] database ([PostgreSQL], [MySQL] or [SQLite], on your choice) consisting of the following tables:
 - `users`: `id`, `name` and any other fields on your choice; 

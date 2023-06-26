@@ -1,8 +1,6 @@
 Step 3.8: Logging and tracing
 =============================
 
-__Estimated time__: 1 day
-
 [Rust] has flexible type system and [metaprogramming][1] capabilities, allowing to build both efficient and highly reusable log system. The idea is very similar to [`serde`] and is introduced in a widely used [`log`], [`slog`] and [`tracing`] crates.
 
 
@@ -57,6 +55,11 @@ For better understanding and familiarity with [`tracing`]'s design, concepts, us
 
 
 ## Task
+
+__Estimated time__: 1 day
+
+
+
 
 Implement two loggers:
 1. Global main `app.log` logger which prints all its logs to `STDOUT`, but `WARN` level (and higher) logs to `STDERR`.

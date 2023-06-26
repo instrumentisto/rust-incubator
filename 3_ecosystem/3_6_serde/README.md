@@ -1,8 +1,6 @@
 Step 3.6: Serialization and deserialization
 ===========================================
 
-__Estimated time__: 1 day
-
 
 
 
@@ -129,6 +127,11 @@ For better understanding and familiarity with [`rkyv`]'s design, concepts, usage
 
 
 ## Task
+
+__Estimated time__: 1 day
+
+
+
 
 Write a program which deserializes the [following JSON](request.json) into a static `Request` type and prints out its serialization in a YAML and TOML formats. Consider to choose correct types for data representation.
 

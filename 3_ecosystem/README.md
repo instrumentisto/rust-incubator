@@ -1,8 +1,6 @@
 Step 3: Common ecosystem
 ========================
 
-__Estimated time__: 2 days
-
 These steps describe common crates and tools in [Rust] ecosystem required for application and library development.
 
 > ❗️Before completing this step you should complete all its sub-steps.
@@ -35,6 +33,11 @@ After doing them you should be able to answer the following questions:
 - [Rust Developer's Toolbox](https://github.com/rust-lang-ua/learn_rust_together/blob/master/toolbox_general.md)
 
 ## Task
+
+__Estimated time__: 2 days
+
+
+
 
 Write a [CLI] tool for stripping [JPEG] images [metadata][21] and minimizing their size (a simplified analogue of [tinyjpg.com]).
 

@@ -1,8 +1,6 @@
 Step 1: Concepts
 ================
 
-__Estimated time__: 2 days
-
 These steps describe common and necessary-to-know concepts for everyday programming in [Rust].
 
 > ❗️Before completing this step you should complete all its sub-steps.
@@ -29,6 +27,11 @@ The following articles may help you to sum up your experience:
 
 
 ## Task
+
+__Estimated time__: 2 days
+
+
+
 
 Provide your own implementation of [doubly linked list][11] data structure. It should be [thread safe][12] without a necessity to use explicit synchronization primitives (like `Arc<Mutex<T>>`) on top of it.
 

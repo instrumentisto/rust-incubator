@@ -1,8 +1,6 @@
 Step 3.9: Command-line arguments, environment variables and configs
 ===================================================================
 
-__Estimated time__: 1 day
-
 
 
 
@@ -66,6 +64,11 @@ For better understanding and familiarity with [`config`] crate design, concepts,
 
 
 ## Task
+
+__Estimated time__: 1 day
+
+
+
 
 Write a simple program which prints out its actual configuration. Configuration should be implemented as a typed hierarchical structure, which is able to parse from a specified file and/or environment variables. 
 

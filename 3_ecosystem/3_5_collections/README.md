@@ -1,8 +1,6 @@
 Step 3.5: Collections and iterators
 ===================================
 
-__Estimated time__: 1 day
-
 
 
 
@@ -76,6 +74,11 @@ For better understanding concurrent collections' nature, design, and a motivatio
 
 
 ## Task
+
+__Estimated time__: 1 day
+
+
+
 
 Write a simple `UsersRepository` trait, which supports 3 operations (consider to chose correct collections):
 - returns single `User` by its ID;

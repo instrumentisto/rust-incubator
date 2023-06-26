@@ -1,8 +1,6 @@
 Step 1.2: Boxing and pinning
 ============================
 
-__Estimated time__: 1 day
-
 
 
 
@@ -46,6 +44,11 @@ For better understanding [`Pin`] purpose, design, limitations and use cases read
 
 
 ## Task
+
+__Estimated time__: 1 day
+
+
+
 
 1. For the following types: `Box<T>`, `Rc<T>`, `Vec<T>`, `String`, `&[u8]`, `T`.  
    Implement the following traits:
