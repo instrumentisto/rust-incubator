@@ -23,7 +23,7 @@ Fork the [Rust Incubator] into a **private** repo. For each exercise, you'll nee
 1. [Create][1] a new [GitHub repository] for yourself using this one [as template][11]. Remember to make it private.
 2. [Invite][12] as a collaborator of your repository [our bot][bot].
 
-Look here for more [detailed instructions][how_to_fork], and here you can find [FAQ].
+Look here for more [detailed instructions][how_to_start], and here you can find [FAQ].
 
 > __NOTE__: __This learning course is constantly improving and evolving over time.__
 >
@@ -204,7 +204,7 @@ Perhaps you are not ready to become certified? That's okay. Follow these links i
 [rustup]: https://rustup.rs
 [This Week in Rust]: https://this-week-in-rust.org
 [bot]: https://github.com/1tbot
-[how_to_fork]: ./how_to_fork.md
+[how_to_start]: ./how_to_start.md
 
 [Orientation]: ./orientation.md
 [Geting Started]: https://github.com/rust-lang-ua/rust_incubator#getting-started
