@@ -1,8 +1,6 @@
 Step 3.2: Declarative and procedural macros
 ===========================================
 
-__Estimated time__: 1 day
-
 [Rust] provides strong and convenient built-in capabilities for code generation in a form of [macros][1].
 
 > The term macro refers to a family of features in Rust: _declarative_ macros with `macro_rules!` and three kinds of _procedural_ macros:
@@ -119,6 +117,11 @@ For better understanding procedural macros design, concepts, usage and features,
 
 
 ## Task
+
+__Estimated time__: 1 day
+
+
+
 
 Implement a `btreemap!` macro, which allows to create [`BTreeMap`] in an ergonomic and declarative way (similarly to `vec!`).
 

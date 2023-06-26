@@ -1,8 +1,6 @@
 Step 1.5: Conversions, casting and dereferencing
 ================================================
 
-__Estimated time__: 1 day
-
 As [Rust] is a [strongly typed][1] language, all type conversions must be performed explicitly in the code. As [Rust] has a rich type system (programming logic and semantics are mostly expressed in types rather than in values), type conversions are inevitable in almost every single line of code. Fortunately, [Rust] offers [well-designed type conversion capabilities][`std::convert`], which are quite ergonomic, intuitive and are pleasant to use.
 
 
@@ -178,6 +176,12 @@ See also:
 
 
 ## Task
+
+
+__Estimated time__: 1 day
+
+
+
 
 Implement the following types:
 1. `EmailString` - a type, which value can be only a valid email address string.

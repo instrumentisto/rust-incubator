@@ -1,8 +1,6 @@
 Step 1.3: Shared ownership and interior mutability
 ==================================================
 
-__Estimated time__: 1 day
-
 
 
 
@@ -144,6 +142,11 @@ And even when there is no possibility to hide lock guards behind API boundary, i
 
 
 ## Task
+
+__Estimated time__: 1 day
+
+
+
 
 Write a `GlobalStack<T>` collection which represents a trivial unsized [stack] (may grow infinitely) and has the following semantics:
 - can be mutated through multiple shared references (`&GlobalStack<T>`);

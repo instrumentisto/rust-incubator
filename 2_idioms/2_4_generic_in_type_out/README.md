@@ -1,8 +1,6 @@
 Step 2.4: Abstract type in, concrete type out
 =============================================
 
-__Estimated time__: 1 day
-
 
 
 
@@ -88,6 +86,11 @@ However, this is not a strict rule, so should not be applied blindly. If you _re
 
 
 ## Task
+
+__Estimated time__: 1 day
+
+
+
 
 Refactor the code contained in [this step's crate](src/main.rs) to make it more efficient, idiomatic, simple and pleasant to use.
 

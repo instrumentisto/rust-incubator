@@ -1,8 +1,6 @@
 Step 1.6: Static and dynamic dispatch
 =====================================
 
-__Estimated time__: 1 day
-
 [Static][1] and [dynamic][2] dispatches are important concepts to understand how your code is compiled and works in runtime, and how you can solve certain day-to-day coding problems (related to polymorphism).
 
 __[Static dispatch][1]__ (also called "early binding") __happens only at compile time__. The compiler generates separate code for each concrete type that is used. In [Rust] static dispatch is a __default way for polymorphism__ and is introduced simply by generics (parametric polymorphism): `MyType<T, S, F>`.
@@ -147,6 +145,11 @@ There is a handy [momo] crate, which generates this boilerplate automatically in
 
 
 ## Task
+
+__Estimated time__: 1 day
+
+
+
 
 Given the following `Storage` abstraction and `User` entity:
 ```rust

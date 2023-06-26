@@ -1,8 +1,6 @@
 Step 2.3: Bound behavior, not data
 ==================================
 
-__Estimated time__: 1 day
-
 Often, when we want to abstract over some type or behavior in [Rust] we are going from this:
 ```rust
 struct UserService {
@@ -102,6 +100,11 @@ let copy = loader.clone(); // it compiles now!
 
 
 ## Task
+
+__Estimated time__: 1 day
+
+
+
 
 Refactor the code contained in [this step's crate](src/main.rs) to reduce trait bounds pollution as much as possible.
 
