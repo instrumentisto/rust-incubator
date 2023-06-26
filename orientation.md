@@ -51,7 +51,7 @@ Any attempt to cheat during the certification test will result in immediate excl
 
 > 💡 Advice: It is worth going through as many quizzes as you can find online before taking the certification test. You should master rustlings and exorcism drills and review as much code of others as you can because certification tests evaluate not only your understanding of concepts but also your ability to read code quickly.
 
-### Deadlines and softlines
+### Soft and Hard Deadlines
 
 In this bootcamp, we implement two types of deadlines: soft deadlines and hard deadlines.
 
