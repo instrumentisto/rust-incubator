@@ -34,7 +34,7 @@ Look here for more [detailed instructions][how_to_fork], and here you can find [
 > git merge upstream/main --allow-unrelated-histories
 > ```
 > And then, whenever you want to grab some new changes, do the following:
-> "`bash
+> ```bash
 > git fetch upstream main
 > git merge upstream/main
 > ```
