@@ -103,7 +103,7 @@ Do not hesitate to ask your mentor/lead with questions, however, you won't recei
 ## Useful links
 
 - 🧭 [Orientation] - how to get the maximum out of bootcamp
-- ⏩ [Geting Started][Geting Started].
+- ⏩ [Getting Started][Getting Started].
 - :question: [FAQ] - frequently asked questions
 - :mortar_board: [Collection][Learning Materials] of Awesome Rust Learning Materials
 - :globe_with_meridians: [Zero To Production] - back-end focused book
@@ -207,7 +207,7 @@ Perhaps you are not ready to become certified? That's okay. Follow these links i
 [how_to_start]: ./how_to_start.md
 
 [Orientation]: ./orientation.md
-[Geting Started]: https://github.com/rust-lang-ua/rust_incubator#getting-started
+[Getting Started]: https://github.com/rust-lang-ua/rust_incubator#getting-started
 [Exercism]: https://exercism.org/tracks/rust
 [Rust Quiz]: https://github.com/dtolnay/rust-quiz
 [Learning Materials]: https://github.com/rust-lang-ua/learn_rust_together/blob/master/learn.md

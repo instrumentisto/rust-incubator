@@ -29,7 +29,7 @@ Bootcamp consists of 4 parts:
 
 Currently, we offer only one specialization: "web back-end." The second and third parts can be performed in parallel with the first. You have to work on the third part parallel to the second; otherwise, you can fail to meet the deadline.
 
-### Captstone project
+### Capstone project
 
 You will create a portfolio project using Rust within a one-week timeframe. The project should showcase your proficiency in Rust, demonstrate your coding style, and highlight your problem-solving skills. The goal is to create a functional project that can be presented to potential employers or shared with the programming community.
 
@@ -51,7 +51,7 @@ Any attempt to cheat during the certification test will result in immediate excl
 
 > 💡 Advice: It is worth going through as many quizzes as you can find online before taking the certification test. You should master rustlings and exorcism drills and review as much code of others as you can because certification tests evaluate not only your understanding of concepts but also your ability to read code quickly.
 
-### Deadlines and softlines
+### Soft and Hard Deadlines
 
 In this bootcamp, we implement two types of deadlines: soft deadlines and hard deadlines.
 
@@ -81,8 +81,8 @@ Please be **respectful and polite** to peers and mentors.
 The list of reasons for being excluded from the group includes but is not limited to
 
 - [Plagiarism]
-- Failure to meet more that 2 [deadlines]
-- Failure to meet any of [deadlines]
+- Failure to meet more than 2 [hard deadlines]
+- Failure to meet any of [soft deadlines]
 - Systematic violation of the rules
 - On your own request
 
@@ -90,12 +90,12 @@ The list of reasons for being excluded from the group includes but is not limite
 
 ### Getting started
 
-To get started, please [follow the instruction][Geting Started].
+To get started, please [follow the instruction][Getting Started].
 
 ## Useful links
 
 - 🧭 [Orientation] - how to get the maximum out of bootcamp
-- ⏩ [Geting Started][Geting Started].
+- ⏩ [Getting Started][Getting Started].
 - :school: [Exercism] provides coding exercises with mentoring.
 - :grey_question: [Rust Quiz] is medium to hard [Rust] questions with explanations.
 - :mortar_board: [Collection][Learning Materials] of Awesome Rust Learning Materials
@@ -118,7 +118,7 @@ Perhaps you are not ready to become certified? That's okay. Follow these links i
 [certification test]: https://www.youtube.com/watch?v=cInMjEaH1q0
 
 [Orientation]: ./orientation.md
-[Geting Started]: https://github.com/rust-lang-ua/rust_incubator#getting-started
+[Getting Started]: https://github.com/rust-lang-ua/rust_incubator#getting-started
 [Exercism]: https://exercism.org/tracks/rust
 [Rust Quiz]: https://github.com/dtolnay/rust-quiz
 [Learning Materials]: https://github.com/rust-lang-ua/learn_rust_together/blob/master/learn.md
