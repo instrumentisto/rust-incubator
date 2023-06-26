@@ -28,7 +28,7 @@ Look here for more [detailed instructions][how_to_fork], and here you can find [
 > __NOTE__: __This learning course is constantly improving and evolving over time.__
 >
 > To be up-to-date with the recent changes in your own copy of this repository, attach the upstream history with the following commands:
-> "`bash
+> ```bash
 > git remote add upstream https://github.com/rust-lang-ua/rust_incubator.git
 > git fetch upstream main
 > git merge upstream/main --allow-unrelated-histories
