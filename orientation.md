@@ -14,9 +14,7 @@ Also, Rust is not the worst choice nowadays:
 - Rust in the cores of [Linux](https://www.infoq.com/news/2022/12/linux-6-1-rust/) and [Windows](https://www.theregister.com/2023/04/27/microsoft_windows_rust/) : the language will not disappear and will continue to evolve
 - [Efficient teamwork: Standardization and idiomatic code for clear and clean code](https://github.com/mre/idiomatic-rust)
 - [Higher salaries](https://www.devjobsscanner.com/blog/top-10-highest-paid-programming-languages-in-2022/)
-- [Cross-platform compatibility: Rust works on many platforms and environments](https://doc.rust-lang.org/nightly/rustc/platform-support.html#platform-support) 
-
-<!-- xxx : add list why rust -->
+- [True cross-platform compatibility: Rust works on many platforms and environments](https://doc.rust-lang.org/nightly/rustc/platform-support.html#platform-support)
 
 ### Your group
 

@@ -41,7 +41,7 @@ You can ask questions in the Telegram [chat of our community](https://t.me/rustl
 
 #### - What is the best way to ask questions ?
 
-It is better if you have the code in the [playground](https://play.rust-lang.org/). In this case, we don’t spend extra time recreating the problem. 
+It is better if you have the code in the [playground](https://play.rust-lang.org/). In this case, we don’t spend extra time recreating the problem.
 ![playground_ask](https://github.com/rust-lang-ua/rust_incubator/assets/98274821/2351bddd-455f-4078-a7cb-328a7bb08ac9)
 
 <!-- xxx : write please, add screenshot -->
