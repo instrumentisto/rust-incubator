@@ -81,8 +81,8 @@ Please be **respectful and polite** to peers and mentors.
 The list of reasons for being excluded from the group includes but is not limited to
 
 - [Plagiarism]
-- Failure to meet more than 2 [hard deadlines]
-- Failure to meet any of [soft deadlines]
+- Failure to meet more than 2 [soft deadlines]
+- Failure to meet any of [hard deadlines]
 - Systematic violation of the rules
 - On your own request
 
