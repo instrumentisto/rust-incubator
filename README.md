@@ -80,8 +80,7 @@ Do not hesitate to ask your mentor/lead with questions, however, you won't recei
     - [ ] [3.9. Command-line arguments, environment variables and configs][Step 3.9]
     - [ ] [3.10. Multithreading and parallelism][Step 3.10]
     - [ ] [3.11. Async I/O, futures and actors][Step 3.11]
-    - [ ] [3.12. Web frameworks, databases, connection pools and ORMs][Step 3.12]
-    - [ ] [3.13. Summary Task][Step 3 Summary Task]
+    - [ ] [3.12. Summary Task][Step 3 Summary Task]
 - [ ] [4. Backend ecosystem][Step 4] (2 weeks)
     - [ ] [4.1. Databases, connection pools and ORMs][Step 4.1]
     - [ ] [4.2. HTTP servers and clients][Step 4.2]
@@ -153,7 +152,6 @@ Perhaps you are not ready to become certified? That's okay. Follow these links i
 [Step 3.9]: 3_ecosystem/3_9_cmd_env_conf
 [Step 3.10]: 3_ecosystem/3_10_threads
 [Step 3.11]: 3_ecosystem/3_11_async
-[Step 3.12]: 3_ecosystem/3_12_web_db
 [Step 3 Summary Task]: 3_ecosystem/README.md#task
 [Step 4]: 4_backend
 [Step 4.1]: 4_backend/4_1_db
