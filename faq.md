@@ -2,50 +2,52 @@
 
 > PR - Pull Request
 
-#### - Коли відбуваються зустрічі?
+#### - When do the meetings are held?
 
-4 рази на тиждень у будні дні за графіком вашої групи.
+4 times a week on weekdays according to your group's schedule.
 
-#### - Як розпочати виконання завдань?
+#### - How do I start completing tasks?
 
-Для початку вам потрібно зробити приватний форк головного [репозиторію](https://github.com/rust-lang-ua/rust_incubator) Rust Incubator. Як це зробити - читайте детальніше в [інструкції](https://github.com/rust-lang-ua/rust_incubator#before-you-start).
+First, you need to make a private fork of the main [Rust Incubator repository](https://github.com/rust-lang-ua/rust_incubator). Read more about how to do this in the [instructions](https://github.com/rust-lang-ua/rust_incubator#before-you-start).
 
-#### - Як і куди надсилати Pull Requests виконаних завдань?
+#### - How and where to send Pull Requests of completed tasks?
 
-У вашому приватному форку ви створюєте для кожного підрозділу(завдання) окрему гілку (branch). У відповідній гілці виконуєте завдання та створюєте PR у __свою ж__ головну гілку master. У PR тегаєте рев'ювера.
+In your private fork, you create a separate branch for each subdivision (task). In the corresponding branch, you complete the task and create a PR to __your__ main master branch. Don't forget to tag the reviewers in your PR.
 
 <!-- #### - Що за табличка прогресу та як нею користуватись?
 Усім учасникам на електронну адресу прийшло посилання на гугл-табличку. У ній є головна сторінка "Main Page", там відповідно до групи знаходите себе, а також номер, під яким ви записані. Тепер внизу шукаєте аркуш, який є під вашим номером. Це ваша сторінка, яку ви можете редагувати. Додаєте сюди фото. Навпроти кожного підрозділу стоять чекбокси, які вам потрібно відмічати при виконанні завдань. Також у відповідній колонці залишати посилання на виконане завдання. На особистій сторінці можете відслідковувати власний прогрес по розділах, а у 'Main Page'  загальний ваш та колег. -->
 
-#### - Коли задача вважається виконаною?
+#### - When is a task accepted as completed?
 
-Коли ви зробили Pull Request, і його апрувнув та змерджив один з рев'юверів.
+When you've made a Pull Request and it's been approved and stale by one of the reviewers.
 
-#### - Що робити якщо задача недороблена? Чи відкривати PR?
+#### - What to do if the task is unfinished? Should I open a PR?
 
-Так, відкриваєте PR якнайшвидше, а у назві вказуєте "Not Ready".
+Yes, you should open a PR as soon as possible and indicate "Not Ready" in the title.
 
-#### - Чи можу я робити завдання курсу тільки на вихідних?
+#### - Can I do the course assignments only on weekends?
 
-Ви маєте приділяти навчанню більше 20 год на тиждень щоб досягти якісних результатів. За 3 місяці інтенсиву ви маєте змогу вирости, як за два роки самостійної практики. Якщо залишати задачу лише на вихідні, то щодня ви навчатиметеся по 10 год. Краще раціонально розподіляти навчальний час протягом тижня.
+You should devote more than 20 hours a week to your studies to achieve quality results. In 3 months of the intensive course, you can grow as much as in two years of independent practice. If you leave the task only on weekends, you will study for 10 hours a day. It is better to rationally distribute your study time during the week.
 
-#### - Де відповідати на запитання першого розділу?
+#### - Where to answer the questions in the first chapter?
 
-Залишаєте відповіді під самим питанням, редагуючи власний md-файл
+Leave the answers under the question itself by editing your own md-file.
 
-#### - Куди звертатись за допомогою?
+#### - Where can I ask for help?
 
-Ви можете запитувати ставити питання у Телеграм-чаті, зокрема іншим учасникам навчального табору. Але ваше рішення має бути оригінальним. За копіювання рішення виключаються обидва: той хто дав списати та той хто списав.
+You can ask questions in the Telegram [chat of our community](https://t.me/rustlang_ua), the official [forum](https://users.rust-lang.org/), [ChatGPT](https://openai.com/blog/chatgpt) for simple questions, and the bootcamp chat, including other participants. However your solution must be original. Both the person who gave the solution and the person who copied it will be expelled.
 
 <!-- xxx : extend, tell about forum and chat of community -->
 
-#### - Як правильно ставити питання?
+#### - What is the best way to ask questions ?
+
+It is better if you have the code in the [playground](https://play.rust-lang.org/). In this case, we don’t spend extra time recreating the problem.
 
 <!-- xxx : write please, add screenshot -->
 
-#### - Як забрати зміни з основного репозиторію?
+#### - How do I remove changes from the main repository?
 
-Додайте основний репозиторій як remote.
+Add the main repository as a remote.
 
 ```bash
 # додайте remote
@@ -56,4 +58,4 @@ git fetch --all
 git merge template/master
 ```
 
-*Якщо у вас виходить помилка `fatal: refusing to merge unrelated histories` додайте `--allow-unrelated-histories` флаг до останньої команди.*
+*If you get the error `fatal: refusing to merge unrelated histories` додайте `--allow-unrelated-histories`  flag to the last command.*
