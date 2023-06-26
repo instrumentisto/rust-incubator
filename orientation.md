@@ -4,7 +4,13 @@
 
 You decided to take part in boot camp. Bootcamp is an intensive, fast-paced learning program that focuses on training individuals in areas of information technology. The fast pace is the most efficient way to build up new skills. If your goal is to get practical skills, then boot camp is much more efficient than university, pet projects, and even a job unless you already have all critical skills.
 
-Also, Rust is not the worst choice nowadays.
+Also, Rust is not the worst choice nowadays:
+
+- [A large and friendly community](https://medium.com/mozilla-tech/growing-the-rust-community-6b6d23725085)
+- [Trending language: 7 years in a row as a favorite programming language ](https://survey.stackoverflow.co/2022/#section-most-loved-dreaded-and-wanted-programming-scripting-and-markup-languages)
+- [Fast](Швидкий) and [secure](https://vegibit.com/is-rust-the-future-of-systems-programming/)
+- [Recognition by world leaders: Mozilla, Dropbox, Cloudflare, Discord, AWS](https://www.rust-lang.org/production/users)
+- [Rich ecosystem: cargo out of the box]() 
 
 <!-- xxx : add list why rust -->
 
