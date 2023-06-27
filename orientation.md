@@ -27,7 +27,7 @@ Also, Rust is not the worst choice nowadays:
 
 - [A large and friendly community](https://medium.com/mozilla-tech/growing-the-rust-community-6b6d23725085)
 - [Trending language: 7 years in a row as a favorite programming language ](https://survey.stackoverflow.co/2022/#section-most-loved-dreaded-and-wanted-programming-scripting-and-markup-languages)
-- [Fast](Швидкий) and [secure](https://vegibit.com/is-rust-the-future-of-systems-programming/)
+- [Fast](https://levelup.gitconnected.com/which-is-faster-rust-or-c-lets-find-out-who-is-the-usain-bolt-87495c774c8) and [secure](https://vegibit.com/is-rust-the-future-of-systems-programming/)
 - [Recognition by world leaders: Mozilla, Dropbox, Cloudflare, Discord, AWS](https://www.rust-lang.org/production/users)
 - [Rich ecosystem: cargo out of the box](https://lib.rs/stats)
 - Rust in the cores of [Linux](https://www.infoq.com/news/2022/12/linux-6-1-rust/) and [Windows](https://www.theregister.com/2023/04/27/microsoft_windows_rust/) : the language will not disappear and will continue to evolve
