@@ -13,7 +13,7 @@ Before you begin the certification program, you should have a solid understandin
 
 Participants in the boot camp will be divided into closely-knit small groups. Meetings within these groups will occur four times a week, excluding weekends. These meetings are an opportunity for dynamic discussion, mutual learning, and answering any questions you might have. Additionally, participants can expect to answer insightful questions posed by their mentors, fostering a proactive learning environment.
 
-Our learning process is meticulously designed to enhance skills daily, leveraging the most exceptional learning materials available. We do not produce content unless there is no adequate resource available online. Our philosophy rests on **utilizing state-of-the-art tools and premium materials**, rather than creating substandard content ourselves. We furnish an interactive platform for tracking progress, assuring a well-defined path towards skill enhancement and achievement.
+Our learning process is meticulously designed to enhance skills daily, leveraging the most exceptional learning materials available. We do not produce content unless there is no adequate resource available online. Our philosophy rests on utilizing state-of-the-art tools and **premium materials**, rather than creating substandard content ourselves. We furnish an interactive platform for tracking progress, assuring a well-defined path towards skill enhancement and achievement.
 
 Participants will also be challenged with designing, developing, and presenting a **capstone project**. This project provides a fantastic opportunity to apply the skills learned throughout the boot camp in a practical, impactful way.
 
