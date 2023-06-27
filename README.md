@@ -160,7 +160,6 @@ Don't hesitate to approach your mentor/lead with questions. However, keep in min
 [Cargo Book]: https://doc.rust-lang.org/cargo
 [Cheats.rs]: https://cheats.rs
 [CLion]: https://www.jetbrains.com/clion
-[Clippy]: https://github.com/rust-lang/rust-clippy
 [Effective Rust]: https://www.lurklurk.org/effective-rust
 [GitHub repository]: https://help.github.com/articles/github-glossary/#repository
 [IntelliJ IDEA]: https://www.jetbrains.com/idea
@@ -182,13 +181,14 @@ Don't hesitate to approach your mentor/lead with questions. However, keep in min
 [Rust std lib]: https://doc.rust-lang.org/std
 [Rust SVG Cheatsheet]: https://www.breakdown-notes.com/make/load/rust_cs_canvas/true
 [Rustdoc Book]: https://doc.rust-lang.org/rustdoc
+[Clippy]: https://github.com/rust-lang/rust-clippy
 [rustfmt]: https://github.com/rust-lang/rustfmt
 [Rust Incubator]: https://github.com/rust-lang-ua/rust_incubator
 [Fork As Template]: https://help.github.com/en/articles/creating-a-repository-from-a-template
 [rustup]: https://rustup.rs
 [This Week in Rust]: https://this-week-in-rust.org
 [bot]: https://github.com/1tbot
-[how to fork - step by step]: ./how_to_start.md
+[how to fork - step by step]: ./how_to_fork.md
 [how to fork]: ./orientation.md#getting-started
 
 [Orientation]: ./orientation.md

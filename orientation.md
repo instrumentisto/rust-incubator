@@ -182,10 +182,12 @@ If you're feeling that the certification might be too challenging at this point,
 [deadlines]: #deadlines
 [Rust Incubator]: https://github.com/rust-lang-ua/rust_incubator/README.md
 [certification test]: https://www.youtube.com/watch?v=cInMjEaH1q0
-[how to fork - step by step]: ./how_to_start.md
+[how to fork - step by step]: ./how_to_fork.md
 [PR]: https://help.github.com/articles/github-glossary/#pull-request
 [workspace]: https://doc.rust-lang.org/book/ch14-03-cargo-workspaces.html
 [Rust]: https://www.rust-lang.org
+[Clippy]: https://github.com/rust-lang/rust-clippy
+[rustfmt]: https://github.com/rust-lang/rustfmt
 
 [Orientation]: ./orientation.md
 [Getting Started]: https://github.com/rust-lang-ua/rust_incubator#getting-started
