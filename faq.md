@@ -6,7 +6,12 @@ PR is an abbreviation for [Pull Request](https://docs.github.com/en/pull-request
 
 #### When and how are the meetings held?
 
-Meetings are held four times a week on weekdays according to your group's schedule.
+Meetings are held four times a week on weekdays (except Tuesday) according to your group's schedule. The meeting lasts about 1 hour. All appointments will be in your calendar. Attendance at the first meeting is mandatory.
+
+#### Will the meeting be recorded?
+
+No, there will be no recordings of the meetings, so do your best not to miss them.
+
 
 #### How do I start completing tasks?
 
@@ -41,6 +46,24 @@ Firstly, ask your peers in the Bootcamp's chat. You can also post your questions
 It's preferable to have your code in the [playground](https://play.rust-lang.org/). This way, mentors and peers don't have to spend extra time recreating the problem.
 
 ![playground_ask](https://github.com/rust-lang-ua/rust_incubator/assets/98274821/2351bddd-455f-4078-a7cb-328a7bb08ac9)
+
+#### Is the Telegram chat moderated?
+
+At the initial stage, we don't want to limit communication in the chat, nor do we want to divide it into sub-chats. We encourage people to get to know each other. After the familiarization phase, we may introduce stricter moderation rules in the future, if necessary. For now, however, you must respect other chat participants and are not allowed to be offensive.
+
+
+#### What is the motivation of mentors to mentor?
+
+All mentors are employed, and many of them have their own companies and are in a good position to hire a talented participant. Moreover, mentoring helps to improve their own knowledge, and all of our mentors have a natural desire to help other people.
+
+#### Do we cooperate with IT companies in any way?
+
+We are making a lot of efforts to involve companies in interviews with bootcamp graduates and hopefully we will get there. We currently have 4 partner companies: TacansLab, AI Edge Lab, Intellias, and Near.
+
+#### What should I do if I find mistakes in the repository?
+We encourage you to open an __issue__ if you see any problems.
+
+
 
 #### How can I incorporate changes from the main repository?
 
