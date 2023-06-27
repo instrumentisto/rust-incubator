@@ -1,8 +1,27 @@
 # Orientation
 
+> "Self-education is, I firmly believe, the only kind of education there is."
+_<div align="right">Isaac Asimov</div>_
+
+## Prerequisites
+
+Before you begin the certification program, you should have a solid understanding of Rust and Git/GitHub. We strongly recommend completing the [Rust Book]. It's also beneficial if you have completed [Rustlings] and [Exercism], and have some hands-on practice. If you're transitioning from another programming language, you'll also find this certification program particularly useful.
+
 ### Perspective
 
-You decided to take part in boot camp. Bootcamp is an intensive, fast-paced learning program that focuses on training individuals in areas of information technology. The fast pace is the most efficient way to build up new skills. If your goal is to get practical skills, then boot camp is much more efficient than university, pet projects, and even a job unless you already have all critical skills.
+Choosing to participate in our boot camp means embarking on an intensive, fast-paced journey of learning, with a focus on the critical areas of information technology. The boot camp's accelerated pace is designed to be the most effective method to acquire new skills swiftly. If your ambition is to gain practical, hands-on skills that can make an immediate impact, our boot camp outperforms traditional university courses, pet projects, and even on-the-job training, especially when starting without a strong foundation in these crucial skills.
+
+Participants in the boot camp will be divided into closely-knit small groups. Meetings within these groups will occur four times a week, excluding weekends. These meetings are an opportunity for dynamic discussion, mutual learning, and answering any questions you might have. Additionally, participants can expect to answer insightful questions posed by their mentors, fostering a proactive learning environment.
+
+Our learning process is designed around daily skill enhancement, leveraging the highest quality learning materials available. We provide an interactive platform for tracking progress, ensuring a clear path of advancement and accomplishment.
+
+Participants will also be challenged with designing, developing, and presenting a capstone project. This project provides a fantastic opportunity to apply the skills learned throughout the boot camp in a practical, impactful way.
+
+Finally, a comprehensive assessment will be conducted at the end of the certification program. Upon successful completion, participants will earn a certificate. This certificate is more than just a document; it's a testament to your ability to utilize best practices and write idiomatic code that employers will value highly. Imagine the doors that could open with this certificate in hand!
+
+Join us in this boot camp and fast-track your IT career to new heights. The journey might be intense, but the reward is immeasurable.
+
+### Why Rust?
 
 Also, Rust is not the worst choice nowadays:
 
@@ -18,53 +37,31 @@ Also, Rust is not the worst choice nowadays:
 
 ### Your group
 
-Everyone was enrolled in one of the groups. Every group has 2 mentors. If you are in the morning, the group time of meetings is most probably at 10:00. If you are in the evening, the group time of meetings is most probably at 18:30.
+Each participant has been assigned to a specific group, with each group having 2 mentors. If you're in the morning cohort, your meetings will typically be scheduled for 10:00. For those in the evening cohort, meetings are most likely at 18:30.
 
 ### Routines
 
-You will engage in calls with your peers and mentors four days a week. During these group calls, you are encouraged to ask questions, and you should expect to answer questions from your mentor as well.
+Expect to join calls with your fellow learners and mentors four days a week. During these group sessions, we strongly encourage you to **voice your questions** and engage actively in discussions. Be prepared to answer queries posed by your mentor. We also recommend turning on your **video camera** to foster a more personable and engaging experience for both participants and mentors
 
 ### Topology of curriculum
 
-`Section` and `step` are synonyms in most contexts.
+In most contexts, the terms section and step can be used interchangeably.
 
-Bootcamp consists of 4 parts:
+The bootcamp is divided into four parts:
 
-- General part: sections 0, 1, 2, 3
-- Specialization part: sections 4, 5
-- Capstone project: 6
-- Certification test
+1. General part: Sections 0, 1, 2, 3
+2. Specialization part: Sections 4, 5
+3. Capstone project: Section 6
+4. Certification test
 
-Currently, we offer only one specialization: "web back-end." The second and third parts can be performed in parallel with the first. You have to work on the third part parallel to the second; otherwise, you can fail to meet the deadline.
-
-### Capstone project
-
-You will create a portfolio project using Rust within a one-week timeframe. The project should showcase your proficiency in Rust, demonstrate your coding style, and highlight your problem-solving skills. The goal is to create a functional project that can be presented to potential employers or shared with the programming community.
-
-Choose a project idea that is suitable for implementation within a **one-week timeframe**. Consider the complexity and feasibility of the project. You are expected to present your project to your peers and mentors. This will allow you to receive more feedback, further facilitating your growth and learning.
-
-### Certificate
-
-If you complete all tasks on time, successfully present your capstone project, and achieve a high score on the certification test, you will earn a **professional certificate**. We're dedicated to ensuring our certificate is recognized both in Ukraine and internationally.
-
-### Certification Test
-
-Our certification process is designed to uphold the utmost integrity and trustworthiness. We employ stringent measures to prevent cheating and ensure a fair testing environment for all participants.
-
-During the certification test, participants will be [supervised by a proctor][certification test]. We require participants to use two cameras and share their desktop throughout the test, to prevent unauthorized communication. Additionally, we will monitor all active processes on the participant's computer at the beginning and throughout the test to further prevent any fraudulent activities.
-
-It's worth mentioning that passing the certification test is a challenge due to its complex and tricky questions. Each participant is allowed **only one attempt** to pass the test. However, a shortened version of the test will be publicly available for practice. Participants who finish the first or second part of the program ahead of others, or those whose capstone project receives the most likes from mentors during presentation, will be awarded an extra attempt.
-
-Any attempt to cheat during the certification test will result in immediate exclusion from the boot camp.
-
-> 💡 Advice: It is worth going through as many quizzes as you can find online before taking the certification test. You should master rustlings and exorcism drills and review as much code of others as you can because certification tests evaluate not only your understanding of concepts but also your ability to read code quickly.
+At present, we offer only one specialization: "web back-end". The second and third parts can be worked on simultaneously with the first part. And, you should work on the third part in parallel with the second part to meet the deadline.
 
 ### Soft and Hard Deadlines
 
 In this bootcamp, we implement two types of deadlines: soft deadlines and hard deadlines.
 
-1. **Soft Deadlines**: These are flexible deadlines designed to help keep you on track. Every soft deadline is set for **Thursday** at midnight. We tolerate up to two instances of not meeting a soft deadline. However, if you fail to meet a soft deadline for a third time, this will lead to exclusion.
-2. **Hard Deadlines**: These are strict deadlines that must be adhered to. Each hard deadline is set for **Sunday** at midnight. Failing to meet a hard deadline will result in immediate exclusion.
+1. **Soft Deadlines**: These are flexible deadlines designed to help keep you on track. Every soft deadline is set for **Thursday** at midnight. We tolerate up to two instances of not meeting a soft deadline. However, if you fail to meet a soft deadline for a third time, this will lead to expulsion.
+2. **Hard Deadlines**: These are strict deadlines that must be adhered to. Each hard deadline is set for **Sunday** at midnight. Failing to meet a hard deadline will result in immediate expulsion.
 
 Each section of our program has its own deadline. Please note that some sections may take more than one week to complete. We use a week as our standard unit of measurement.
 
@@ -74,7 +71,29 @@ We encourage you to meet all deadlines to maximize your learning experience and 
 
 ### Honor code
 
-We ask you to complete the assignments independently and not to share your own work. Since you will receive certificates at the end of the course, we will carefully check your work for Plagiarism. A person who uses the work of another person and another person **both will be excluded** if such an incident occurs.
+We ask you to complete the assignments independently and not to share your own work. Since you will receive certificates at the end of the course, we will carefully check your work for Plagiarism. A person who uses the work of another person and another person **both will be expelled** if such an incident occurs.
+
+### Capstone project
+
+You will be tasked with creating a portfolio project using Rust within a one-week timeframe. The project should highlight your proficiency in Rust, showcase your coding style, and demonstrate your problem-solving skills. The objective is to build a functional project that can be presented to potential employers or shared within the programming community.
+
+Select a project idea that can be effectively implemented within a **one-week timeframe**. Consider the project's complexity and feasibility. You are expected to present your project to your peers and mentors, which enables you to receive comprehensive feedback, enhancing your growth and learning experience.
+
+### Certificate
+
+If you complete all tasks on time, successfully present your capstone project, and achieve a high score on the certification test, you will earn a **professional certificate**. We're dedicated to ensuring our certificate is recognized both in Ukraine and internationally.
+
+### Certification Test
+
+Our certification process is meticulously designed to maintain the highest levels of integrity and credibility. We implement stringent measures to deter cheating and ensure a fair testing environment for all participants.
+
+During the certification test, participants will be [supervised by a proctor][certification test]. We require participants to use two cameras and share their desktop throughout the test to prevent any unauthorized communication. In addition, we will monitor all active processes on the participant's computer at the beginning and during the test to curb any fraudulent activities.
+
+It's important to note that passing the certification test is challenging due to its intricate and tricky questions. Each participant is granted **only one attempt** to pass the test. However, a condensed version of the test will be publicly available for practice. Participants who complete the first or second part of the program ahead of others, or those whose capstone project receives the most likes from mentors during presentation, will be awarded an extra attempt.
+
+Any attempt to cheat during the certification test will lead to immediate expulsion from the boot camp.
+
+> 💡 Advice: It is beneficial to go through as many online quizzes as possible before taking the certification test. Mastery of rustlings and exorcism drills, as well as reviewing others' code, is recommended, as the certification test evaluates not only your understanding of concepts but also your ability to read and comprehend code swiftly.
 
 ### Get help from mentors and peers
 
@@ -84,46 +103,75 @@ Please be **respectful and polite** to peers and mentors.
 
 > 💡 Advice: mutual support is our value. Don't underestimate the importance of soft skills.
 
-### Exclusion
+### Expulsion
 
-The list of reasons for being excluded from the group includes but is not limited to
+There are a few potential reasons for expulsion from the group, which include but are not limited to:
 
 - [Plagiarism]
-- Failure to meet more than 2 [soft deadlines]
-- Failure to meet any of [hard deadlines]
+- Failing to meet more than 2 [soft deadlines][deadlines]
+- Failing to meet any [hard deadline][deadlines]
 - Systematic violation of the rules
-- On your own request
+- Choosing to withdraw on your own accord
 
-> 💡 Advice: If you must leave the group prematurely, please do so respectfully. We encourage you to provide publicly a brief explanation or acknowledgment before departing. Remember, we are all human and understand that unforeseen circumstances may arise, so there will be no hard feelings if you must leave the bootcamp early.
+> 💡 Advice: If circumstances require you to leave the group prematurely, please do so with respect and professionalism. We encourage you to provide a brief, public explanation or acknowledgment prior to your departure. Please remember, we're all human and understand that unforeseen circumstances can arise. Rest assured, there will be no hard feelings if you must leave the boot camp early.
 
-### Getting started
+## Getting Started
 
-To get started, please [follow the instruction][Getting Started].
+Fork the [Rust Incubator](https://github.com/rust-lang-ua/rust_incubator) into a **private** repo. For each exercise, you'll need to create separate pull requests. Then, when the reviewer checks and approves your pull request, you can merge it into the master/main branch. After that, the exercise will be considered done.
+
+1. [Create](https://github.com/rust-lang-ua/rust_incubator/generate) a new [GitHub repository](https://docs.github.com/en/get-started/quickstart/github-glossary#repository) for yourself using this one [as template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template). Remember to make it private.
+
+2. [Invite](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository) as a collaborator of your repository [our bot](https://github.com/1tbot).
+
+Look here for more [step by step][how to fork - step by step] instruction of how to fork, and here you can find our [FAQ].
+
+3. Stay Up-to-Date.
+
+This course is continually evolving, and it's important to stay updated with the latest changes.
+
+To keep your fork up-to-date, follow these commands:
+
+```bash
+git remote add upstream https://github.com/rust-lang-ua/rust_incubator.git
+git fetch upstream master
+git merge upstream/master --allow-unrelated-histories
+```
+
+To fetch the latest changes, use:
+```bash
+git fetch upstream master
+git merge upstream/master
+```
+
+To stay aware of any new changes, consider [watch this repository on GitHub](https://github.com/rust-lang-ua/rust_incubator/subscription) or tracking it via [RSS subscription](https://github.com/rust-lang-ua/rust_incubator/commits/master.atom).
+
+If you get the error `fatal: refusing to merge unrelated histories` add option `--allow-unrelated-histories`  flag to the last command.
 
 ## Useful links
 
-- 🧭 [Orientation] - how to get the maximum out of bootcamp
-- ⏩ [Getting Started][Getting Started].
-- :school: [Exercism] provides coding exercises with mentoring.
-- :grey_question: [Rust Quiz] is medium to hard [Rust] questions with explanations.
-- :mortar_board: [Collection][Learning Materials] of Awesome Rust Learning Materials
-- :globe_with_meridians: [Zero To Production] - back-end focused book
-  - The book as a [series of articles][Zero To Production as a series of articles]
-- :question: [FAQ] - frequently asked questions
+- 🧭 [Orientation] - Maximize your bootcamp experience with these tips.
+- ⏩ [Getting Started][Getting Started] - Kick off your learning journey here.
+- 🎓 [Exercism] - Dive into coding exercises with the guidance of mentors.
+- ❓ [Rust Quiz] - Tackle medium to hard [Rust] questions, complete with explanations.
+- 📚 [Learning Materials][Learning Materials] - A curated collection of top-notch Rust learning materials.
+- 🌐 [Zero To Production] - A back-end focused book to broaden your knowledge.
+  - Access the book as a [series of articles][Zero To Production as a series of articles].
+- ❔ [FAQ] - Answers to frequently asked questions at your fingertips.
 
 ## Too hard?
 
-Perhaps you are not ready to become certified? That's okay. Follow these links if you find the incubator too hard.
+If you're feeling that the certification might be too challenging at this point, that's perfectly fine. Feel free to explore these links for other learning options and resources.
 
-- :footprints:️ [Step-by-Step Introduction] to Rust
-- :baby: [Rustlings] are small exercises to get you used to reading and writing [Rust] code.
-- :file_folder: [Awesome list of Learning Materials on Git][Learning Materials on Git] - must have so far
-- :blue_book: [Rust Book] - must have so far, but we encourage to reread it
+- 👣 [Step-by-Step Introduction] - A gradual introduction to Rust programming.
+- 🐣 [Rustlings] - Small exercises designed to familiarize you with reading and writing Rust code.
+- 🗂️ Awesome List of [Learning Materials on Git][Learning Materials on Git] - Essential resources for mastering Git.
+- 📘 [Rust Book] - An indispensable guide to Rust. While it's a must-have starting point, we strongly encourage revisiting it throughout your learning journey.
 
 [Plagiarism]: #honor-code
 [deadlines]: #deadlines
 [Rust Incubator]: https://github.com/rust-lang-ua/rust_incubator/README.md
 [certification test]: https://www.youtube.com/watch?v=cInMjEaH1q0
+[how to fork - step by step]: ./how_to_start.md
 
 [Orientation]: ./orientation.md
 [Getting Started]: https://github.com/rust-lang-ua/rust_incubator#getting-started

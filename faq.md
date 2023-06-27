@@ -55,4 +55,4 @@ git fetch --all
 git merge template/master
 ```
 
-*If you get the error `fatal: refusing to merge unrelated histories` додайте `--allow-unrelated-histories`  flag to the last command.*
+*If you get the error `fatal: refusing to merge unrelated histories` add option `--allow-unrelated-histories`  flag to the last command.*

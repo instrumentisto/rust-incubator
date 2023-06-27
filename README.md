@@ -1,48 +1,32 @@
 Rust Incubator
 ==============
 
-> It wasn't always so clear, but the Rust programming language is fundamentally about _empowerment_: no matter what kind of code you are writing now, Rust empowers you to reach farther, to program with confidence in a wider variety of domains than you did before.
+> "It wasn't always so clear, but the Rust programming language is fundamentally about _empowerment_: no matter what kind of code you are writing now, Rust empowers you to reach farther, to program with confidence in a wider variety of domains than you did before."
 _<div align="right">Rust Book's Foreword</div>_
 
-In this bootcamp, you will participate in the [Rust Incubator], a rigorous, step-by-step Rust certification program 🏆. The aim of this program is to shape you into a proficient Junior Rust Developer. Indeed, with this rigorous training, you will find yourself better prepared than developers switching from other languages without a similar level of instruction. If you are a mid- or senior-level developer transitioning to Rust, you can confidently target Middle-level positions after achieving this certification.
+In this bootcamp, you will participate in the [Rust Incubator], a rigorous, step-by-step Rust certification program 🏆. The aim of this program is to shape you into a proficient **Strong Junior** Rust Developer. Indeed, with this rigorous training, you will find yourself better prepared than developers switching from other languages without a similar level of instruction. If you are a mid- or senior-level developer transitioning to Rust, you can confidently target **Middle-level** positions after achieving this certification.
 
 ## Prerequisites
 
-Before you start the certification program, you need to have confident knowledge of Rust and Git/GitHub. The [Rust Book] is a must. Nice if you did [Rustlings] and [Exercism] and had some practice. If you are a switcher, this certification program will also be useful for you.
+Before you begin the certification program, you should have a solid understanding of Rust and Git/GitHub. We strongly recommend completing the [Rust Book]. It's also beneficial if you have completed [Rustlings] and [Exercism], and have some hands-on practice. If you're transitioning from another programming language, you'll also find this certification program particularly useful.
 
-## Organization and certification
+## Process
 
-Participants in the boot camp will be divided into several small groups. Group meetings will occur four times a week, excluding weekends. These meetings will provide an opportunity to discuss and answer any questions, and you should also expect to answer questions posed by your mentor. Our learning process is designed around daily skill development, leveraging the best learning materials available.
+Participants in the boot camp will be divided into closely-knit small groups. Meetings within these groups will occur four times a week, excluding weekends. These meetings are an opportunity for dynamic discussion, mutual learning, and answering any questions you might have. Additionally, participants can expect to answer insightful questions posed by their mentors, fostering a proactive learning environment.
 
-We provide an interactive platform for tracking your progress. You will be tasked with designing, developing, and presenting a capstone project. Finally, you will undergo a final assessment at the end of the certification program. Successful completion will earn you a certificate, a testament to your ability to utilize best practices and write idiomatic code that will impress your employer.
+Our learning process is designed around daily skill enhancement, leveraging the highest quality learning materials available. We provide an interactive platform for tracking progress, ensuring a clear path of advancement and accomplishment.
+
+Participants will also be challenged with designing, developing, and presenting a capstone project. This project provides a fantastic opportunity to apply the skills learned throughout the boot camp in a practical, impactful way.
+
+Finally, a comprehensive assessment will be conducted at the end of the certification program. Upon successful completion, participants will earn a certificate. This certificate is more than just a document; it's a testament to your ability to utilize best practices and write idiomatic code that employers will value highly. Imagine the doors that could open with this certificate in hand!
 
 ## Getting Started
 
-Fork the [Rust Incubator] into a **private** repo. For each exercise, you'll need to create separate pull requests. Then, when the reviewer checks and approves your pull request, you can merge it into the master/main branch. After that, the exercise will be considered done.
-
-1. [Create][1] a new [GitHub repository] for yourself using this one [as template][11]. Remember to make it private.
-2. [Invite][12] as a collaborator of your repository [our bot][bot].
-
-Look here for more [detailed instructions][how_to_start], and here you can find [FAQ].
-
-> __NOTE__: __This learning course is constantly improving and evolving over time.__
->
-> To be up-to-date with the recent changes in your own copy of this repository, attach the upstream history with the following commands:
-> ```bash
-> git remote add upstream https://github.com/rust-lang-ua/rust_incubator.git
-> git fetch upstream master
-> git merge upstream/master --allow-unrelated-histories
-> ```
-> And then, whenever you want to grab some new changes, do the following:
-> ```bash
-> git fetch upstream master
-> git merge upstream/master
-> ```
-> Additionally, to be aware of new changes, you may either [watch this repository on GitHub][2], or even track it via [RSS subscription].
+Before starting go [through orientation][Orientation] and [fork][how to fork] the repository as [template][Fork As Template].
 
 ## Curriculum
 
-Each step must be performed as a separate [PR (pull request)][PR] with an appropriate name and check-marked here in README's schedule after completion. Each step is a [Cargo workspace member][13], so you can run/test it from the project root (i.e. `cargo run -p step_1_8`). Consider using [rustfmt] and [Clippy] when you're writing [Rust] code.
+Each step must be performed as a separate [PR (pull request)][PR] with an appropriate name and check-marked here in README's schedule after completion. Each step is a [Cargo workspace member][workspace], so you can run/test it from the project root (i.e. `cargo run -p step_1_8`). Consider using [rustfmt] and [Clippy] when you're writing [Rust] code.
 
 Each step has an estimated time for completion. If any deeper investigation on the step's theme is needed by you, then it's on your own.
 
@@ -102,23 +86,23 @@ Do not hesitate to ask your mentor/lead with questions, however, you won't recei
 
 ## Useful links
 
-- 🧭 [Orientation] - how to get the maximum out of bootcamp
-- ⏩ [Getting Started][Getting Started].
-- :question: [FAQ] - frequently asked questions
-- :mortar_board: [Collection][Learning Materials] of Awesome Rust Learning Materials
-- :globe_with_meridians: [Zero To Production] - back-end focused book
-  - The book as a [series of articles][Zero To Production as a series of articles]
-- :school: [Exercism] provides coding exercises with mentoring.
-- :grey_question: [Rust Quiz] is medium to hard [Rust] questions with explanations.
+- 🧭 [Orientation] - Maximize your bootcamp experience with these tips.
+- ⏩ [Getting Started][Getting Started] - Kick off your learning journey here.
+- 🎓 [Exercism] - Dive into coding exercises with the guidance of mentors.
+- ❓ [Rust Quiz] - Tackle medium to hard [Rust] questions, complete with explanations.
+- 📚 [Learning Materials][Learning Materials] - A curated collection of top-notch Rust learning materials.
+- 🌐 [Zero To Production] - A back-end focused book to broaden your knowledge.
+  - Access the book as a [series of articles][Zero To Production as a series of articles].
+- ❔ [FAQ] - Answers to frequently asked questions at your fingertips.
 
 ## Too hard?
 
-Perhaps you are not ready to become certified? That's okay. Follow these links if you find the incubator too hard.
+If you're feeling that the certification might be too challenging at this point, that's perfectly fine. Feel free to explore these links for other learning options and resources.
 
-- :footprints:️ [Step-by-Step Introduction] to Rust
-- :baby: [Rustlings] are small exercises to get you used to reading and writing [Rust] code.
-- :file_folder: [Awesome list of Learning Materials on Git][Learning Materials on Git] - must have so far
-- :blue_book: [Rust Book] - must have so far, but we encourage to reread it
+- 👣 [Step-by-Step Introduction] - A gradual introduction to Rust programming.
+- 🐣 [Rustlings] - Small exercises designed to familiarize you with reading and writing Rust code.
+- 🗂️ Awesome List of [Learning Materials on Git][Learning Materials on Git] - Essential resources for mastering Git.
+- 📘 [Rust Book] - An indispensable guide to Rust. While it's a must-have starting point, we strongly encourage revisiting it throughout your learning journey.
 
 [Step 0]: 0_basics
 [Step 1]: 1_concepts
@@ -184,7 +168,7 @@ Perhaps you are not ready to become certified? That's okay. Follow these links i
 [IntelliJ Rust]: https://intellij-rust.github.io
 [IntelliJ Toml]: https://plugins.jetbrains.com/plugin/8195-toml
 [PR]: https://help.github.com/articles/github-glossary/#pull-request
-[RSS subscription]: https://github.com/rust-lang-ua/rust_incubator/commits/master.atom
+[workspace]: https://doc.rust-lang.org/book/ch14-03-cargo-workspaces.html
 [Rust]: https://www.rust-lang.org
 [Rust 2018]: https://doc.rust-lang.org/edition-guide/rust-2018/index.html
 [Rust 2021]: https://doc.rust-lang.org/edition-guide/rust-2021/index.html
@@ -201,10 +185,12 @@ Perhaps you are not ready to become certified? That's okay. Follow these links i
 [Rustdoc Book]: https://doc.rust-lang.org/rustdoc
 [rustfmt]: https://github.com/rust-lang/rustfmt
 [Rust Incubator]: https://github.com/rust-lang-ua/rust_incubator
+[Fork As Template]: https://help.github.com/en/articles/creating-a-repository-from-a-template
 [rustup]: https://rustup.rs
 [This Week in Rust]: https://this-week-in-rust.org
 [bot]: https://github.com/1tbot
-[how_to_start]: ./how_to_start.md
+[how to fork - step by step]: ./how_to_start.md
+[how to fork]: ./orientation.md#getting-started
 
 [Orientation]: ./orientation.md
 [Getting Started]: https://github.com/rust-lang-ua/rust_incubator#getting-started
@@ -218,9 +204,3 @@ Perhaps you are not ready to become certified? That's okay. Follow these links i
 [Rustlings]: https://github.com/rust-lang/rustlings
 [Learning Materials on Git]: https://github.com/Learn-Together-Pro/LearnGitTogether
 [Rust Book]: https://doc.rust-lang.org/book
-
-[1]: https://github.com/rust-lang-ua/rust_incubator/generate
-[2]: https://github.com/rust-lang-ua/rust_incubator/subscription
-[11]: https://help.github.com/en/articles/creating-a-repository-from-a-template
-[12]: https://help.github.com/en/articles/inviting-collaborators-to-a-personal-repository
-[13]: https://doc.rust-lang.org/book/ch14-03-cargo-workspaces.html
