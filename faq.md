@@ -1,14 +1,14 @@
 ## FAQ
 
-#### What is PR?
+#### - What is PR?
 
 PR is an abbreviation for [Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests).
 
-#### When and how are the meetings held?
+#### - When and how are the meetings held?
 
 Meetings are held four times a week on weekdays (except Tuesday) according to your group's schedule. The meeting lasts about 1 hour. All appointments will be in your calendar. Attendance at the first meeting is mandatory.
 
-#### Will the meeting be recorded?
+#### - Will the meeting be recorded?
 
 No, there will be no recordings of the meetings, so do your best not to miss them.
 
