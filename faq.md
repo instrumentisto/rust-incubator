@@ -1,61 +1,57 @@
 ## FAQ
 
-> PR - Pull Request
+#### What is PR?
 
-#### - When do the meetings are held?
+PR is an abbreviation for [Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests).
 
-4 times a week on weekdays according to your group's schedule.
+#### When are the meetings held?
 
-#### - How do I start completing tasks?
+Meetings are held four times a week on weekdays according to your group's schedule.
 
-First, you need to make a private fork of the main [Rust Incubator repository](https://github.com/rust-lang-ua/rust_incubator). Read more about how to do this in the [instructions](https://github.com/rust-lang-ua/rust_incubator#before-you-start).
+#### How do I start completing tasks?
 
-#### - How and where to send Pull Requests of completed tasks?
+First, you need to create a private fork of the main [Rust Incubator repository](https://github.com/rust-lang-ua/rust_incubator). You can find more information on how to do this in the [instructions](https://github.com/rust-lang-ua/rust_incubator#before-you-start).
 
-In your private fork, you create a separate branch for each subdivision (task). In the corresponding branch, you complete the task and create a PR to __your__ main master branch. Don't forget to tag the reviewers in your PR.
+#### How and where do I send Pull Requests of completed tasks?
 
-<!-- #### - Що за табличка прогресу та як нею користуватись?
-Усім учасникам на електронну адресу прийшло посилання на гугл-табличку. У ній є головна сторінка "Main Page", там відповідно до групи знаходите себе, а також номер, під яким ви записані. Тепер внизу шукаєте аркуш, який є під вашим номером. Це ваша сторінка, яку ви можете редагувати. Додаєте сюди фото. Навпроти кожного підрозділу стоять чекбокси, які вам потрібно відмічати при виконанні завдань. Також у відповідній колонці залишати посилання на виконане завдання. На особистій сторінці можете відслідковувати власний прогрес по розділах, а у 'Main Page'  загальний ваш та колег. -->
+In your private fork, create a separate branch for each task. In the corresponding branch, complete the task and create a PR to your main master branch. Don't forget to tag the reviewers in your PR.
 
-#### - When is a task accepted as completed?
+#### When is a task considered completed?
 
-When you've made a Pull Request and it's been approved and stale by one of the reviewers.
+A task is considered completed when you've made a Pull Request, and it has been reviewed and approved by one of the reviewers.
 
-#### - What to do if the task is unfinished? Should I open a PR?
+#### What should I do if the task is unfinished? Should I open a PR?
 
 Yes, you should open a PR as soon as possible and indicate "Not Ready" in the title.
 
-#### - Can I do the course assignments only on weekends?
+#### Can I complete the course assignments only on weekends?
 
-You should devote more than 20 hours a week to your studies to achieve quality results. In 3 months of the intensive course, you can grow as much as in two years of independent practice. If you leave the task only on weekends, you will study for 10 hours a day. It is better to rationally distribute your study time during the week.
+You should dedicate more than 20 hours a week to your studies to achieve quality results. In three months of intensive coursework, you can achieve what might otherwise take two years of independent practice. If you confine your study time to the weekends only, you would need to study for 10 hours a day. It's better to evenly distribute your study time throughout the week.
 
-#### - Where to answer the questions in the first chapter?
+#### Where should I answer the questions in the first chapter?
 
-Leave the answers under the question itself by editing your own md-file.
+You can leave the answers under the question itself by editing your own md-file.
 
-#### - Where can I ask for help?
+#### Where can I ask for help?
 
-You can ask questions in the Telegram [chat of our community](https://t.me/rustlang_ua), the official [forum](https://users.rust-lang.org/), [ChatGPT](https://openai.com/blog/chatgpt) for simple questions, and the bootcamp chat, including other participants. However your solution must be original. Both the person who gave the solution and the person who copied it will be expelled.
+Firstly, ask your peers in the Bootcamp's chat. You can also post your questions in the Telegram [chat of our community](https://t.me/rustlang_ua), the official [forum](https://users.rust-lang.org/). [ChatGPT](https://openai.com/blog/chatgpt) works well for simpler queries. However, your solutions must be original. Anyone found sharing or copying solutions will be expelled.
 
-<!-- xxx : extend, tell about forum and chat of community -->
+#### What is the best way to ask questions?
 
-#### - What is the best way to ask questions ?
+It's preferable to have your code in the [playground](https://play.rust-lang.org/). This way, mentors and peers don't have to spend extra time recreating the problem.
 
-It is better if you have the code in the [playground](https://play.rust-lang.org/). In this case, we don’t spend extra time recreating the problem.
 ![playground_ask](https://github.com/rust-lang-ua/rust_incubator/assets/98274821/2351bddd-455f-4078-a7cb-328a7bb08ac9)
 
-<!-- xxx : write please, add screenshot -->
-
-#### - How do I remove changes from the main repository?
+#### How can I incorporate changes from the main repository?
 
 Add the main repository as a remote.
 
 ```bash
-# додайте remote
+# Add the remote
 git remote add template git@github.com:rust-lang-ua/rust_incubator.git
-# Заберіть зміни з репозиторію
+# Fetch the changes from the repository
 git fetch --all
-# Змерджіть зміни
+# Merge the changes
 git merge template/master
 ```
 
