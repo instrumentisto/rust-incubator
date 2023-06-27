@@ -24,13 +24,13 @@ Finally, a comprehensive assessment will be conducted at the end of the certific
 
 Before starting go [through orientation][Orientation] and [fork][how to fork] the repository as [template][Fork As Template].
 
+## Submitting Solutions
+
+Each chapter/step of the bootcamp must be submitted as a separate [PR (pull request)][PR] with a relevant title. Upon completion, mark the step as complete in the README's curriculum. Note that each step is a [Cargo workspace member][workspace], which means you can run/test it from the project root (i.e. `cargo run -p step_1_8`). We highly recommend using tools like [rustfmt] and [Clippy] while you're writing your [Rust] code.
+
+Don't hesitate to approach your mentor/lead with questions. However, keep in mind that you may not receive a straightforward answer. Instead, you'll be guided towards a direction for your own exploration. Remember, in this learning journey, _it is primarily the mentor/lead who poses the questions, expecting comprehensive and precise responses._
+
 ## Curriculum
-
-Each step must be performed as a separate [PR (pull request)][PR] with an appropriate name and check-marked here in README's schedule after completion. Each step is a [Cargo workspace member][workspace], so you can run/test it from the project root (i.e. `cargo run -p step_1_8`). Consider using [rustfmt] and [Clippy] when you're writing [Rust] code.
-
-Each step has an estimated time for completion. If any deeper investigation on the step's theme is needed by you, then it's on your own.
-
-Do not hesitate to ask your mentor/lead with questions, however, you won't receive any concrete answer, but rather a direction for your own investigation. _Mentor/Lead is the one who asks questions here, demanding concrete and complete answers._
 
 - [ ] [0. Become familiar with Rust basics][Step 0] (1 week)
 - [ ] [1. Concepts][Step 1] (2 weeks)
@@ -91,18 +91,17 @@ Do not hesitate to ask your mentor/lead with questions, however, you won't recei
 - 🎓 [Exercism] - Dive into coding exercises with the guidance of mentors.
 - ❓ [Rust Quiz] - Tackle medium to hard [Rust] questions, complete with explanations.
 - 📚 [Learning Materials][Learning Materials] - A curated collection of top-notch Rust learning materials.
+- 🔧 [Ecosystem][Ecosystem] - A curated collection of frequently used crates, representing essential parts of the Rust ecosystem.
 - 🌐 [Zero To Production] - A back-end focused book to broaden your knowledge.
   - Access the book as a [series of articles][Zero To Production as a series of articles].
 - ❔ [FAQ] - Answers to frequently asked questions at your fingertips.
 
 ## Too hard?
 
-If you're feeling that the certification might be too challenging at this point, that's perfectly fine. Feel free to explore these links for other learning options and resources.
-
 - 👣 [Step-by-Step Introduction] - A gradual introduction to Rust programming.
 - 🐣 [Rustlings] - Small exercises designed to familiarize you with reading and writing Rust code.
-- 🗂️ Awesome List of [Learning Materials on Git][Learning Materials on Git] - Essential resources for mastering Git.
 - 📘 [Rust Book] - An indispensable guide to Rust. While it's a must-have starting point, we strongly encourage revisiting it throughout your learning journey.
+<!-- - 🗂️ Awesome List of [Learning Materials on Git][Learning Materials on Git] - Essential resources for mastering Git. -->
 
 [Step 0]: 0_basics
 [Step 1]: 1_concepts

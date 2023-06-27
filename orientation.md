@@ -45,13 +45,13 @@ Expect to join calls with your fellow learners and mentors four days a week. Dur
 
 ### Topology of curriculum
 
-In most contexts, the terms section and step can be used interchangeably.
+In most contexts, the terms chapter and step can be used interchangeably.
 
 The bootcamp is divided into four parts:
 
-1. General part: Sections 0, 1, 2, 3
-2. Specialization part: Sections 4, 5
-3. Capstone project: Section 6
+1. General part: chapters 0, 1, 2, 3
+2. Specialization part: chapters 4, 5
+3. Capstone project: chapter 6
 4. Certification test
 
 At present, we offer only one specialization: "web back-end". The second and third parts can be worked on simultaneously with the first part. And, you should work on the third part in parallel with the second part to meet the deadline.
@@ -63,7 +63,7 @@ In this bootcamp, we implement two types of deadlines: soft deadlines and hard d
 1. **Soft Deadlines**: These are flexible deadlines designed to help keep you on track. Every soft deadline is set for **Thursday** at midnight. We tolerate up to two instances of not meeting a soft deadline. However, if you fail to meet a soft deadline for a third time, this will lead to expulsion.
 2. **Hard Deadlines**: These are strict deadlines that must be adhered to. Each hard deadline is set for **Sunday** at midnight. Failing to meet a hard deadline will result in immediate expulsion.
 
-Each section of our program has its own deadline. Please note that some sections may take more than one week to complete. We use a week as our standard unit of measurement.
+Each chapter of our program has its own deadline. Please note that some chapters may take more than one week to complete. We use a week as our standard unit of measurement.
 
 We encourage you to meet all deadlines to maximize your learning experience and successfully complete the bootcamp.
 
@@ -147,6 +147,12 @@ To stay aware of any new changes, consider [watch this repository on GitHub](htt
 
 If you get the error `fatal: refusing to merge unrelated histories` add option `--allow-unrelated-histories`  flag to the last command.
 
+## Submitting Solutions
+
+Each chapter/step of the bootcamp must be submitted as a separate [PR (pull request)][PR] with a relevant title. Upon completion, mark the step as complete in the README's curriculum. Note that each step is a [Cargo workspace member][workspace], which means you can run/test it from the project root (i.e. `cargo run -p step_1_8`). We highly recommend using tools like [rustfmt] and [Clippy] while you're writing your [Rust] code.
+
+Don't hesitate to approach your mentor/lead with questions. However, keep in mind that you may not receive a straightforward answer. Instead, you'll be guided towards a direction for your own exploration. Remember, in this learning journey, _it is primarily the mentor/lead who poses the questions, expecting comprehensive and precise responses._
+
 ## Useful links
 
 - 🧭 [Orientation] - Maximize your bootcamp experience with these tips.
@@ -154,6 +160,7 @@ If you get the error `fatal: refusing to merge unrelated histories` add option `
 - 🎓 [Exercism] - Dive into coding exercises with the guidance of mentors.
 - ❓ [Rust Quiz] - Tackle medium to hard [Rust] questions, complete with explanations.
 - 📚 [Learning Materials][Learning Materials] - A curated collection of top-notch Rust learning materials.
+- 🔧 [Ecosystem][Ecosystem] - A curated collection of frequently used crates, representing essential parts of the Rust ecosystem.
 - 🌐 [Zero To Production] - A back-end focused book to broaden your knowledge.
   - Access the book as a [series of articles][Zero To Production as a series of articles].
 - ❔ [FAQ] - Answers to frequently asked questions at your fingertips.
@@ -164,8 +171,8 @@ If you're feeling that the certification might be too challenging at this point,
 
 - 👣 [Step-by-Step Introduction] - A gradual introduction to Rust programming.
 - 🐣 [Rustlings] - Small exercises designed to familiarize you with reading and writing Rust code.
-- 🗂️ Awesome List of [Learning Materials on Git][Learning Materials on Git] - Essential resources for mastering Git.
 - 📘 [Rust Book] - An indispensable guide to Rust. While it's a must-have starting point, we strongly encourage revisiting it throughout your learning journey.
+<!-- - 🗂️ Awesome List of [Learning Materials on Git][Learning Materials on Git] - Essential resources for mastering Git. -->
 
 [Plagiarism]: #honor-code
 [deadlines]: #deadlines
@@ -178,6 +185,7 @@ If you're feeling that the certification might be too challenging at this point,
 [Exercism]: https://exercism.org/tracks/rust
 [Rust Quiz]: https://github.com/dtolnay/rust-quiz
 [Learning Materials]: https://github.com/rust-lang-ua/learn_rust_together/blob/master/learn.md
+[Ecosystem]: https://github.com/rust-lang-ua/learn_rust_together/blob/master/toolbox_general.md
 [Zero To Production]: https://www.zero2prod.com/index.html?country=Ukraine&discount_code=EEU60
 [Zero To Production as a series of articles]: ./backend_book.md
 [FAQ]: ./faq.md
