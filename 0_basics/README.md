@@ -13,7 +13,7 @@ After completing these steps, you should be able to answer (and understand why) 
 - What memory model [Rust] has? Is it single-threaded or multiple-threaded? Is it synchronous or asynchronous?
 - What runtime [Rust] has? Does it use a GC (garbage collector)?
 - What statically typing means? What is a benefit of using it? Weak typing vs strong typing? Implicit / explicit?
-- What are generics and parametric polymorphism? Which problems do they solve? What is monomorphism?
+- What are generics and parametric polymorphism? Which problems do they solve? What is monomorphisation?
 - What are traits? How are they used? How do they compare to interfaces? What are an auto trait and a blanket impl? Uncovered type? What is a marker trait?
 - What are static and dynamic dispatches? Which should I use, and when?
 - What is a crate, module and package in Rust? How do they differ? How are the used? What is workspace?
@@ -26,7 +26,7 @@ After completing these steps, you should be able to answer (and understand why) 
 - What are macros? Which problems do they solve? What is the difference between declarative and procedural macro?
 - How code is tested in [Rust]? Where should you put tests and why?
 - What is special about slice? What is layout of Rust standard data types? Difference between fat and thin pointers?
-- Why [Rust] has `&str` and `String` types? How do they differ? When should you use them? Why str slice coexist with slice? 
+- Why [Rust] has `&str` and `String` types? How do they differ? When should you use them? Why str slice coexist with slice?
 - Is [Rust] OOP language? Is it possible to use SOLID/GRASP? Does it have an inheritance? Is Rust functional language?
 
 After you're done notify your lead in an appropriate PR (pull request), and he will exam what you have learned.
