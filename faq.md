@@ -4,7 +4,7 @@
 
 PR is an abbreviation for [Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests).
 
-#### When are the meetings held?
+#### When and how are the meetings held?
 
 Meetings are held four times a week on weekdays according to your group's schedule.
 
