@@ -30,13 +30,13 @@ Look here for more [detailed instructions][how_to_start], and here you can find 
 > To be up-to-date with the recent changes in your own copy of this repository, attach the upstream history with the following commands:
 > ```bash
 > git remote add upstream https://github.com/rust-lang-ua/rust_incubator.git
-> git fetch upstream main
-> git merge upstream/main --allow-unrelated-histories
+> git fetch upstream master
+> git merge upstream/master --allow-unrelated-histories
 > ```
 > And then, whenever you want to grab some new changes, do the following:
 > ```bash
-> git fetch upstream main
-> git merge upstream/main
+> git fetch upstream master
+> git merge upstream/master
 > ```
 > Additionally, to be aware of new changes, you may either [watch this repository on GitHub][2], or even track it via [RSS subscription].
 

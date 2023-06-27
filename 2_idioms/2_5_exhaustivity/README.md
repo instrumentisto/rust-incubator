@@ -1,8 +1,6 @@
 Step 2.5: Exhaustivity
 ======================
 
-__Estimated time__: 1 day
-
 Exhaustiveness checking in [pattern matching][1] is a very useful tool, allowing to spot certain bugs at compile-time by cheking whether all the combinations of some values where covered and considered in a source code. Being applied correctly, it increases the [fearless refactoring][2] quality of a source code, eliminating possibilities for "forgot to change" bugs to subtly sneak into the codebase whenever it's extended.
 
 
@@ -156,6 +154,11 @@ For better understanding `#[non_exhaustive]` attribute purpose, design, limitati
 
 
 ## Task
+
+__Estimated time__: 1 day
+
+
+
 
 Refactor the code contained in [this step's crate](src/lib.rs), so the bugs introduced there will be uncovered at compile-time, and fix them appropriately.
 

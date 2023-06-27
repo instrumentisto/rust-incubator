@@ -1,8 +1,6 @@
 Step 3.7: Randomness and cryptography
 =====================================
 
-__Estimated time__: 1 day
-
 
 
 
@@ -117,6 +115,11 @@ Despite the fact it's quite a feature rich solution, it [lacks good support for 
 
 
 ## Task
+
+__Estimated time__: 1 day
+
+
+
 
 Implement the following functions:
 1. `generate_password()`: generates random password of given length and symbols set;

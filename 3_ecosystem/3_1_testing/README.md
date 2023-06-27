@@ -1,8 +1,6 @@
 Step 3.1: Testing and mocking
 =============================
 
-__Estimated time__: 1 day
-
 [Rust] testing ecosystem [is not huge, but has grown quite well][1], providing some interesting libraries and solutions.
 
 
@@ -126,6 +124,11 @@ For better understanding and familiarity with [fuzzing][31] in [Rust], read thro
 
 
 ## Task
+
+__Estimated time__: 1 day
+
+
+
 
 For the implementation of a small [guessing game][51] in [this step's crate](src/main.rs) provide all possible tests you're able to write.
 

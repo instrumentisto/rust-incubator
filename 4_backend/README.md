@@ -1,8 +1,6 @@
 Step 4: Backend ecosystem
 =========================
 
-__Estimated time__: 3 days
-
 These steps describe common crates and tools in [Rust] ecosystem required for web backend development.
 
 > ❗️Before completing this step you should complete all its sub-steps.
@@ -17,6 +15,11 @@ After doing them you should be able to answer the following questions:
 
 
 ## Task
+
+__Estimated time__: 3 days
+
+
+
 
 Write a simple [GraphQL] API server with the following data model:
 - `User` has `id` (unique), `name` (unique) and `friends` (list of other `User`s) fields.

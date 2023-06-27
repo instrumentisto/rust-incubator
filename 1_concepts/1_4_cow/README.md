@@ -1,8 +1,6 @@
 Step 1.4: Clone-on-write
 ========================
 
-__Estimated time__: 1 day
-
 
 
 
@@ -67,6 +65,11 @@ Read implementation details and design insights in [its README][7].
 
 
 ## Task
+
+__Estimated time__: 1 day
+
+
+
 
 Write a simple program which prints out the path to its configuration file. The path should be detected with the following precedence:
 1. if `--conf` command line argument is specified (error if empty) then use it.  <--- highest priority

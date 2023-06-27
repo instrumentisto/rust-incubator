@@ -1,8 +1,6 @@
 Step 3.3: Date and time
 =======================
 
-__Estimated time__: 1 day
-
 [Rust] has a simple [`std::time`] module which contains very basic primitives for time measurements. To operate with dates, time zones, epochs, and other related stuff, the [`time`] and [`chrono`] crates are used in [Rust] ecosystem.
 
 The main difference between them (except the API, ergonomics and maintaining activity) is that [`chrono`] crate parametrizes time zone in types, while [`time`] crate handles it in runtime. In practice, we recommend to use [`time`] crate (unless [`chrono`] better suits your needs), as it's much actively maintained and evolved.
@@ -26,6 +24,11 @@ Beware, that to measure duration of some operation, you should not use [`time`] 
 
 
 ## Task
+
+__Estimated time__: 1 day
+
+
+
 
 Provide implementations for `User::age()` and `User::is_adult()` methods in [this step's crate](src/main.rs).
 

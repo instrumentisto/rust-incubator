@@ -1,8 +1,6 @@
 Step 3.10: Multithreading and parallelism
 =========================================
 
-__Estimated time__: 1 day
-
 One of main [Rust]'s design goals is a [concurrency][1]. [Rust] has a [strong opinion][2] about that, while allows different concurrent models to coexist.
 
 
@@ -100,6 +98,11 @@ Multiprocessing is a system that has more than one or two processors. In Multipr
 
 
 ## Task
+
+__Estimated time__: 1 day
+
+
+
 
 Write a program with the following workflow:
 - `Producer` is a separate thread, which continuously generates square matrixes of random `u8` elements and size `4096`.

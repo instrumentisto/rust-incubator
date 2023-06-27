@@ -1,8 +1,6 @@
 Step 3.11: Async I/O, futures and actors
 ========================================
 
-__Estimated time__: 2 days
-
 While [threads](../3_10_threads) represent a solution for [CPU-bound] problems, for [I/O-bound] problems, traditionally, the solution is [async (non-blocking) I/O][1].
 
 As of now, [Rust] has no async primitives in its standard library yet, so "by default" `std` I/O works in a synchronous manner (blocks the current [thread][33]). However, it provides [core abstractions][`std::future`] for building ones, using which, ecosystem crates (like [`tokio`]) implement and provide primitives for [async I/O][1].
@@ -172,6 +170,11 @@ From that analogy, we can conclude that **Multithreading is about workers, Asy
 
 
 ## Task
+
+__Estimated time__: 2 days
+
+
+
 
 Implement an async-driven [CLI] tool, which downloads specified web pages:
 ```bash
