@@ -196,6 +196,7 @@ Don't hesitate to approach your mentor/lead with questions. However, keep in min
 [Exercism]: https://exercism.org/tracks/rust
 [Rust Quiz]: https://github.com/dtolnay/rust-quiz
 [Learning Materials]: https://github.com/rust-lang-ua/learn_rust_together/blob/master/learn.md
+[Ecosystem]: https://github.com/rust-lang-ua/learn_rust_together/blob/master/toolbox_general.md
 [Zero To Production]: https://www.zero2prod.com/index.html?country=Ukraine&discount_code=EEU60
 [Zero To Production as a series of articles]: ./backend_book.md
 [FAQ]: ./faq.md
