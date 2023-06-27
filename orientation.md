@@ -9,15 +9,15 @@ Before you begin the certification program, you should have a solid understandin
 
 ### Perspective
 
-Choosing to participate in our boot camp means embarking on an intensive, fast-paced journey of learning, with a focus on the critical areas of information technology. The boot camp's accelerated pace is designed to be the most effective method to acquire new skills swiftly. If your ambition is to gain practical, hands-on skills that can make an immediate impact, our boot camp outperforms traditional university courses, pet projects, and even on-the-job training, especially when starting without a strong foundation in these crucial skills.
+**Choosing to participate** in our boot camp means embarking on an intensive, **fast-paced journey** of learning, with a focus on the critical areas of information technology. The boot camp's accelerated pace is designed to be the most effective method to acquire new skills swiftly. If your ambition is to gain practical, hands-on skills that can make an immediate impact. Usually **boot camps outperform** traditional university courses, pet projects, and even on-the-job training, especially when starting without a strong foundation in these crucial skills.
 
 Participants in the boot camp will be divided into closely-knit small groups. Meetings within these groups will occur four times a week, excluding weekends. These meetings are an opportunity for dynamic discussion, mutual learning, and answering any questions you might have. Additionally, participants can expect to answer insightful questions posed by their mentors, fostering a proactive learning environment.
 
-Our learning process is designed around daily skill enhancement, leveraging the highest quality learning materials available. We provide an interactive platform for tracking progress, ensuring a clear path of advancement and accomplishment.
+Our learning process is meticulously designed to enhance skills daily, leveraging the most exceptional learning materials available. We do not produce content unless there is no adequate resource available online. Our philosophy rests on **utilizing state-of-the-art tools and premium materials**, rather than creating substandard content ourselves. We furnish an interactive platform for tracking progress, assuring a well-defined path towards skill enhancement and achievement.
 
-Participants will also be challenged with designing, developing, and presenting a capstone project. This project provides a fantastic opportunity to apply the skills learned throughout the boot camp in a practical, impactful way.
+Participants will also be challenged with designing, developing, and presenting a **capstone project**. This project provides a fantastic opportunity to apply the skills learned throughout the boot camp in a practical, impactful way.
 
-Finally, a comprehensive assessment will be conducted at the end of the certification program. Upon successful completion, participants will earn a certificate. This certificate is more than just a document; it's a testament to your ability to utilize best practices and write idiomatic code that employers will value highly. Imagine the doors that could open with this certificate in hand!
+Finally, a **comprehensive assessment** will be conducted at the end of the certification program. Upon successful completion, participants will earn a certificate. This certificate is more than just a document; it's a testament to your ability to utilize best practices and write idiomatic code that employers will value highly. Imagine the doors that could open with this certificate in hand!
 
 Join us in this boot camp and fast-track your IT career to new heights. The journey might be intense, but the reward is immeasurable.
 
@@ -37,7 +37,7 @@ Also, Rust is not the worst choice nowadays:
 
 ### Your group
 
-Each participant has been assigned to a specific group, with each group having 2 mentors. If you're in the morning cohort, your meetings will typically be scheduled for 10:00. For those in the evening cohort, meetings are most likely at 18:30.
+Each participant has been assigned to a specific group, with each group having 2 mentors. If you're in the morning cohort, your meetings will typically be scheduled for 10:00. For those in the evening cohort, meetings are most likely at 18:30. Mentors might shift slightly time of meetings.
 
 ### Routines
 
@@ -47,7 +47,7 @@ Expect to join calls with your fellow learners and mentors four days a week. Dur
 
 In most contexts, the terms chapter and step can be used interchangeably.
 
-The bootcamp is divided into four parts:
+The boot camp is divided into four parts:
 
 1. General part: chapters 0, 1, 2, 3
 2. Specialization part: chapters 4, 5
@@ -58,20 +58,20 @@ At present, we offer only one specialization: "web back-end". The second and thi
 
 ### Soft and Hard Deadlines
 
-In this bootcamp, we implement two types of deadlines: soft deadlines and hard deadlines.
+In this boot camp, we implement two types of deadlines: soft deadlines and hard deadlines.
 
 1. **Soft Deadlines**: These are flexible deadlines designed to help keep you on track. Every soft deadline is set for **Thursday** at midnight. We tolerate up to two instances of not meeting a soft deadline. However, if you fail to meet a soft deadline for a third time, this will lead to expulsion.
 2. **Hard Deadlines**: These are strict deadlines that must be adhered to. Each hard deadline is set for **Sunday** at midnight. Failing to meet a hard deadline will result in immediate expulsion.
 
 Each chapter of our program has its own deadline. Please note that some chapters may take more than one week to complete. We use a week as our standard unit of measurement.
 
-We encourage you to meet all deadlines to maximize your learning experience and successfully complete the bootcamp.
+We encourage you to meet all deadlines to maximize your learning experience and successfully complete the boot camp.
 
 > 💡 Advice: Tasks 4.4 and 6 are non-trivial and will easily take a week of work. Make sure you reserve more than a few days for these tasks.
 
 ### Calendar
 
-The calendar is your ally. Utilize it and allocate at least 20 hours per week to immerse yourself in the program and adhere to the deadlines. Remember to check the calendar at least once a week. All meetings and deadlines are marked there. Please note that all deadlines fall on Thursdays. Do not miss the hard deadlines - they are crucial to your progression in the program.
+The calendar is your ally. Utilize it and allocate at least **20 hours per week** to immerse yourself in the program and adhere to the deadlines. Remember to **check the calendar** at least once a week. All meetings and deadlines are marked there. Please note that all deadlines fall on Thursdays. Do not miss the hard deadlines - they are crucial to your progression in the program.
 
 ### Honor code
 
@@ -105,7 +105,7 @@ You are welcome to **ask questions** in our chat without asking to share a solut
 
 Please be **respectful and polite** to peers and mentors.
 
-> 💡 Advice: mutual support is our value. Don't underestimate the importance of soft skills.
+> 💡 Advice: mutual support is our *value*. Don't underestimate the importance of soft skills.
 
 ### Expulsion
 
@@ -153,13 +153,13 @@ If you get the error `fatal: refusing to merge unrelated histories` add option `
 
 ## Submitting Solutions
 
-Each chapter/step of the bootcamp must be submitted as a separate [PR (pull request)][PR] with a relevant title. Upon completion, mark the step as complete in the README's curriculum. Note that each step is a [Cargo workspace member][workspace], which means you can run/test it from the project root (i.e. `cargo run -p step_1_8`). We highly recommend using tools like [rustfmt] and [Clippy] while you're writing your [Rust] code.
+Each chapter/step of the boot camp must be submitted as a separate [PR (pull request)][PR] with a relevant title. Upon completion, mark the step as complete in the README's curriculum. Note that each step is a [Cargo workspace member][workspace], which means you can run/test it from the project root (i.e. `cargo run -p step_1_8`). We recommend using tools like [rustfmt] and [Clippy] while you're writing your [Rust] code.
 
 Don't hesitate to approach your mentor/lead with questions. However, keep in mind that you may not receive a straightforward answer. Instead, you'll be guided towards a direction for your own exploration. Remember, in this learning journey, _it is primarily the mentor/lead who poses the questions, expecting comprehensive and precise responses._
 
 ## Useful links
 
-- 🧭 [Orientation] - Maximize your bootcamp experience with these tips.
+- 🧭 [Orientation] - Maximize your boot camp experience with these tips.
 - ⏩ [Getting Started][Getting Started] - Kick off your learning journey here.
 - 🎓 [Exercism] - Dive into coding exercises with the guidance of mentors.
 - ❓ [Rust Quiz] - Tackle medium to hard [Rust] questions, complete with explanations.
@@ -183,6 +183,9 @@ If you're feeling that the certification might be too challenging at this point,
 [Rust Incubator]: https://github.com/rust-lang-ua/rust_incubator/README.md
 [certification test]: https://www.youtube.com/watch?v=cInMjEaH1q0
 [how to fork - step by step]: ./how_to_start.md
+[PR]: https://help.github.com/articles/github-glossary/#pull-request
+[workspace]: https://doc.rust-lang.org/book/ch14-03-cargo-workspaces.html
+[Rust]: https://www.rust-lang.org
 
 [Orientation]: ./orientation.md
 [Getting Started]: https://github.com/rust-lang-ua/rust_incubator#getting-started
