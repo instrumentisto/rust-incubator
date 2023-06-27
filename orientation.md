@@ -69,6 +69,10 @@ We encourage you to meet all deadlines to maximize your learning experience and 
 
 > 💡 Advice: Tasks 4.4 and 6 are non-trivial and will easily take a week of work. Make sure you reserve more than a few days for these tasks.
 
+### Calendar
+
+The calendar is your ally. Utilize it and allocate at least 20 hours per week to immerse yourself in the program and adhere to the deadlines. Remember to check the calendar at least once a week. All meetings and deadlines are marked there. Please note that all deadlines fall on Thursdays. Do not miss the hard deadlines - they are crucial to your progression in the program.
+
 ### Honor code
 
 We ask you to complete the assignments independently and not to share your own work. Since you will receive certificates at the end of the course, we will carefully check your work for Plagiarism. A person who uses the work of another person and another person **both will be expelled** if such an incident occurs.
