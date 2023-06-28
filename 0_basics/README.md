@@ -1,7 +1,7 @@
 Step 0: Become familiar with Rust basics
 ========================================
 
-__Estimated time__: 7 days
+__Estimated time__: 4 days
 
 Read through [Rust Book], [Rust FAQ], and become familiar with basic [Rust] concepts, syntax, memory model, type and module systems.
 
