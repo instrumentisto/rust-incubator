@@ -14,6 +14,7 @@ After completing these steps, you should be able to answer (and understand why) 
 - What runtime [Rust] has? Does it use a GC (garbage collector)?
 - What statically typing means? What is a benefit of using it? Weak typing vs strong typing? Implicit / explicit?
 - What are generics and parametric polymorphism? Which problems do they solve?
+- What is nominative typing and structural typing? What is difference?
 - What are traits? How are they used? How do they compare to interfaces? What are an auto trait and a blanket impl? Uncovered type? What is a marker trait?
 - What are static and dynamic dispatches? Which should I use, and when? What is monomorphisation?
 - What is a crate, module and package in Rust? How do they differ? How are the used? What is workspace?
@@ -54,6 +55,7 @@ _Additional_ articles, which may help to understand the above topic better:
 - [Auto-trait definition][18]
 - [Georgios Antonopoulos: Rust vs Common C++ Bugs][21]
 - [Yurii Shymon: True Observer Pattern with Unsubscribe mechanism using Rust][22]
+- [Asynchronous vs Multithreading][29]
 
 Additional:
 - [Rust API guidline checklist][19]
@@ -97,3 +99,4 @@ Additional:
 [26]: https://github.com/rust-lang-ua/learn_rust_together/blob/master/introduction.md
 [27]: https://github.com/rust-lang-ua/learn_rust_together/blob/master/toolbox_general.md
 [28]: https://github.com/rust-lang-ua/learn_rust_together/blob/master/learn.md
+[29]: https://github.com/Learn-Together-Pro/ComputerScience/blob/master/cheatsheets.md#asynchronous-vs-multithreading
