@@ -89,7 +89,6 @@ Don't hesitate to approach your mentor/lead with questions. However, keep in min
 - 🧭 [Orientation] - Maximize your bootcamp experience with these tips.
 - ⏩ [Getting Started][Getting Started] - Kick off your learning journey here.
 - 🎓 [Exercism] - Dive into coding exercises with the guidance of mentors.
-- ❓ [Rust Quiz] - Tackle medium to hard [Rust] questions, complete with explanations.
 - 📚 [Learning Materials][Learning Materials] - A curated collection of top-notch Rust learning materials.
 - 🔧 [Ecosystem][Ecosystem] - A curated collection of frequently used crates, representing essential parts of the Rust ecosystem.
 - 🌐 [Zero To Production] - A back-end focused book to broaden your knowledge.
@@ -192,7 +191,7 @@ Don't hesitate to approach your mentor/lead with questions. However, keep in min
 [how to fork]: ./orientation.md#getting-started
 
 [Orientation]: ./orientation.md
-[Getting Started]: https://github.com/rust-lang-ua/rust_incubator#getting-started
+[Getting Started]: https://github.com/rust-lang-ua/rust_incubator/orientation.md#getting-started
 [Exercism]: https://exercism.org/tracks/rust
 [Rust Quiz]: https://github.com/dtolnay/rust-quiz
 [Learning Materials]: https://github.com/rust-lang-ua/learn_rust_together/blob/master/learn.md
