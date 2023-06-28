@@ -13,9 +13,9 @@ After completing these steps, you should be able to answer (and understand why) 
 - What memory model [Rust] has? Is it single-threaded or multiple-threaded? Is it synchronous or asynchronous?
 - What runtime [Rust] has? Does it use a GC (garbage collector)?
 - What statically typing means? What is a benefit of using it? Weak typing vs strong typing? Implicit / explicit?
-- What are generics and parametric polymorphism? Which problems do they solve? What is monomorphisation?
+- What are generics and parametric polymorphism? Which problems do they solve?
 - What are traits? How are they used? How do they compare to interfaces? What are an auto trait and a blanket impl? Uncovered type? What is a marker trait?
-- What are static and dynamic dispatches? Which should I use, and when?
+- What are static and dynamic dispatches? Which should I use, and when? What is monomorphisation?
 - What is a crate, module and package in Rust? How do they differ? How are the used? What is workspace?
 - What is cloning? What is copying? How do they compare? What is for trait drop? What is special about the trait?
 - What is immutability? What is the benefit of using it? What is the difference between immutability and const?
