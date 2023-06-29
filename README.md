@@ -71,7 +71,7 @@ Don't hesitate to approach your mentor/lead with questions. However, keep in min
     - [ ] [4.3. API servers, clients and tools][Step 4.3]
     - [ ] [4.4. Summary Task][Step 4 Summary Task]
 - [ ] [Agree your capstone project][Step 6.1]
-- [ ] [5. Zero To Production][Step 5] (2 weeks)
+- [ ] [5. Zero To Production][Step 5] (3 weeks)
     - [ ] [5.1. Basic actix-web][Step 5.1]
     - [ ] [5.2. Logging][Step 5.2]
     - [ ] [5.3. Docker and deployment][Step 5.3]
