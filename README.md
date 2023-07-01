@@ -191,7 +191,7 @@ Don't hesitate to approach your mentor/lead with questions. However, keep in min
 [how to fork]: ./orientation.md#getting-started
 
 [Orientation]: ./orientation.md
-[Getting Started]: https://github.com/rust-lang-ua/rust_incubator/orientation.md#getting-started
+[Getting Started]: ./orientation.md#getting-started
 [Exercism]: https://exercism.org/tracks/rust
 [Rust Quiz]: https://github.com/dtolnay/rust-quiz
 [Learning Materials]: https://github.com/rust-lang-ua/learn_rust_together/blob/master/learn.md
