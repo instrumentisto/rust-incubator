@@ -4,6 +4,15 @@
 
 PR is an abbreviation for [Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests).
 
+#### - How should I name PR?
+Each task is a separate PR on a separate branch. The name of the PR should be in the following template: task_`task_number`
+
+Examples:
+- "task_0" (task of the zero section), 
+- "task_1_3" (first section, third task), 
+- "task_5_3_11" (5th section of the 3rd task, 11th subtask), 
+- "task_2" (final task of the 2nd section).
+
 #### - When and how are the meetings held?
 
 Meetings are held four times a week on weekdays (except Tuesday) according to your group's schedule. The meeting lasts about 1 hour. All appointments will be in your calendar. Attendance at the first meeting is mandatory.
