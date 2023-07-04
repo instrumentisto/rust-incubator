@@ -22,11 +22,11 @@ Finally, a comprehensive assessment will be conducted at the end of the certific
 
 ## Getting Started
 
-Before starting go [through orientation][Orientation] and [fork][how to fork] the repository as [template][Fork As Template].
+Before starting wait for the invite to your new repository from [our bot](https://github.com/1tbot).
 
 ## Submitting Solutions
 
-Each chapter/step of the bootcamp must be submitted as a separate [PR (pull request)][PR] with a relevant title. Upon completion, mark the step as complete in the README's curriculum. Note that each step is a [Cargo workspace member][workspace], which means you can run/test it from the project root (i.e. `cargo run -p step_1_8`). We highly recommend using tools like [rustfmt] and [Clippy] while you're writing your [Rust] code.
+Each chapter/step of the bootcamp must be submitted as a separate [PR (pull request)][PR] with a [relevant title](https://github.com/rust-lang-ua/rust_incubator/blob/master/faq.md#--how-should-i-name-pr). Upon completion, mark the step as complete in the README's curriculum. Note that each step is a [Cargo workspace member][workspace], which means you can run/test it from the project root (i.e. `cargo run -p step_1_8`). We highly recommend using tools like [rustfmt] and [Clippy] while you're writing your [Rust] code.
 
 Don't hesitate to approach your mentor/lead with questions. However, keep in mind that you may not receive a straightforward answer. Instead, you'll be guided towards a direction for your own exploration. Remember, in this learning journey, _it is primarily the mentor/lead who poses the questions, expecting comprehensive and precise responses._
 
@@ -71,7 +71,7 @@ Don't hesitate to approach your mentor/lead with questions. However, keep in min
     - [ ] [4.3. API servers, clients and tools][Step 4.3]
     - [ ] [4.4. Summary Task][Step 4 Summary Task]
 - [ ] [Agree your capstone project][Step 6.1]
-- [ ] [5. Zero To Production][Step 5] (2 weeks)
+- [ ] [5. Zero To Production][Step 5] (3 weeks)
     - [ ] [5.1. Basic actix-web][Step 5.1]
     - [ ] [5.2. Logging][Step 5.2]
     - [ ] [5.3. Docker and deployment][Step 5.3]
@@ -191,7 +191,7 @@ Don't hesitate to approach your mentor/lead with questions. However, keep in min
 [how to fork]: ./orientation.md#getting-started
 
 [Orientation]: ./orientation.md
-[Getting Started]: https://github.com/rust-lang-ua/rust_incubator/orientation.md#getting-started
+[Getting Started]: ./orientation.md#getting-started
 [Exercism]: https://exercism.org/tracks/rust
 [Rust Quiz]: https://github.com/dtolnay/rust-quiz
 [Learning Materials]: https://github.com/rust-lang-ua/learn_rust_together/blob/master/learn.md
