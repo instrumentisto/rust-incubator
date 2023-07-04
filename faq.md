@@ -24,11 +24,11 @@ No, there will be no recordings of the meetings, so do your best not to miss the
 
 #### - How do I start completing tasks?
 
-First, you need to create a private fork of the main [Rust Incubator repository](https://github.com/rust-lang-ua/rust_incubator). You can find more information on how to do this in the [instructions](https://github.com/rust-lang-ua/rust_incubator#before-you-start).
+[Our bot](https://github.com/1tbot) will create a private fork of the main [Rust Incubator repository](https://github.com/rust-lang-ua/rust_incubator) in [our organization](https://github.com/rust-lang-ua) and invite you. For more information on how to configure the received repository, see the [instructions](https://github.com/rust-lang-ua/rust_incubator/blob/master/orientation.md#getting-started).
 
 #### - How and where do I send Pull Requests of completed tasks?
 
-In your private fork, create a separate branch for each task. In the corresponding branch, complete the task and create a PR to your main master branch. Don't forget to tag the reviewers in your PR.
+In your private fork, create a separate branch for each task. In the corresponding branch, complete the task and create a PR to your main master branch. You can choose only one reviewer per PR. So don't forget to tag all your mentors in the comments to the PR
 
 #### - When is a task considered completed?
 
