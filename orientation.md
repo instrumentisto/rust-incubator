@@ -3,7 +3,7 @@
 > "Self-education is, I firmly believe, the only kind of education there is."
 _<div align="right">Isaac Asimov</div>_
 
-## Prerequisites
+### Prerequisites
 
 Before you begin the certification program, you should have a solid understanding of Rust and Git/GitHub. We strongly recommend completing the [Rust Book]. It's also beneficial if you have completed [Rustlings] and [Exercism], and have some hands-on practice. If you're transitioning from another programming language, you'll also find this certification program particularly useful.
 
@@ -20,6 +20,9 @@ Participants will also be challenged with designing, developing, and presenting 
 Finally, a **comprehensive assessment** will be conducted at the end of the certification program. Upon successful completion, participants will earn a certificate. This certificate is more than just a document; it's a testament to your ability to utilize best practices and write idiomatic code that employers will value highly. Imagine the doors that could open with this certificate in hand!
 
 Join us in this boot camp and fast-track your IT career to new heights. The journey might be intense, but the reward is immeasurable.
+
+> "To wish to be well is part of becoming well."
+_<div align="right">Seneca</div>_
 
 ### Why Rust?
 

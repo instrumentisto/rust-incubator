@@ -11,6 +11,7 @@ Read through [Cargo Book] and become familiar with [Cargo] and its workspaces.
 
 After completing these steps, you should be able to answer (and understand why) the following questions:
 - What memory model [Rust] has? Is it single-threaded or multiple-threaded? Is it synchronous or asynchronous?
+<!-- xxx : box vs vector -->
 - What runtime [Rust] has? Does it use a GC (garbage collector)?
 - What statically typing means? What is a benefit of using it? Weak typing vs strong typing? Implicit / explicit?
 - What are generics and parametric polymorphism? Which problems do they solve?
