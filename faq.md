@@ -4,6 +4,15 @@
 
 PR is an abbreviation for [Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests).
 
+#### - How should I name PR?
+Each task is a separate PR on a separate branch. The name of the PR should be in the following template: task_`task_number`
+
+Examples:
+- "task_0" (task of the zero section), 
+- "task_1_3" (first section, third task), 
+- "task_5_3_11" (5th section of the 3rd task, 11th subtask), 
+- "task_2" (final task of the 2nd section).
+
 #### - When and how are the meetings held?
 
 Meetings are held four times a week on weekdays (except Tuesday) according to your group's schedule. The meeting lasts about 1 hour. All appointments will be in your calendar. Attendance at the first meeting is mandatory.
@@ -15,11 +24,11 @@ No, there will be no recordings of the meetings, so do your best not to miss the
 
 #### - How do I start completing tasks?
 
-First, you need to create a private fork of the main [Rust Incubator repository](https://github.com/rust-lang-ua/rust_incubator). You can find more information on how to do this in the [instructions](https://github.com/rust-lang-ua/rust_incubator#before-you-start).
+[Our bot](https://github.com/1tbot) will create a private fork of the main [Rust Incubator repository](https://github.com/rust-lang-ua/rust_incubator) in [our organization](https://github.com/rust-lang-ua) and invite you. For more information on how to configure the received repository, see the [instructions](https://github.com/rust-lang-ua/rust_incubator/blob/master/orientation.md#getting-started).
 
 #### - How and where do I send Pull Requests of completed tasks?
 
-In your private fork, create a separate branch for each task. In the corresponding branch, complete the task and create a PR to your main master branch. Don't forget to tag the reviewers in your PR.
+In your private fork, create a separate branch for each task. In the corresponding branch, complete the task and create a PR to your main master branch. You can choose only one reviewer per PR. So don't forget to tag all your mentors in the comments to the PR
 
 #### - When is a task considered completed?
 

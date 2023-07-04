@@ -121,13 +121,11 @@ There are a few potential reasons for expulsion from the group, which include bu
 
 ## Getting Started
 
-Fork the [Rust Incubator](https://github.com/rust-lang-ua/rust_incubator) into a **private** repo. For each exercise, you'll need to create separate pull requests. Then, when the reviewer checks and approves your pull request, you can merge it into the master/main branch. After that, the exercise will be considered done.
+Wait for the invite to your new repository from [our bot](https://github.com/1tbot). For each exercise, you'll need to create separate pull requests. Then, when the reviewer checks and approves your pull request, you can merge it into the master/main branch. After that, the exercise will be considered done.
 
-1. [Create](https://github.com/rust-lang-ua/rust_incubator/generate) a new [GitHub repository](https://docs.github.com/en/get-started/quickstart/github-glossary#repository) for yourself using this one [as template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template). Remember to make it private.
+1. [Our bot](https://github.com/1tbot) will create a private fork of the main [Rust Incubator repository](https://github.com/rust-lang-ua/rust_incubator) in [our organization](https://github.com/rust-lang-ua) and invite you.
 
-2. [Invite](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository) as a collaborator of your repository [our bot](https://github.com/1tbot).
-
-Look here for more [step by step][how to fork - step by step] instruction of how to fork, and here you can find our [FAQ].
+2. Also, your mentors will already be in the repository. 
 
 3. Stay Up-to-Date.
 
@@ -153,7 +151,7 @@ If you get the error `fatal: refusing to merge unrelated histories` add option `
 
 ## Submitting Solutions
 
-Each chapter/step of the boot camp must be submitted as a separate [PR (pull request)][PR] with a relevant title. Upon completion, mark the step as complete in the README's curriculum. Note that each step is a [Cargo workspace member][workspace], which means you can run/test it from the project root (i.e. `cargo run -p step_1_8`). We recommend using tools like [rustfmt] and [Clippy] while you're writing your [Rust] code.
+Each chapter/step of the boot camp must be submitted as a separate [PR (pull request)][PR] with a [relevant title](https://github.com/rust-lang-ua/rust_incubator/blob/master/faq.md#--how-should-i-name-pr). Upon completion, mark the step as complete in the README's curriculum. Note that each step is a [Cargo workspace member][workspace], which means you can run/test it from the project root (i.e. `cargo run -p step_1_8`). We recommend using tools like [rustfmt] and [Clippy] while you're writing your [Rust] code.
 
 Don't hesitate to approach your mentor/lead with questions. However, keep in mind that you may not receive a straightforward answer. Instead, you'll be guided towards a direction for your own exploration. Remember, in this learning journey, _it is primarily the mentor/lead who poses the questions, expecting comprehensive and precise responses._
 
