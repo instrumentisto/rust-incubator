@@ -154,7 +154,7 @@ If you get the error `fatal: refusing to merge unrelated histories` add option `
 
 ## Submitting Solutions
 
-Each chapter/step of the boot camp must be submitted as a separate [PR (pull request)][PR] with a [relevant title](https://github.com/rust-lang-ua/rust_incubator/blob/master/faq.md#--how-should-i-name-pr). Upon completion, mark the step as complete in the README's curriculum. Note that each step is a [Cargo workspace member][workspace], which means you can run/test it from the project root (i.e. `cargo run -p step_1_8`). We recommend using tools like [rustfmt] and [Clippy] while you're writing your [Rust] code.
+Each chapter/step of the boot camp must be submitted as a separate [PR (pull request)][PR] with a [relevant title](https://github.com/rust-lang-ua/rust_incubator/blob/master/faq.md#--how-should-i-name-pr). After you have completed the Pool Requester, you should indicate "Ready" in the title. You must also specify one of the mentors in the reviewers of that Pool Request and tag both mentors in the comment section of that Pool Request. Upon completion, mark the step as complete in the README's curriculum. Note that each step is a [Cargo workspace member][workspace], which means you can run/test it from the project root (i.e. `cargo run -p step_1_8`). We recommend using tools like [rustfmt] and [Clippy] while you're writing your [Rust] code.
 
 Don't hesitate to approach your mentor/lead with questions. However, keep in mind that you may not receive a straightforward answer. Instead, you'll be guided towards a direction for your own exploration. Remember, in this learning journey, _it is primarily the mentor/lead who poses the questions, expecting comprehensive and precise responses._
 

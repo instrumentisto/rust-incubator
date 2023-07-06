@@ -32,11 +32,15 @@ In your private fork, create a separate branch for each task. In the correspondi
 
 #### - When is a task considered completed?
 
-A task is considered completed when you've made a Pull Request, and it has been reviewed and approved by one of the reviewers.
+A task is considered completed when you've made a Pull Request, and it has been reviewed and approved by one of the reviewers. If two mentors have reviewed your Pull Request and have left the issue for change, you must get approval from both mentors.
 
 #### - What should I do if the task is unfinished? Should I open a PR?
 
 Yes, you should open a PR as soon as possible and indicate "Not Ready" in the title.
+
+#### - How do mentors distinguish between finished Pool Requesters and unfinished Pool Requesters?
+
+After you have completed the Pool Requester, you should indicate "Ready" in the title. You must also specify one of the mentors in the reviewers of that Pool Request and tag both mentors in the comment section of that Pool Request.
 
 #### - Can I complete the course assignments only on weekends?
 
