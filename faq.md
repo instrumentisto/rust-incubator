@@ -40,7 +40,7 @@ Yes, you should open a PR as soon as possible and indicate "Not Ready / DRAFT / 
 
 #### - How do mentors distinguish between finished Pool Requesters and unfinished Pool Requesters?
 
-After you have completed the Pool Request, you should remove the marker "Not Ready / DRAFT / WIP" from the title. You must also specify one of the mentors in the reviewers of that Pool Request and tag both mentors in the comment section of that Pool Request.
+After you have completed the Pool Request, you should remove the marker "Not Ready / DRAFT / WIP" from the title. You must also specify one of your mentors in the reviewers of that Pool Request and tag all of your mentors in the comment section of that Pool Request.
 
 #### - How many mentors do you need to get an approve from, before a merge?
 
