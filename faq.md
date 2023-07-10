@@ -30,13 +30,21 @@ No, there will be no recordings of the meetings, so do your best not to miss the
 
 In your private fork, create a separate branch for each task. In the corresponding branch, complete the task and create a PR to your main master branch. You can choose only one reviewer per PR. So don't forget to tag all your mentors in the comments to the PR
 
-#### - When is a task considered completed?
+#### - When a task is considered completed?
 
-A task is considered completed when you've made a Pull Request, and it has been reviewed and approved by one of the reviewers.
+A task is considered completed when you've made a Pull Request, and it has been reviewed and approved by one of the reviewers. If more than one mentor have reviewed your Pull Request and have left the issue for change, you must get an approval from all the mentors that opened the issue.
 
 #### - What should I do if the task is unfinished? Should I open a PR?
 
-Yes, you should open a PR as soon as possible and indicate "Not Ready" in the title.
+Yes, you should open a PR as soon as possible and indicate "Not Ready / DRAFT / WIP" in the title.
+
+#### - How do mentors distinguish between finished Pool Requesters and unfinished Pool Requesters?
+
+After you have completed the Pool Request, you should remove the marker "Not Ready / DRAFT / WIP" from the title. You must also specify one of your mentors in the reviewers of that Pool Request and tag all of your mentors in the comment section of that Pool Request.
+
+#### - How many mentors do you need to get an approve from, before a merge?
+
+You need to get an approval from one of the mentors before merging the Pool Request into the main branch. If more than one mentor have reviewed your Pull Request and have left the issue for change, you must get an approval from all the mentors that opened the issue.
 
 #### - Can I complete the course assignments only on weekends?
 
