@@ -5,22 +5,20 @@
 PR is an abbreviation for [Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests).
 
 #### - How should I name PR?
-Each task is a separate PR on a separate branch. The name of the PR should be in the following template: task_`task_number`
 
-Examples:
-- "task_0" (task of the zero section), 
-- "task_1_3" (first section, third task), 
-- "task_5_3_11" (5th section of the 3rd task, 11th subtask), 
-- "task_2" (final task of the 2nd section).
+Each task should be submitted as a separate PR on its own branch. Use the following template for the PR name: `task_task_number`. Here are some examples:
 
-#### - When and how are the meetings held?
+- "task_0" for the task in the zero section,
+- "task_1_3" for the third task in the first section,
+- "task_5_3_11" for the 11th subtask of the third task in the fifth section,
+
+#### - When and how are the meetings conducted?
 
 Meetings are held four times a week on weekdays (except Tuesday) according to your group's schedule. The meeting lasts about 1 hour. All appointments will be in your calendar. Attendance at the first meeting is mandatory.
 
-#### - Will the meeting be recorded?
+#### - Will the meetings be recorded?
 
-No, there will be no recordings of the meetings, so do your best not to miss them.
-
+No, we usually don't record meetings. So, ensure you don't miss them.
 
 #### - How do I start completing tasks?
 
@@ -28,35 +26,35 @@ No, there will be no recordings of the meetings, so do your best not to miss the
 
 #### - How and where do I send Pull Requests of completed tasks?
 
-In your private fork, create a separate branch for each task. In the corresponding branch, complete the task and create a PR to your main master branch. You can choose only one reviewer per PR. So don't forget to tag all your mentors in the comments to the PR
+Create a separate branch for each task in your private fork. Complete the task in the corresponding branch and create a PR to your main master branch. Remember to tag all your mentors in the comments section of the PR.
 
-#### - When a task is considered completed?
+#### - When is a task considered completed?
 
-A task is considered completed when you've made a Pull Request, and it has been reviewed and approved by one of the reviewers. If more than one mentor have reviewed your Pull Request and have left the issue for change, you must get an approval from all the mentors that opened the issue.
-
-#### - What should I do if the task is unfinished? Should I open a PR?
-
-Yes, you should open a PR as soon as possible and indicate "Not Ready / DRAFT / WIP" in the title.
+A task is marked as completed when you've made a Pull Request, and it's been reviewed and approved by one of the reviewers. After you complete your Pull Request, remove the "NOT READY / DRAFT / WIP" marker from the title. Don't forget to specify one of your mentors as a reviewer and tag all of your mentors in the comments section.
 
 #### - How do mentors distinguish between finished Pool Requesters and unfinished Pool Requesters?
 
-After you have completed the Pool Request, you should remove the marker "Not Ready / DRAFT / WIP" from the title. You must also specify one of your mentors in the reviewers of that Pool Request and tag all of your mentors in the comment section of that Pool Request.
+A task is marked as completed when you've made a Pull Request, and it's been reviewed and approved by one of the reviewers. After you complete your Pull Request, remove the "NOT READY / DRAFT / WIP" marker from the title. Don't forget to specify one of your mentors as a reviewer and tag all of your mentors in the comments section.
 
-#### - How many mentors do you need to get an approve from, before a merge?
+#### - Should I open an unfinished PR?
 
-You need to get an approval from one of the mentors before merging the Pool Request into the main branch. If more than one mentor have reviewed your Pull Request and have left the issue for change, you must get an approval from all the mentors that opened the issue.
+Yes, you should. Open a PR as soon as you can, marking it with "NOT READY / DRAFT / WIP" in the title. Your mentors will review it once you remove this marker and mention them in the PR's description.
 
-#### - Can I complete the course assignments only on weekends?
+#### - How many mentors need to approve before I can merge?
 
-You should dedicate more than 20 hours a week to your studies to achieve quality results. In three months of intensive coursework, you can achieve what might otherwise take two years of independent practice. If you confine your study time to the weekends only, you would need to study for 10 hours a day. It's better to evenly distribute your study time throughout the week.
+You need approval from at least one mentor before merging the Pull Request into the main branch. However, if more than one mentor has reviewed your Pull Request and requested changes, you must receive approval from all of them.
+
+#### - Can I only complete the course assignments on weekends?
+
+To achieve quality results, you should dedicate more than 20 hours a week to your studies. Three months of intensive study can equate to two years of independent practice. If you only study on weekends, you'd need to dedicate 10 hours each day. We recommend distributing your study time evenly throughout the week.
 
 #### - Where should I answer the questions in the first chapter?
 
-You can leave the answers under the question itself by editing your own md-file.
+You can provide the answers under each question by editing your own md-file.
 
 #### - Where can I ask for help?
 
-Firstly, ask your peers in the Bootcamp's chat. You can also post your questions in the Telegram [chat of our community](https://t.me/rustlang_ua), the official [forum](https://users.rust-lang.org/). [ChatGPT](https://openai.com/blog/chatgpt) works well for simpler queries. However, your solutions must be original. Anyone found sharing or copying solutions will be expelled.
+Firstly, ask your peers in the Bootcamp's chat. You can also post your questions in the Telegram [chat of our community](https://t.me/rustlang_ua), the official [forum](https://users.rust-lang.org/). [ChatGPT](https://openai.com/blog/chatgpt) works well for simpler queries. However, remember that your solutions must be original, and anyone found sharing or copying solutions will be expelled.
 
 #### - What is the best way to ask questions?
 
@@ -66,18 +64,18 @@ It's preferable to have your code in the [playground](https://play.rust-lang.org
 
 #### - Is the Telegram chat moderated?
 
-At the initial stage, we don't want to limit communication in the chat, nor do we want to divide it into sub-chats. We encourage people to get to know each other. After the familiarization phase, we may introduce stricter moderation rules in the future, if necessary. For now, however, you must respect other chat participants and are not allowed to be offensive.
-
+Initially, we won't restrict communication in the chat or divide it into sub-chats. We encourage participants to get to know each other. However, we may implement stricter moderation rules later if needed. For now, respect all chat participants and refrain from offensive behavior.
 
 #### - What is the motivation of mentors to mentor?
 
-All mentors are employed, and many of them have their own companies and are in a good position to hire a talented participant. Moreover, mentoring helps to improve their own knowledge, and all of our mentors have a natural desire to help other people.
+All our mentors are professionals, many of whom own their companies and are in a position to hire talented participants. Mentoring not only improves their knowledge but also satisfies their innate desire to help others.
 
 #### - Do we cooperate with IT companies in any way?
 
 We are making a lot of efforts to involve companies in interviews with bootcamp graduates and hopefully we will get there. We currently have 4 partner companies: TacansLab, AI Edge Lab, Intellias, and Near.
 
 #### - What should I do if I find mistakes in the repository?
+
 We encourage you to open an __issue__ if you see any problems.
 
 #### - How can I incorporate changes from the main repository?
