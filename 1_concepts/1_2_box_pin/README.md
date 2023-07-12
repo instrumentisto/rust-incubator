@@ -42,6 +42,7 @@ For better understanding [`Pin`] purpose, design, limitations and use cases read
 - [Yoshua Wuyts: Safe Pin Projections Through View Types][6]
 - [Official `#[pin_project]` docs][7]
 - [Alice Ryhl answers on "Pin tutorial are confusing me"][9]
+- [Rust Forum: Why is it unsafe to pin a shared reference?][11]
 
 
 
@@ -115,3 +116,4 @@ After completing everything above, you should be able to answer (and understand 
 [8]: https://mahdi.blog/rust-box-str-vs-string
 [9]: https://users.rust-lang.org/t/pin-tutorial-are-confusing-me/91003/18
 [10]: https://www.sobyte.net/post/2022-07/rust-pin-unpin
+[11]: https://users.rust-lang.org/t/why-is-it-unsafe-to-pin-a-shared-reference/40309
