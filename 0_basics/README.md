@@ -35,6 +35,7 @@ After you're done notify your lead in an appropriate PR (pull request), and he w
 _Additional_ articles, which may help to understand the above topic better:
 - [Chris Morgan: Rust ownership, the hard way][1]
 - [Adolfo Ochagavía: You are holding it wrong][23]
+- [Vikram Fugro: Beyond Pointers: How Rust outshines C++ with its Borrow Checker][30]
 - [HashRust: A guide to closures in Rust][24]
 - [Ludwig Stecher: Rusts Module System Explained][2]
 - [Tristan Hume: Models of Generics and Metaprogramming: Go, Rust, Swift, D and More][3]
@@ -100,3 +101,4 @@ Additional:
 [27]: https://github.com/rust-lang-ua/learn_rust_together/blob/master/toolbox_general.md
 [28]: https://github.com/rust-lang-ua/learn_rust_together/blob/master/learn.md
 [29]: https://github.com/Learn-Together-Pro/ComputerScience/blob/master/cheatsheets.md#asynchronous-vs-multithreading
+[30]: https://dev.to/vikram2784/beyond-pointers-how-rust-outshines-c-with-its-borrow-checker-1mad
