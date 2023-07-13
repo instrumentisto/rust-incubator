@@ -12,6 +12,19 @@ Each task should be submitted as a separate PR on its own branch. Use the follow
 - "task_1_3" for the third task in the first section,
 - "task_5_3_11" for the 11th subtask of the third task in the fifth section,
 
+#### - What is the final task?
+This is the last task of the section, namely:
+- Task_1_10 : 1_concepts/README.md
+- Task_2_7 : 2_idioms/README.md 
+- Task_3_12 : 3_ecosystem/README.md 
+- Task_4_4 : 4_backend/README.md
+Questions should be answered in writing only in them.
+
+#### - Should I answer theoretical questions in PR?
+Only in the [final tasks](https://github.com/rust-lang-ua/rust_incubator/edit/master/faq.md#--what-is-the-final-task).
+In tasks that are not final, you do not need to answer theoretical questions. For example, in Problems 1_1, 1_2, you do not need to answer the theoretical questions in writing because they are not final.
+In the final tasks, please write your answers in the same PR as the solution to the practical problem. Do not create a separate PR to answer the questions; it will not be accepted by mentors.
+
 #### - When and how are the meetings conducted?
 
 Meetings are held four times a week on weekdays (except Tuesday) according to your group's schedule. The meeting lasts about 1 hour. All appointments will be in your calendar. Attendance at the first meeting is mandatory.
