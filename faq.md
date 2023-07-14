@@ -53,9 +53,11 @@ A task is marked as completed when you've made a Pull Request, and it's been rev
 
 Yes, you should. Open a PR as soon as you can, marking it with "NOT READY / DRAFT / WIP" in the title. Your mentors will review it once you remove this marker and mention them in the PR's description.
 
-#### - How many mentors need to approve before I can merge?
+#### - Can I merge PR? How many mentors need to approve PR for merge?
 
-You need approval from at least one mentor before merging the Pull Request into the main branch. However, if more than one mentor has reviewed your Pull Request and requested changes, you must receive approval from all of them.
+You cannot merge Pull Requests. Your mentors make the merge themselves. 
+If one mentor has reviewed your PR and everything is fine, his will immediately merge your PR. However, if several mentors have reviewed your PR and asked for changes, the merge will be completed by the mentors only when both of them approve it.
+
 
 #### - Can I only complete the course assignments on weekends?
 
