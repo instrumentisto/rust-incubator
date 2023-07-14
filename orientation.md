@@ -174,7 +174,9 @@ If you get the error `fatal: refusing to merge unrelated histories` add option `
 
 For each chapter or step of the bootcamp, you should create and submit a separate [PR (pull request)][PR]. Make sure to give your PR a [relevant title](https://github.com/rust-lang-ua/rust_incubator/blob/master/faq.md#--how-should-i-name-pr). After you've completed your pull request, please remove any markers like "NOT READY", "DRAFT", or "WIP" from the title. In the description of your pull request, remember to tag all your mentors.
 
-Before merging the pull request into the main branch, you need to receive approval from at least one mentor. If more than one mentor has reviewed your Pull Request and requested changes, you must receive approval from all involved mentors.
+You are not allowed to merge PRs yourself. 
+**[Only mentors can merge your PRs.](https://github.com/rust-lang-ua/rust_incubator/blob/SupperZum-patch-2/faq.md#--can-i-merge-pr-how-many-mentors-need-to-approve-pr-for-merge)**
+If one mentor has reviewed your PR and everything is fine, he or she will immediately merge your PR. However, if several mentors have reviewed your PR and asked for changes, the merge will be completed by the mentors only when both of them approve it. 
 
 Each step of the bootcamp is a [Cargo workspace member][workspace], meaning you can run and test it from the project root using commands like `cargo run -p step_1_8`. We highly recommend using tools like [rustfmt] and [Clippy] while writing your [Rust] code.
 
