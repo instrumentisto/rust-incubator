@@ -29,7 +29,7 @@ jobs:
         run: |
           set -e
 
-          crates="[]"
+          crates=()
           for path in $(git diff --name-only ${{ github.event.pull_request.base.sha }} ${{ github.event.pull_request.head.sha }}); do
             directory=$(dirname "$path")
             cargo_toml=$(sh -c "cd ${directory} && cargo locate-project --message-format plain || true")
@@ -38,10 +38,18 @@ jobs:
               # If this TOML file does not represent a workspace (does not have the `workspace` key)
               if ! toml get "$cargo_toml" "workspace" >/dev/null 2>&1; then
                 crate=$(toml get "$cargo_toml" "package.name")
-                crates=$(echo $crates | xq -c ". + ["$crate"]")
+                crates+=($crate)
               fi
             fi
           done
+
+          # Sort and remove duplicates
+          crates=($(echo ${crates[@]} | tr ' ' '\n' | sort -u))
+
+          # Convert to JSON
+          crates=$(echo ${crates[@]} | xq -cn "[inputs]")
+
+          echo "Changed crates: $crates"
 
           echo "crates=$crates" >> $GITHUB_OUTPUT
 
