@@ -30,7 +30,7 @@ jobs:
           set -e
 
           crates=()
-          for path in $(git diff --name-only ${{ github.event.pull_request.base.sha }} ${{ github.event.pull_request.head.sha }}); do
+          for path in $(git diff --name-only ${{ github.event.pull_request.base.sha }}...${{ github.event.pull_request.head.sha }}); do
             directory=$(dirname "$path")
             cargo_toml=$(sh -c "cd ${directory} && cargo locate-project --message-format plain || true")
 
