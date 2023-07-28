@@ -62,7 +62,7 @@ Implement two loggers:
 1. Global main `app.log` logger which prints all its logs to `STDOUT`, but `WARN` level (and higher) logs to `STDERR`.
 2. Local `access.log` logger which writes all its logs to `access.log` file.
 
-All logs should be structured and logged in a JSON format, and have time field with nanoseconds ([RFC3339] formatted).
+All logs should be structured and logged in a JSON format, and have time field with nanoseconds ([RFC 3339] formatted).
 
 Examples:
 ```json
@@ -93,7 +93,7 @@ After completing everything above, you should be able to answer (and understand 
 [Jaeger]: https://www.jaegertracing.io
 [OpenTelemetry]: https://opentelemetry.io
 [Rust]: https://www.rust-lang.org
-[RFC3339]: https://www.ietf.org/rfc/rfc3339.txt
+[RFC 3339]: https://www.ietf.org/rfc/rfc3339.txt
 [Sentry]: https://sentry.io
 [Tracy]: https://github.com/wolfpld/tracy
 [Zipkin]: https://zipkin.io
