@@ -10,7 +10,7 @@ As [Rust] is a [strongly typed][1] language, all type conversions must be perfor
 
 ## Value-to-value conversion
 
-Value-to-value conversion in [Rust] is done with [`From`] and [`Into`] mirrored traits (implementing one automatically implements another one). These traits provide __non-fallible conversion__.
+Value-to-value conversion in [Rust] is done with [`From`] and [`Into`] mirrored traits (implementing the first one automatically implements another one). These traits provide __non-fallible conversion__.
 
 If your conversion may fail, then you should use [`TryFrom`]/[`TryInto`] analogues, which __allow failing in a controlled way__.
 

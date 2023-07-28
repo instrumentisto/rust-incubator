@@ -10,7 +10,7 @@ These steps describe common idioms required for writing well-designed and idioma
 After doing them you should be able to answer the following questions:
 - Why should I care about types and expressing things in types? How do types help to increase guarantees of a program being correct?
 - What is essential for writing well-designed and ergonomic APIs in [Rust] and why?
-- Why `mem::replace` exists and what purpose does it sole? When and why is it really helpful?
+- Why `mem::replace` exists and what purpose does it solve? When and why is it really helpful?
 - How input type polymorphism is usually organized in [Rust] APIs? What cost does it have?
 - Which ways and tools do exist for future-proofing source code in [Rust]?
 
