@@ -116,6 +116,7 @@ For better understanding, read through the following articles:
 - [Nick Cameron: What is an async runtime?][59]
 - [Sylvain Kerkour: Async Rust: Cooperative vs Preemptive scheduling][60]
 - [Sylvain Kerkour: Async Rust: What is a runtime? Here is how tokio works under the hood][61]
+- [Hayden Stainsby: how I finally understood async/await in Rust (part 3)][65]
 
 
 
@@ -169,7 +170,7 @@ After completing everything above, you should be able to answer (and understand 
 - What is asynchronous programming? How does it relate to multithreading? Which problems does it solve? What are the prerequisites for its existing?
 - How does non-blocking I/O works? How does it differs from blocking I/O?
 - What is a [`Future`]? Why do we need it? How does it work in [Rust] and how do its semantics differ from other programming languages? What makes it zero-cost?
-- What is `async`/`.await`? Ho do they desugar into a [`Future`]? Why are they vital for ergonomics?
+- What is `async`/`.await`? How do they desugar into a [`Future`]? Why are they vital for ergonomics?
 - What is an asynchronous task? How does it compare to a [`Future`]?
 - What is a [`Waker`]? How does it work? Why is it required?
 - What is an asynchronous runtime? From which parts does it usually consist?
@@ -289,3 +290,4 @@ After completing everything above, you should be able to answer (and understand 
 [62]: https://quickwit.io/blog/quickwit-actor-framework
 [63]: https://hegdenu.net/posts/understanding-async-await-1
 [64]: https://hegdenu.net/posts/understanding-async-await-2
+[65]: https://hegdenu.net/posts/understanding-async-await-3
