@@ -1,4 +1,6 @@
-## FAQ
+# FAQ
+
+## Completing tasks and PR
 
 #### - What is PR?
 
