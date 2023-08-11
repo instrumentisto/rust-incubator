@@ -1,5 +1,32 @@
 # FAQ
 
+#### - When and how are the meetings conducted?
+
+Meetings are held four times a week on weekdays (except Tuesday) according to your group's schedule. The meeting lasts about 1 hour. All appointments will be in your calendar. Attendance at the first meeting is mandatory.
+
+#### - Will the meetings be recorded?
+
+No, we usually don't record meetings. So, ensure you don't miss them.
+
+#### - Can I only complete the course assignments on weekends?
+
+To achieve quality results, you should dedicate more than 20 hours a week to your studies. Three months of intensive study can equate to two years of independent practice. If you only study on weekends, you'd need to dedicate 10 hours each day. We recommend distributing your study time evenly throughout the week.
+
+#### - Is the Telegram chat moderated?
+
+Initially, we won't restrict communication in the chat or divide it into sub-chats. We encourage participants to get to know each other. However, we may implement stricter moderation rules later if needed. For now, respect all chat participants and refrain from offensive behavior.
+
+#### - What is the motivation of mentors to mentor?
+
+All our mentors are professionals, many of whom own their companies and are in a position to hire talented participants. Mentoring not only improves their knowledge but also satisfies their innate desire to help others.
+
+#### - Do we cooperate with IT companies in any way?
+
+We are making a lot of efforts to involve companies in interviews with bootcamp graduates and hopefully we will get there. We currently have 4 partner companies: TacansLab, AI Edge Lab, Intellias, and Near.
+
+
+
+
 ## Completing tasks and PR
 
 #### - What is PR?
@@ -27,14 +54,6 @@ Only in the [final tasks](https://github.com/rust-lang-ua/rust_incubator/edit/ma
 In tasks that are not final, you do not need to answer theoretical questions. For example, in Problems 1_1, 1_2, you do not need to answer the theoretical questions in writing because they are not final.
 In the final tasks, please write your answers in the same PR as the solution to the practical problem. Do not create a separate PR to answer the questions; it will not be accepted by mentors.
 
-#### - When and how are the meetings conducted?
-
-Meetings are held four times a week on weekdays (except Tuesday) according to your group's schedule. The meeting lasts about 1 hour. All appointments will be in your calendar. Attendance at the first meeting is mandatory.
-
-#### - Will the meetings be recorded?
-
-No, we usually don't record meetings. So, ensure you don't miss them.
-
 #### - How do I start completing tasks?
 
 [Our bot](https://github.com/1tbot) will create a private fork of the main [Rust Incubator repository](https://github.com/rust-lang-ua/rust_incubator) in [our organization](https://github.com/rust-lang-ua) and invite you. For more information on how to configure the received repository, see the [instructions](https://github.com/rust-lang-ua/rust_incubator/blob/master/orientation.md#getting-started).
@@ -59,10 +78,6 @@ Yes, you should. Open a PR as soon as you can, marking it with "NOT READY / DRAF
 
 You need approval from at least one mentor before merging the Pull Request into the main branch. However, if more than one mentor has reviewed your Pull Request and requested changes, you must receive approval from all of them.
 
-#### - Can I only complete the course assignments on weekends?
-
-To achieve quality results, you should dedicate more than 20 hours a week to your studies. Three months of intensive study can equate to two years of independent practice. If you only study on weekends, you'd need to dedicate 10 hours each day. We recommend distributing your study time evenly throughout the week.
-
 #### - Where should I answer the questions in the first chapter?
 
 You can provide the answers under each question by editing your own md-file.
@@ -77,17 +92,6 @@ It's preferable to have your code in the [playground](https://play.rust-lang.org
 
 ![playground_ask](https://github.com/rust-lang-ua/rust_incubator/assets/98274821/2351bddd-455f-4078-a7cb-328a7bb08ac9)
 
-#### - Is the Telegram chat moderated?
-
-Initially, we won't restrict communication in the chat or divide it into sub-chats. We encourage participants to get to know each other. However, we may implement stricter moderation rules later if needed. For now, respect all chat participants and refrain from offensive behavior.
-
-#### - What is the motivation of mentors to mentor?
-
-All our mentors are professionals, many of whom own their companies and are in a position to hire talented participants. Mentoring not only improves their knowledge but also satisfies their innate desire to help others.
-
-#### - Do we cooperate with IT companies in any way?
-
-We are making a lot of efforts to involve companies in interviews with bootcamp graduates and hopefully we will get there. We currently have 4 partner companies: TacansLab, AI Edge Lab, Intellias, and Near.
 
 #### - What should I do if I find mistakes in the repository?
 
@@ -186,6 +190,8 @@ If you are satisfied with the result, you can remove the `template` branch and p
 git branch -D template
 git push
 ```
+
+## Capstone project
 
 #### - I can't choose my capstone project. Can you suggest some?
 
