@@ -2,7 +2,7 @@
 
 - [About Bootcamp](#about-bootcamp)
 - [Completing tasks and PR](#completing-tasks-and-pr)
-- [Capstone projects](#capstone-projects)
+- [Capstone project](#capstone-project)
 
 
 ## About Bootcamp
