@@ -1,5 +1,7 @@
 # FAQ
 
+## Other
+
 #### - When and how are the meetings conducted?
 
 Meetings are held four times a week on weekdays (except Tuesday) according to your group's schedule. The meeting lasts about 1 hour. All appointments will be in your calendar. Attendance at the first meeting is mandatory.
