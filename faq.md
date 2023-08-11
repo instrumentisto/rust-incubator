@@ -1,6 +1,11 @@
-# FAQ
+# ❓FAQ
 
-## About bootcamp
+- [About Bootcamp](#About Bootcamp)
+- Completing tasks and PRs
+- Capstone projects
+
+
+## About Bootcamp
 
 <ins>*- When and how are the meetings conducted?*</ins><br/>
 
