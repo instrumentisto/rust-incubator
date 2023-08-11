@@ -1,8 +1,8 @@
 # FAQ
 
-## Other
+## About bootcamp
 
-#### - When and how are the meetings conducted?
+<ins>*- When and how are the meetings conducted?*</ins><br/>
 
 Meetings are held four times a week on weekdays (except Tuesday) according to your group's schedule. The meeting lasts about 1 hour. All appointments will be in your calendar. Attendance at the first meeting is mandatory.
 
@@ -10,13 +10,13 @@ Meetings are held four times a week on weekdays (except Tuesday) according to yo
 
 No, we usually don't record meetings. So, ensure you don't miss them.
 
-#### - Can I only complete the course assignments on weekends?
-
-To achieve quality results, you should dedicate more than 20 hours a week to your studies. Three months of intensive study can equate to two years of independent practice. If you only study on weekends, you'd need to dedicate 10 hours each day. We recommend distributing your study time evenly throughout the week.
-
 #### - Is the Telegram chat moderated?
 
 Initially, we won't restrict communication in the chat or divide it into sub-chats. We encourage participants to get to know each other. However, we may implement stricter moderation rules later if needed. For now, respect all chat participants and refrain from offensive behavior.
+
+#### - Can I only complete the course assignments on weekends?
+
+To achieve quality results, you should dedicate more than 20 hours a week to your studies. Three months of intensive study can equate to two years of independent practice. If you only study on weekends, you'd need to dedicate 10 hours each day. We recommend distributing your study time evenly throughout the week.
 
 #### - What is the motivation of mentors to mentor?
 
@@ -25,9 +25,6 @@ All our mentors are professionals, many of whom own their companies and are in a
 #### - Do we cooperate with IT companies in any way?
 
 We are making a lot of efforts to involve companies in interviews with bootcamp graduates and hopefully we will get there. We currently have 4 partner companies: TacansLab, AI Edge Lab, Intellias, and Near.
-
-
-
 
 ## Completing tasks and PR
 
