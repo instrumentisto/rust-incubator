@@ -1,8 +1,8 @@
 # ❓FAQ
 
 - [About Bootcamp](#about-bootcamp)
-- [Completing tasks and PR]()
-- [Capstone projects]()
+- [Completing tasks and PR](#completing-tasks-and-pr)
+- [Capstone projects](#capstone-projects)
 
 
 ## About Bootcamp
