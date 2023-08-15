@@ -1,6 +1,7 @@
 # ❓FAQ
 
 - [About Bootcamp](#about-bootcamp)
+- [Communication](#communication)
 - [Completing tasks and PR](#completing-tasks-and-pr)
 - [Capstone project](#capstone-project)
 
