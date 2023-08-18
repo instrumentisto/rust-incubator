@@ -47,6 +47,7 @@ _Additional_ articles, which may help to understand the above topic better:
 - [Jimmy Hartzell: RAII: Compile-Time Memory Management in C++ and Rust][9]
 - [Georgios Antonopoulos: Rust vs Common C++ Bugs][10]
 - [Yurii Shymon: True Observer Pattern with Unsubscribe mechanism using Rust][11]
+- [Clayton Ramsey: I built a garbage collector for a language that doesn't need one][17]
 
 
 
@@ -75,3 +76,4 @@ _Additional_ articles, which may help to understand the above topic better:
 [14]: https://gruebelinchen.wordpress.com/2023/06/06/demystifying-trait-generics-in-rust
 [15]: https://dev.to/vikram2784/beyond-pointers-how-rust-outshines-c-with-its-borrow-checker-1mad
 [16]: https://sabrinajewson.org/blog/null-lifetime
+[17]: https://claytonwramsey.github.io/2023/08/14/dumpster.html
