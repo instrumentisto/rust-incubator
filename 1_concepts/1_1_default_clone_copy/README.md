@@ -77,7 +77,7 @@ For better understanding the topic, read through:
 
 After completing everything above, you should be able to answer (and understand why) the following questions:
 - What purpose does [`Default`] trait serve in [Rust]?
-- What is `#[derive(Default)]` from `std` capable of? What it does wrong? Which are alternatives?
+- What is `#[derive(Default)]` from `std` capable of? What does it wrong? Which are alternatives?
 - What does [`Clone`] mean semantically?
 - What does [`Copy`] mean semantically? How is it connected with [`Clone`]? Which limitations does it have and why?
 

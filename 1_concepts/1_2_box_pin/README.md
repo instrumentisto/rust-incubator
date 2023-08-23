@@ -88,7 +88,7 @@ For better understanding [`Pin`] purpose, design, limitations and use cases read
 
 After completing everything above, you should be able to answer (and understand why) the following questions:
 - What does "boxing" mean in [Rust]? How is it useful? When and why is it required?
-- What is [`Pin`] and why is it required? What guarantees does it provide? How it fulfills them?
+- What is [`Pin`] and why is it required? What guarantees does it provide? How does it fulfill them?
 - How does [`Unpin`] affect the [`Pin`]? What does it mean?
 - Is it allowed to move pinned data after the [`Pin`] dies? Why?
 - What is structural pinning? When it should be used and why?
