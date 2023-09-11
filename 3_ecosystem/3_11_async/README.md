@@ -72,6 +72,7 @@ For better understanding [`Waker`] design, usage, and features, read through the
 - [Tokio Tutorial: Async in depth][24]
 - [Asynchronous Programming in Rust][23]
 - [Amos: Understanding Rust futures by going way too deep][25]
+- [Hayden Stainsby: how I finally understood async/await in Rust (part 4)][67]
 
 
 
@@ -293,3 +294,4 @@ After completing everything above, you should be able to answer (and understand 
 [64]: https://hegdenu.net/posts/understanding-async-await-2
 [65]: https://hegdenu.net/posts/understanding-async-await-3
 [66]: https://ibraheem.ca/posts/too-many-web-servers
+[67]: https://hegdenu.net/posts/understanding-async-await-4
