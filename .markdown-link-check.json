@@ -19,6 +19,8 @@
   }, {
     "pattern": "^https://dalek.rs"
   }, {
+    "pattern": "^https://dl.acm.org"
+  }, {
     "pattern": "^https://www.aspecto.io"
   }, {
     "pattern": "^https://www.cs.bgu.ac.il"
