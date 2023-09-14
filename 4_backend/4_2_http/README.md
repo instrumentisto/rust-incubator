@@ -67,6 +67,7 @@ For [`actix-web`] ecosystem, the meaningful option would be the [`awc`] crate, w
 
 For better understanding and familiarity with [HTTP] clients in [Rust], read through the following articles:
 - [Official `reqwest` crate docs][`reqwest`]
+- [Joshua Mo: Writing a Web Scraper in Rust using Reqwest][33]
 - [Official `isahc` crate docs][`isahc`]
 - [Official `ureq` crate docs][`ureq`]
 - [Official `surf` crate docs][`surf`]
@@ -161,6 +162,7 @@ After completing everything above, you should be able to answer (and understand 
 [26]: https://hyper.rs/guides/server/hello-world
 [31]: https://hyper.rs/guides/client/basic
 [32]: https://developer.mozilla.org/docs/Web/API/Fetch_API
+[33]: https://www.shuttle.rs/blog/2023/09/13/web-scraping-rust-reqwest
 [41]: https://en.wikipedia.org/wiki/Actor_model
 [51]: https://en.wikipedia.org/wiki/Client%E2%80%93server_model
 [52]: https://en.wikipedia.org/wiki/Daemon_(computing)
