@@ -31,7 +31,7 @@ However, most of the time you want to operate with typed data, not with raw stri
 
 It's worth mentioning, that [`clap`] crate is [able to parse from environment variables][7] too, which is super handy when it comes to backing your [CLI] with [environment variables][2].
 
-Finally, [`dotenv`] crate should be mentioned. It sets [environment variables][2] basing on [`.env` file][8] contents, which is widely used convention to simplify environment configuration and to omit declaring all the required environment variables by hand each time when running some program. This one is especially _useful in development_.
+Finally, [`dotenv`] crate should be mentioned. It sets [environment variables][2] basing on [`.env` file][8] contents, which is widely used convention to simplify environment configuration and to omit declaring all the required environment variables by hand each time when running some program. This one is especially _useful in development_ (consider also [`rs-env`] and [`direnv`] for better development experience).
 
 For better understanding and familiarity with [environment variables][2] tools in [Rust] ecosystem, read through the following articles:
 - [Rust Book: 12.5. Working with Environment Variables][3]
@@ -107,8 +107,10 @@ After completing everything above, you should be able to answer (and understand 
 
 [`clap`]: https://docs.rs/clap
 [`config`]: https://docs.rs/config
+[`direnv`]: https://direnv.net
 [`dotenv`]: https://docs.rs/dotenv
 [`envy`]: https://docs.rs/envy
+[`rs-env`]: https://github.com/sysid/rs-env
 [`serde`]: https://docs.rs/serde
 [`std::env`]: https://doc.rust-lang.org/std/env/index.html
 [`std::env::Arg`]: https://doc.rust-lang.org/std/env/struct.Args.html
