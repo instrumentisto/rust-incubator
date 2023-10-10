@@ -73,7 +73,7 @@ Each step has the estimated time for completion. If any deeper investigation on 
 
 Do not hesitate to ask your mentor/lead with questions, however you won't receive any concrete answer, but rather a direction for your own investigation. _Mentor/Lead is the one who asks questions here, demanding concrete and complete answers._
 
-- [ ] [0. Become familiar with Rust basics][Step 0] (3 days)
+- [x] [0. Become familiar with Rust basics][Step 0] (3 days)
 - [ ] [1. Concepts][Step 1] (2 days, after all sub-steps)
     - [ ] [1.1. Default values, cloning and copying][Step 1.1] (1 day)
     - [ ] [1.2. Boxing and pinning][Step 1.2] (1 day)
