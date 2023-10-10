@@ -119,6 +119,7 @@ For better understanding, read through the following articles:
 - [Sylvain Kerkour: Async Rust: What is a runtime? Here is how tokio works under the hood][61]
 - [Hayden Stainsby: how I finally understood async/await in Rust (part 3)][65]
 - [Ibraheem Ahmed: Learning Async Rust With Entirely Too Many Web Servers][66]
+- [Saoirse Shipwreckt: Thread-per-core][68]
 
 
 
@@ -295,3 +296,4 @@ After completing everything above, you should be able to answer (and understand 
 [65]: https://hegdenu.net/posts/understanding-async-await-3
 [66]: https://ibraheem.ca/posts/too-many-web-servers
 [67]: https://hegdenu.net/posts/understanding-async-await-4
+[68]: https://without.boats/blog/thread-per-core
