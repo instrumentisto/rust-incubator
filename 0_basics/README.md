@@ -1,5 +1,6 @@
 Step 0: Become familiar with Rust basics
 ========================================
+Здравствуйте. Я готов к ревью.
 
 __Estimated time__: 3 days
 
