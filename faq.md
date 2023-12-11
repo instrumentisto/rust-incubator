@@ -45,6 +45,10 @@ Meetings are held four times a week on weekdays (except Tuesday) according to yo
 
 No, we usually don't record meetings. So, ensure you don't miss them.
 
+<ins>*- What should I do if my contact information has changed?*</ins><br/>
+
+If you change your GitHub username, email, or telegram, be sure to let [Stepan](https://t.me/stepko_o) know.
+
 ## Completing tasks and PR
 
 <ins>*- What is PR?*</ins><br/>
@@ -90,6 +94,10 @@ A task is marked as completed when you've made a Pull Request, and it's been rev
 <ins>*- Should I open an unfinished PR?*</ins><br/>
 
 Yes, you should. Open a PR as soon as you can, marking it with "NOT READY / DRAFT / WIP" in the title . Your mentors will review it once you remove this marker and specify [our bot](https://github.com/1tbot) as a reviewer.
+
+<ins>*- Can I merge PR?*</ins><br/>
+
+Please don`t do PR merge yourself. Your mentors make the merge themselves. 
 
 <ins>*- How many mentors need to approve before I can merge?*</ins><br/>
 
