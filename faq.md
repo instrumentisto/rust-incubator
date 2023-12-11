@@ -31,7 +31,7 @@ Firstly, ask your peers in the Bootcamp's chat. You can also post your questions
 
 It's preferable to have your code in the [playground](https://play.rust-lang.org/). This way, mentors and peers don't have to spend extra time recreating the problem.
 
-![playground_ask](https://github.com/rust-lang-ua/rust_incubator/assets/98274821/2351bddd-455f-4078-a7cb-328a7bb08ac9)
+![playground_ask](https://github.com/rust-lang-ua/bootcamp/assets/98274821/2351bddd-455f-4078-a7cb-328a7bb08ac9)
 
 <ins>*- Is the Telegram chat moderated?*</ins><br/>
 
@@ -68,13 +68,13 @@ This is the last task of the section, namely:
 Questions should be answered in writing only in them.
 
 <ins>*- Should I answer theoretical questions in PR?*</ins><br/>
-Only in the [final tasks](https://github.com/rust-lang-ua/rust_incubator/edit/master/faq.md#--what-is-the-final-task).
+Only in the [final tasks](https://github.com/rust-lang-ua/bootcamp/edit/master/faq.md#--what-is-the-final-task).
 In tasks that are not final, you do not need to answer theoretical questions. For example, in Problems 1_1, 1_2, you do not need to answer the theoretical questions in writing because they are not final.
 In the final tasks, please write your answers in the same PR as the solution to the practical problem. Do not create a separate PR to answer the questions; it will not be accepted by mentors.
 
 <ins>*- How do I start completing tasks?*</ins><br/>
 
-[Our bot](https://github.com/1tbot) will create a private fork of the main [Rust Incubator repository](https://github.com/rust-lang-ua/rust_incubator) in [our organization](https://github.com/rust-lang-ua) and invite you. For more information on how to configure the received repository, see the [instructions](https://github.com/rust-lang-ua/rust_incubator/blob/master/orientation.md#getting-started).
+[Our bot](https://github.com/1tbot) will create a private fork of the main [Rust Incubator repository](https://github.com/rust-lang-ua/bootcamp) in [our organization](https://github.com/rust-lang-ua) and invite you. For more information on how to configure the received repository, see the [instructions](https://github.com/rust-lang-ua/bootcamp/blob/master/orientation.md#getting-started).
 
 <ins>*- How and where do I send Pull Requests of completed tasks?*</ins><br/>
 
@@ -82,15 +82,14 @@ Create a separate branch for each task in your private fork. Complete the task i
 
 <ins>*- When is a task considered completed?*</ins><br/>
 
-A task is marked as completed when you've made a Pull Request, and it's been reviewed and approved by one of the reviewers. After you complete your Pull Request, remove the "NOT READY / DRAFT / WIP" marker from the title. Don't forget to specify one of your mentors as a reviewer and tag all of your mentors in the comments section.
+A task is marked as completed when you've made a Pull Request, and it's been reviewed, approved and merged. After you complete your Pull Request, remove the "NOT READY / DRAFT / WIP" marker from the title. Before merging the pull request into the main branch, you need to receive approval from at least one mentor. If more than one mentor has reviewed your Pull Request and requested changes, you must receive approval from all involved mentors. If all the conditions are executed, mentors will be able to merge your PR and task considered as completed.
 
 <ins>*- How do mentors distinguish between finished Pool Requesters and unfinished Pool Requesters?*</ins><br/>
 
-A task is marked as completed when you've made a Pull Request, and it's been reviewed and approved by one of the reviewers. After you complete your Pull Request, remove the "NOT READY / DRAFT / WIP" marker from the title. Don't forget to specify one of your mentors as a reviewer and tag all of your mentors in the comments section.
-
+A task is marked as completed when you've made a Pull Request, and it's been reviewed and approved by one of the reviewers. After you complete your Pull Request, remove the "NOT READY / DRAFT / WIP" marker from the title. 
 <ins>*- Should I open an unfinished PR?*</ins><br/>
 
-Yes, you should. Open a PR as soon as you can, marking it with "NOT READY / DRAFT / WIP" in the title. Your mentors will review it once you remove this marker and mention them in the PR's description.
+Yes, you should. Open a PR as soon as you can, marking it with "NOT READY / DRAFT / WIP" in the title. Your mentors will review it once you remove this marker and mention them in the PR's.
 
 <ins>*- How many mentors need to approve before I can merge?*</ins><br/>
 
@@ -110,7 +109,7 @@ Add the main repository as a remote.
 
 ```bash
 # Add the remote
-git remote add upstream git@github.com:rust-lang-ua/rust_incubator.git
+git remote add upstream git@github.com:rust-lang-ua/bootcamp.git
 # Fetch the changes from the repository
 git fetch --all
 # Merge the changes
@@ -138,7 +137,7 @@ cd your_repo
 Since this is a new clone, we are going to need to setup a new remote for the template repository.
 
 ```bash
-git remote add upstream https://github.com/rust-lang-ua/rust_incubator.git
+git remote add upstream https://github.com/rust-lang-ua/bootcamp.git
 ```
 
 2. Create a new branch and reset it to the state of the `upstream/master`
