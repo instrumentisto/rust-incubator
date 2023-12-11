@@ -142,39 +142,19 @@ There are a few potential reasons for expulsion from the group, which include bu
 
 ## Getting Started
 
-Wait for the invite to your new repository from [our bot](https://github.com/1tbot). For each exercise, you'll need to create separate pull requests. Then, when the reviewer checks and approves your pull request, you can merge it into the master/main branch. After that, the exercise will be considered done.
+Wait for the invite to your new repository from [our bot](https://github.com/1tbot). For each exercise, you'll need to create separate pull requests. Then, when the reviewer checks and approves your pull request, one of your mentors will merge it into the master/main branch. After that, the exercise will be considered done.
 
-1. [Our bot](https://github.com/1tbot) will create a private fork of the main [Rust Incubator repository](https://github.com/rust-lang-ua/rust_incubator) in [our organization](https://github.com/rust-lang-ua) and invite you.
+1. [Our bot](https://github.com/1tbot) will create a private fork of the main [Rust Incubator repository](https://github.com/rust-lang-ua/bootcamp) in [our organization](https://github.com/rust-lang-ua) and invite you.
 
 2. Also, your mentors will already be in the repository.
 
-3. Stay Up-to-Date.
-
 This course is continually evolving, and it's important to stay updated with the latest changes.
-
-To keep your fork up-to-date, follow these commands:
-
-```bash
-git remote add upstream https://github.com/rust-lang-ua/rust_incubator.git
-git fetch upstream master
-git merge upstream/master --allow-unrelated-histories
-```
-
-To fetch the latest changes, use:
-```bash
-git fetch upstream master
-git merge upstream/master
-```
-
-To stay aware of any new changes, consider [watch this repository on GitHub](https://github.com/rust-lang-ua/rust_incubator/subscription) or tracking it via [RSS subscription](https://github.com/rust-lang-ua/rust_incubator/commits/master.atom).
-
-If you get the error `fatal: refusing to merge unrelated histories` add option `--allow-unrelated-histories`  flag to the last command.
 
 ## Submitting Solutions
 
-For each chapter or step of the bootcamp, you should create and submit a separate [PR (pull request)][PR]. Make sure to give your PR a [relevant title](https://github.com/rust-lang-ua/rust_incubator/blob/master/faq.md#--how-should-i-name-pr). After you've completed your pull request, please remove any markers like "NOT READY", "DRAFT", or "WIP" from the title. In the description of your pull request, remember to tag all your mentors.
+For each chapter or step of the bootcamp, you should create and submit a separate [PR (pull request)][PR]. Make sure to give your PR a [relevant title](https://github.com/rust-lang-ua/bootcamp/blob/master/faq.md#--how-should-i-name-pr). After you've completed your pull request, please remove any markers like "NOT READY", "DRAFT", or "WIP" from the title. In the description of your pull request.
 
-Before merging the pull request into the main branch, you need to receive approval from at least one mentor. If more than one mentor has reviewed your Pull Request and requested changes, you must receive approval from all involved mentors.
+Before merging the pull request into the main branch, you need to receive approval from at least one mentor. If more than one mentor has reviewed your Pull Request and requested changes, you must receive approval from all involved mentors. If all the conditions are executed, mentors will be able to merge your PR.
 
 Each step of the bootcamp is a [Cargo workspace member][workspace], meaning you can run and test it from the project root using commands like `cargo run -p step_1_8`. We highly recommend using tools like [rustfmt] and [Clippy] while writing your [Rust] code.
 
@@ -202,7 +182,7 @@ If you're feeling that the certification might be too challenging at this point,
 
 [Plagiarism]: #honor-code
 [deadlines]: #deadlines
-[Rust Incubator]: https://github.com/rust-lang-ua/rust_incubator/README.md
+[Rust Incubator]: https://github.com/rust-lang-ua/bootcamp/README.md
 [certification test]: https://www.youtube.com/watch?v=cInMjEaH1q0
 [how to fork - step by step]: ./how_to_fork.md
 [PR]: https://help.github.com/articles/github-glossary/#pull-request
