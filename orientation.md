@@ -146,7 +146,7 @@ There are a few potential reasons for expulsion from the group, which include bu
 
 Wait for the invite to your new repository from [our bot](https://github.com/1tbot). For each exercise, you'll need to create separate pull requests. Then, when the reviewer checks and approves your pull request, one of your mentors will merge it into the master/main branch. After that, the exercise will be considered done.
 
-1. [Our bot](https://github.com/1tbot) will create a private fork of the main [Rust Incubator repository](https://github.com/rust-lang-ua/bootcamp) in [our organization](https://github.com/rust-lang-ua) and invite you.
+1. [Our bot](https://github.com/1tbot) will create a private fork of the main [Rust Bootcamp repository](https://github.com/rust-lang-ua/bootcamp) in [our organization](https://github.com/rust-lang-ua) and invite you.
 
 2. Also, your mentors will already be in the repository.
 
@@ -185,7 +185,7 @@ If you're feeling that the certification might be too challenging at this point,
 
 [Plagiarism]: #honor-code
 [deadlines]: #deadlines
-[Rust Incubator]: https://github.com/rust-lang-ua/bootcamp/README.md
+[Rust Bootcamp]: https://github.com/rust-lang-ua/bootcamp/README.md
 [certification test]: https://www.youtube.com/watch?v=cInMjEaH1q0
 [how to fork - step by step]: ./how_to_fork.md
 [PR]: https://help.github.com/articles/github-glossary/#pull-request
