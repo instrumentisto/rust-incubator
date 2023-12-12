@@ -78,7 +78,7 @@ In the final tasks, please write your answers in the same PR as the solution to 
 
 <ins>*- How do I start completing tasks?*</ins><br/>
 
-[Our bot](https://github.com/1tbot) will create a private fork of the main [Rust Incubator repository](https://github.com/rust-lang-ua/bootcamp) in [our organization](https://github.com/rust-lang-ua) and invite you. For more information on how to configure the received repository, see the [instructions](https://github.com/rust-lang-ua/bootcamp/blob/master/orientation.md#getting-started).
+[Our bot](https://github.com/1tbot) will create a private fork of the main [Rust Bootcamp repository](https://github.com/rust-lang-ua/bootcamp) in [our organization](https://github.com/rust-lang-ua) and invite you. For more information on how to configure the received repository, see the [instructions](https://github.com/rust-lang-ua/bootcamp/blob/master/orientation.md#getting-started).
 
 <ins>*- How and where do I send Pull Requests of completed tasks?*</ins><br/>
 
