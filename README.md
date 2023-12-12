@@ -4,7 +4,7 @@ Rust Bootcamp
 > "It wasn't always so clear, but the Rust programming language is fundamentally about _empowerment_: no matter what kind of code you are writing now, Rust empowers you to reach farther, to program with confidence in a wider variety of domains than you did before."
 _<div align="right">Rust Book's Foreword</div>_
 
-In this bootcamp, you will participate in the [Rust Incubator], a rigorous, step-by-step Rust certification program 🏆. The aim of this program is to shape you into a proficient **Strong Junior** Rust Developer. Indeed, with this rigorous training, you will find yourself better prepared than developers switching from other languages without a similar level of instruction. If you are a mid- or senior-level developer transitioning to Rust, you can confidently target **Middle-level** positions after achieving this certification.
+In this bootcamp, you will participate in the [Rust Bootcamp], a rigorous, step-by-step Rust certification program 🏆. The aim of this program is to shape you into a proficient **Strong Junior** Rust Developer. Indeed, with this rigorous training, you will find yourself better prepared than developers switching from other languages without a similar level of instruction. If you are a mid- or senior-level developer transitioning to Rust, you can confidently target **Middle-level** positions after achieving this certification.
 
 ## Prerequisites
 
@@ -180,7 +180,7 @@ Please, read [instructions][Submitting Solutions].
 [Rustdoc Book]: https://doc.rust-lang.org/rustdoc
 [Clippy]: https://github.com/rust-lang/rust-clippy
 [rustfmt]: https://github.com/rust-lang/rustfmt
-[Rust Incubator]: https://github.com/rust-lang-ua/rust_incubator
+[Rust Bootcamp]: https://github.com/rust-lang-ua/bootcamp
 [Fork As Template]: https://help.github.com/en/articles/creating-a-repository-from-a-template
 [rustup]: https://rustup.rs
 [This Week in Rust]: https://this-week-in-rust.org
