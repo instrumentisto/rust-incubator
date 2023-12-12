@@ -6,6 +6,7 @@ Congratulation! You've almost done it!
 Create a portfolio project using Rust within a one-week timeframe. The project should showcase your proficiency in Rust, demonstrate your coding style, and highlight your problem-solving skills. The goal is to create a functional project that can be presented to potential employers or shared with the programming community.
 
 > ❗️ Please create a new public repository for your capstone project.
+
 > ❗️ Open a PR to the master/main branch so that mentors can leave feedback on your project. 
 
 ## Step 6.1: Agree on your capstone project
