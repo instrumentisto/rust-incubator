@@ -84,6 +84,8 @@ Each chapter of our program has its own deadline. Please note that some chapters
 
 We encourage you to meet all deadlines to maximize your learning experience and successfully complete the boot camp.
 
+Deadlines are set for the opening and any changes in your PR. If you managed to complete the task before the deadline, but received the approve from the mentors after the deadline, the task is still considered completed.
+
 > 💡 Advice: Tasks 4.4 and 6 are non-trivial and will easily take a week of work. Make sure you reserve more than a few days for these tasks.
 
 ### Calendar
