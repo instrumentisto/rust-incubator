@@ -154,7 +154,7 @@ This course is continually evolving, and it's important to stay updated with the
 
 ## Submitting Solutions
 
-For each chapter or step of the bootcamp, you should create and submit a separate [PR (pull request)][PR]. Make sure to give your PR a [relevant title](https://github.com/rust-lang-ua/bootcamp/blob/master/faq.md#--how-should-i-name-pr). After you've completed your pull request, please remove any markers like "NOT READY", "DRAFT", or "WIP" from the title and specify [our bot](https://github.com/1tbot) as a reviewer. In the description of your pull request.
+For each chapter or step of the bootcamp, you should create and submit a separate [PR (pull request)][PR]. Make sure to give your PR a [relevant title](https://github.com/rust-lang-ua/bootcamp/blob/master/faq.md#--how-should-i-name-pr). After you've completed your pull request, please remove any markers like "NOT READY", "DRAFT", or "WIP" from the title and specify [our bot](https://github.com/1tbot) as a reviewer and tag all of your mentors in the comments section.
 
 Please, don`t do PR merge yourself. 
 Before merging the pull request into the main branch, you need to receive approval from at least one mentor. If more than one mentor has reviewed your Pull Request and requested changes, you must receive approval from all involved mentors. If all the conditions are executed, mentors will be able to merge your PR.
