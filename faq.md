@@ -113,6 +113,8 @@ We encourage you to open an __issue__ if you see any problems.
 
 <ins>*- How can I incorporate changes from the main repository?*</ins><br/>
 
+Most likely, you won't need to merge upstream because [our bot](https://github.com/1tbot) will do it automatically. But in case you need to manually merge upstream, here are the instructions:
+
 Add the main repository as a remote.
 
 ```bash
