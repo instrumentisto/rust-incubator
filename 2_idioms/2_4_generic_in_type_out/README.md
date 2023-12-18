@@ -23,8 +23,23 @@ pub fn add_hi(v: &mut String) {
     v.push_str(" Hi")
 }
 
-#[derive(AsMut, AsRef)]
+
 pub struct Nickname(String);
+
+// Implement AsRef for Nickname
+impl AsRef<str> for Nickname {
+    fn as_ref(&self) -> &str {
+        &self.0
+    }
+}
+
+// Implement AsMut for Nickname
+impl AsMut<String> for Nickname {
+    fn as_mut(&mut self) -> &mut String {
+        &mut self.0
+    }
+}
+
 impl Nickname {
     // We want to own `nickname` inside `Nickname` value. 
     pub fn new(nickname: String) -> Self {
@@ -45,15 +60,32 @@ pub fn just_print_stringy<S: AsRef<str>>(v: S) {
     println!("{}", v.as_ref())
 }
 
-pub fn add_hi<S: AsMut<String>>(v: S) {
+pub fn add_hi<S: AsMut<String>>(mut v: S) {
     v.as_mut().push_str(" Hi")
 }
 
-impl Nickname { 
+pub struct Nickname(String);
+
+// Implement AsRef for Nickname
+impl AsRef<str> for Nickname {
+    fn as_ref(&self) -> &str {
+        &self.0
+    }
+}
+
+// Implement AsMut for Nickname
+impl AsMut<String> for Nickname {
+    fn as_mut(&mut self) -> &mut String {
+        &mut self.0
+    }
+}
+
+impl Nickname {
     pub fn new<S: Into<String>>(nickname: S) -> Self {
         Self(nickname.into())
     }
 }
+
 ```
 And now our API is pleasant to use:
 ```rust
