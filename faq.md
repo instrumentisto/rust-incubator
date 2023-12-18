@@ -78,15 +78,15 @@ In the final tasks, please write your answers in the same PR as the solution to 
 
 <ins>*- How do I start completing tasks?*</ins><br/>
 
-[Our bot](https://github.com/1tbot) will create a private fork of the main [Rust Bootcamp repository](https://github.com/rust-lang-ua/bootcamp) in [our organization](https://github.com/rust-lang-ua) and invite you. For more information on how to configure the received repository, see the [instructions](https://github.com/rust-lang-ua/bootcamp/blob/master/orientation.md#getting-started). Remember to tag all your mentors in the comments section of the PR.
+[Our bot](https://github.com/1tbot) will create a private fork of the main [Rust Bootcamp repository](https://github.com/rust-lang-ua/bootcamp) in [our organization](https://github.com/rust-lang-ua) and invite you. For more information on how to configure the received repository, see the [instructions](https://github.com/rust-lang-ua/bootcamp/blob/master/orientation.md#getting-started). Don't forget to tag all of your mentors in the comments section of the PR.
 
 <ins>*- How and where do I send Pull Requests of completed tasks?*</ins><br/>
 
-Create a separate branch for each task in your private fork. Complete the task in the corresponding branch and create a PR to your main master branch. 
+Create a separate branch for each task in your private fork. Complete the task in the corresponding branch and create a PR to your main master branch. Don't forget to tag all of your mentors in the comments section of the PR.
 
 <ins>*- When is a task considered completed?*</ins><br/>
 
-A task is marked as completed when you've made a Pull Request, and it's been reviewed, approved and merged. After you complete your Pull Request, remove the "NOT READY / DRAFT / WIP" marker from the title and specify [our bot](https://github.com/1tbot) as a reviewer and tag all of your mentors in the comments section. Before merging the pull request into the main branch, you need to receive approval from at least one mentor. If more than one mentor has reviewed your Pull Request and requested changes, you must receive approval from all involved mentors. If all the conditions are executed, mentors will be able to merge your PR and task considered as completed.
+A task is marked as completed when you've made a Pull Request, and it's been reviewed, approved and merged. After you complete your Pull Request, remove the "NOT READY / DRAFT / WIP" marker from the title and specify [our bot](https://github.com/1tbot) as a reviewer and tag all of your mentors in the comments section. Before mentor can merge your pull request into the main branch, you need to receive approval. If more than one mentor has reviewed your Pull Request and requested changes, you must receive approval from all involved mentors. If all the conditions are executed, mentors will be able to merge your PR and task considered as completed.
 
 <ins>*- How do mentors distinguish between finished Pool Requesters and unfinished Pool Requesters?*</ins><br/>
 
