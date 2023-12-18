@@ -100,6 +100,10 @@ Please, read [instructions][Submitting Solutions].
 - 📘 [Rust Book] - An indispensable guide to Rust. While it's a must-have starting point, we strongly encourage revisiting it throughout your learning journey.
 <!-- - 🗂️ Awesome List of [Learning Materials on Git][Learning Materials on Git] - Essential resources for mastering Git. -->
 
+## Credits
+
+Rustcamp materials were based on the [Rust Incubator](https://github.com/instrumentisto/rust-incubator) program created by the legendary [Kai](https://github.com/tyranron).
+
 [Step 0]: 0_basics
 [Step 1]: 1_concepts
 [Step 1.1]: 1_concepts/1_1_default_clone_copy
