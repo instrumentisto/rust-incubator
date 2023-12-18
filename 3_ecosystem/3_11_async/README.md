@@ -79,8 +79,8 @@ For better understanding [`Waker`] design, usage, and features, read through the
 Async I/O in [Rust] is possible due to two main ingredients: __[non-blocking I/O operations][1]__ provided by operating system and an __asynchronous runtime__, which wraps those operations into usable asynchronous abstractions and provides an [event loop][48] for executing and driving them to completion.
 
 For better understanding [mio] and [tokio] design, concepts, usage, and features, read through the following articles:
-- [Official `mio` crate docs][mio]
-- [Official `tokio` crate docs][tokio]
+- [Official `mio` crate docs][`mio`]
+- [Official `tokio` crate docs][`tokio`]
 - [Official `tokio` crate guide][13]
 - [Nick Cameron: Asynchronous programming with Rust: Introduction][14]
 - [Tokio on asyncronous tasks and executors][15]
