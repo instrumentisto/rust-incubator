@@ -1,10 +1,10 @@
-Rust Bootcamp
+Rust Rustcamp
 ==============
 
 > "It wasn't always so clear, but the Rust programming language is fundamentally about _empowerment_: no matter what kind of code you are writing now, Rust empowers you to reach farther, to program with confidence in a wider variety of domains than you did before."
 _<div align="right">Rust Book's Foreword</div>_
 
-In this bootcamp, you will participate in the [Rust Bootcamp], a rigorous, step-by-step Rust certification program 🏆. The aim of this program is to shape you into a proficient **Strong Junior** Rust Developer. Indeed, with this rigorous training, you will find yourself better prepared than developers switching from other languages without a similar level of instruction. If you are a mid- or senior-level developer transitioning to Rust, you can confidently target **Middle-level** positions after achieving this certification.
+In this rustcamp, you will participate in the [Rustcamp], a rigorous, step-by-step Rust certification program 🏆. The aim of this program is to shape you into a proficient **Strong Junior** Rust Developer. Indeed, with this rigorous training, you will find yourself better prepared than developers switching from other languages without a similar level of instruction. If you are a mid- or senior-level developer transitioning to Rust, you can confidently target **Middle-level** positions after achieving this certification.
 
 ## Prerequisites
 
@@ -84,7 +84,7 @@ Please, read [instructions][Submitting Solutions].
 
 ## Useful links
 
-- 🧭 [Orientation] - Maximize your bootcamp experience with these tips.
+- 🧭 [Orientation] - Maximize your rustcamp experience with these tips.
 - ⏩ [Getting Started][Getting Started] - Kick off your learning journey here.
 - 🎓 [Exercism] - Dive into coding exercises with the guidance of mentors.
 - 📚 [Learning Materials][Learning Materials] - A curated collection of top-notch Rust learning materials.
@@ -99,6 +99,10 @@ Please, read [instructions][Submitting Solutions].
 - 🐣 [Rustlings] - Small exercises designed to familiarize you with reading and writing Rust code.
 - 📘 [Rust Book] - An indispensable guide to Rust. While it's a must-have starting point, we strongly encourage revisiting it throughout your learning journey.
 <!-- - 🗂️ Awesome List of [Learning Materials on Git][Learning Materials on Git] - Essential resources for mastering Git. -->
+
+## Credits
+
+Rustcamp materials were based on the [Rust Incubator](https://github.com/instrumentisto/rust-incubator) program created by the legendary [Kai](https://github.com/tyranron).
 
 [Step 0]: 0_basics
 [Step 1]: 1_concepts
@@ -180,7 +184,7 @@ Please, read [instructions][Submitting Solutions].
 [Rustdoc Book]: https://doc.rust-lang.org/rustdoc
 [Clippy]: https://github.com/rust-lang/rust-clippy
 [rustfmt]: https://github.com/rust-lang/rustfmt
-[Rust Bootcamp]: https://github.com/rust-lang-ua/bootcamp
+[Rustcamp ]: https://github.com/rust-lang-ua/rustcamp
 [Fork As Template]: https://help.github.com/en/articles/creating-a-repository-from-a-template
 [rustup]: https://rustup.rs
 [This Week in Rust]: https://this-week-in-rust.org
