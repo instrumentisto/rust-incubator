@@ -122,6 +122,16 @@ For better understanding and familiarity with [fuzzing][31] in [Rust], read thro
 - [Integrated tests are scam (J.B. Rainsberg)][61]
 - [nextest][62]
 
+## CLI Testing
+- [assert_cmd](https://crates.io/crates/assert_cmd) - Easy command initialization and assertions.
+- [assert_fs](https://crates.io/crates/assert_fs) - Filesystem fixtures and assertions for testing.
+- [predicates](https://crates.io/crates/predicates) - Composable first-order predicate functions.
+- [rexpect](https://crates.io/crates/rexpect) - For interactive CLI testing.
+- [CLI testing](https://rust-cli.github.io/book/tutorial/testing.html)
+- [example with rexpect](https://www.rustadventure.dev/building-a-digital-garden-cli/clap-v4/testing-interactive-clis-with-rexpect)
+- [one more example](https://out-of-cheese-error.netlify.app/the-way)
+
+
 
 ## Task
 
