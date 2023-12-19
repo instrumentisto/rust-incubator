@@ -13,6 +13,8 @@ The common and obvious rules in [Rust] when choosing type for an input parameter
 
 Let's illustrate it with the following trivial examples:
 ```rust
+use derive_more::{AsRef, AsMut};
+
 // Read-only access is enough here.
 pub fn just_print_stringy(v: &str) {
     println!("{}", v)
@@ -23,22 +25,9 @@ pub fn add_hi(v: &mut String) {
     v.push_str(" Hi")
 }
 
-
+#[derive(AsMut, AsRef)]
 pub struct Nickname(String);
 
-// Implement AsRef for Nickname
-impl AsRef<str> for Nickname {
-    fn as_ref(&self) -> &str {
-        &self.0
-    }
-}
-
-// Implement AsMut for Nickname
-impl AsMut<String> for Nickname {
-    fn as_mut(&mut self) -> &mut String {
-        &mut self.0
-    }
-}
 
 impl Nickname {
     // We want to own `nickname` inside `Nickname` value. 
@@ -56,7 +45,9 @@ just_print_stringy(nickname.as_ref());
 
 The most standard way to improve ergonomics here is to __hide type conversions under-the-hood by abstracting over input types__ in our APIs:
 ```rust
-pub fn just_print_stringy<S: AsRef<str>>(v: S) {
+use derive_more::{AsRef, AsMut};
+
+pub fn just_print_stringy<S: AsRef<String>>(v: S) {
     println!("{}", v.as_ref())
 }
 
@@ -64,21 +55,8 @@ pub fn add_hi<S: AsMut<String>>(mut v: S) {
     v.as_mut().push_str(" Hi")
 }
 
+#[derive(AsMut, AsRef)]
 pub struct Nickname(String);
-
-// Implement AsRef for Nickname
-impl AsRef<str> for Nickname {
-    fn as_ref(&self) -> &str {
-        &self.0
-    }
-}
-
-// Implement AsMut for Nickname
-impl AsMut<String> for Nickname {
-    fn as_mut(&mut self) -> &mut String {
-        &mut self.0
-    }
-}
 
 impl Nickname {
     pub fn new<S: Into<String>>(nickname: S) -> Self {
