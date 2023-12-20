@@ -3,6 +3,8 @@ Step 0: Building Up an Vocabulary
 
 __Estimated time__: 4 days
 
+> ❗️ It is important to open a Pull Request this week( until 24/12/2023 ). And add the answer to at least 1 question to it.
+
 Read through [Rust Book], [Rust FAQ], and become familiar with basic [Rust] concepts, syntax, memory model, type and module systems.
 
 Polish your familiarity by completing [Rust By Example] and [rustlings].
