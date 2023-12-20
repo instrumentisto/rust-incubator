@@ -3,7 +3,7 @@ Step 0: Building Up an Vocabulary
 
 __Estimated time__: 4 days
 
-> ❗️ To meet the first deadline you must open a Pull Request within the first week by Sunday. And add the answer to at least 1 question to it.
+> ❗️ To meet the first deadline, please open a Pull Request by Sunday of  the first week and include answers to at least one question in it.
 
 Read through [Rust Book], [Rust FAQ], and become familiar with basic [Rust] concepts, syntax, memory model, type and module systems.
 
