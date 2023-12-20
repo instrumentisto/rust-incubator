@@ -13,6 +13,8 @@ The common and obvious rules in [Rust] when choosing type for an input parameter
 
 Let's illustrate it with the following trivial examples:
 ```rust
+use derive_more::{AsRef, AsMut};
+
 // Read-only access is enough here.
 pub fn just_print_stringy(v: &str) {
     println!("{}", v)
@@ -25,6 +27,8 @@ pub fn add_hi(v: &mut String) {
 
 #[derive(AsMut, AsRef)]
 pub struct Nickname(String);
+
+
 impl Nickname {
     // We want to own `nickname` inside `Nickname` value. 
     pub fn new(nickname: String) -> Self {
@@ -41,19 +45,25 @@ just_print_stringy(nickname.as_ref());
 
 The most standard way to improve ergonomics here is to __hide type conversions under-the-hood by abstracting over input types__ in our APIs:
 ```rust
-pub fn just_print_stringy<S: AsRef<str>>(v: S) {
+use derive_more::{AsRef, AsMut};
+
+pub fn just_print_stringy<S: AsRef<String>>(v: S) {
     println!("{}", v.as_ref())
 }
 
-pub fn add_hi<S: AsMut<String>>(v: S) {
+pub fn add_hi<S: AsMut<String>>(mut v: S) {
     v.as_mut().push_str(" Hi")
 }
 
-impl Nickname { 
+#[derive(AsMut, AsRef)]
+pub struct Nickname(String);
+
+impl Nickname {
     pub fn new<S: Into<String>>(nickname: S) -> Self {
         Self(nickname.into())
     }
 }
+
 ```
 And now our API is pleasant to use:
 ```rust
