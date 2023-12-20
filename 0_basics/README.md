@@ -102,5 +102,5 @@ Additional:
 [26]: https://github.com/rust-lang-ua/learn_rust_together/blob/master/introduction.md
 [27]: https://github.com/rust-lang-ua/learn_rust_together/blob/master/toolbox_general.md
 [28]: https://github.com/rust-lang-ua/learn_rust_together/blob/master/learn.md
-[29]: https://github.com/Learn-Together-Pro/ComputerScience/blob/master/cheatsheets.md#asynchronous-vs-multithreading
+[29]: https://github.com/Learn-Together-Pro/ComputerScience/blob/master/gcs/cheatsheets.md#asynchronous-vs-multithreading
 [30]: https://dev.to/vikram2784/beyond-pointers-how-rust-outshines-c-with-its-borrow-checker-1mad
