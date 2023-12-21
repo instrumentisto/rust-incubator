@@ -97,7 +97,7 @@ Yes, you should. Open a PR as soon as you can, marking it with "NOT READY / DRAF
 
 <ins>*- Can I merge PR?*</ins><br/>
 
-Please don`t do PR merge yourself. Your mentors make the merge themselves. 
+Please don't do PR merge yourself. Your mentors make the merge themselves. 
 
 <ins>*- How many mentors need to approve before I can merge?*</ins><br/>
 
