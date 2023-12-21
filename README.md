@@ -102,7 +102,7 @@ Please, read [instructions][Submitting Solutions].
 
 ## Credits
 
-Rustcamp materials were based on the [Rust Incubator](https://github.com/instrumentisto/rust-incubator) program created by the legendary [Kai](https://github.com/tyranron) 💜
+Rustcamp materials were based on the [Rust Incubator](https://github.com/instrumentisto/rust-incubator) program created by the legendary [Kai](https://github.com/tyranron) 💜 and Member of the Jedi High Council [Luca Palmieri](https://github.com/LukeMathWalker) 🧙‍♂️
 
 [Step 0]: 0_basics
 [Step 1]: 1_concepts
