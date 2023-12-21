@@ -7,7 +7,7 @@
 <!-- Remove everything above before submitting this PR. -->
 
 
-<!-- Name this PR as: "Step <step-number>: <step-name>". -->
+<!-- Name this PR as: "task_<task_number>". -->
 
 Resolves [Step <!-- paste step number -->](<!-- paste step link -->)
 
