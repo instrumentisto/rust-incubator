@@ -116,7 +116,7 @@ Our certification process is meticulously designed to maintain the highest level
 
 During the certification test, participants will be [supervised by a proctor][certification test]. We require participants to use two cameras and share their desktop throughout the test to prevent any unauthorized communication. In addition, we will monitor all active processes on the participant's computer at the beginning and during the test to curb any fraudulent activities.
 
-It's important to note that passing the certification test is challenging due to its intricate and tricky questions. Each participant is granted **only one attempt** to pass the test. However, a condensed version of the test will be publicly available for practice. Participants who complete the first or second part of the program ahead of others, or those whose capstone project receives the most likes from mentors during presentation, will be awarded an extra attempt. We recommend utilizing available online quizzes as part of your **preparation for the certification test**. This method will help you thoroughly understand the topics related to any questions you might stumble upon.
+It's important to note that passing the certification test is challenging due to its intricate and tricky questions. Each participant has two attempts to pass the test. One attempt is shortened and one is basic. A shortened attempt is an opportunity to complete 10 questions in 10 minutes. If all the questions are correct, you can get a certificate based on the score of the shortened attempt. Participants who complete the first or second part of the program ahead of others, or those whose capstone project receives the most likes from mentors during presentation, will be awarded an extra attempt. We recommend utilizing available online quizzes as part of your **preparation for the certification test**. This method will help you thoroughly understand the topics related to any questions you might stumble upon.
 
 Any attempt to cheat during the certification test will lead to immediate expulsion from the boot camp.
 
@@ -156,7 +156,7 @@ This course is continually evolving, and it's important to stay updated with the
 
 For each chapter or step of the rustcamp, you should create and submit a separate [PR (pull request)][PR]. Make sure to give your PR a [relevant title](https://github.com/rust-lang-ua/rustcamp/blob/master/faq.md#--how-should-i-name-pr). After you've completed your pull request, please remove any markers like "NOT READY", "DRAFT", or "WIP" from the title and specify [our bot](https://github.com/1tbot) as a reviewer and tag all of your mentors in the comments section.
 
-Please, don`t do PR merge yourself. 
+Please, don't do PR merge yourself. 
 Before merging the pull request into the main branch, you need to receive approval from at least one mentor. If more than one mentor has reviewed your Pull Request and requested changes, you must receive approval from all involved mentors. If all the conditions are executed, mentors will be able to merge your PR.
 
 Each step of the rustcamp is a [Cargo workspace member][workspace], meaning you can run and test it from the project root using commands like `cargo run -p step_1_8`. We highly recommend using tools like [rustfmt] and [Clippy] while writing your [Rust] code.

@@ -88,7 +88,7 @@ Create a separate branch for each task in your private fork. Complete the task i
 
 A task is marked as completed when you've made a Pull Request, and it's been reviewed, approved and merged. After you complete your Pull Request, remove the "NOT READY / DRAFT / WIP" marker from the title and specify [our bot](https://github.com/1tbot) as a reviewer and tag all of your mentors in the comments section. Before mentor can merge your pull request into the main branch, you need to receive approval. If more than one mentor has reviewed your Pull Request and requested changes, you must receive approval from all involved mentors. If all the conditions are executed, mentors will be able to merge your PR and task considered as completed.
 
-<ins>*- How do mentors distinguish between finished Pool Requesters and unfinished Pool Requesters?*</ins><br/>
+<ins>*- How do mentors distinguish between finished Pull Requesters and unfinished Pull Requesters?*</ins><br/>
 
 A task is marked as completed when you've made a Pull Request, and it's been reviewed and approved by one of the reviewers. After you complete your Pull Request, remove the "NOT READY / DRAFT / WIP" marker from the title and specify [our bot](https://github.com/1tbot) as a reviewer and tag all of your mentors in the comments section.
 <ins>*- Should I open an unfinished PR?*</ins><br/>
@@ -97,7 +97,7 @@ Yes, you should. Open a PR as soon as you can, marking it with "NOT READY / DRAF
 
 <ins>*- Can I merge PR?*</ins><br/>
 
-Please don`t do PR merge yourself. Your mentors make the merge themselves. 
+Please don't do PR merge yourself. Your mentors make the merge themselves. 
 
 <ins>*- How many mentors need to approve before I can merge?*</ins><br/>
 
