@@ -141,6 +141,15 @@ There are a few potential reasons for expulsion from the group, which include bu
 - Choosing to withdraw on your own accord
 
 > 💡 Advice: If circumstances require you to leave the group prematurely, please do so with respect and professionalism. We encourage you to provide a brief, public explanation or acknowledgment prior to your departure. Please remember, we're all human and understand that unforeseen circumstances can arise. Rest assured, there will be no hard feelings if you must leave the boot camp early.
+> 
+
+### Exclusion algorithm
+
+- Write to the person responsible for the expulsion of students - [Stepan](https://t.me/stepko_o)
+- Say goodbye and thank you to everyone in a telegramm chat.
+- Log out of the chat within 24 hours.
+
+> 💡 Those expelled may participate in the next bootcamp. On general terms and conditions
 
 ## Getting Started
 
