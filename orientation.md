@@ -130,6 +130,18 @@ Please be **respectful and polite** to peers and mentors.
 
 > 💡 Advice: mutual support is our *value*. Don't underestimate the importance of soft skills.
 
+### Deadlines
+
+__Soft Deadline: Thursday 00:00__
+- By this time, you should have submitted your latest version of the PR
+- If you do not do this, you get a foul
+- Mentors check your PR over the next day or two, and by Sunday you receive an aprove
+- 3 fouls received means expulsion from the bootcamp
+> 💡 If you still have corrections to make after Thursday, you can make them before the hard deadline - but this is also a foul (so try to have the final version of your PR by Thursday)
+
+__Hard deadline: Sunday 00:00__
+- If by this time you still haven't submitted your PR or made the last edits, you are out of the bootcamp
+
 ### Expulsion
 
 There are a few potential reasons for expulsion from the group, which include but are not limited to:
