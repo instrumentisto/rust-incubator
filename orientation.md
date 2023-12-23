@@ -130,6 +130,18 @@ Please be **respectful and polite** to peers and mentors.
 
 > 💡 Advice: mutual support is our *value*. Don't underestimate the importance of soft skills.
 
+### Deadlines
+
+__Soft Deadline: Thursday 00:00__
+- By this time, you should have submitted your latest version of the PR
+- If you do not do this, you get a foul
+- Mentors check your PR over the next day or two, and by Sunday you receive an aprove
+- 3 fouls received means expulsion from the bootcamp
+> 💡 If you still have corrections to make after Thursday, you can make them before the hard deadline - but this is also a foul (so try to have the final version of your PR by Thursday)
+
+__Hard deadline: Sunday 00:00__
+- If by this time you still haven't submitted your PR or made the last edits, you are out of the bootcamp
+
 ### Expulsion
 
 There are a few potential reasons for expulsion from the group, which include but are not limited to:
@@ -141,6 +153,15 @@ There are a few potential reasons for expulsion from the group, which include bu
 - Choosing to withdraw on your own accord
 
 > 💡 Advice: If circumstances require you to leave the group prematurely, please do so with respect and professionalism. We encourage you to provide a brief, public explanation or acknowledgment prior to your departure. Please remember, we're all human and understand that unforeseen circumstances can arise. Rest assured, there will be no hard feelings if you must leave the boot camp early.
+> 
+
+### Exclusion algorithm
+
+- Write to the person responsible for the expulsion of students - [Stepan](https://t.me/stepko_o)
+- Say goodbye to everyone in a telegram chat. (You can also write your feedback and tell the reason of your living if you want).
+- Log out of the chat within 24 hours.
+
+> 💡 Those expelled may participate in the next bootcamp. On general terms and conditions
 
 ## Getting Started
 
