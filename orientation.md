@@ -158,7 +158,7 @@ There are a few potential reasons for expulsion from the group, which include bu
 ### Exclusion algorithm
 
 - Write to the person responsible for the expulsion of students - [Stepan](https://t.me/stepko_o)
-- Say goodbye and thank you to everyone in a telegramm chat.
+- Say goodbye to everyone in a telegram chat. (You can also write your feedback and tell the reason of your living if you want).
 - Log out of the chat within 24 hours.
 
 > 💡 Those expelled may participate in the next bootcamp. On general terms and conditions
