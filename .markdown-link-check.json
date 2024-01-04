@@ -31,6 +31,8 @@
   }, {
     "pattern": "^https://www.mysql.com"
   }, {
+    "pattern": "^https://www.reddit.com"
+  }, {
     "pattern": "^https://web.archive.org/web/"
   }, {
     "pattern": "^https://www.patreon.com/stjepang"
