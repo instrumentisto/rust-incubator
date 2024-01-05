@@ -35,9 +35,9 @@ impl CommandHandler<CreateUser> for User {
     type Context = dyn UserRepository;
     type Result = Result<(), UserError>;
     
-    fn handle_command(&self, cmd: &C, ctx: &Self::Context) -> Self::Result {
-        // Here we operate with UserRepository
-        // via its trait object: &dyn UserRepository
+    fn handle_command(&self, cmd: &CreateUser, user_repo: &Self::Context) -> Self::Result {
+        // Here we operate with the `UserRepository`
+        // via its trait object `&dyn UserRepository`
     }
 }
 ```
