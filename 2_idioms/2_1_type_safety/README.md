@@ -1,8 +1,6 @@
 Step 2.1: Rich types ensure correctness
 =======================================
 
-__Estimated time__: 1 day
-
 [Rust] has a rich type system which allows to express our program primitives, entities, notions, logic and semantics mostly in types, rather than in data/values, which is known as a "programming with types" concept. The benefits of this are obvious: the more compiler knows about our problem - the more false programs it will decline. Or, rephrased: __the more we describe about the program in types - the more we reduce the probability for the program to be incorrect__.
 
 "Programming with types" inevitably implies its own idioms and patterns. The most common are described below.
@@ -101,12 +99,18 @@ For better understanding [typestates][3], read through the following articles:
 - [Ana Hobden: Pretty State Machine Patterns in Rust][4]
 - [Will Crichton: Type-level Programming in Rust][6]
 - [Sergey Potapov: Builder with typestate in Rust][8]
-- [Azriel Hoh: Compile Time Correctness: Type State][9]
+- [State Pattern - Design Patterns][9]
+- [Azriel Hoh: Compile Time Correctness: Type State][11]
 
 
 
 
 ## Task
+
+__Estimated time__: 1 day
+
+
+
 
 For the `Post` type described above, assume the following behavior in our application:
 ```
@@ -121,7 +125,7 @@ For the `Post` type described above, assume the following behavior in our applic
 ```
 
 Implement this behavior using [typestates idiom][3], so that calling `delete()` on `New` post (or calling `deny()` on `Deleted` post) will be a compile-time error.
-
+Write simple tests for the task.
 
 
 
@@ -150,5 +154,6 @@ After completing everything above, you should be able to answer (and understand 
 [7]: https://lexi-lambda.github.io/blog/2019/11/05/parse-don-t-validate
 [7_ru]: https://habr.com/ru/post/498042
 [8]: https://www.greyblake.com/blog/builder-with-typestate-in-rust
-[9]: https://peace.mk/blog/compile-time-correctness-type-state
+[9]: https://www.youtube.com/watch?v=N12L5D78MAA
+[11]: https://peace.mk/blog/compile-time-correctness-type-state
 [10]: https://fettblog.eu/refactoring-rust-abstraction-newtype

@@ -1,8 +1,6 @@
 Step 3.2: Declarative and procedural macros
 ===========================================
 
-__Estimated time__: 1 day
-
 [Rust] provides strong and convenient built-in capabilities for code generation in a form of [macros][1].
 
 > The term macro refers to a family of features in Rust: _declarative_ macros with `macro_rules!` and three kinds of _procedural_ macros:
@@ -109,19 +107,27 @@ For better understanding procedural macros design, concepts, usage and features,
 - [Official `venial` crate docs][`venial`]
 - [Official `quote` crate docs][`quote`]
 - [Official `proc-macro2` crate docs][`proc-macro2`]
-- [Nazmul Idris: Guide to Rust procedural macros][32]
+- [Nazmul Idris: Guide to Rust procedural macros][34]
 - [Vitaly Bragilevsky: What Every Rust Developer Should Know About Macro Support in IDEs][31]
-- [Arthur Cohen: Looking at Rust builtin derives][33]
+- [Proc macro workshop][32]
+- [Macros in Rust: A tutorial with examples][33]
+- [Arthur Cohen: Looking at Rust builtin derives][35]
 
 
 
 
 ## Task
 
+__Estimated time__: 1 day
+
+
+
+
 Implement a `btreemap!` macro, which allows to create [`BTreeMap`] in an ergonomic and declarative way (similarly to `vec!`).
 
 Provide two implementations: one via declarative macro and other one via procedural macro.
 
+Prove your implementation correctness with tests.
 
 
 
@@ -167,5 +173,7 @@ After completing everything above, you should be able to answer (and understand 
 [29]: https://doc.rust-lang.org/reference/procedural-macros.html#derive-macros
 [30]: https://hackmd.io/mxdn4U58Su-UQXwzOHpHag?view#round-13-cargo-timing-opt-j8
 [31]: https://blog.jetbrains.com/rust/2022/12/05/what-every-rust-developer-should-know-about-macro-support-in-ides
-[32]: https://developerlife.com/2022/03/30/rust-proc-macro
-[33]: https://cohenarthur.github.io/2023/06/05/rust-derives.html
+[32]: https://github.com/dtolnay/proc-macro-workshop
+[33]: https://blog.logrocket.com/macros-in-rust-a-tutorial-with-examples/
+[34]: https://developerlife.com/2022/03/30/rust-proc-macro
+[35]: https://cohenarthur.github.io/2023/06/05/rust-derives.html

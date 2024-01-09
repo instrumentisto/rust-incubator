@@ -1,8 +1,6 @@
 Step 2: Idioms
 ==============
 
-__Estimated time__: 2 days
-
 These steps describe common idioms required for writing well-designed and idiomatic [Rust] code.
 
 > ❗️Before completing this step you should complete all its sub-steps.
@@ -19,6 +17,11 @@ After doing them you should be able to answer the following questions:
 
 ## Task
 
+__Estimated time__: 2 days
+
+
+
+
 Design and implement a `VendingMachine` type, which behaves like a [vending machine][1]:
 - `Product` should have a price and a name;
 - `VendingMachine` should have a limited capacity of `Product`s;
@@ -34,3 +37,5 @@ Make its usage API as convenient as you're capable to.
 [Rust]: https://www.rust-lang.org
 
 [1]: https://en.wikipedia.org/wiki/Vending_machine
+[2]: https://doc.rust-lang.org/book/ch11-03-test-organization.html
+[3]: https://youtu.be/Vw8BFScm0K0

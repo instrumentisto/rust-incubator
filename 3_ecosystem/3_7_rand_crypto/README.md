@@ -1,8 +1,6 @@
 Step 3.7: Randomness and cryptography
 =====================================
 
-__Estimated time__: 1 day
-
 
 
 
@@ -18,7 +16,7 @@ For random values generation [Rust] ecosystem has the [`rand`] crate, providing 
 One of the most common cases when you need to deal with generating random values is a generation of universally unique identifiers (such as [UUID]). Fortunately, [Rust] has the [`uuid`] crate already, which implements [all versions of UUID specification][3].
 
 More reading:
-- [Aleksey Kladov: On Random Numbers][16]
+- [Aleksey Kladov: On Random Numbers][20]
 - [Orhun Parmaksız: Zero-dependency random number generation in Rust][17]
 
 
@@ -112,11 +110,16 @@ Despite the fact it's quite a feature rich solution, it [lacks good support for 
 ## More reading
 
 - [Sylvain Kerkour: Overview of the Rust cryptography ecosystem][15] (Tue, Aug 24, 2021)
-
+- [Cheatsheat on cyphering, hashing adn security][16]
 
 
 
 ## Task
+
+__Estimated time__: 1 day
+
+
+
 
 Implement the following functions:
 1. `generate_password()`: generates random password of given length and symbols set;
@@ -182,7 +185,9 @@ After completing everything above, you should be able to answer (and understand 
 [13]: https://codahale.com/a-lesson-in-timing-attacks
 [14]: https://docs.rs/rustls/#non-features
 [15]: https://kerkour.com/blog/rust-cryptography-ecosystem
-[16]: https://matklad.github.io/2023/01/04/on-random-numbers.html 
+[16]: https://cheatsheetseries.owasp.org/index.html
 [17]: https://blog.orhun.dev/zero-deps-random-in-rust
 [18]: https://github.com/awslabs/aws-lc-rs#motivation
 [19]: https://aws.amazon.com/blogs/opensource/introducing-aws-libcrypto-for-rust-an-open-source-cryptographic-library-for-rust
+[20]: https://matklad.github.io/2023/01/04/on-random-numbers.html 
+

@@ -1,9 +1,6 @@
 Step 3.4: Regular expressions and custom parsers
 ================================================
 
-__Estimated time__: 1 day
-
-
 
 
 ## Regular expressions
@@ -74,6 +71,11 @@ For better understanding parsing problem and approaches, along with some example
 
 
 ## Task
+
+__Estimated time__: 1 day
+
+
+
 
 Given the following [Rust `fmt` syntax grammar][7]:
 > ```

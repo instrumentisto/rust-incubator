@@ -1,8 +1,6 @@
 Step 3.8: Logging and tracing
 =============================
 
-__Estimated time__: 1 day
-
 [Rust] has flexible type system and [metaprogramming][1] capabilities, allowing to build both efficient and highly reusable log system. The idea is very similar to [`serde`] and is introduced in a widely used [`log`], [`slog`] and [`tracing`] crates.
 
 
@@ -52,11 +50,17 @@ Speaking of [tracing][10], the [`tracing`] crate has good integrations with [Ope
 For better understanding and familiarity with [`tracing`]'s design, concepts, usage, and features, read through the following articles:
 - [Official `tracing` crate docs][`tracing`]
 - [Yoav Danieli: Guide to OpenTelemetry Distributed Tracing in Rust][11]
+- [Tokio Blog: Diagnostics with Tracing][13]
 
 
 
 
 ## Task
+
+__Estimated time__: 1 day
+
+
+
 
 Implement two loggers:
 1. Global main `app.log` logger which prints all its logs to `STDOUT`, but `WARN` level (and higher) logs to `STDERR`.
@@ -109,3 +113,4 @@ After completing everything above, you should be able to answer (and understand 
 [10]: https://en.wikipedia.org/wiki/Tracing_(software)
 [11]: https://www.aspecto.io/blog/distributed-tracing-with-opentelemetry-rust
 [12]: https://www.thecodedmessage.com/posts/logging
+[13]: https://tokio.rs/blog/2019-08-tracing

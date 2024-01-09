@@ -1,8 +1,6 @@
 Step 3: Common ecosystem
 ========================
 
-__Estimated time__: 2 days
-
 These steps describe common crates and tools in [Rust] ecosystem required for application and library development.
 
 > ❗️Before completing this step you should complete all its sub-steps.
@@ -23,9 +21,23 @@ After doing them you should be able to answer the following questions:
 - What are actors? When are they useful?
 
 
+## Some usefull tools
 
+- [cross-rs/cross](https://github.com/cross-rs/cross)
+- [cargo-hack](https://github.com/taiki-e/cargo-hack)
+- [Miri: unsafe core interpreter](https://github.com/rust-lang/miri)
+- [cargo-outdated](https://crates.io/crates/cargo-outdated)
+- [cargo-modules](https://github.com/regexident/cargo-modules)
+- [cargo-make](https://github.com/sagiegurari/cargo-make)
+- [cargo-audit](https://github.com/RustSec/rustsec/tree/main/cargo-audit)
+- [Rust Developer's Toolbox](https://github.com/rust-lang-ua/learn_rust_together/blob/master/toolbox_general.md)
 
 ## Task
+
+__Estimated time__: 2 days
+
+
+
 
 Write a [CLI] tool for stripping [JPEG] images [metadata][21] and minimizing their size (a simplified analogue of [tinyjpg.com]).
 

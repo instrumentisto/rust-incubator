@@ -1,8 +1,6 @@
 Step 1.9: Phantom types
 =======================
 
-__Estimated time__: 1 day
-
 Because [Rust] has a rich type system, a programming logic and semantics are mostly expressed in types rather than in data/values, which is known as a "programming with types" concept. Often, this leads to situations where you need to express some type relations without having any values of those types. Here is where [phantom types][5] come in: they carry some semantics on type level, which invariants are checked by compiler, and are totally compiled out in runtime.
 
 > A phantom type parameter is simply a type parameter which is never used.
@@ -95,7 +93,6 @@ For better understanding [`PhantomData`] purpose, design, limitations and use ca
 
 
 
-
 ## Transparency
 
 [`PhantomData`] is transparent for [auto traits][7], which means, for example, that `PhantomData<usize>` is `Send` and `Sized`, while `PhantomData<dyn Any>` is neither `Send` nor `Sized`.
@@ -166,6 +163,11 @@ For more detailed explanation, read through the following articles:
 
 
 ## Task
+
+__Estimated time__: 1 day
+
+
+
 
 Implement a `Fact<T>` type which returns some random fact about `T` type that `Fact<T>` is implemented for.
 

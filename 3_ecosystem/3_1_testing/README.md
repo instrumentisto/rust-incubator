@@ -1,8 +1,6 @@
 Step 3.1: Testing and mocking
 =============================
 
-__Estimated time__: 1 day
-
 [Rust] testing ecosystem [is not huge, but has grown quite well][1], providing some interesting libraries and solutions.
 
 
@@ -116,12 +114,31 @@ For better understanding and familiarity with [fuzzing][31] in [Rust], read thro
 
 ## More reading
 
-- [Aleksey Kladov: How to Test][61]
+- [Aleksey Kladov: How to Test][63]
 
+
+## Integrated tests
+
+- [Integrated tests are scam (J.B. Rainsberg)][61]
+- [nextest][62]
+
+## CLI Testing
+- [assert_cmd](https://crates.io/crates/assert_cmd) - Easy command initialization and assertions.
+- [assert_fs](https://crates.io/crates/assert_fs) - Filesystem fixtures and assertions for testing.
+- [predicates](https://crates.io/crates/predicates) - Composable first-order predicate functions.
+- [rexpect](https://crates.io/crates/rexpect) - For interactive CLI testing.
+- [CLI testing](https://rust-cli.github.io/book/tutorial/testing.html)
+- [example with rexpect](https://www.rustadventure.dev/building-a-digital-garden-cli/clap-v4/testing-interactive-clis-with-rexpect)
+- [one more example](https://out-of-cheese-error.netlify.app/the-way)
 
 
 
 ## Task
+
+__Estimated time__: 1 day
+
+
+
 
 For the implementation of a small [guessing game][51] in [this step's crate](src/main.rs) provide all possible tests you're able to write.
 
@@ -133,7 +150,7 @@ For the implementation of a small [guessing game][51] in [this step's crate](src
 After completing everything above, you should be able to answer (and understand why) the following questions:
 - What is TDD style? What is BDD style? Where is the essential accent of BDD?
 - What is mocking? When is it useful?
-- What is property testing? How does it achieve its goals?
+- What is property-based testing? How does it achieve its goals?
 - What is fuzzing? How does it differ from property testing?
 
 
@@ -175,4 +192,6 @@ After completing everything above, you should be able to answer (and understand 
 [44]: https://audunhalland.github.io/blog/how-to-write-a-type-level-mock-library-in-rust
 [45]: https://blog.logrocket.com/mocking-rust-mockall-alternatives
 [51]: https://doc.rust-lang.org/book/ch02-00-guessing-game-tutorial.html
-[61]: https://matklad.github.io/2021/05/31/how-to-test.html
+[61]: https://www.youtube.com/watch?v=VDfX44fZoMc
+[62]: https://nexte.st/
+[63]: https://matklad.github.io/2021/05/31/how-to-test.html

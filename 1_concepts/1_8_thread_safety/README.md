@@ -1,8 +1,6 @@
 Step 1.8: Thread safety
 =======================
 
-__Estimated time__: 1 day
-
 [Rust] has [`Send`] and [`Sync`] marker traits which are fundamental for concurrency and thread safety story in [Rust] and represent one of [fearless concurrency][2] corner stones (which allow to [avoid data races][1] at compile time).
 
 For better understanding [`Send`]/[`Sync`] purpose, design, limitations and use cases, read through the following articles:
@@ -20,6 +18,11 @@ For better understanding [`Send`]/[`Sync`] purpose, design, limitations and use 
 
 
 ## Task
+
+__Estimated time__: 1 day
+
+
+
 
 Implement the following types, which meet conditions:
 1. `OnlySync` is `Sync`, but `!Send`.

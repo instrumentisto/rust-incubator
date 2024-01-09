@@ -1,8 +1,6 @@
 Step 1: Concepts
 ================
 
-__Estimated time__: 2 days
-
 These steps describe common and necessary-to-know concepts for everyday programming in [Rust].
 
 > ❗️Before completing this step you should complete all its sub-steps.
@@ -22,13 +20,22 @@ The following articles may help you to sum up your experience:
 - [Wrapper Types in Rust: Choosing Your Guarantees][1]
 - [Rust, Builder Pattern, Trait Objects, `Box<T>` and `Rc<T>`][2]
 - [Rust's Built-in Traits, the When, How & Why][3]
-
+- [Learn Rust With Entirely Too Many Linked Lists][4]
+- [Rustonomicon: Subtyping and Variance][13]
+- [Crust of Rust: Subtyping and Variance][14]
 
 
 
 ## Task
 
+__Estimated time__: 2 days
+
+
+
+
 Provide your own implementation of [doubly linked list][11] data structure. It should be [thread safe][12] without a necessity to use explicit synchronization primitives (like `Arc<Mutex<T>>`) on top of it.
+
+> ❗️ Don't use unsafe for this task.
 
 Prove your implementation correctness with tests. Provide both single-threaded and multi-threaded examples of usage.  
 
@@ -40,5 +47,8 @@ Prove your implementation correctness with tests. Provide both single-threaded a
 [1]: https://manishearth.github.io/blog/2015/05/27/wrapper-types-in-rust-choosing-your-guarantees
 [2]: https://abronan.com/rust-trait-objects-box-and-rc
 [3]: https://llogiq.github.io/2015/07/30/traits.html
+[4]: https://rust-unofficial.github.io/too-many-lists/
 [11]: https://en.wikipedia.org/wiki/Doubly_linked_list
 [12]: https://en.wikipedia.org/wiki/Thread_safety
+[13]: https://doc.rust-lang.org/nomicon/subtyping.html
+[14]: https://www.youtube.com/watch?v=iVYWDIW71jk

@@ -1,8 +1,6 @@
 Step 1.5: Conversions, casting and dereferencing
 ================================================
 
-__Estimated time__: 1 day
-
 As [Rust] is a [strongly typed][1] language, all type conversions must be performed explicitly in the code. As [Rust] has a rich type system (programming logic and semantics are mostly expressed in types rather than in values), type conversions are inevitable in almost every single line of code. Fortunately, [Rust] offers [well-designed type conversion capabilities][`std::convert`], which are quite ergonomic, intuitive and are pleasant to use.
 
 
@@ -140,7 +138,7 @@ hello(&m);
 For better understanding [`Deref`] purpose, design, limitations and use cases read through:
 - [Rust Book: 15.2. Treating Smart Pointers Like Regular References with the Deref Trait][3]
 - [Official `Deref` docs][`Deref`]
-- [Tim McNamara: Explaining Rust’s Deref trait][13]
+- [Deref vs AsRef vs Borrow vs Cow][13]
 
 
 ### Incorrect usage
@@ -179,12 +177,19 @@ See also:
 
 ## Task
 
+
+__Estimated time__: 1 day
+
+
+
+
 Implement the following types:
 1. `EmailString` - a type, which value can be only a valid email address string.
 2. `Random<T>` - a smart pointer, which takes 3 values of the pointed-to type on creation and points to one of them randomly every time is used.
 
 Provide conversion and `Deref` implementations for these types on your choice, to make their usage and interoperability with `std` types easy and ergonomic.
 
+Write simple tests for the task.
 
 
 

@@ -1,8 +1,6 @@
 Step 3.11: Async I/O, futures and actors
 ========================================
 
-__Estimated time__: 2 days
-
 While [threads](../3_10_threads) represent a solution for [CPU-bound] problems, for [I/O-bound] problems, traditionally, the solution is [async (non-blocking) I/O][1].
 
 As of now, [Rust] has no async primitives in its standard library yet, so "by default" `std` I/O works in a synchronous manner (blocks the current [thread][33]). However, it provides [core abstractions][`std::future`] for building ones, using which, ecosystem crates (like [`tokio`]) implement and provide primitives for [async I/O][1].
@@ -82,16 +80,19 @@ For better understanding [`Waker`] design, usage, and features, read through the
 
 Async I/O in [Rust] is possible due to two main ingredients: __[non-blocking I/O operations][1]__ provided by operating system and an __asynchronous runtime__, which wraps those operations into usable asynchronous abstractions and provides an [event loop][48] for executing and driving them to completion.
 
+For better understanding [mio] and [tokio] design, concepts, usage, and features, read through the following articles:
+- [Official `mio` crate docs][`mio`]
+- [Official `tokio` crate docs][`tokio`]
+- [Official `tokio` crate guide][13]
+- [Nick Cameron: Asynchronous programming with Rust: Introduction][14]
+- [Tokio on asyncronous tasks and executors][15]
+
 
 ### Non-blocking I/O
 
 The async programming is not possible without support for [non-blocking I/O][1], which is represented by various [API]s on different operating systems, for example: [epoll] on [Linux] (or promising [io_uring]), [kqueue] on [macOS]/[iOS], [IOCP] on [Windows].
 
 The low-level crates, like [`mio`] (powering [`tokio`]) and [`polling`] (powering [`async-std`]), provide a single multi-platform unified interface to the majority of those [API]s. There are also low-level crates, specialized on a concrete [API], like [`io-uring`].
-
-For better understanding, read through the following articles:
-- [Official `mio` crate docs][`mio`]
-- [Official `polling` crate docs][`polling`]
 
 
 ### Runtime
@@ -155,7 +156,31 @@ For better understanding [actors][49] design, concepts, usage, and implementatio
 
 
 
+## Mutlithreading vs Async
+
+Multithreading programming is all about concurrent execution of different functions. Async programming is about non-blocking execution between functions, and we can apply async with single-threaded or multithreaded programming.
+
+So, multithreading is one form of asynchronous programming.
+
+Let’s take a simple analogy:
+
+- Synchronous: you cook the eggs, then you cook the toast.
+- Asynchronous, single threaded: you start the eggs cooking and set a timer. You start the toast cooking, and set a timer. While they are both cooking, you clean the kitchen. When the timers go off you take the eggs off the heat and the toast out of the toaster and serve them.
+- Asynchronous, multithreaded: you hire two more cooks, one to cook eggs and one to cook toast. Now you have the problem of coordinating the cooks so that they do not conflict with each other in the kitchen when sharing resources. And you have to pay them.
+
+From that analogy, we can conclude that **Multithreading is about workers, Async is about tasks.**
+
+![Synchronous vs Async vs Multithreading](https://i.imgur.com/o0wETfj.png)
+
+
+
+
 ## Task
+
+__Estimated time__: 2 days
+
+
+
 
 Implement an async-driven [CLI] tool, which downloads specified web pages:
 ```bash

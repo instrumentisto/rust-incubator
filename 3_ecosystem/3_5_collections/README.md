@@ -1,8 +1,6 @@
 Step 3.5: Collections and iterators
 ===================================
 
-__Estimated time__: 1 day
-
 
 
 
@@ -57,7 +55,7 @@ For better understanding immutable collections' nature, design, and a motivation
 - [Jean Niklas L'orange: Understanding Clojure's Persistent Vectors, pt. 1][15_1]
 - [Jean Niklas L'orange: Understanding Clojure's Persistent Vectors, pt. 2][15_2]
 - [Jean Niklas L'orange: Understanding Clojure's Persistent Vectors, pt. 3][15_3]
-
+- [Immutable Data Structures and why You want them][15_4]
 
 
 
@@ -77,6 +75,11 @@ For better understanding concurrent collections' nature, design, and a motivatio
 
 
 ## Task
+
+__Estimated time__: 1 day
+
+
+
 
 Write a simple `UsersRepository` trait, which supports 3 operations (consider to chose correct collections):
 - returns single `User` by its ID;
@@ -130,4 +133,5 @@ After completing everything above, you should be able to answer (and understand 
 [15_1]: https://hypirion.com/musings/understanding-persistent-vector-pt-1
 [15_2]: https://hypirion.com/musings/understanding-persistent-vector-pt-2
 [15_3]: https://hypirion.com/musings/understanding-persistent-vector-pt-3
+[15_4]: https://www.youtube.com/watch?v=Gfe-JKn7G0I
 [16]: https://ibraheem.ca/posts/a-lock-free-vector

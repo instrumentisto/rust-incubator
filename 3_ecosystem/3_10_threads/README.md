@@ -1,8 +1,6 @@
 Step 3.10: Multithreading and parallelism
 =========================================
 
-__Estimated time__: 1 day
-
 One of main [Rust]'s design goals is a [concurrency][1]. [Rust] has a [strong opinion][2] about that, while allows different concurrent models to coexist.
 
 
@@ -78,7 +76,33 @@ For better understanding and familiarity with parallelism in [Rust], read throug
 
 
 
+## Multiprocessing
+
+Multiprocessing is a system that has more than one or two processors. In Multiprocessing, CPUs are added for increasing computing speed of the system. Because of Multiprocessing, There are many processes are executed simultaneously.
+
+
+
+
+## Multiprocessing vs Multithreading
+
+|     Parameter    |                                                              Multiprocessing                                                              |                                                        Multithreading                                                        |
+|:----------------:|:-----------------------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------:|
+| Basic            | Multiprocessing helps you to increase computing power.                                                                                    | Multithreading helps you to create computing threads of a single process to increase computing power.                        |
+| Execution        | It allows you to execute multiple processes concurrently.                                                                                 | Multiple threads of a single process are executed concurrently.                                                              |
+| CPU switching    | In Multiprocessing, CPU has to switch between multiple programs so  that it looks like that multiple programs are running simultaneously. | In multithreading, CPU has to switch between multiple threads to make it appear that all threads are running simultaneously. |
+| Creation         | The creation of a process is slow and resource-specific.                                                                                  | The creation of a thread is economical in time and resource.                                                                 |
+| Classification   | Multiprocessing can be symmetric or asymmetric.                                                                                           | Multithreading is not classified.                                                                                            |
+| Memory           | Multiprocessing allocates separate memory and resources for each process or program.                                                      | Multithreading threads belonging to the same process share the same memory and resources as that of the process.             |
+| Pickling objects | Multithreading avoids pickling.                                                                                                           | Multiprocessing relies on pickling objects in memory to send to other processes.                                             |
+| Program          | Multiprocessing system allows executing multiple programs and tasks.                                                                      | Multithreading system executes multiple threads of the same or different processes.                                          |
+
+
 ## Task
+
+__Estimated time__: 1 day
+
+
+
 
 Write a program with the following workflow:
 - `Producer` is a separate thread, which continuously generates square matrixes of random `u8` elements and size `4096`.

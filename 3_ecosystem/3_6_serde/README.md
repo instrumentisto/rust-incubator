@@ -1,8 +1,6 @@
 Step 3.6: Serialization and deserialization
 ===========================================
 
-__Estimated time__: 1 day
-
 
 
 
@@ -130,6 +128,11 @@ For better understanding and familiarity with [`rkyv`]'s design, concepts, usage
 
 ## Task
 
+__Estimated time__: 1 day
+
+
+
+
 Write a program which deserializes the [following JSON](request.json) into a static `Request` type and prints out its serialization in a YAML and TOML formats. Consider to choose correct types for data representation.
 
 Prove your implementation correctness with tests.
@@ -156,6 +159,8 @@ After completing everything above, you should be able to answer (and understand 
 [`serde_state`]: https://docs.rs/serde_state
 [`serde_valid`]: https://docs.rs/serde_valid
 [`serde_with`]: https://docs.rs/serde_with
+[`rkyv`]: https://rkyv.org/
+[`borsh-rs`]: https://github.com/near/borsh-rs
 [Rust]: https://www.rust-lang.org
 
 [0]: https://serde.rs

@@ -1,8 +1,6 @@
 Step 1.4: Clone-on-write
 ========================
 
-__Estimated time__: 1 day
-
 
 
 
@@ -11,7 +9,7 @@ __Estimated time__: 1 day
 [Rust] has a [`Cow`] (clone-on-write) smart pointer in its standard library. Understanding how to use it is _essential to write idiomatic and ergonomic_ [Rust] code.
 
 In a nutshell: 
-- it allows to combine usage of owned and borrowed data in a single abstraction, which __leads to better ergonomics and minimize performance penalties asap__ (as much as possible);
+- it allows to combine usage of owned and borrowed data in a single abstraction, which __leads to better ergonomics and minimize performance penalties as much as possible__;
 - it encloses and provides immutable access to borrowed data, and __clones the data lazily when mutation or ownership is required__.
 
 ```rust
@@ -31,10 +29,11 @@ fn describe(error: &Error) -> Cow<'static, str> {
 For better understanding [`Cow`] purpose, design, limitations and use cases read through:
 - [Official `Cow` docs][`Cow`]
 - [Pascal Hertleif: The Secret Life of Cows][1]
-- [Yashodhan Joshi: Using `Cow` in Rust for efficient memory utilization][3]
+- [Yashodhan Joshi: Using `Cow` in Rust for efficient memory utilization][6]
 - [Konstantin Grechishchev: 6 things you can do with the Cow 🐄 in Rust 🦀][2]
-
-
+- [Deref vs AsRef vs Borrow vs Cow][3]
+- [&str docs][4]
+- [dealing with ownerchip and borrowing in public interfaces][5]
 
 
 ## Alternative implementations
@@ -60,17 +59,22 @@ For better understanding [`Cow`] purpose, design, limitations and use cases read
 > assert_eq!(size_of::<beef::lean::Cow<str>>(), 2 * WORD);
 > ```
 
-Read implementation details and design insights in [its README][4].
+Read implementation details and design insights in [its README][7].
 
 
 
 
 ## Task
 
+__Estimated time__: 1 day
+
+
+
+
 Write a simple program which prints out the path to its configuration file. The path should be detected with the following precedence:
-1. default path is `/etc/app/app.conf`;
-2. if `APP_CONF` env var is specified (and not empty) then use it with higher priority than default;
-3. if `--conf` command line argument is specified (error if empty) then use it with the highest priority.
+1. if `--conf` command line argument is specified (error if empty) then use it.  <--- highest priority
+2. if `APP_CONF` env var is specified (and not empty) then use it;
+3. default path is `/etc/app/app.conf`;
 
 If neither `APP_CONF` env var nor `--conf` command line argument is specified, then no allocation should happen for path detection.
 
@@ -92,5 +96,8 @@ After completing everything above, you should be able to answer (and understand 
 
 [1]: https://deterministic.space/secret-life-of-cows.html
 [2]: https://dev.to/kgrech/6-things-you-can-do-with-the-cow-in-rust-4l55
-[3]: https://blog.logrocket.com/using-cow-rust-efficient-memory-utilization
-[4]: https://github.com/maciejhirsz/beef#how-does-it-work
+[3]: https://dev.to/zhanghandong/rust-concept-clarification-deref-vs-asref-vs-borrow-vs-cow-13g6
+[4]: https://doc.rust-lang.org/std/primitive.str.html
+[5]: https://phaazon.net/blog/on-owning-borrowing-pub-interface
+[6]: https://blog.logrocket.com/using-cow-rust-efficient-memory-utilization
+[7]: https://github.com/maciejhirsz/beef#how-does-it-work
