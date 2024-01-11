@@ -51,6 +51,7 @@ Speaking of [tracing][10], the [`tracing`] crate has good integrations with [Ope
 
 For better understanding and familiarity with [`tracing`]'s design, concepts, usage, and features, read through the following articles:
 - [Official `tracing` crate docs][`tracing`]
+- [Joshua Mo: Getting Started with Tracing in Rust][13]
 - [Yoav Danieli: Guide to OpenTelemetry Distributed Tracing in Rust][11]
 
 
@@ -109,3 +110,4 @@ After completing everything above, you should be able to answer (and understand 
 [10]: https://en.wikipedia.org/wiki/Tracing_(software)
 [11]: https://www.aspecto.io/blog/distributed-tracing-with-opentelemetry-rust
 [12]: https://www.thecodedmessage.com/posts/logging
+[13]: https://www.shuttle.rs/blog/2024/01/09/getting-started-tracing-rust
