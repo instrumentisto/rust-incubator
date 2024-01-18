@@ -189,5 +189,4 @@ Each step must be performed as a separate [PR (pull request)][PR] with an approp
 [1]: https://github.com/instrumentisto/rust-incubator/generate
 [2]: https://github.com/instrumentisto/rust-incubator/subscription
 [11]: https://help.github.com/en/articles/creating-a-repository-from-a-template
-[12]: https://help.github.com/en/articles/inviting-collaborators-to-a-personal-repository
 [13]: https://doc.rust-lang.org/book/ch14-03-cargo-workspaces.html
