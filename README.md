@@ -46,8 +46,7 @@ This project represents a hard-way step-by-step [Rust] learning course from lang
 
 ### Before you start
 
-1. [Create][1] a new [GitHub repository] for yourself using this one [as template][11].
-2. [Invite as a collaborator][12] of your repository the person you want to review your lessons (mentor or lead).
+[Create][1] a new [GitHub repository] for yourself using this one [as template][11].
 
 > __NOTE__: __This learning course is constantly improving and evolving over time.__ 
 >
@@ -68,10 +67,6 @@ This project represents a hard-way step-by-step [Rust] learning course from lang
 ### Schedule
 
 Each step must be performed as a separate [PR (pull request)][PR] with an appropriate name and checkmarked here in README's schedule after completion. Each step is a [Cargo workspace member][13], so you can run/test it from the project root (i.e. `cargo run -p step_1_8`). __Consider to use [rustfmt] and [Clippy] when you're writing [Rust] code.__
-
-Each step has the estimated time for completion. If any deeper investigation on step's theme is needed by you, then it's on your own.
-
-Do not hesitate to ask your mentor/lead with questions, however you won't receive any concrete answer, but rather a direction for your own investigation. _Mentor/Lead is the one who asks questions here, demanding concrete and complete answers._
 
 - [ ] [0. Become familiar with Rust basics][Step 0] (3 days)
 - [ ] [1. Concepts][Step 1] (2 days, after all sub-steps)

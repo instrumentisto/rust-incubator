@@ -28,8 +28,6 @@ After completing these steps, you should be able to answer (and understand why) 
 - What are lifetimes? Which problems do they solve? Which benefits do they give?
 - Is [Rust] OOP language? Is it possible to use SOLID/GRASP? Does it have an inheritance?
 
-After you're done notify your lead in an appropriate PR (pull request), and he will exam what you have learned.
-
 _Additional_ articles, which may help to understand the above topic better:
 - [Chris Morgan: Rust ownership, the hard way][1]
 - [Adolfo Ochagavía: You are holding it wrong][12]
