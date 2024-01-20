@@ -107,6 +107,7 @@ However, the __main "killer feature"__ of [`musli`] is its __ability to serializ
 
 For better understanding and familiarity with [`musli`]'s design, concepts, usage, and features, read through the following articles:
 - [Official `musli` crate docs][`musli`]
+- [John-John Tedro: A fresh look on incremental zero copy serialization][23]
 
 
 
@@ -175,5 +176,6 @@ After completing everything above, you should be able to answer (and understand 
 [14]: https://manishearth.github.io/blog/2022/08/03/zero-copy-3-so-zero-its-dot-dot-dot-negative
 [21]: https://docs.rs/serde/latest/serde/trait.Deserializer.html#tymethod.deserialize_seq
 [22]: https://docs.rs/musli#modes
+[23]: https://udoprog.github.io/rust/2023-10-19/musli-zerocopy.html
 [30]: https://rkyv.org/rkyv.html
 [31]: https://rkyv.org/zero-copy-deserialization.html
