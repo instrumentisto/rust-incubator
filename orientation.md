@@ -194,6 +194,7 @@ Never hesitate to reach out to your mentor or lead with questions. However, be a
 - 🌐 [Zero To Production] - A back-end focused book to broaden your knowledge.
   - Access the book as a [series of articles][Zero To Production as a series of articles].
 - ❔ [FAQ] - Answers to frequently asked questions at your fingertips.
+- ✅ [Progress Board] - Participant progress board
 
 ## Too hard?
 
@@ -229,3 +230,4 @@ If you're feeling that the certification might be too challenging at this point,
 [Rustlings]: https://github.com/rust-lang/rustlings
 [Learning Materials on Git]: https://github.com/Learn-Together-Pro/LearnGitTogether
 [Rust Book]: https://doc.rust-lang.org/book
+[Progress Board]: https://github.com/rust-lang-ua/rustcamp_winter_2024/blob/master/README.md
