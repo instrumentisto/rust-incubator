@@ -69,6 +69,7 @@ For better understanding concurrent collections' nature, design, and a motivatio
 - [Aaron Turon: Lock-freedom without garbage collection][13]
 - [Stjepan Glavina: Lock-free Rust: Crossbeam in 2019][14]
 - [Wikipedia: Non-blocking algorithm][12]
+- [Ibraheem Ahmed: A Lock-Free Vector][16]
 
 
 
@@ -133,3 +134,4 @@ After completing everything above, you should be able to answer (and understand 
 [15_2]: https://hypirion.com/musings/understanding-persistent-vector-pt-2
 [15_3]: https://hypirion.com/musings/understanding-persistent-vector-pt-3
 [15_4]: https://www.youtube.com/watch?v=Gfe-JKn7G0I
+[16]: https://ibraheem.ca/posts/a-lock-free-vector

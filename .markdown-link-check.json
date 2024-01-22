@@ -19,6 +19,10 @@
   }, {
     "pattern": "^https://dalek.rs"
   }, {
+    "pattern": "^https://dl.acm.org"
+  }, {
+    "pattern": "^https://dpc.pw"
+  }, {
     "pattern": "^https://www.aspecto.io"
   }, {
     "pattern": "^https://www.cs.bgu.ac.il"
@@ -27,7 +31,11 @@
   }, {
     "pattern": "^https://www.mysql.com"
   }, {
+    "pattern": "^https://www.reddit.com"
+  }, {
     "pattern": "^https://web.archive.org/web/"
+  }, {
+    "pattern": "^https://www.patreon.com/stjepang"
   }],
   "timeout": "60s"
 }
