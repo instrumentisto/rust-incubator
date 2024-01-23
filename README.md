@@ -101,7 +101,7 @@ Please, read [instructions][Submitting Solutions].
 - 📘 [Rust Book] - An indispensable guide to Rust. While it's a must-have starting point, we strongly encourage revisiting it throughout your learning journey.
 <!-- - 🗂️ Awesome List of [Learning Materials on Git][Learning Materials on Git] - Essential resources for mastering Git. -->
 
-## Statistics and Achievements
+## Statistics & Achievements
 
 As of the beginning of 2024, a total of 325 individuals have applied to the Rustcamp. Of these, 109 participants have been enrolled in the two previous completed bootcamps, with 54 currently embarking on their journey. 
 
