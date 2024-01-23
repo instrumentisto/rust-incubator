@@ -109,7 +109,7 @@ As of the beginning of 2024, a total of 325 individuals have applied to the Rust
 
 A mandatory component of our program is the completion of a capstone project. You can view the work of our graduates at this [link](https://github.com/rust-lang-ua/projects?tab=readme-ov-file#summer-bootcamp-2023q3).
 
-📊 The Rust Bootcamp for Winter 2023-2024 is currently in progress. You can follow the up-to-date progress of the participants on this [page](https://github.com/rust-lang-ua/rustcamp_winter_2024).
+📊 The Rustcamp Winter 2023-2024 is currently in progress. You can follow the up-to-date progress of the participants on this [page](https://github.com/rust-lang-ua/rustcamp_winter_2024).
 
 
 ## Credits
