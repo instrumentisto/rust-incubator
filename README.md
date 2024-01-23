@@ -103,7 +103,7 @@ Please, read [instructions][Submitting Solutions].
 
 ## Statistics and Achievements
 
-As of the beginning of 2024, a total of 325 individuals have applied to the Rustcamp. Of these, 109 participants have been enrolled in the two previous completed bootcamps, with 54 currently embarking on their journey now. 
+As of the beginning of 2024, a total of 325 individuals have applied to the Rustcamp. Of these, 109 participants have been enrolled in the two previous completed bootcamps, with 54 currently embarking on their journey. 
 
 🏅 Out of all the participants, 25 have successfully completed the Rustcamp, passed the Foundational Test, and received a [certificate](https://www.credential.net/issuer/111209/credentials). Among these certified individuals, 19 have also achieved certification in Backend specialization.
 
