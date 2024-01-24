@@ -101,6 +101,16 @@ Please, read [instructions][Submitting Solutions].
 - 📘 [Rust Book] - An indispensable guide to Rust. While it's a must-have starting point, we strongly encourage revisiting it throughout your learning journey.
 <!-- - 🗂️ Awesome List of [Learning Materials on Git][Learning Materials on Git] - Essential resources for mastering Git. -->
 
+## Statistics & Achievements
+
+| Description                                     | Number |
+|-------------------------------------------------|-------:|
+| Total Applications to Rustcamp                  |    325 |
+| Participants Enrolled in Previous Rustcamps     |    109 |
+| Participants Currently Enrolled                 |     54 |
+| Participants Certified with No Specialization   |     25 |
+| Participants Certified in Backend Specialization|     19 |
+
 ## Credits
 
 Rustcamp materials were based on the [Rust Incubator](https://github.com/instrumentisto/rust-incubator) program created by the Legendary [Kai](https://github.com/tyranron) 💜 and Member of the Jedi High Council [Luca Palmieri](https://github.com/LukeMathWalker) 🧙‍♂️
