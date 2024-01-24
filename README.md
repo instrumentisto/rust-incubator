@@ -101,17 +101,6 @@ Please, read [instructions][Submitting Solutions].
 - 📘 [Rust Book] - An indispensable guide to Rust. While it's a must-have starting point, we strongly encourage revisiting it throughout your learning journey.
 <!-- - 🗂️ Awesome List of [Learning Materials on Git][Learning Materials on Git] - Essential resources for mastering Git. -->
 
-## Statistics & Achievements
-
-As of the beginning of 2024, a total of 325 individuals have applied to the Rustcamp. Of these, 109 participants have been enrolled in the two previous completed bootcamps, with 54 currently embarking on their journey. 
-
-🏅 Out of all the participants, 25 have successfully completed the Rustcamp, passed the Foundational Test, and received a [certificate](https://www.credential.net/issuer/111209/credentials). Among these certified individuals, 19 have also achieved certification in Backend specialization.
-
-A mandatory component of our program is the completion of a capstone project. You can view the work of our graduates at this [link](https://github.com/rust-lang-ua/projects?tab=readme-ov-file#summer-bootcamp-2023q3).
-
-📊 The Rustcamp Winter 2023-2024 is currently in progress. You can follow the up-to-date progress of the participants on this [page](https://github.com/rust-lang-ua/rustcamp_winter_2024).
-
-
 ## Credits
 
 Rustcamp materials were based on the [Rust Incubator](https://github.com/instrumentisto/rust-incubator) program created by the Legendary [Kai](https://github.com/tyranron) 💜 and Member of the Jedi High Council [Luca Palmieri](https://github.com/LukeMathWalker) 🧙‍♂️
