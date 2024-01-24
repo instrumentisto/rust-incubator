@@ -105,11 +105,11 @@ Please, read [instructions][Submitting Solutions].
 
 | Description                                     | Number |
 |-------------------------------------------------|-------:|
-| Total Applications to Rustcamp                  |    325 |
-| Participants Enrolled in Previous Rustcamps     |    109 |
-| Participants Currently Enrolled                 |     54 |
-| Participants Certified with No Specialization   |     25 |
-| Participants Certified in Backend Specialization|     19 |
+| Total Applications to Rustcamp                  | 325 |
+| Participants Enrolled in Previous Rustcamps     | 109 |
+| Participants Currently Enrolled                 | 54 |
+| Participants Certified with No Specialization   | 25 |
+| Participants Certified in Backend Specialization| 19 |
 
 ## Credits
 
