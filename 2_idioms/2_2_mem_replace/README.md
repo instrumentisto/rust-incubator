@@ -29,6 +29,7 @@ For better understanding [`mem::replace`], [`mem::swap`] and [`mem::take`] purpo
 - [Official `mem::swap` docs][`mem::swap`]
 - [Official `mem::take` docs][`mem::take`]
 - [Karol Kuczmarski: Moving out of a container in Rust][4]
+- [Ferrous Systems: Using `mem::take` to reduce heap allocations][6]
 
 Some examples of useful applying these functions are described below.
 
@@ -162,3 +163,4 @@ After completing everything above, you should be able to answer (and understand 
 [3]: https://rust-unofficial.github.io/patterns/idioms/mem-replace.html
 [4]: http://xion.io/post/code/rust-move-out-of-container.html
 [5]: https://doc.rust-lang.org/edition-guide/rust-2021/disjoint-capture-in-closures.html
+[6]: https://ferrous-systems.com/blog/rustls-borrow-checker-p1
