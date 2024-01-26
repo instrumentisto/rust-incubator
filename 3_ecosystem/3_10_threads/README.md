@@ -51,6 +51,7 @@ For better understanding and familiarity with [Rust] synchronization primitives 
 - [Aleksey Kladov: Mutexes Are Faster Than Spinlocks][27]
 - [Mara Bos: Comparing Rust's and C++'s Concurrency Library][31]
 - [Mahmoud Al-Qudsi: Implementing truly safe semaphores in rust][32]
+- [Michael Snoyman: My Best and Worst Deadlock in Rust][35]
 
 
 
@@ -144,3 +145,4 @@ After completing everything above, you should be able to answer (and understand 
 [32]: https://neosmart.net/blog/implementing-truly-safe-semaphores-in-rust/
 [33]: https://vgatherps.github.io/2022-11-28-dec
 [34]: https://blog.logrocket.com/implementing-data-parallelism-rayon-rust
+[35]: https://www.snoyman.com/blog/2024/01/best-worst-deadlock-rust
