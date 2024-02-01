@@ -92,7 +92,7 @@ Please, read [instructions][Submitting Solutions].
 - 🌐 [Zero To Production] - A back-end focused book to broaden your knowledge.
   - Access the book as a [series of articles][Zero To Production as a series of articles].
 - ❔ [FAQ] - Answers to frequently asked questions at your fingertips.
-- ✅ [Progress Board] - Participant progress board
+- 🔄 [Progress Board] - Participant progress board
 
 ## Too hard?
 
