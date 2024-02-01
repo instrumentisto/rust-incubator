@@ -53,6 +53,7 @@ For better understanding and familiarity with [`tracing`]'s design, concepts, us
 - [Official `tracing` crate docs][`tracing`]
 - [Joshua Mo: Getting Started with Tracing in Rust][13]
 - [Yoav Danieli: Guide to OpenTelemetry Distributed Tracing in Rust][11]
+- [Hayden Stainsby: debugging tokio instrumentation][14]
 
 
 
@@ -111,3 +112,4 @@ After completing everything above, you should be able to answer (and understand 
 [11]: https://www.aspecto.io/blog/distributed-tracing-with-opentelemetry-rust
 [12]: https://www.thecodedmessage.com/posts/logging
 [13]: https://www.shuttle.rs/blog/2024/01/09/getting-started-tracing-rust
+[14]: https://hegdenu.net/posts/debugging-tokio-instrumentation
