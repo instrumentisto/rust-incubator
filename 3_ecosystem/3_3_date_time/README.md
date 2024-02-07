@@ -34,7 +34,7 @@ Provide implementations for `User::age()` and `User::is_adult()` methods in [thi
 
 Prove your implementation correctness with additional tests. For tests reproducibility consider that "now time" is the date specified in the `NOW` constant.
 
-
+> 💡 The structure needs to be modified
 
 
 ## Questions
