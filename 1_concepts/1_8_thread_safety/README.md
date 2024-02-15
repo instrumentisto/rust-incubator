@@ -15,6 +15,7 @@ For better understanding [`Send`]/[`Sync`] purpose, design, limitations and use 
 - [nyanpasu64: An unsafe tour of Rust's Send and Sync][6]
 - [Josh Haberman: Thread Safety in C++ and Rust][7]
 - [Cliff L. Biffle: Safely writing code that isn't thread-safe][8]
+- [Louis Dureuil: Too dangerous for C++][10]
 
 
 
@@ -56,3 +57,4 @@ After completing everything above, you should be able to answer (and understand 
 [7]: https://blog.reverberate.org/2021/12/18/thread-safety-cpp-rust.html
 [8]: https://cliffle.com/blog/not-thread-safe
 [9]: https://web.archive.org/web/20220929143451/https://itsallaboutthebit.com/arc-mutex
+[10]: https://blog.dureuill.net/articles/too-dangerous-cpp
