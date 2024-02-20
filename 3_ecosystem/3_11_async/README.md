@@ -74,6 +74,8 @@ For better understanding [`Waker`] design, usage, and features, read through the
 - [Amos: Understanding Rust futures by going way too deep][25]
 - [Hayden Stainsby: how I finally understood async/await in Rust (part 4)][67]
 - [Saoirse Shipwreckt: Why async Rust?][69]
+- [Saoirse Shipwreckt: Let futures be futures][70]
+- [Saoirse Shipwreckt: FuturesUnordered and the order of futures][71]
 
 
 
@@ -299,3 +301,5 @@ After completing everything above, you should be able to answer (and understand 
 [67]: https://hegdenu.net/posts/understanding-async-await-4
 [68]: https://without.boats/blog/thread-per-core
 [69]: https://without.boats/blog/why-async-rust
+[70]: https://without.boats/blog/let-futures-be-futures
+[71]: https://without.boats/blog/futures-unordered
