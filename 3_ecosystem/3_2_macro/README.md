@@ -42,6 +42,7 @@ For better understanding declarative macros design, concepts, usage and features
 - [Rust By Example: 16. macro_rules!][14]
 - [The Little Book of Rust Macros][15]
 - [Rust Reference: 3.1. Macros By Example][16]
+- [Aurorans Solis: macros_rule!][18]
 
 
 
@@ -158,6 +159,7 @@ After completing everything above, you should be able to answer (and understand 
 [15]: https://danielkeep.github.io/tlborm/book/README.html
 [16]: https://doc.rust-lang.org/reference/macros-by-example.html
 [17]: https://doc.rust-lang.org/rust-by-example/macros/variadics.html
+[18]: https://auroranssolis.github.io/rust/2024/02/14/macros-rule.html
 [22]: https://rust-lang.github.io/api-guidelines/macros.html#item-macros-work-anywhere-that-items-are-allowed-c-anywhere
 [23]: https://doc.rust-lang.org/book/ch19-06-macros.html#procedural-macros-for-generating-code-from-attributes
 [25]: https://doc.rust-lang.org/reference/attributes.html
