@@ -28,6 +28,14 @@ Please, read [instructions][Getting Started].
 
 Please, read [instructions][Submitting Solutions].
 
+## Statistics & Achievements
+
+| Description                                        | Number |
+|----------------------------------------------------|-------:|
+| Total Applications to Rustcamp                     |    325 |
+| Number of Participants from Previous Rustcamps     |    109 |
+| Certified Professionals                            |     25 |
+
 ## Curriculum
 
 - [ ] [0. Become familiar with Rust basics][Step 0] (1 week)
@@ -101,16 +109,6 @@ Please, read [instructions][Submitting Solutions].
 - 🐣 [Rustlings] - Small exercises designed to familiarize you with reading and writing Rust code.
 - 📘 [Rust Book] - An indispensable guide to Rust. While it's a must-have starting point, we strongly encourage revisiting it throughout your learning journey.
 <!-- - 🗂️ Awesome List of [Learning Materials on Git][Learning Materials on Git] - Essential resources for mastering Git. -->
-
-## Statistics & Achievements
-
-| Description                                     | Number |
-|-------------------------------------------------|-------:|
-| Total Applications to Rustcamp                  | 325 |
-| Participants Enrolled in Previous Rustcamps     | 109 |
-| Participants Currently Enrolled                 | 54 |
-| Participants Certified with No Specialization   | 25 |
-| Participants Certified in Backend Specialization| 19 |
 
 ## Credits
 
