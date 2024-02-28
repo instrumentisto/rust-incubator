@@ -6,6 +6,12 @@ _<div align="right">Rust Book's Foreword</div>_
 
 In this rustcamp, you will participate in the [Rustcamp], a rigorous, step-by-step Rust certification program 🏆. The aim of this program is to shape you into a proficient **Strong Junior** Rust Developer. Indeed, with this rigorous training, you will find yourself better prepared than developers switching from other languages without a similar level of instruction. If you are a mid- or senior-level developer transitioning to Rust, you can confidently target **Middle-level** positions after achieving this certification.
 
+| Description                     | Number |
+|---------------------------------|-------:|
+| Total applications to Rustcamp  |    325 |
+| Total number of Participants    |    109 |
+| Certified Professionals         |     25 |
+
 ## Prerequisites
 
 Before you begin the certification program, you should have a solid understanding of Rust and Git/GitHub. We strongly recommend completing the [Rust Book]. It's also beneficial if you have completed [Rustlings] and [Exercism], and have some hands-on practice. If you're transitioning from another programming language, you'll also find this certification program particularly useful.
@@ -27,14 +33,6 @@ Please, read [instructions][Getting Started].
 ## Submitting Solutions
 
 Please, read [instructions][Submitting Solutions].
-
-## Statistics & Achievements
-
-| Description                     | Number |
-|---------------------------------|-------:|
-| Total applications to Rustcamp  |    325 |
-| Total number of Participants    |    109 |
-| Certified Professionals         |     25 |
 
 ## Curriculum
 
