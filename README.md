@@ -93,7 +93,8 @@ Please, read [instructions][Submitting Solutions].
   - Access the book as a [series of articles][Zero To Production as a series of articles].
 - ❔ [FAQ] - Answers to frequently asked questions at your fingertips.
 - 🔄 [Progress Board] - Participant progress board
-
+- 🚀 [Graduates' Capstone Projects] - Graduates' сapstone зrojects
+  
 ## Too hard?
 
 - 👣 [Step-by-Step Introduction] - A gradual introduction to Rust programming.
@@ -206,4 +207,5 @@ Rustcamp materials were based on the [Rust Incubator](https://github.com/instrum
 [Rustlings]: https://github.com/rust-lang/rustlings
 [Learning Materials on Git]: https://github.com/Learn-Together-Pro/LearnGitTogether
 [Rust Book]: https://doc.rust-lang.org/book
-[Progress Board]: https://github.com/rust-lang-ua/rustcamp_winter_2024/blob/master/README.md
+[Progress Board]: https://github.com/rust-lang-ua/rustcamp_progress/blob/master/README.md
+[Graduates' Capstone Projects]: https://github.com/rust-lang-ua/rustcamp_projects
