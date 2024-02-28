@@ -30,11 +30,11 @@ Please, read [instructions][Submitting Solutions].
 
 ## Statistics & Achievements
 
-| Description                                        | Number |
-|----------------------------------------------------|-------:|
-| Total Applications to Rustcamp                     |    325 |
-| Number of Participants from Previous Rustcamps     |    109 |
-| Certified Professionals                            |     25 |
+| Description                     | Number |
+|---------------------------------|-------:|
+| Total applications to Rustcamp  |    325 |
+| Total number of Participants    |    109 |
+| Certified Professionals         |     25 |
 
 ## Curriculum
 
