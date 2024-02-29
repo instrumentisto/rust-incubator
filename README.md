@@ -10,6 +10,7 @@ In this rustcamp, you will participate in the [Rustcamp], a rigorous, step-by-st
 |---------------------------------|-------:|
 | Total applications to Rustcamp  |    325 |
 | Total number of Participants    |    109 |
+| Mentors    |    29 |
 | Certified Professionals         |     25 |
 
 ## Prerequisites
