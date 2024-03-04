@@ -68,7 +68,7 @@ This project represents a hard-way step-by-step [Rust] learning course from lang
 
 Each step must be performed as a separate [PR (pull request)][PR] with an appropriate name and check-marked here in README's schedule after completion. Each step is a [Cargo workspace member][13], so you can run/test it from the project root (i.e. `cargo run -p step_1_8`). __Consider to use [rustfmt] and [Clippy] when you're writing [Rust] code.__
 
-- [ ] [0. Become familiar with Rust basics][Step 0] (3 days)
+- [X] [0. Become familiar with Rust basics][Step 0] (3 days)
 - [ ] [1. Concepts][Step 1] (2 days, after all sub-steps)
     - [ ] [1.1. Default values, cloning and copying][Step 1.1] (1 day)
     - [ ] [1.2. Boxing and pinning][Step 1.2] (1 day)
