@@ -117,6 +117,7 @@ For better understanding and familiarity with [fuzzing][31] in [Rust], read thro
 ## More reading
 
 - [Aleksey Kladov: How to Test][61]
+- [Joshua Mo: Everything you need to know about testing in Rust][62]
 
 
 
@@ -176,3 +177,4 @@ After completing everything above, you should be able to answer (and understand 
 [45]: https://blog.logrocket.com/mocking-rust-mockall-alternatives
 [51]: https://doc.rust-lang.org/book/ch02-00-guessing-game-tutorial.html
 [61]: https://matklad.github.io/2021/05/31/how-to-test.html
+[62]: https://www.shuttle.rs/blog/2024/03/21/testing-in-rust
