@@ -44,6 +44,7 @@ For better understanding [`Pin`] purpose, design, limitations and use cases read
 - [Alice Ryhl answers on "Pin tutorial are confusing me"][9]
 - [Rust Forum: Why is it unsafe to pin a shared reference?][11]
 - [Ohad Ravid: Put a Pin on That][12]
+- [Razieh Behjati: Leaky Abstractions and a Rusty Pin][13]
 
 
 
@@ -119,3 +120,4 @@ After completing everything above, you should be able to answer (and understand 
 [10]: https://www.sobyte.net/post/2022-07/rust-pin-unpin
 [11]: https://users.rust-lang.org/t/why-is-it-unsafe-to-pin-a-shared-reference/40309
 [12]: https://ohadravid.github.io/posts/2023-07-put-a-pin-on-that
+[13]: https://itnext.io/leaky-abstractions-and-a-rusty-pin-fbf3b84eea1f
