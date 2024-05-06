@@ -84,24 +84,7 @@ For more familiarity with making [GraphQL] requests in [Rust], read through the 
 
 
 
-## gRPC
 
-[gRPC] is a widely-adopted high performance [RPC] framework, having a __strict schema__, powered with pluggable support for load balancing, tracing, health checking and authentication, built on top of [HTTP/2] (and so, having a __mandatory encryption__), and __heavily using code-from-schema generation__.
-
-For more familiarity with [gRPC], read through the following articles:
-- [gRPC docs: Introduction to gRPC][301]
-- [gRPC docs: Core concepts, architecture and lifecycle][302]
-
-
-### Server and client
-
-For implementing a [gRPC] server in [Rust], there are two main production-ready crates in its ecosystem: [`tonic`] (pure [Rust] implementation, based on [`tokio`]) and [`grpcio`] (wrapper around [gRPC core][311] implementation).
-
-In [gRPC] ecosystem, usually, implementing a [gRPC] client doesn't differ much from implementing a server, since both are auto-generated from the same `.proto` schema. So, for [Rust], the same [`tonic`] and [`grpcio`] crates do the job when it comes to making [gRPC] requests. 
-
-For more familiarity with using [gRPC] in [Rust], read through the following articles:
-- [Official `tonic` crate docs][`tonic`]
-- [Official `grpcio` crate docs][`grpcio`]
 
 
 
@@ -134,7 +117,6 @@ After completing everything above, you should be able to answer (and understand 
 - What does REST paradigm mean? What are essentials of RESTful API? Which strengths does it have? What does it lack?  
 - What is OpenAPI? What is Swagger? How do they relate? Why are they beneficial for RESTful API?
 - What is GraphQL? Which are strong sides of this technology? What problems does it bring in practice? 
-- What is gRPC? What are its strengths? Which are good use-cases for it, and which are not? Why? 
 
 
 
