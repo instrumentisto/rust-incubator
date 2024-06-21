@@ -35,6 +35,43 @@ Please, read [instructions][Getting Started].
 
 Please, read [instructions][Submitting Solutions].
 
+### Toolchain
+
+- [rustup] for installing [Rust] toolchain and keeping it up-to-date.
+- [CLion]/[IntelliJ IDEA] + [IntelliJ Rust] + [Toml][IntelliJ Toml] plugins as development environment (or any other on your choice).
+
+
+### Bookshelf
+
+- [Rust Book] teaches and explains [Rust] basics.
+- [Rust By Example] teaches you [Rust] basics using editable examples.
+- [Rust Reference] is not a formal spec, but is more detailed and comprehensive than the [Rust Book].
+- [Cheats.rs] and [Rust SVG Cheatsheet] for quick reference.
+- [Rust Edition Guide] for considering improvements of [Rust 2018] and [Rust 2021].
+- [Rust std lib] documentation.
+- [Cargo Book] is a guide to [Cargo], [Rust]'s build tool and dependency manager.
+- [Rustdoc Book] is a guide to `rustdoc` documentation tool.
+- [Rust Cookbook] is a collection of simple examples that demonstrate good practices to accomplish common programming tasks, using the crates of the [Rust] ecosystem.
+- [Rust Design Patterns] is an open source repository of [Rust] design patterns and idioms.
+- [Effective Rust] is a collection of guidelines that had been learned from real world experience of creating software in [Rust].
+- [Rust API Guidelines] is a set of recommendations on how to design and present APIs for [Rust].
+- [Rust FAQ] answers common question about [Rust].
+- [Rust Playground] allows to share and check runnable [Rust] code snippets online.
+- [Awesome Rust] is a curated list of [Rust] code and resources.
+- [This Week in Rust] represents handpicked and subscribable [Rust] weekly updates.
+- [Baby Steps] blog of [Nicholas Matsakis](https://github.com/nikomatsakis) shares useful [Rust] patterns, ideas and design decisions.
+
+
+
+
+### Schedule
+
+Each step must be performed as a separate [PR (pull request)][PR] with an appropriate name and checkmarked here in README's schedule after completion. Each step is a [Cargo workspace member][13], so you can run/test it from the project root (i.e. `cargo run -p step_1_8`). __Consider to use [rustfmt] and [Clippy] when you're writing [Rust] code.__
+
+Each step has the estimated time for completion. If any deeper investigation on step's theme is needed by you, then it's on your own.
+
+Do not hesitate to ask your mentor/lead with questions, however you won't receive any concrete answer, but rather a direction for your own investigation. _Mentor/Lead is the one who asks questions here, demanding concrete and complete answers._
+
 ## Curriculum
 
 - [ ] [0. Become familiar with Rust basics][Step 0] (1 week)
@@ -216,3 +253,6 @@ Rustcamp materials were based on the [Rust Incubator](https://github.com/instrum
 [Rust Book]: https://doc.rust-lang.org/book
 [Progress Board]: https://github.com/rust-lang-ua/rustcamp_progress/blob/master/README.md
 [Graduates' Capstone Projects]: https://github.com/rust-lang-ua/rustcamp_projects
+
+
+[13]: https://doc.rust-lang.org/book/ch14-03-cargo-workspaces.html

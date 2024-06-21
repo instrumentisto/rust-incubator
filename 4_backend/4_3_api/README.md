@@ -26,7 +26,7 @@ For more information about [REST], read through the following articles:
 >
 > An OpenAPI definition can then be used by documentation generation tools to display the API, code generation tools to generate servers and clients in various programming languages, testing tools, and many other use cases.
 
-In [Rust] ecosystem, most [OpenAPI] crates follow the __code-first approach__ (generating [OpenAPI] schema from source code). The most notable crates for this are [`utoipa`] and [`okapi`].
+In [Rust] ecosystem, most [OpenAPI] crates follow the __code-first approach__ (generating [OpenAPI] schema from source code). The most notable crates for this are [`utoipa`], [`okapi`] and [`apistos`].
 
 For the opposite (generating source code from [OpenAPI] schema) [Rust] ecosystem lacks its own pure implementation, and the original [OpenAPI] tool [`openapi-generator`] should be used (powered by the [`swagger`] crate).
 
@@ -35,8 +35,11 @@ For more familiarity with [OpenAPI] and using it in [Rust], read through the fol
 - [SwaggerHub Documentation: OpenAPI 3.0 Tutorial][122]
 - [Official `utoipa` crate docs][`cynic`]
 - [Official `okapi` crate docs][`okapi`]
+- [Official `apistos` crate docs][`apistos`]
 - [Twilio Docs: Generate a Rust client for Twilio's API][121]
 - [Fabian Odenthal: Auto-Generating & Validating OpenAPI Docs in Rust: A Streamlined Approach with Utoipa and Schemathesis][123]
+- [Olly Dixon: Auto-generating API service using Rust, to TypeScript & Dart][124]
+- [Joshua Mo: Working with OpenAPI using Rust][125]
 
 
 
@@ -139,6 +142,7 @@ After completing everything above, you should be able to answer (and understand 
 
 
 
+[`apistos`]: https://docs.rs/apistos
 [`async-graphql`]: https://docs.rs/async-graphql
 [`cynic`]: https://docs.rs/cynic
 [`graphql-client`]: https://github.com/graphql-rust/graphql-client
@@ -181,6 +185,8 @@ After completing everything above, you should be able to answer (and understand 
 [121]: https://www.twilio.com/docs/openapi/generating-a-rust-client-for-twilios-api
 [122]: https://support.smartbear.com/swaggerhub/docs/tutorials/openapi-3-tutorial.html
 [123]: https://identeco.de/en/blog/generating_and_validating_openapi_docs_in_rust
+[124]: https://www.polydelic.com/media/autogenerating-a-rust-api-to-typescript-and-dart
+[125]: https://www.shuttle.rs/blog/2024/04/04/using-openapi-rust
 [200]: https://graphql.org/learn/queries
 [201]: https://graphql.org/learn/schema
 [202]: https://graphql.org/learn/introspection
