@@ -115,7 +115,7 @@ For better understanding and familiarity with [fuzzing][31] in [Rust], read thro
 ## More reading
 
 - [Aleksey Kladov: How to Test][63]
-
+- [Joshua Mo: Everything you need to know about testing in Rust][64]
 
 ## Integrated tests
 
@@ -130,7 +130,6 @@ For better understanding and familiarity with [fuzzing][31] in [Rust], read thro
 - [CLI testing](https://rust-cli.github.io/book/tutorial/testing.html)
 - [example with rexpect](https://www.rustadventure.dev/building-a-digital-garden-cli/clap-v4/testing-interactive-clis-with-rexpect)
 - [one more example](https://out-of-cheese-error.netlify.app/the-way)
-
 
 
 ## Task
@@ -195,3 +194,4 @@ After completing everything above, you should be able to answer (and understand 
 [61]: https://www.youtube.com/watch?v=VDfX44fZoMc
 [62]: https://nexte.st/
 [63]: https://matklad.github.io/2021/05/31/how-to-test.html
+[64]: https://www.shuttle.rs/blog/2024/03/21/testing-in-rust

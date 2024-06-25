@@ -13,6 +13,8 @@
   "ignorePatterns": [{
     "pattern": "^!--"
   },{
+    "pattern": "^https://aayushyavajpayee.substack.com"
+  }, {
     "pattern": "^https://github.com/instrumentisto/rust-incubator/generate"
   }, {
     "pattern": "^https://crates.io/search\\?"
@@ -22,6 +24,8 @@
     "pattern": "^https://dl.acm.org"
   }, {
     "pattern": "^https://dpc.pw"
+  }, {
+    "pattern": "^https://kerkour.com"
   }, {
     "pattern": "^https://www.aspecto.io"
   }, {
