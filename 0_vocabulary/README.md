@@ -37,7 +37,7 @@ After you are done, notify your lead in an appropriate PR (pull request), and th
 _Additional_ articles, which may help to understand the above topic better:
 - [Chris Morgan: Rust ownership, the hard way][1]
 - [Adolfo Ochagavía: You are holding it wrong][23]
-- [Vikram Fugro: Beyond Pointers: How Rust outshines C++ with its Borrow Checker][30]
+- [Vikram Fugro: Beyond Pointers: How Rust outshines C++ with its Borrow Checker][29]
 - [HashRust: A guide to closures in Rust][24]
 - [Ludwig Stecher: Rusts Module System Explained][2]
 - [Tristan Hume: Models of Generics and Metaprogramming: Go, Rust, Swift, D and More][3]
@@ -58,7 +58,7 @@ _Additional_ articles, which may help to understand the above topic better:
 - [Auto-trait definition][18]
 - [Georgios Antonopoulos: Rust vs Common C++ Bugs][21]
 - [Yurii Shymon: True Observer Pattern with Unsubscribe mechanism using Rust][22]
-- [Asynchronous vs Multithreading][29]
+
 
 Additional:
 - [Rust API guidline checklist][19]
@@ -102,5 +102,4 @@ Additional:
 [26]: https://github.com/rust-lang-ua/learn_rust_together/blob/master/introduction.md
 [27]: https://github.com/rust-lang-ua/learn_rust_together/blob/master/toolbox_general.md
 [28]: https://github.com/rust-lang-ua/learn_rust_together/blob/master/learn.md
-[29]: https://github.com/Learn-Together-Pro/ComputerScience/blob/master/gcs/cheatsheets.md#asynchronous-vs-multithreading
-[30]: https://dev.to/vikram2784/beyond-pointers-how-rust-outshines-c-with-its-borrow-checker-1mad
+[29]: https://dev.to/vikram2784/beyond-pointers-how-rust-outshines-c-with-its-borrow-checker-1mad
