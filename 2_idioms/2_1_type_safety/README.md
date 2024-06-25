@@ -1,4 +1,4 @@
-Step 2.1: Rich types ensure correctness
+Task 2.1: Rich types ensure correctness
 =======================================
 
 [Rust] has a rich type system which allows to express our program primitives, entities, notions, logic and semantics mostly in types, rather than in data/values, which is known as a "programming with types" concept. The benefits of this are obvious: the more compiler knows about our problem - the more false programs it will decline. Or, rephrased: __the more we describe about the program in types - the more we reduce the probability for the program to be incorrect__.

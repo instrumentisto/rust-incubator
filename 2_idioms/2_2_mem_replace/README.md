@@ -1,4 +1,4 @@
-Step 2.2: Swapping values with `mem::replace`
+Task 2.2: Swapping values with `mem::replace`
 =============================================
 
 As [Rust] implies [move semantics][1] by default and quite strict [borrowing rules][2], often, there are situations (especially, with large `struct`s and `enum`s) where mutating value in-place or values swapping may not be allowed by borrow checker, which is quite confusing and leads to doing needless clones (so providing redudant performance costs). For example:
@@ -142,7 +142,7 @@ __Estimated time__: 1 day
 
 
 
-Improve and optimize the code contained in [this step's crate](src/main.rs) to cut off redudant performance costs.
+Improve and optimize the code contained in [this task's crate](src/main.rs) to cut off redudant performance costs.
 Add tests.
 
 

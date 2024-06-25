@@ -1,4 +1,4 @@
-Step 1.9: Phantom types
+Task 1.9: Phantom types
 =======================
 
 Because [Rust] has a rich type system, a programming logic and semantics are mostly expressed in types rather than in data/values, which is known as a "programming with types" concept. Often, this leads to situations where you need to express some type relations without having any values of those types. Here is where [phantom types][5] come in: they carry some semantics on type level, which invariants are checked by compiler, and are totally compiled out in runtime.

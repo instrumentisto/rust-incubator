@@ -1,4 +1,4 @@
-Step 3.10: Multithreading and parallelism
+Task 3.10: Multithreading and parallelism
 =========================================
 
 One of main [Rust]'s design goals is a [concurrency][1]. [Rust] has a [strong opinion][2] about that, while allows different concurrent models to coexist.

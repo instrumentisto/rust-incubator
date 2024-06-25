@@ -62,8 +62,6 @@ Expect to join calls with your fellow learners and mentors four days a week. Dur
 
 ### Topology of curriculum
 
-In most contexts, the terms chapter and step can be used interchangeably.
-
 The boot camp is divided into four parts:
 
 1. General part: chapters 0, 1, 2, 3
@@ -175,12 +173,12 @@ This course is continually evolving, and it's important to stay updated with the
 
 ## Submitting Solutions
 
-For each chapter or step of the rustcamp, you should create and submit a separate [PR (pull request)][PR]. Make sure to give your PR a [relevant title](https://github.com/rust-lang-ua/rustcamp/blob/master/faq.md#--how-should-i-name-pr). After you've completed your pull request, please remove any markers like "NOT READY", "DRAFT", or "WIP" from the title and specify [our bot](https://github.com/1tbot) as a reviewer and tag all of your mentors in the comments section.
+For each task of the rustcamp, you should create and submit a separate [PR (pull request)][PR]. Make sure to give your PR a [relevant title](https://github.com/rust-lang-ua/rustcamp/blob/master/faq.md#--how-should-i-name-pr). After you've completed your pull request, please remove any markers like "NOT READY", "DRAFT", or "WIP" from the title and specify [our bot](https://github.com/1tbot) as a reviewer and tag all of your mentors in the comments section.
 
 Please, don't do PR merge yourself. 
 Before merging the pull request into the main branch, you need to receive approval from at least one mentor. If more than one mentor has reviewed your Pull Request and requested changes, you must receive approval from all involved mentors. If all the conditions are executed, mentors will be able to merge your PR.
 
-Each step of the rustcamp is a [Cargo workspace member][workspace], meaning you can run and test it from the project root using commands like `cargo run -p step_1_8`. We highly recommend using tools like [rustfmt] and [Clippy] while writing your [Rust] code.
+Each task of the rustcamp is a [Cargo workspace member][workspace], meaning you can run and test it from the project root using commands like `cargo run -p task_1_8`. We highly recommend using tools like [rustfmt] and [Clippy] while writing your [Rust] code.
 
 Never hesitate to reach out to your mentor or lead with questions. However, be aware that you may not always receive a direct answer. Instead, they may guide you towards a path for your own exploration and discovery. Remember, in this learning journey, it's usually the mentor or lead who asks the questions, expecting thorough and precise responses from you.
 

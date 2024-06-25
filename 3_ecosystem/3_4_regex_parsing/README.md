@@ -1,4 +1,4 @@
-Step 3.4: Regular expressions and custom parsers
+Task 3.4: Regular expressions and custom parsers
 ================================================
 
 

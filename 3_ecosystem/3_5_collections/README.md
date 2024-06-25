@@ -1,4 +1,4 @@
-Step 3.5: Collections and iterators
+Task 3.5: Collections and iterators
 ===================================
 
 

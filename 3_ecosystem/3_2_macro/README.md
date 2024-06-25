@@ -1,4 +1,4 @@
-Step 3.2: Declarative and procedural macros
+Task 3.2: Declarative and procedural macros
 ===========================================
 
 [Rust] provides strong and convenient built-in capabilities for code generation in a form of [macros][1].

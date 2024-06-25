@@ -1,4 +1,4 @@
-Step 2.3: Bound behavior, not data
+Task 2.3: Bound behavior, not data
 ==================================
 
 Often, when we want to abstract over some type or behavior in [Rust] we are going from this:
@@ -106,7 +106,7 @@ __Estimated time__: 1 day
 
 
 
-Refactor the code contained in [this step's crate](src/main.rs) to reduce trait bounds pollution as much as possible.
+Refactor the code contained in [this task's crate](src/main.rs) to reduce trait bounds pollution as much as possible.
 
 
 

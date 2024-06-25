@@ -1,4 +1,4 @@
-Step 1.1: Default values, cloning and copying
+Task 1.1: Default values, cloning and copying
 =============================================
 
 

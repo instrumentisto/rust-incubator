@@ -1,4 +1,4 @@
-Step 4.2: HTTP servers and clients
+Task 4.2: HTTP servers and clients
 ==================================
 
 The current situation regarding [HTTP] in [Rust] ecosystem can be grasped quite well in [the "Web programming" section of "Awesome Rust"][1] and in the ["Web Frameworks"][2], ["HTTP Clients"][3] and ["Lower Web-Stack" topics of "Are we web yet?"][4]. Of course, most of them use [async I/O][5].
@@ -97,7 +97,7 @@ __Estimated time__: 1 day
 
 
 
-Rework [the task from the previous step](../4_1_db/README.md#task) in a [client-server architecture][51]. It should consist of a [CLI] client and a server [daemon][52], and utilize the ["thin client" approach][53]:
+Rework [the task from the previous task](../4_1_db/README.md#task) in a [client-server architecture][51]. It should consist of a [CLI] client and a server [daemon][52], and utilize the ["thin client" approach][53]:
 - [CLI] client does nothing except sending commands "as is" to the server and rendering its responses.
 - Server [daemon][52], having a single [HTTP] endpoint, does all the parsing and executing of commands sent by the [CLI] client.
 

@@ -18,7 +18,7 @@ pub trait MyIteratorExt: Iterator {
     /// **Panics** if the formatter helper is formatted more than once.
     ///
     /// ```rust
-    /// use step_2_6::MyIteratorExt as _;
+    /// use task_2_6::MyIteratorExt as _;
     ///
     /// let data = [1.1, 2.71828, -3.];
     /// assert_eq!(
@@ -46,7 +46,7 @@ pub trait MyIteratorExt: Iterator {
     /// **Panics** if the formatter helper is formatted more than once.
     ///
     /// ```rust
-    /// use step_2_6::MyIteratorExt as _;
+    /// use task_2_6::MyIteratorExt as _;
     ///
     /// let data = [1.1, 2.71828, -3.];
     /// let data_formatter = data.iter().format_with(", ", |elt, f| f(&format_args!("{:.2}", elt)));

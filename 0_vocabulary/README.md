@@ -1,4 +1,4 @@
-Step 0: Building Up an Vocabulary
+Task 0: Building Up an Vocabulary
 ========================================
 
 __Estimated time__: 4 days

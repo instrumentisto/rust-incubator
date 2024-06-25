@@ -1,4 +1,4 @@
-Step 1.2: Boxing and pinning
+Task 1.2: Boxing and pinning
 ============================
 
 
