@@ -1,4 +1,4 @@
-Step 3.6: Serialization and deserialization
+Task 3.6: Serialization and deserialization
 ===========================================
 
 

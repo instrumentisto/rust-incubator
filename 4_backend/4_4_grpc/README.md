@@ -1,4 +1,4 @@
-Step 4.4: RPC
+Task 4.4: RPC
 ========================================
 
 [gRPC] is a widely-adopted high performance [RPC] framework, having a __strict schema__, powered with pluggable support for load balancing, tracing, health checking and authentication, built on top of [HTTP/2] (and so, having a __mandatory encryption__), and __heavily using code-from-schema generation__.
@@ -21,7 +21,7 @@ For more familiarity with using [gRPC] in [Rust], read through the following art
 
 __Estimated time__: 1 day
 
-Rework the application [from the previous step](../4_3_api/README.md#task) by introducing [gRPC] as an [API] between the ["thick client"][41] and the server, while preserving the [REST]ful [API]:
+Rework the application [from the previous task](../4_3_api/README.md#task) by introducing [gRPC] as an [API] between the ["thick client"][41] and the server, while preserving the [REST]ful [API]:
 
 - Server communicates with the client via [gRPC].
 - [CLI] client parses commands by itself and makes accurate requests to the server via [gRPC].

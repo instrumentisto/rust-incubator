@@ -1,9 +1,9 @@
-Step 2: Idioms
+Task 2: Idioms
 ==============
 
-These steps describe common idioms required for writing well-designed and idiomatic [Rust] code.
+These tasks describe common idioms required for writing well-designed and idiomatic [Rust] code.
 
-> ❗️Before completing this step you should complete all its sub-steps.
+> ❗️Before completing this task you should complete all its sub-tasks.
 
 After doing them you should be able to answer the following questions:
 - Why should I care about types and expressing things in types? How do types help to increase guarantees of a program being correct?

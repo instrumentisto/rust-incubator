@@ -1,4 +1,4 @@
-Step 3.7: Randomness and cryptography
+Task 3.7: Randomness and cryptography
 =====================================
 
 

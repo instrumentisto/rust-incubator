@@ -15,7 +15,7 @@ pub trait MyError: Debug + Display {
     /// ```rust
     /// use std::fmt;
     ///
-    /// use step_2_6::MyError;
+    /// use task_2_6::MyError;
     ///
     /// #[derive(Debug)]
     /// struct SuperError {

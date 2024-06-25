@@ -1,4 +1,4 @@
-Step 3.11: Async I/O, futures and actors
+Task 3.11: Async I/O, futures and actors
 ========================================
 
 While [threads](../3_10_threads) represent a solution for [CPU-bound] problems, for [I/O-bound] problems, traditionally, the solution is [async (non-blocking) I/O][1].
@@ -186,7 +186,7 @@ __Estimated time__: 2 days
 
 Implement an async-driven [CLI] tool, which downloads specified web pages:
 ```bash
-cargo run -p step_3_11 -- [--max-threads=<number>] <file>
+cargo run -p task_3_11 -- [--max-threads=<number>] <file>
 ```
 It must read a list of links from the `<file>`, and then concurrently download a content of each link into a separate `.html` file (named by a link).
 

@@ -1,4 +1,4 @@
-Step 1.3: Shared ownership and interior mutability
+Task 1.3: Shared ownership and interior mutability
 ==================================================
 
 

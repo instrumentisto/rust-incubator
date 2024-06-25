@@ -1,4 +1,4 @@
-Step 3.3: Date and time
+Task 3.3: Date and time
 =======================
 
 [Rust] has a simple [`std::time`] module which contains very basic primitives for time measurements. To operate with dates, time zones, epochs, and other related stuff, the [`time`] and [`chrono`] crates are used in [Rust] ecosystem.
@@ -30,7 +30,7 @@ __Estimated time__: 1 day
 
 
 
-Provide implementations for `User::age()` and `User::is_adult()` methods in [this step's crate](src/main.rs).
+Provide implementations for `User::age()` and `User::is_adult()` methods in [this task's crate](src/main.rs).
 
 Prove your implementation correctness with additional tests. For tests reproducibility consider that "now time" is the date specified in the `NOW` constant.
 

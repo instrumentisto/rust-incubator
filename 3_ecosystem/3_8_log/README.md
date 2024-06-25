@@ -1,4 +1,4 @@
-Step 3.8: Logging and tracing
+Task 3.8: Logging and tracing
 =============================
 
 [Rust] has flexible type system and [metaprogramming][1] capabilities, allowing to build both efficient and highly reusable log system. The idea is very similar to [`serde`] and is introduced in a widely used [`log`], [`slog`] and [`tracing`] crates.

@@ -1,4 +1,4 @@
-Step 1.6: Static and dynamic dispatch
+Task 1.6: Static and dynamic dispatch
 =====================================
 
 [Static][1] and [dynamic][2] dispatches are important concepts to understand how your code is compiled and works in runtime, and how you can solve certain day-to-day coding problems (related to polymorphism).

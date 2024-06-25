@@ -1,4 +1,4 @@
-Step 3.9: Command-line arguments, environment variables and configs
+Task 3.9: Command-line arguments, environment variables and configs
 ===================================================================
 
 
@@ -82,7 +82,7 @@ The following priority should be applied (in ascending order) when merging:
 $ cargo run -- --help
 Prints its configuration to STDOUT
 
-Usage: step_3_9 [OPTIONS]
+Usage: task_3_9 [OPTIONS]
 
 Options:
   -d, --debug        Enables debug mode
