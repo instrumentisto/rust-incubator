@@ -1,4 +1,4 @@
-Task 3: Common ecosystem
+Chapter 3: Common ecosystem
 ========================
 
 These tasks describe common crates and tools in [Rust] ecosystem required for application and library development.

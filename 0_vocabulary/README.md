@@ -1,4 +1,4 @@
-Task 0: Building Up an Vocabulary
+Chapter 0: Building Up an Vocabulary
 ========================================
 
 __Estimated time__: 4 days

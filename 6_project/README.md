@@ -1,4 +1,4 @@
-Task 6: Capstone project
+Chapter 6: Capstone project
 =========================
 
 Congratulation! You've almost done it!
