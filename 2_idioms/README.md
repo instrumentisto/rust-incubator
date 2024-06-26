@@ -1,4 +1,4 @@
-Task 2: Idioms
+Chapter 2: Idioms
 ==============
 
 These tasks describe common idioms required for writing well-designed and idiomatic [Rust] code.

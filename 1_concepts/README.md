@@ -1,4 +1,4 @@
-Task 1: Concepts
+Chapter 1: Concepts
 ================
 
 These tasks describe common and necessary-to-know concepts for everyday programming in [Rust].
