@@ -14,6 +14,8 @@ Read through [Cargo Book] and become familiar with [Cargo] and its workspaces.
 After completing these steps, you should be able to answer (and understand why) the following questions:
 - What memory model [Rust] has? Is it single-threaded or multi-threaded? Is it synchronous or asynchronous? What are the memory layouts of `Box` and `Vector`? What are a heap and a stack? Where, but on heap and stack data could live in RAM?
 - What runtime [Rust] has? Does it use a GC (garbage collector)?
+- What is special about slice? What is the layout of Rust standard data types? Difference between fat and thin pointers?
+- Why does [Rust] have `&str` and `String` types? How do they differ? When should you use them? Why str slice coexists with slice? What is the difference between `String` and `Vec`?
 - What static typing means? What are the benefits of using it? Weak vs strong typing? Implicit vs explicit typing?
 - What are generics and parametric polymorphism? Which problems do they solve?
 - What are nominative typing and structural typing? What is the difference?
@@ -28,8 +30,6 @@ After completing these steps, you should be able to answer (and understand why) 
 - What is an iterator? What is a collection? How do they differ? How are they used?
 - What are macros? Which problems do they solve? What is the difference between declarative and procedural macro?
 - How code is tested in [Rust]? Where should you put tests and why?
-- What is special about slice? What is the layout of Rust standard data types? Difference between fat and thin pointers?
-- Why does [Rust] have `&str` and `String` types? How do they differ? When should you use them? Why str slice coexists with slice? What is the difference between `String` and `Vec`?
 - Is [Rust] an OOP language? Is it possible to use SOLID/GRASP? Does it have inheritance? Is Rust a functional language? What variance rules does Rust have?
 
 After you are done, notify your lead in an appropriate PR (pull request), and they will examine what you have learned.
