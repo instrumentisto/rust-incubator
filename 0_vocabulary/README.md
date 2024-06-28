@@ -86,7 +86,7 @@ Additional:
 [9]: https://www.thecodedmessage.com/posts/raii
 [10]: https://vojtechkral.github.io/blag/rust-drop-order/
 [11]: https://github.com/pretzelhammer/rust-blog/blob/master/posts/common-rust-lifetime-misconceptions.md
-[12]: https://www.youtube.com/watch?v=rDoqT-a6UFg
+[12]: https://youtu.be/7_o-YRxf_cc?si=gSVQ6wWSnr2le6rc
 [13]: https://www.reddit.com/r/rust/comments/lvtzri/confused_about_package_vs_crate_terminology/
 [14]: https://rustwiki.org/en/book/ch07-01-packages-and-crates.html
 [16]: https://github.com/integer32llc/rust-playground/blob/master/compiler/base/Cargo.toml
