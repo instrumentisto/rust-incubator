@@ -63,14 +63,6 @@ Each task should be submitted as a separate PR on its own branch. Use the follow
 - "task_1_3" for the third task in the first section,
 - "task_5_3_11" for the 11th subtask of the third task in the fifth section,
 
-##### <ins>*- What is the final task?*</ins><br/>
-This is the last task of the section, namely:
-- Task_1_10 : 1_concepts/README.md
-- Task_2_7 : 2_idioms/README.md 
-- Task_3_12 : 3_ecosystem/README.md 
-- Task_4_4 : 4_backend/README.md
-Questions should be answered in writing only in them.
-
 ##### <ins>*- Should I answer theoretical questions in PR?*</ins><br/>
 Only in the [final tasks](https://github.com/rust-lang-ua/rustcamp/edit/master/faq.md#--what-is-the-final-task).
 In tasks that are not final, you do not need to answer theoretical questions. For example, in Problems 1_1, 1_2, you do not need to answer the theoretical questions in writing because they are not final.
