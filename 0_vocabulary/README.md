@@ -12,7 +12,7 @@ Polish your familiarity by completing [Rust By Example] and [rustlings].
 Read through [Cargo Book] and become familiar with [Cargo] and its workspaces.
 
 After completing these steps, you should be able to answer (and understand why) the following questions:
-- What memory model [Rust] has? Is it single-threaded or multi-threaded? Is it synchronous or asynchronous? What are the memory layouts of `Box` and `Vector`? What are a heap and a stack? Where, but on heap and stack data could live in RAM?
+- What [memory model][31] [Rust] has? Is it single-threaded or multi-threaded? Is it synchronous or asynchronous? What are the memory layouts of `Box` and `Vector`? What are a heap and a stack? Where, but on heap and stack data could live in RAM?
 - What runtime [Rust] has? Does it use a GC (garbage collector)?
 - What static typing means? What are the benefits of using it? Weak vs strong typing? Implicit vs explicit typing?
 - What are generics and parametric polymorphism? Which problems do they solve?
@@ -104,3 +104,4 @@ Additional:
 [28]: https://github.com/rust-lang-ua/learn_rust_together/blob/master/learn.md
 [29]: https://github.com/Learn-Together-Pro/ComputerScience/blob/master/gcs/cheatsheets.md#asynchronous-vs-multithreading
 [30]: https://dev.to/vikram2784/beyond-pointers-how-rust-outshines-c-with-its-borrow-checker-1mad
+[31]: https://en.wikipedia.org/wiki/Memory_model_(programming)
