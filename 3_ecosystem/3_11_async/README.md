@@ -123,6 +123,7 @@ For better understanding, read through the following articles:
 - [Hayden Stainsby: how I finally understood async/await in Rust (part 3)][65]
 - [Ibraheem Ahmed: Learning Async Rust With Entirely Too Many Web Servers][66]
 - [Saoirse Shipwreckt: Thread-per-core][68]
+- [Milos Gajdos: Rust tokio task cancellation patterns][72]
 
 
 
@@ -303,3 +304,4 @@ After completing everything above, you should be able to answer (and understand 
 [69]: https://without.boats/blog/why-async-rust
 [70]: https://without.boats/blog/let-futures-be-futures
 [71]: https://without.boats/blog/futures-unordered
+[72]: https://cybernetist.com/2024/04/19/rust-tokio-task-cancellation-patterns
