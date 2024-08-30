@@ -150,6 +150,7 @@ There is a handy [momo] crate, which generates this boilerplate automatically in
 ## More reading
 
 - [Guillem L. Jara: Designing an efficient memory layout in Rust with unsafe & unions, or, an overlong guide in avoiding dynamic dispatch][21]
+- [Armin Ronacher: Using Rust Macros for Custom VTables][22]
 
 
 
@@ -209,3 +210,4 @@ After completing everything above, you should be able to answer (and understand 
 [19]: https://lucumr.pocoo.org/2022/1/7/as-any-hack
 [20]: https://medium.com/digitalfrontiers/rust-dynamic-dispatching-deep-dive-236a5896e49b
 [21]: https://alonely0.github.io/blog/unions
+[22]: https://lucumr.pocoo.org/2024/5/16/macro-vtable-magic
