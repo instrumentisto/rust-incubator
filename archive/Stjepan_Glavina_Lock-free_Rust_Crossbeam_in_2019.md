@@ -461,7 +461,7 @@ application using Tokio gets faster, too!
 [tokio-steal-many]: https://github.com/tokio-rs/tokio/pull/534
 [add-injector]: https://github.com/crossbeam-rs/crossbeam/pull/290
 [rayon-spawn]: https://docs.rs/rayon/1.0.3/rayon/fn.spawn.html
-[tbb]: https://www.threadingbuildingblocks.org/docs/help/reference/task_scheduler/scheduling_algorithm.html
+[tbb]: https://oneapi-src.github.io/oneTBB/main/tbb_userguide/How_Task_Scheduler_Works.html
 [injector]: https://docs.rs/crossbeam/0.7.1/crossbeam/deque/struct.Injector.html
 [worker]: https://docs.rs/crossbeam/0.7.1/crossbeam/deque/struct.Worker.html
 [get-fast]: https://github.com/tokio-rs/tokio/pull/874

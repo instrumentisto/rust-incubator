@@ -228,4 +228,4 @@ After completing everything above, you should be able to answer (and understand 
 [10]: https://ricardomartins.cc/2016/08/03/convenient_and_idiomatic_conversions_in_rust
 [11]: https://rust-lang.github.io/rust-clippy/master/index.html#as_conversions
 [12]: https://rusty-ferris.pages.dev/blog/asref-vs-borrow-trait
-[13]: https://timclicks.dev/explaining-rusts-deref-trait
+[13]: https://timclicks.dev/article/explaining-rusts-deref-trait
