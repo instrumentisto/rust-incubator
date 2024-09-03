@@ -37,6 +37,7 @@ This project represents a hard-way step-by-step [Rust] learning course from lang
 - [Awesome Rust] is a curated list of [Rust] code and resources.
 - [This Week in Rust] represents handpicked and subscribable [Rust] weekly updates.
 - [Baby Steps] blog of [Nicholas Matsakis](https://github.com/nikomatsakis) shares useful [Rust] patterns, ideas and design decisions.
+- [Learning Material for Idiomatic Rust] is a curated list of resources to help you write ergonomic and idiomatic [Rust] code.
 
 
 
@@ -162,6 +163,7 @@ Each step must be performed as a separate [PR (pull request)][PR] with an approp
 [IntelliJ IDEA]: https://www.jetbrains.com/idea
 [IntelliJ Rust]: https://intellij-rust.github.io
 [IntelliJ Toml]: https://plugins.jetbrains.com/plugin/8195-toml
+[Learning Material for Idiomatic Rust]: https://corrode.dev/blog/idiomatic-rust-resources
 [PR]: https://help.github.com/articles/github-glossary/#pull-request
 [RSS subscription]: https://github.com/instrumentisto/rust-incubator/commits/main.atom
 [Rust]: https://www.rust-lang.org
