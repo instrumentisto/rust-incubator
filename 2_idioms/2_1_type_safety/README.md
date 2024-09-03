@@ -83,6 +83,7 @@ For better understanding [newtype pattern][1], read through the following articl
 - [Alexis King: Parse, don’t validate][7] ([ru][7_ru])
 - [Stefan Baumgartner: Refactoring in Rust: Abstraction with the Newtype Pattern][10]
 - [Official `nutype` crate docs][`nutype`]
+- [Angus Morrison: The ultimate guide to Rust newtypes][11]
 
 
 
@@ -152,3 +153,4 @@ After completing everything above, you should be able to answer (and understand 
 [8]: https://www.greyblake.com/blog/builder-with-typestate-in-rust
 [9]: https://peace.mk/blog/compile-time-correctness-type-state
 [10]: https://fettblog.eu/refactoring-rust-abstraction-newtype
+[11]: https://www.howtocodeit.com/articles/ultimate-guide-rust-newtypes#write-ergonomic-newtype-constructors-with-from-and-tryfrom
