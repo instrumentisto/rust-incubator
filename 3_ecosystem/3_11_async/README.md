@@ -147,7 +147,7 @@ The most famous [actors][49] implementation in [Rust] is [`actix`]. At the time 
 
 [`quickwit-actors`] is another simple implementation of [actors][49], with its own advantages, built [specifically for Quickwit needs][62].
 
-More general-purpose and complex [actors system][49] implementations (similar to [Akka]) are [`bastion`] and [`riker`].
+More general-purpose and complex [actors system][49] implementations (similar to [Akka]) are [`bastion`], [`riker`] and [`hydra`].
 
 For better understanding [actors][49] design, concepts, usage, and implementations, read through the following articles:
 - [Karan Pratap Singh: CSP vs Actor model for concurrency][55]
@@ -211,6 +211,7 @@ After completing everything above, you should be able to answer (and understand 
 [`futures-lite`]: https://docs.rs/futures-lite
 [`futures-time`]: https://docs.rs/futures-time
 [`glommio`]: https://docs.rs/glommio
+[`hydra`]: https://docs.rs/hydra
 [`io-uring`]: https://docs.rs/io-uring
 [`mio`]: https://docs.rs/mio
 [`polling`]: https://docs.rs/polling
