@@ -1,4 +1,4 @@
-Step 3.10: Multithreading and parallelism
+Task 3.10: Multithreading and parallelism
 =========================================
 
 One of main [Rust]'s design goals is a [concurrency][1]. [Rust] has a [strong opinion][2] about that, while allows different concurrent models to coexist.
@@ -49,6 +49,7 @@ For better understanding and familiarity with [Rust] synchronization primitives 
 - [Aleksey Kladov: Mutexes Are Faster Than Spinlocks][27]
 - [Mara Bos: Comparing Rust's and C++'s Concurrency Library][31]
 - [Mahmoud Al-Qudsi: Implementing truly safe semaphores in rust][32]
+- [Michael Snoyman: My Best and Worst Deadlock in Rust][35]
 
 
 
@@ -93,7 +94,7 @@ Multiprocessing is a system that has more than one or two processors. In Multipr
 | Creation         | The creation of a process is slow and resource-specific.                                                                                  | The creation of a thread is economical in time and resource.                                                                 |
 | Classification   | Multiprocessing can be symmetric or asymmetric.                                                                                           | Multithreading is not classified.                                                                                            |
 | Memory           | Multiprocessing allocates separate memory and resources for each process or program.                                                      | Multithreading threads belonging to the same process share the same memory and resources as that of the process.             |
-| Pickling objects | Multithreading avoids pickling.                                                                                                           | Multiprocessing relies on pickling objects in memory to send to other processes.                                             |
+| Pickling objects | Multiprocessing relies on pickling objects in memory to send to other processes.                                                          | Multithreading avoids pickling.                                                                                              |
 | Program          | Multiprocessing system allows executing multiple programs and tasks.                                                                      | Multithreading system executes multiple threads of the same or different processes.                                          |
 
 
@@ -168,3 +169,4 @@ After completing everything above, you should be able to answer (and understand 
 [32]: https://neosmart.net/blog/implementing-truly-safe-semaphores-in-rust/
 [33]: https://vgatherps.github.io/2022-11-28-dec
 [34]: https://blog.logrocket.com/implementing-data-parallelism-rayon-rust
+[35]: https://www.snoyman.com/blog/2024/01/best-worst-deadlock-rust

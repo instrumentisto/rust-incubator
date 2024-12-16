@@ -1,4 +1,4 @@
-Step 3.8: Logging and tracing
+Task 3.8: Logging and tracing
 =============================
 
 [Rust] has flexible type system and [metaprogramming][1] capabilities, allowing to build both efficient and highly reusable log system. The idea is very similar to [`serde`] and is introduced in a widely used [`log`], [`slog`] and [`tracing`] crates.
@@ -49,8 +49,10 @@ Speaking of [tracing][10], the [`tracing`] crate has good integrations with [Ope
 
 For better understanding and familiarity with [`tracing`]'s design, concepts, usage, and features, read through the following articles:
 - [Official `tracing` crate docs][`tracing`]
+- [Joshua Mo: Getting Started with Tracing in Rust][13]
 - [Yoav Danieli: Guide to OpenTelemetry Distributed Tracing in Rust][11]
-- [Tokio Blog: Diagnostics with Tracing][13]
+- [Tokio Blog: Diagnostics with Tracing][14]
+- [Hayden Stainsby: debugging tokio instrumentation][15]
 
 
 
@@ -113,4 +115,6 @@ After completing everything above, you should be able to answer (and understand 
 [10]: https://en.wikipedia.org/wiki/Tracing_(software)
 [11]: https://www.aspecto.io/blog/distributed-tracing-with-opentelemetry-rust
 [12]: https://www.thecodedmessage.com/posts/logging
-[13]: https://tokio.rs/blog/2019-08-tracing
+[13]: https://www.shuttle.rs/blog/2024/01/09/getting-started-tracing-rust
+[14]: https://tokio.rs/blog/2019-08-tracing
+[15]: https://hegdenu.net/posts/debugging-tokio-instrumentation

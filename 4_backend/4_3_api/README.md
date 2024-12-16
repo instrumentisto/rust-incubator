@@ -1,4 +1,4 @@
-Step 4.3: API servers, clients and tools
+Task 4.3: API servers, clients and tools
 ========================================
 
 Naturally, in [client-server][4] applications, a client and a server negotiate with each other via some [API (application programming interface)][API], which often takes form of [RPC (remote procedure call)][RPC] for better structuring and standardizing (due [IDL (interface definition language)][IDL] usage).
@@ -26,7 +26,7 @@ For more information about [REST], read through the following articles:
 >
 > An OpenAPI definition can then be used by documentation generation tools to display the API, code generation tools to generate servers and clients in various programming languages, testing tools, and many other use cases.
 
-In [Rust] ecosystem, most [OpenAPI] crates follow the __code-first approach__ (generating [OpenAPI] schema from source code). The most notable crates for this are [`utoipa`] and [`okapi`].
+In [Rust] ecosystem, most [OpenAPI] crates follow the __code-first approach__ (generating [OpenAPI] schema from source code). The most notable crates for this are [`utoipa`], [`okapi`] and [`apistos`].
 
 For the opposite (generating source code from [OpenAPI] schema) [Rust] ecosystem lacks its own pure implementation, and the original [OpenAPI] tool [`openapi-generator`] should be used (powered by the [`swagger`] crate).
 
@@ -35,8 +35,11 @@ For more familiarity with [OpenAPI] and using it in [Rust], read through the fol
 - [SwaggerHub Documentation: OpenAPI 3.0 Tutorial][122]
 - [Official `utoipa` crate docs][`cynic`]
 - [Official `okapi` crate docs][`okapi`]
+- [Official `apistos` crate docs][`apistos`]
 - [Twilio Docs: Generate a Rust client for Twilio's API][121]
 - [Fabian Odenthal: Auto-Generating & Validating OpenAPI Docs in Rust: A Streamlined Approach with Utoipa and Schemathesis][123]
+- [Olly Dixon: Auto-generating API service using Rust, to TypeScript & Dart][124]
+- [Joshua Mo: Working with OpenAPI using Rust][125]
 
 
 
@@ -84,24 +87,7 @@ For more familiarity with making [GraphQL] requests in [Rust], read through the 
 
 
 
-## gRPC
 
-[gRPC] is a widely-adopted high performance [RPC] framework, having a __strict schema__, powered with pluggable support for load balancing, tracing, health checking and authentication, built on top of [HTTP/2] (and so, having a __mandatory encryption__), and __heavily using code-from-schema generation__.
-
-For more familiarity with [gRPC], read through the following articles:
-- [gRPC docs: Introduction to gRPC][301]
-- [gRPC docs: Core concepts, architecture and lifecycle][302]
-
-
-### Server and client
-
-For implementing a [gRPC] server in [Rust], there are two main production-ready crates in its ecosystem: [`tonic`] (pure [Rust] implementation, based on [`tokio`]) and [`grpcio`] (wrapper around [gRPC core][311] implementation).
-
-In [gRPC] ecosystem, usually, implementing a [gRPC] client doesn't differ much from implementing a server, since both are auto-generated from the same `.proto` schema. So, for [Rust], the same [`tonic`] and [`grpcio`] crates do the job when it comes to making [gRPC] requests. 
-
-For more familiarity with using [gRPC] in [Rust], read through the following articles:
-- [Official `tonic` crate docs][`tonic`]
-- [Official `grpcio` crate docs][`grpcio`]
 
 
 
@@ -113,7 +99,7 @@ __Estimated time__: 1 day
 
 
 
-Rework [the task from the previous step](../4_2_http/README.md#task) in a ["thick client" paradigm][41]:
+Rework [the task from the previous task](../4_2_http/README.md#task) in a ["thick client" paradigm][41]:
 - Server represents a [REST]ful [API] with separate endpoints for each operation.
 - [CLI] client parses commands by itself and makes accurate requests to the server [REST]ful [API].
 
@@ -134,11 +120,11 @@ After completing everything above, you should be able to answer (and understand 
 - What does REST paradigm mean? What are essentials of RESTful API? Which strengths does it have? What does it lack?  
 - What is OpenAPI? What is Swagger? How do they relate? Why are they beneficial for RESTful API?
 - What is GraphQL? Which are strong sides of this technology? What problems does it bring in practice? 
-- What is gRPC? What are its strengths? Which are good use-cases for it, and which are not? Why? 
 
 
 
 
+[`apistos`]: https://docs.rs/apistos
 [`async-graphql`]: https://docs.rs/async-graphql
 [`cynic`]: https://docs.rs/cynic
 [`graphql-client`]: https://github.com/graphql-rust/graphql-client
@@ -181,6 +167,8 @@ After completing everything above, you should be able to answer (and understand 
 [121]: https://www.twilio.com/docs/openapi/generating-a-rust-client-for-twilios-api
 [122]: https://support.smartbear.com/swaggerhub/docs/tutorials/openapi-3-tutorial.html
 [123]: https://identeco.de/en/blog/generating_and_validating_openapi_docs_in_rust
+[124]: https://www.polydelic.com/media/autogenerating-a-rust-api-to-typescript-and-dart
+[125]: https://www.shuttle.rs/blog/2024/04/04/using-openapi-rust
 [200]: https://graphql.org/learn/queries
 [201]: https://graphql.org/learn/schema
 [202]: https://graphql.org/learn/introspection

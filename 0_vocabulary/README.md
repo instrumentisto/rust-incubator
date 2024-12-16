@@ -1,4 +1,4 @@
-Step 0: Building Up an Vocabulary
+Chapter 0: Building Up an Vocabulary
 ========================================
 
 __Estimated time__: 4 days
@@ -14,6 +14,8 @@ Read through [Cargo Book] and become familiar with [Cargo] and its workspaces.
 After completing these steps, you should be able to answer (and understand why) the following questions:
 - What [memory model][31] [Rust] has? Is it single-threaded or multi-threaded? Is it synchronous or asynchronous? What are the memory layouts of `Box` and `Vector`? What are a heap and a stack? Where, but on heap and stack data could live in RAM?
 - What runtime [Rust] has? Does it use a GC (garbage collector)?
+- What is special about slice? What is the layout of Rust standard data types? Difference between fat and thin pointers?
+- Why does [Rust] have `&str` and `String` types? How do they differ? When should you use them? Why str slice coexists with slice? What is the difference between `String` and `Vec`?
 - What static typing means? What are the benefits of using it? Weak vs strong typing? Implicit vs explicit typing?
 - What are generics and parametric polymorphism? Which problems do they solve?
 - What are nominative typing and structural typing? What is the difference?
@@ -28,8 +30,6 @@ After completing these steps, you should be able to answer (and understand why) 
 - What is an iterator? What is a collection? How do they differ? How are they used?
 - What are macros? Which problems do they solve? What is the difference between declarative and procedural macro?
 - How code is tested in [Rust]? Where should you put tests and why?
-- What is special about slice? What is the layout of Rust standard data types? Difference between fat and thin pointers?
-- Why does [Rust] have `&str` and `String` types? How do they differ? When should you use them? Why str slice coexists with slice? What is the difference between `String` and `Vec`?
 - Is [Rust] an OOP language? Is it possible to use SOLID/GRASP? Does it have inheritance? Is Rust a functional language? What variance rules does Rust have?
 
 After you are done, notify your lead in an appropriate PR (pull request), and they will examine what you have learned.
@@ -37,7 +37,7 @@ After you are done, notify your lead in an appropriate PR (pull request), and th
 _Additional_ articles, which may help to understand the above topic better:
 - [Chris Morgan: Rust ownership, the hard way][1]
 - [Adolfo Ochagavía: You are holding it wrong][23]
-- [Vikram Fugro: Beyond Pointers: How Rust outshines C++ with its Borrow Checker][30]
+- [Vikram Fugro: Beyond Pointers: How Rust outshines C++ with its Borrow Checker][29]
 - [HashRust: A guide to closures in Rust][24]
 - [Ludwig Stecher: Rusts Module System Explained][2]
 - [Tristan Hume: Models of Generics and Metaprogramming: Go, Rust, Swift, D and More][3]
@@ -58,7 +58,7 @@ _Additional_ articles, which may help to understand the above topic better:
 - [Auto-trait definition][18]
 - [Georgios Antonopoulos: Rust vs Common C++ Bugs][21]
 - [Yurii Shymon: True Observer Pattern with Unsubscribe mechanism using Rust][22]
-- [Asynchronous vs Multithreading][29]
+
 
 Additional:
 - [Rust API guidline checklist][19]
@@ -86,7 +86,7 @@ Additional:
 [9]: https://www.thecodedmessage.com/posts/raii
 [10]: https://vojtechkral.github.io/blag/rust-drop-order/
 [11]: https://github.com/pretzelhammer/rust-blog/blob/master/posts/common-rust-lifetime-misconceptions.md
-[12]: https://www.youtube.com/watch?v=rDoqT-a6UFg
+[12]: https://youtu.be/7_o-YRxf_cc?si=gSVQ6wWSnr2le6rc
 [13]: https://www.reddit.com/r/rust/comments/lvtzri/confused_about_package_vs_crate_terminology/
 [14]: https://rustwiki.org/en/book/ch07-01-packages-and-crates.html
 [16]: https://github.com/integer32llc/rust-playground/blob/master/compiler/base/Cargo.toml
@@ -105,3 +105,4 @@ Additional:
 [29]: https://github.com/Learn-Together-Pro/ComputerScience/blob/master/gcs/cheatsheets.md#asynchronous-vs-multithreading
 [30]: https://dev.to/vikram2784/beyond-pointers-how-rust-outshines-c-with-its-borrow-checker-1mad
 [31]: https://en.wikipedia.org/wiki/Memory_model_(programming)
+

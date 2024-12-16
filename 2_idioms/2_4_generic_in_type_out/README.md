@@ -1,4 +1,4 @@
-Step 2.4: Abstract type in, concrete type out
+Task 2.4: Abstract type in, concrete type out
 =============================================
 
 
@@ -74,7 +74,7 @@ just_print_stringy(&nickname);
 
 This is one of the key features, which drive [Rust] expressiveness and ergonomics. Just look over `std` library to see how widely it's used: [`Iterator::eq()`][1], [`Vec::drain()`][2], [`HashMap::extend()`][3], etc.
 
-The downside of this idiom is that compiler generates more code due to monomorphization, so potentially leads to code bloating. The way it can be optimized has already been [explained in "Reducing code bloat optimization" section of 1.6 step][6].
+The downside of this idiom is that compiler generates more code due to monomorphization, so potentially leads to code bloating. The way it can be optimized has already been [explained in "Reducing code bloat optimization" section of 1.6 task][6].
 
 Further reading on theme:
 - [Joe Wilm: From &str to Cow][4]
@@ -102,7 +102,7 @@ __Estimated time__: 1 day
 
 
 
-Refactor the code contained in [this step's crate](src/main.rs) to make it more efficient, idiomatic, simple and pleasant to use.
+Refactor the code contained in [this task's crate](src/main.rs) to make it more efficient, idiomatic, simple and pleasant to use.
 
 
 

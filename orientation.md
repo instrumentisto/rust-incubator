@@ -44,7 +44,7 @@ Also, Rust is not the worst choice nowadays:
 
 - [A large and friendly community](https://medium.com/mozilla-tech/growing-the-rust-community-6b6d23725085)
 - [Trending language: 7 years in a row as a favorite programming language ](https://survey.stackoverflow.co/2022/#section-most-loved-dreaded-and-wanted-programming-scripting-and-markup-languages)
-- [Fast](https://levelup.gitconnected.com/which-is-faster-rust-or-c-lets-find-out-who-is-the-usain-bolt-87495c774c8) and [secure](https://vegibit.com/is-rust-the-future-of-systems-programming/)
+- [Fast](https://levelup.gitconnected.com/which-is-faster-rust-or-c-lets-find-out-who-is-the-usain-bolt-87495c774c8) and [secure](https://medium.com/@elvisouma943/the-future-of-systems-programming-e99a46e3739b)
 - [Recognition by world leaders: Mozilla, Dropbox, Cloudflare, Discord, AWS](https://www.rust-lang.org/production/users)
 - [Rich ecosystem: cargo out of the box](https://lib.rs/stats)
 - Rust in the cores of [Linux](https://www.infoq.com/news/2022/12/linux-6-1-rust/) and [Windows](https://www.theregister.com/2023/04/27/microsoft_windows_rust/) : the language will not disappear and will continue to evolve
@@ -61,8 +61,6 @@ Each participant has been assigned to a specific group, with each group having 2
 Expect to join calls with your fellow learners and mentors four days a week. During these group sessions, we strongly encourage you to **voice your questions** and engage actively in discussions. Be prepared to answer queries posed by your mentor. We also recommend turning on your **video camera** to foster a more personable and engaging experience for both participants and mentors. Please join meetings **5 minutes before** they start to show respect to peers and mentors.
 
 ### Topology of curriculum
-
-In most contexts, the terms chapter and step can be used interchangeably.
 
 The boot camp is divided into four parts:
 
@@ -132,14 +130,14 @@ Please be **respectful and polite** to peers and mentors.
 
 ### Deadlines
 
-__Soft Deadline: Thursday 00:00__
+__Soft Deadline: Thursday 23:59__
 - By this time, you should have submitted your latest version of the PR
 - If you do not do this, you get a foul
 - Mentors check your PR over the next day or two, and by Sunday you receive an aprove
 - 3 fouls received means expulsion from the bootcamp
 > 💡 If you still have corrections to make after Thursday, you can make them before the hard deadline - but this is also a foul (so try to have the final version of your PR by Thursday)
 
-__Hard deadline: Sunday 00:00__
+__Hard deadline: Sunday 23:59__
 - If by this time you still haven't submitted your PR or made the last edits, you are out of the bootcamp
 
 ### Expulsion
@@ -175,12 +173,12 @@ This course is continually evolving, and it's important to stay updated with the
 
 ## Submitting Solutions
 
-For each chapter or step of the rustcamp, you should create and submit a separate [PR (pull request)][PR]. Make sure to give your PR a [relevant title](https://github.com/rust-lang-ua/rustcamp/blob/master/faq.md#--how-should-i-name-pr). After you've completed your pull request, please remove any markers like "NOT READY", "DRAFT", or "WIP" from the title and specify [our bot](https://github.com/1tbot) as a reviewer and tag all of your mentors in the comments section.
+For each task of the rustcamp, you should create and submit a separate [PR (pull request)][PR]. Make sure to give your PR a [relevant title](https://github.com/rust-lang-ua/rustcamp/blob/master/faq.md#--how-should-i-name-pr). After you've completed your pull request, please remove any markers like "NOT READY", "DRAFT", or "WIP" from the title and specify [our bot](https://github.com/1tbot) as a reviewer and tag all of your mentors in the comments section.
 
 Please, don't do PR merge yourself. 
 Before merging the pull request into the main branch, you need to receive approval from at least one mentor. If more than one mentor has reviewed your Pull Request and requested changes, you must receive approval from all involved mentors. If all the conditions are executed, mentors will be able to merge your PR.
 
-Each step of the rustcamp is a [Cargo workspace member][workspace], meaning you can run and test it from the project root using commands like `cargo run -p step_1_8`. We highly recommend using tools like [rustfmt] and [Clippy] while writing your [Rust] code.
+Each task of the rustcamp is a [Cargo workspace member][workspace], meaning you can run and test it from the project root using commands like `cargo run -p task_1_8`. We highly recommend using tools like [rustfmt] and [Clippy] while writing your [Rust] code.
 
 Never hesitate to reach out to your mentor or lead with questions. However, be aware that you may not always receive a direct answer. Instead, they may guide you towards a path for your own exploration and discovery. Remember, in this learning journey, it's usually the mentor or lead who asks the questions, expecting thorough and precise responses from you.
 

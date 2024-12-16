@@ -1,9 +1,9 @@
-Step 4: Backend ecosystem
+Chapter 4: Backend ecosystem
 =========================
 
-These steps describe common crates and tools in [Rust] ecosystem required for web backend development.
+These tasks describe common crates and tools in [Rust] ecosystem required for web backend development.
 
-> ❗️Before completing this step you should complete all its sub-steps.
+> ❗️Before completing this task you should complete all its sub-tasks.
 
 After doing them you should be able to answer the following questions:
 - How should I interact with databases in [Rust] application and why? How can I organize migrations for my project?

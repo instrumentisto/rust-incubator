@@ -1,4 +1,4 @@
-Step 1.7: `Sized` and `?Sized` types
+Task 1.7: `Sized` and `?Sized` types
 ====================================
 
 Most types in [Rust] have a particular size, in bytes, that is knowable at compile time. For example, an `i32` is 32 bits big, or 4 bytes. However, there are some types which are useful to express, but do not have a defined size (called "unsized" or "dynamically sized" types). One example is `[T]`: it represents a certain number of `T` in a sequence, but we don’t know how many there are, so the size is not known.

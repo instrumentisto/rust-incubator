@@ -1,4 +1,4 @@
-Step 3.11: Async I/O, futures and actors
+Task 3.11: Async I/O, futures and actors
 ========================================
 
 While [threads](../3_10_threads) represent a solution for [CPU-bound] problems, for [I/O-bound] problems, traditionally, the solution is [async (non-blocking) I/O][1].
@@ -72,6 +72,8 @@ For better understanding [`Waker`] design, usage, and features, read through the
 - [Amos: Understanding Rust futures by going way too deep][25]
 - [Hayden Stainsby: how I finally understood async/await in Rust (part 4)][67]
 - [Saoirse Shipwreckt: Why async Rust?][69]
+- [Saoirse Shipwreckt: Let futures be futures][70]
+- [Saoirse Shipwreckt: FuturesUnordered and the order of futures][71]
 
 
 
@@ -184,7 +186,7 @@ __Estimated time__: 2 days
 
 Implement an async-driven [CLI] tool, which downloads specified web pages:
 ```bash
-cargo run -p step_3_11 -- [--max-threads=<number>] <file>
+cargo run -p task_3_11 -- [--max-threads=<number>] <file>
 ```
 It must read a list of links from the `<file>`, and then concurrently download a content of each link into a separate `.html` file (named by a link).
 
@@ -324,3 +326,5 @@ After completing everything above, you should be able to answer (and understand 
 [67]: https://hegdenu.net/posts/understanding-async-await-4
 [68]: https://without.boats/blog/thread-per-core
 [69]: https://without.boats/blog/why-async-rust
+[70]: https://without.boats/blog/let-futures-be-futures
+[71]: https://without.boats/blog/futures-unordered

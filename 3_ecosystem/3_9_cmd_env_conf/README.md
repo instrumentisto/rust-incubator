@@ -1,4 +1,4 @@
-Step 3.9: Command-line arguments, environment variables and configs
+Task 3.9: Command-line arguments, environment variables and configs
 ===================================================================
 
 
@@ -80,19 +80,15 @@ The following priority should be applied (in ascending order) when merging:
 [CLI] of the program should look like:
 ```
 $ cargo run -- --help
-step_3_9 0.1.0
-Prints its configuration to STDOUT.
+Prints its configuration to STDOUT
 
-USAGE:
-    step_3_9 [FLAGS] [OPTIONS]
+Usage: task_3_9 [OPTIONS]
 
-FLAGS:
-    -d, --debug      Enables debug mode
-    -h, --help       Prints help information
-    -V, --version    Prints version information
-
-OPTIONS:
-    -c, --conf <conf>         Path to configuration file [env: CONF_FILE=]  [default: config.toml]
+Options:
+  -d, --debug        Enables debug mode
+  -c, --conf <CONF>  Path to configuration file [env: CONF_FILE=]  [default: config.toml]
+  -h, --help         Print help
+  -V, --version      Print version
 ```
 
 

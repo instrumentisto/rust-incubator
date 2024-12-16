@@ -1,9 +1,9 @@
-Step 1: Concepts
+Chapter 1: Concepts
 ================
 
-These steps describe common and necessary-to-know concepts for everyday programming in [Rust].
+These tasks describe common and necessary-to-know concepts for everyday programming in [Rust].
 
-> ❗️Before completing this step you should complete all its sub-steps.
+> ❗️Before completing this task you should complete all its sub-tasks.
 
 After doing them you should be able to answer the following questions:
 - How do I recognize that data is allocated at the heap rather than at the stack? When data should be allocated at the heap?

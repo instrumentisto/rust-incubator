@@ -8,10 +8,10 @@ In this rustcamp, you will participate in the [Rustcamp], a rigorous, step-by-st
 
 | Description                     | Number |
 |---------------------------------|-------:|
-| Total applications to Rustcamp  |    325 |
-| Total number of Participants    |    109 |
-| Mentors    |    29 |
-| Certified Professionals         |     25 |
+| Total applications to Rustcamp  |    507 |
+| Total number of Participants    |    187 |
+| Mentors    |    38 |
+| Certified Professionals         |     40 |
 
 ## Prerequisites
 
@@ -35,59 +35,96 @@ Please, read [instructions][Getting Started].
 
 Please, read [instructions][Submitting Solutions].
 
+### Toolchain
+
+- [rustup] for installing [Rust] toolchain and keeping it up-to-date.
+- [CLion]/[IntelliJ IDEA] + [IntelliJ Rust] + [Toml][IntelliJ Toml] plugins as development environment (or any other on your choice).
+
+
+### Bookshelf
+
+- [Rust Book] teaches and explains [Rust] basics.
+- [Rust By Example] teaches you [Rust] basics using editable examples.
+- [Rust Reference] is not a formal spec, but is more detailed and comprehensive than the [Rust Book].
+- [Cheats.rs] and [Rust SVG Cheatsheet] for quick reference.
+- [Rust Edition Guide] for considering improvements of [Rust 2018] and [Rust 2021].
+- [Rust std lib] documentation.
+- [Cargo Book] is a guide to [Cargo], [Rust]'s build tool and dependency manager.
+- [Rustdoc Book] is a guide to `rustdoc` documentation tool.
+- [Rust Cookbook] is a collection of simple examples that demonstrate good practices to accomplish common programming tasks, using the crates of the [Rust] ecosystem.
+- [Rust Design Patterns] is an open source repository of [Rust] design patterns and idioms.
+- [Effective Rust] is a collection of guidelines that had been learned from real world experience of creating software in [Rust].
+- [Rust API Guidelines] is a set of recommendations on how to design and present APIs for [Rust].
+- [Rust FAQ] answers common question about [Rust].
+- [Rust Playground] allows to share and check runnable [Rust] code snippets online.
+- [Awesome Rust] is a curated list of [Rust] code and resources.
+- [This Week in Rust] represents handpicked and subscribable [Rust] weekly updates.
+- [Baby Steps] blog of [Nicholas Matsakis](https://github.com/nikomatsakis) shares useful [Rust] patterns, ideas and design decisions.
+
+
+
+
+### Schedule
+
+Each task must be performed as a separate [PR (pull request)][PR] with an appropriate name and checkmarked here in README's schedule after completion. Each task is a [Cargo workspace member][13], so you can run/test it from the project root (i.e. `cargo run -p task_1_8`). __Consider to use [rustfmt] and [Clippy] when you're writing [Rust] code.__
+
+Each task has the estimated time for completion. If any deeper investigation on task's theme is needed by you, then it's on your own.
+
+Do not hesitate to ask your mentor/lead with questions, however you won't receive any concrete answer, but rather a direction for your own investigation. _Mentor/Lead is the one who asks questions here, demanding concrete and complete answers._
+
 ## Curriculum
 
-- [ ] [0. Become familiar with Rust basics][Step 0] (1 week)
-- [ ] [1. Concepts][Step 1] (2 weeks)
-    - [ ] [1.1. Default values, cloning and copying][Step 1.1]
-    - [ ] [1.2. Boxing and pinning][Step 1.2]
-    - [ ] [1.3. Shared ownership and interior mutability][Step 1.3]
-    - [ ] [1.4. Clone-on-write][Step 1.4]
-    - [ ] [1.5. Conversions, casting and dereferencing][Step 1.5]
-    - [ ] [1.6. Static and dynamic dispatch][Step 1.6]
-    - [ ] [1.7. `Sized` and `?Sized` types][Step 1.7]
-    - [ ] [1.8. Thread safety][Step 1.8]
-    - [ ] [1.9. Phantom types][Step 1.9]
-    - [ ] [1.10. Summary Task][Step 1 Summary Task]
-- [ ] [2. Idioms][Step 2] (2 weeks)
-    - [ ] [2.1. Rich types ensure correctness][Step 2.1]
-    - [ ] [2.2. Swapping values with `mem::replace`][Step 2.2]
-    - [ ] [2.3. Bound behavior, not data][Step 2.3]
-    - [ ] [2.4. Abstract type in, concrete type out][Step 2.4]
-    - [ ] [2.5. Exhaustivity][Step 2.5]
-    - [ ] [2.6. Sealing][Step 2.6]
-    - [ ] [2.7. Summary Task][Step 2 Summary Task]
-- [ ] [3. Ecosystem][Step 3] (3 weeks)
-    - [ ] [3.1. Testing and mocking][Step 3.1]
-    - [ ] [3.2. Declarative and procedural macros][Step 3.2]
-    - [ ] [3.3. Date and time][Step 3.3]
-    - [ ] [3.4. Regular expressions and custom parsers][Step 3.4]
-    - [ ] [3.5. Collections and iterators][Step 3.5]
-    - [ ] [3.6. Serialization and deserialization][Step 3.6]
-    - [ ] [3.7. Randomness and cryptography][Step 3.7]
-    - [ ] [3.8. Logging and tracing][Step 3.8]
-    - [ ] [3.9. Command-line arguments, environment variables and configs][Step 3.9]
-    - [ ] [3.10. Multithreading and parallelism][Step 3.10]
-    - [ ] [3.11. Async I/O, futures and actors][Step 3.11]
-    - [ ] [3.12. Summary Task][Step 3 Summary Task]
-- [ ] [4. Backend ecosystem][Step 4] (2 weeks)
-    - [ ] [4.1. Databases, connection pools and ORMs][Step 4.1]
-    - [ ] [4.2. HTTP servers and clients][Step 4.2]
-    - [ ] [4.3. API servers, clients and tools][Step 4.3]
-    - [ ] [4.4. Summary Task][Step 4 Summary Task]
-- [ ] [Agree your capstone project][Step 6.1]
-- [ ] [5. Zero To Production][Step 5] (3 weeks)
-    - [ ] [5.1. Basic actix-web][Step 5.1]
-    - [ ] [5.2. Logging][Step 5.2]
-    - [ ] [5.3. Docker and deployment][Step 5.3]
-    - [ ] [5.4. Type-Driven Development and testing][Step 5.4]
-    - [ ] [5.5. Advanced actix-web and error handling][Step 5.5]
-    - [ ] [5.6. Authorization][Step 5.6]
-- [ ] [6. Capstone Project][Step 6] (1 week)
-    - [ ] [6.1. Agree your capstone project][Step 6.1]
-    - [ ] [6.2. Get approvement of basic implementation from the first mentor][Step 6.2]
-    - [ ] [6.3. Get 4 reviews from peers and mentors][Step 6.3]
-    - [ ] [6.4. Present your project][Step 6.4]
+- [ ] [0. Become familiar with Rust basics][Task 0] (1 week)
+- [ ] [1. Concepts][Task 1] (2 weeks)
+    - [ ] [1.1. Default values, cloning and copying][Task 1.1]
+    - [ ] [1.2. Boxing and pinning][Task 1.2]
+    - [ ] [1.3. Shared ownership and interior mutability][Task 1.3]
+    - [ ] [1.4. Clone-on-write][Task 1.4]
+    - [ ] [1.5. Conversions, casting and dereferencing][Task 1.5]
+    - [ ] [1.6. Static and dynamic dispatch][Task 1.6]
+    - [ ] [1.7. `Sized` and `?Sized` types][Task 1.7]
+    - [ ] [1.8. Thread safety][Task 1.8]
+    - [ ] [1.9. Phantom types][Task 1.9]
+    - [ ] [1.10. Summary Task][Task 1 Summary Task]
+- [ ] [2. Idioms][Task 2] (2 weeks)
+    - [ ] [2.1. Rich types ensure correctness][Task 2.1]
+    - [ ] [2.2. Swapping values with `mem::replace`][Task 2.2]
+    - [ ] [2.3. Bound behavior, not data][Task 2.3]
+    - [ ] [2.4. Abstract type in, concrete type out][Task 2.4]
+    - [ ] [2.5. Exhaustivity][Task 2.5]
+    - [ ] [2.6. Sealing][Task 2.6]
+    - [ ] [2.7. Summary Task][Task 2 Summary Task]
+- [ ] [3. Ecosystem][Task 3] (3 weeks)
+    - [ ] [3.1. Testing and mocking][Task 3.1]
+    - [ ] [3.2. Declarative and procedural macros][Task 3.2]
+    - [ ] [3.3. Date and time][Task 3.3]
+    - [ ] [3.4. Regular expressions and custom parsers][Task 3.4]
+    - [ ] [3.5. Collections and iterators][Task 3.5]
+    - [ ] [3.6. Serialization and deserialization][Task 3.6]
+    - [ ] [3.7. Randomness and cryptography][Task 3.7]
+    - [ ] [3.8. Logging and tracing][Task 3.8]
+    - [ ] [3.9. Command-line arguments, environment variables and configs][Task 3.9]
+    - [ ] [3.10. Multithreading and parallelism][Task 3.10]
+    - [ ] [3.11. Async I/O, futures and actors][Task 3.11]
+    - [ ] [3.12. Summary Task][Task 3 Summary Task]
+- [ ] [4. Backend ecosystem][Task 4] (2 weeks)
+    - [ ] [4.1. Databases, connection pools and ORMs][Task 4.1]
+    - [ ] [4.2. HTTP servers and clients][Task 4.2]
+    - [ ] [4.3. API servers, clients and tools][Task 4.3]
+    - [ ] [4.4. Summary Task][Task 4 Summary Task]
+- [ ] [Agree your capstone project][Task 6.1]
+- [ ] [5. Zero To Production][Task 5] (3 weeks)
+    - [ ] [5.1. Basic actix-web][Task 5.1]
+    - [ ] [5.2. Logging][Task 5.2]
+    - [ ] [5.3. Docker and deployment][Task 5.3]
+    - [ ] [5.4. Type-Driven Development and testing][Task 5.4]
+    - [ ] [5.5. Advanced actix-web and error handling][Task 5.5]
+    - [ ] [5.6. Authorization][Task 5.6]
+- [ ] [6. Capstone Project][Task 6] (1 week)
+    - [ ] [6.1. Agree your capstone project][Task 6.1]
+    - [ ] [6.2. Get approvement of basic implementation from the first mentor][Task 6.2]
+    - [ ] [6.3. Get 4 reviews from peers and mentors][Task 6.3]
+    - [ ] [6.4. Present your project][Task 6.4]
 
 ## Useful links
 
@@ -113,56 +150,56 @@ Please, read [instructions][Submitting Solutions].
 
 Rustcamp materials were based on the [Rust Incubator](https://github.com/instrumentisto/rust-incubator) program created by the Legendary [Kai](https://github.com/tyranron) 💜 and Member of the Jedi High Council [Luca Palmieri](https://github.com/LukeMathWalker) 🧙‍♂️
 
-[Step 0]: 0_basics
-[Step 1]: 1_concepts
-[Step 1.1]: 1_concepts/1_1_default_clone_copy
-[Step 1.2]: 1_concepts/1_2_box_pin
-[Step 1.3]: 1_concepts/1_3_rc_cell
-[Step 1.4]: 1_concepts/1_4_cow
-[Step 1.5]: 1_concepts/1_5_convert_cast_deref
-[Step 1.6]: 1_concepts/1_6_dispatch
-[Step 1.7]: 1_concepts/1_7_sized
-[Step 1.8]: 1_concepts/1_8_thread_safety
-[Step 1.9]: 1_concepts/1_9_phantom
-[Step 1 Summary Task]: 1_concepts/README.md#task
-[Step 2]: 2_idioms
-[Step 2.1]: 2_idioms/2_1_type_safety
-[Step 2.2]: 2_idioms/2_2_mem_replace
-[Step 2.3]: 2_idioms/2_3_bound_impl
-[Step 2.4]: 2_idioms/2_4_generic_in_type_out
-[Step 2.5]: 2_idioms/2_5_exhaustivity
-[Step 2.6]: 2_idioms/2_6_sealing
-[Step 2 Summary Task]: 2_idioms/README.md#task
-[Step 3]: 3_ecosystem
-[Step 3.1]: 3_ecosystem/3_1_testing
-[Step 3.2]: 3_ecosystem/3_2_macro
-[Step 3.3]: 3_ecosystem/3_3_date_time
-[Step 3.4]: 3_ecosystem/3_4_regex_parsing
-[Step 3.5]: 3_ecosystem/3_5_collections
-[Step 3.6]: 3_ecosystem/3_6_serde
-[Step 3.7]: 3_ecosystem/3_7_rand_crypto
-[Step 3.8]: 3_ecosystem/3_8_log
-[Step 3.9]: 3_ecosystem/3_9_cmd_env_conf
-[Step 3.10]: 3_ecosystem/3_10_threads
-[Step 3.11]: 3_ecosystem/3_11_async
-[Step 3 Summary Task]: 3_ecosystem/README.md#task
-[Step 4]: 4_backend
-[Step 4.1]: 4_backend/4_1_db
-[Step 4.2]: 4_backend/4_2_http
-[Step 4.3]: 4_backend/4_3_api
-[Step 4 Summary Task]: 4_backend/README.md#task
-[Step 5]: 5_zero2prod
-[Step 5.1]: 5_zero2prod/3_chapter
-[Step 5.2]: 5_zero2prod/4_chapter
-[Step 5.3]: 5_zero2prod/5_chapter
-[Step 5.4]: 5_zero2prod/6_chapter
-[Step 5.5]: 5_zero2prod/7_chapter
-[Step 5.6]: 5_zero2prod/10_chapter
-[Step 6]: 6_project
-[Step 6.1]: 6_project/README.md#step-61-agree-on-your-capstone-project
-[Step 6.2]: 6_project/README.md#step-62-get-approvement-of-basic-implementation-from-the-first-mentor
-[Step 6.3]: 6_project/README.md#step-63-get-4-reviews-from-peers-and-mentors
-[Step 6.4]: 6_project/README.md#step-64-present-your-project
+[Task 0]: 0_vocabulary
+[Task 1]: 1_concepts
+[Task 1.1]: 1_concepts/1_1_default_clone_copy
+[Task 1.2]: 1_concepts/1_2_box_pin
+[Task 1.3]: 1_concepts/1_3_rc_cell
+[Task 1.4]: 1_concepts/1_4_cow
+[Task 1.5]: 1_concepts/1_5_convert_cast_deref
+[Task 1.6]: 1_concepts/1_6_dispatch
+[Task 1.7]: 1_concepts/1_7_sized
+[Task 1.8]: 1_concepts/1_8_thread_safety
+[Task 1.9]: 1_concepts/1_9_phantom
+[Task 1 Summary Task]: 1_concepts/README.md#task
+[Task 2]: 2_idioms
+[Task 2.1]: 2_idioms/2_1_type_safety
+[Task 2.2]: 2_idioms/2_2_mem_replace
+[Task 2.3]: 2_idioms/2_3_bound_impl
+[Task 2.4]: 2_idioms/2_4_generic_in_type_out
+[Task 2.5]: 2_idioms/2_5_exhaustivity
+[Task 2.6]: 2_idioms/2_6_sealing
+[Task 2 Summary Task]: 2_idioms/README.md#task
+[Task 3]: 3_ecosystem
+[Task 3.1]: 3_ecosystem/3_1_testing
+[Task 3.2]: 3_ecosystem/3_2_macro
+[Task 3.3]: 3_ecosystem/3_3_date_time
+[Task 3.4]: 3_ecosystem/3_4_regex_parsing
+[Task 3.5]: 3_ecosystem/3_5_collections
+[Task 3.6]: 3_ecosystem/3_6_serde
+[Task 3.7]: 3_ecosystem/3_7_rand_crypto
+[Task 3.8]: 3_ecosystem/3_8_log
+[Task 3.9]: 3_ecosystem/3_9_cmd_env_conf
+[Task 3.10]: 3_ecosystem/3_10_threads
+[Task 3.11]: 3_ecosystem/3_11_async
+[Task 3 Summary Task]: 3_ecosystem/README.md#task
+[Task 4]: 4_backend
+[Task 4.1]: 4_backend/4_1_db
+[Task 4.2]: 4_backend/4_2_http
+[Task 4.3]: 4_backend/4_3_api
+[Task 4 Summary Task]: 4_backend/README.md#task
+[Task 5]: 5_zero2prod
+[Task 5.1]: 5_zero2prod/3_chapter
+[Task 5.2]: 5_zero2prod/4_chapter
+[Task 5.3]: 5_zero2prod/5_chapter
+[Task 5.4]: 5_zero2prod/6_chapter
+[Task 5.5]: 5_zero2prod/7_chapter
+[Task 5.6]: 5_zero2prod/10_chapter
+[Task 6]: 6_project
+[Task 6.1]: 6_project/README.md#task-61-agree-on-your-capstone-project
+[Task 6.2]: 6_project/README.md#task-62-get-approvement-of-basic-implementation-from-the-first-mentor
+[Task 6.3]: 6_project/README.md#task-63-get-4-reviews-from-peers-and-mentors
+[Task 6.4]: 6_project/README.md#task-64-present-your-project
 
 [Awesome Rust]: https://github.com/rust-unofficial/awesome-rust
 [Baby Steps]: http://smallcultfollowing.com/babysteps
@@ -216,3 +253,6 @@ Rustcamp materials were based on the [Rust Incubator](https://github.com/instrum
 [Rust Book]: https://doc.rust-lang.org/book
 [Progress Board]: https://github.com/rust-lang-ua/rustcamp_progress/blob/master/README.md
 [Graduates' Capstone Projects]: https://github.com/rust-lang-ua/rustcamp_projects
+
+
+[13]: https://doc.rust-lang.org/book/ch14-03-cargo-workspaces.html

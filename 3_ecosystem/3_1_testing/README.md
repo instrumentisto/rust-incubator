@@ -1,4 +1,4 @@
-Step 3.1: Testing and mocking
+Task 3.1: Testing and mocking
 =============================
 
 [Rust] testing ecosystem [is not huge, but has grown quite well][1], providing some interesting libraries and solutions.
@@ -115,7 +115,7 @@ For better understanding and familiarity with [fuzzing][31] in [Rust], read thro
 ## More reading
 
 - [Aleksey Kladov: How to Test][63]
-
+- [Joshua Mo: Everything you need to know about testing in Rust][64]
 
 ## Integrated tests
 
@@ -132,7 +132,6 @@ For better understanding and familiarity with [fuzzing][31] in [Rust], read thro
 - [one more example](https://out-of-cheese-error.netlify.app/the-way)
 
 
-
 ## Task
 
 __Estimated time__: 1 day
@@ -140,7 +139,7 @@ __Estimated time__: 1 day
 
 
 
-For the implementation of a small [guessing game][51] in [this step's crate](src/main.rs) provide all possible tests you're able to write.
+For the implementation of a small [guessing game][51] in [this task's crate](src/main.rs) provide all possible tests you're able to write.
 
 
 
@@ -195,3 +194,4 @@ After completing everything above, you should be able to answer (and understand 
 [61]: https://www.youtube.com/watch?v=VDfX44fZoMc
 [62]: https://nexte.st/
 [63]: https://matklad.github.io/2021/05/31/how-to-test.html
+[64]: https://www.shuttle.rs/blog/2024/03/21/testing-in-rust

@@ -1,4 +1,4 @@
-Step 2.6: Sealing
+Task 2.6: Sealing
 =================
 
 Sealing, in programming, usually means that some API (mostly public) cannot be inherited, extended or implemented outside its definition place. For example, a [sealed class or interface in Kotlin][1] cannot be inherited or implemented outside the library where it's defined. In [Rust], this idiom may be applied to [traits][2]. 
@@ -70,7 +70,7 @@ __Estimated time__: 1 day
 
 
 
-Seal the traits defined in [this step's crate](src/lib.rs) in the following way:
+Seal the traits defined in [this task's crate](src/lib.rs) in the following way:
 - Make the [`MyIteratorExt` trait](src/my_iterator_ext.rs) fully sealed. Do it manually, using the [`sealed`] crate or a similar one is __not allowed__.
 - Make the [`MyError` trait](src/my_error.rs) partially sealed. Only seal the method marked with `#[doc(hidden)]` attribute.
 - Sealing should work on both module level (disallowing to implement the sealed trait or the sealed method in the root module of the crate or any other module outside the one where the traits are defined, prove it by providing commented implementations in the root module of the crate, which doesn't compile due to the seal, if uncommented) and crate level (prove it by creating [documentation tests which doesn't compile][12] due to the seal).
