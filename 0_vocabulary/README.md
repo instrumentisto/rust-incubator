@@ -12,7 +12,7 @@ Polish your familiarity by completing [Rust By Example] and [rustlings].
 Read through [Cargo Book] and become familiar with [Cargo] and its workspaces.
 
 After completing these steps, you should be able to answer (and understand why) the following questions:
-- What memory model [Rust] has? Is it single-threaded or multi-threaded? Is it synchronous or asynchronous? What are the memory layouts of `Box` and `Vector`? What are a heap and a stack? Where, but on heap and stack data could live in RAM?
+- What [memory model][31] [Rust] has? Is it single-threaded or multi-threaded? Is it synchronous or asynchronous? What are the memory layouts of `Box` and `Vector`? What are a heap and a stack? Where, but on heap and stack data could live in RAM?
 - What runtime [Rust] has? Does it use a GC (garbage collector)?
 - What is special about slice? What is the layout of Rust standard data types? Difference between fat and thin pointers?
 - Why does [Rust] have `&str` and `String` types? How do they differ? When should you use them? Why str slice coexists with slice? What is the difference between `String` and `Vec`?
@@ -37,7 +37,7 @@ After you are done, notify your lead in an appropriate PR (pull request), and th
 _Additional_ articles, which may help to understand the above topic better:
 - [Chris Morgan: Rust ownership, the hard way][1]
 - [Adolfo Ochagavía: You are holding it wrong][23]
-- [Vikram Fugro: Beyond Pointers: How Rust outshines C++ with its Borrow Checker][29]
+- [Vikram Fugro: Beyond Pointers: How Rust outshines C++ with its Borrow Checker][30]
 - [HashRust: A guide to closures in Rust][24]
 - [Ludwig Stecher: Rusts Module System Explained][2]
 - [Tristan Hume: Models of Generics and Metaprogramming: Go, Rust, Swift, D and More][3]
@@ -102,4 +102,6 @@ Additional:
 [26]: https://github.com/rust-lang-ua/learn_rust_together/blob/master/introduction.md
 [27]: https://github.com/rust-lang-ua/learn_rust_together/blob/master/toolbox_general.md
 [28]: https://github.com/rust-lang-ua/learn_rust_together/blob/master/learn.md
-[29]: https://dev.to/vikram2784/beyond-pointers-how-rust-outshines-c-with-its-borrow-checker-1mad
+[30]: https://dev.to/vikram2784/beyond-pointers-how-rust-outshines-c-with-its-borrow-checker-1mad
+[31]: https://en.wikipedia.org/wiki/Memory_model_(programming)
+
