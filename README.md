@@ -38,7 +38,7 @@ Please, read [instructions][Submitting Solutions].
 ### Toolchain
 
 - [rustup] for installing [Rust] toolchain and keeping it up-to-date.
-- [CLion]/[IntelliJ IDEA] + [IntelliJ Rust] + [Toml][IntelliJ Toml] plugins as development environment (or any other on your choice).
+- [RustRover] as development environment (or any other on your choice).
 
 
 ### Bookshelf
@@ -206,12 +206,9 @@ Rustcamp materials were based on the [Rust Incubator](https://github.com/instrum
 [Cargo]: https://github.com/rust-lang/cargo
 [Cargo Book]: https://doc.rust-lang.org/cargo
 [Cheats.rs]: https://cheats.rs
-[CLion]: https://www.jetbrains.com/clion
+[RustRover]: https://www.jetbrains.com/rust/
 [Effective Rust]: https://www.lurklurk.org/effective-rust
 [GitHub repository]: https://help.github.com/articles/github-glossary/#repository
-[IntelliJ IDEA]: https://www.jetbrains.com/idea
-[IntelliJ Rust]: https://intellij-rust.github.io
-[IntelliJ Toml]: https://plugins.jetbrains.com/plugin/8195-toml
 [PR]: https://help.github.com/articles/github-glossary/#pull-request
 [workspace]: https://doc.rust-lang.org/book/ch14-03-cargo-workspaces.html
 [Rust]: https://www.rust-lang.org
