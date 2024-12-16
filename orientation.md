@@ -143,8 +143,8 @@ Please be **respectful and polite** to peers and mentors.
 There are a few potential reasons for expulsion from the group, which include but are not limited to:
 
 - [Plagiarism]
-- Failing to meet more than 2 [soft deadlines][deadlines]
-- Failing to meet any [hard deadline][deadlines]
+- Failing to meet more than 2 [deadlines][deadlines]
+- Failing to meet any [expulsion deadline][deadlines]
 - Systematic violation of the rules
 - Choosing to withdraw on your own accord
 
