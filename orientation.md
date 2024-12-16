@@ -184,7 +184,6 @@ Never hesitate to reach out to your mentor or lead with questions. However, be a
 
 - 🧭 [Orientation] - Maximize your boot camp experience with these tips.
 - ⏩ [Getting Started][Getting Started] - Kick off your learning journey here.
-- 🎓 [Exercism] - Dive into coding exercises with the guidance of mentors.
 - 📚 [Learning Materials][Learning Materials] - A curated collection of top-notch Rust learning materials.
 - 🔧 [Ecosystem][Ecosystem] - A curated collection of frequently used crates, representing essential parts of the Rust ecosystem.
 - 🌐 [Zero To Production] - A back-end focused book to broaden your knowledge.
@@ -197,6 +196,7 @@ Never hesitate to reach out to your mentor or lead with questions. However, be a
 If you're feeling that the certification might be too challenging at this point, that's perfectly fine. Feel free to explore these links for other learning options and resources.
 
 - 👣 [Step-by-Step Introduction] - A gradual introduction to Rust programming.
+- 🎓 [Exercism] - Dive into coding exercises with the guidance of mentors.
 - 🐣 [Rustlings] - Small exercises designed to familiarize you with reading and writing Rust code.
 - 📘 [Rust Book] - An indispensable guide to Rust. While it's a must-have starting point, we strongly encourage revisiting it throughout your learning journey.
 <!-- - 🗂️ Awesome List of [Learning Materials on Git][Learning Materials on Git] - Essential resources for mastering Git. -->
