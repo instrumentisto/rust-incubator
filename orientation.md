@@ -226,4 +226,4 @@ If you're feeling that the certification might be too challenging at this point,
 [Rustlings]: https://github.com/rust-lang/rustlings
 [Learning Materials on Git]: https://github.com/Learn-Together-Pro/LearnGitTogether
 [Rust Book]: https://doc.rust-lang.org/book
-[Progress Board]: https://github.com/rust-lang-ua/rustcamp_winter_2024/blob/master/README.md
+[Progress Board]: https://google.com
