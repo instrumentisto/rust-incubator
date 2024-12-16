@@ -84,6 +84,16 @@ We encourage you to meet all deadlines to maximize your learning experience and 
 
 Deadlines are set for the opening and any changes in your PR. If you managed to complete the task before the deadline, but received the approve from the mentors after the deadline, the task is still considered completed.
 
+__Deadline: Thursday 23:59__
+- By this time, you should have submitted your latest version of the PR
+- If you do not do this, you get a foul
+- Mentors check your PR over the next day or two, and by Sunday you receive an aprove
+- 3 fouls received means expulsion from the bootcamp
+> 💡 If you still have corrections to make after Thursday, you can make them before the hard deadline - but this is also a foul (so try to have the final version of your PR by Thursday)
+
+__Expulsion: Sunday 23:59__
+- If by this time you still haven't submitted your PR or made the last edits, you are out of the bootcamp
+
 > 💡 Advice: Tasks 4.4 and 6 are non-trivial and will easily take a week of work. Make sure you reserve more than a few days for these tasks.
 
 ### Calendar
@@ -127,18 +137,6 @@ You are welcome to **ask questions** in our chat without asking to share a solut
 Please be **respectful and polite** to peers and mentors.
 
 > 💡 Advice: mutual support is our *value*. Don't underestimate the importance of soft skills.
-
-### Deadlines
-
-__Soft Deadline: Thursday 23:59__
-- By this time, you should have submitted your latest version of the PR
-- If you do not do this, you get a foul
-- Mentors check your PR over the next day or two, and by Sunday you receive an aprove
-- 3 fouls received means expulsion from the bootcamp
-> 💡 If you still have corrections to make after Thursday, you can make them before the hard deadline - but this is also a foul (so try to have the final version of your PR by Thursday)
-
-__Hard deadline: Sunday 23:59__
-- If by this time you still haven't submitted your PR or made the last edits, you are out of the bootcamp
 
 ### Expulsion
 
