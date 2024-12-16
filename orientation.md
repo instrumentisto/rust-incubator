@@ -71,12 +71,12 @@ The boot camp is divided into four parts:
 
 At present, we offer only one specialization: "web back-end". The second and third parts can be worked on simultaneously with the first part. And, you should work on the third part in parallel with the second part to meet the deadline.
 
-### Soft and Hard Deadlines
+### Deadlines
 
 In this boot camp, we implement two types of deadlines: soft deadlines and hard deadlines.
 
-1. **Soft Deadlines**: These are flexible deadlines designed to help keep you on track. Every soft deadline is set for **Thursday** at midnight. We tolerate up to two instances of not meeting a soft deadline. However, if you fail to meet a soft deadline for a third time, this will lead to expulsion.
-2. **Hard Deadlines**: These are strict deadlines that must be adhered to. Each hard deadline is set for **Sunday** at midnight. Failing to meet a hard deadline will result in immediate expulsion.
+1. **Deadlines**: These are flexible deadlines designed to help keep you on track. Every soft deadline is set for **Thursday** at midnight. We tolerate up to two instances of not meeting a soft deadline. However, if you fail to meet a soft deadline for a third time, this will lead to expulsion.
+2. **Expulsion**: These are strict deadlines that must be adhered to. Each hard deadline is set for **Sunday** at midnight. Failing to meet a hard deadline will result in immediate expulsion.
 
 Each chapter of our program has its own deadline. Please note that some chapters may take more than one week to complete. We use a week as our standard unit of measurement.
 
