@@ -31,7 +31,7 @@ Our learning process is meticulously designed to enhance skills daily, leveragin
 
 Participants will also be challenged with designing, developing, and presenting a **capstone project**. This project provides a fantastic opportunity to apply the skills learned throughout the boot camp in a practical, impactful way.
 
-Finally, a **comprehensive assessment** will be conducted at the end of the certification program. Upon successful completion, participants will earn a certificate. This certificate is more than just a document; it's a testament to your ability to utilize best practices and write idiomatic code, which employers highly value. Imagine the doors that could open with this certificate in hand!
+Finally, a comprehensive assessment will be conducted at the end of the **certification program**. Upon successful completion, participants will earn a certificate. This certificate is more than just a document; it's a testament to your ability to utilize best practices and write idiomatic code, which employers highly value. Imagine the doors that could open with this certificate in hand!
 
 Join us in this boot camp and fast-track your IT career to new heights. The journey might be intense, but the reward is immeasurable.
 
