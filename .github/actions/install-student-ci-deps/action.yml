@@ -10,4 +10,4 @@ runs:
       uses: taiki-e/cache-cargo-install-action@v1
       with:
         # xq is jq but in Rust
-        tool: xq@0.2.44
+        tool: xq@0.4.1
