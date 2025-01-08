@@ -5,7 +5,7 @@ _<div align="right">Isaac Asimov</div>_
 
 ### Mission
 
-Our boot camp's mission is to cultivate **well-trained professionals** who can immediately add value to any team and are equipped with the skills to tackle real-world challenges. Graduates will earn professional certificates, which significantly reduce the risk for companies that might otherwise hire under-prepared individuals. We are here to mentor and guide anyone who needs it.
+Our bootcamp's mission is to cultivate **well-trained professionals** who can immediately add value to any team and are equipped with the skills to tackle real-world challenges. Graduates will earn professional certificates, which significantly reduce the risk for companies that might otherwise hire under-prepared individuals. We are here to mentor and guide anyone who needs it.
 
 However, our focus is not on:
 
@@ -73,7 +73,7 @@ At present, we offer only one specialization: "web back-end". The second and thi
 
 ### Deadlines
 
-In this boot camp, we implement two types of deadlines: soft deadlines and hard deadlines.
+In this bootcamp, we have the deadlines and expulsions.
 
 1. **Deadlines**: These are flexible deadlines designed to help keep you on track. Every soft deadline is set for **Thursday** at midnight. We tolerate up to two instances of not meeting a soft deadline. However, if you fail to meet a soft deadline for a third time, this will lead to expulsion.
 2. **Expulsion**: These are strict deadlines that must be adhered to. Each hard deadline is set for **Sunday** at midnight. Failing to meet a hard deadline will result in immediate expulsion.
