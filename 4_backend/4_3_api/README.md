@@ -33,7 +33,7 @@ For the opposite (generating source code from [OpenAPI] schema) [Rust] ecosystem
 For more familiarity with [OpenAPI] and using it in [Rust], read through the following articles:
 - [OpenAPI Initiative]
 - [SwaggerHub Documentation: OpenAPI 3.0 Tutorial][122]
-- [Official `utoipa` crate docs][`cynic`]
+- [Official `utoipa` crate docs][`utoipa`]
 - [Official `okapi` crate docs][`okapi`]
 - [Official `apistos` crate docs][`apistos`]
 - [Twilio Docs: Generate a Rust client for Twilio's API][121]
