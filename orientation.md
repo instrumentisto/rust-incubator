@@ -180,6 +180,8 @@ Each task of the rustcamp is a [Cargo workspace member][workspace], meaning you 
 
 Never hesitate to reach out to your mentor or lead with questions. However, be aware that you may not always receive a direct answer. Instead, they may guide you towards a path for your own exploration and discovery. Remember, in this learning journey, it's usually the mentor or lead who asks the questions, expecting thorough and precise responses from you.
 
+If you haven't received the review 3-4 days after the submit, feel free to write to mentors privately to remind them about your PR.
+
 ## Useful links
 
 - 🧭 [Orientation] - Maximize your boot camp experience with these tips.
