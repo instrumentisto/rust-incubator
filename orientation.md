@@ -58,7 +58,7 @@ Each participant has been assigned to a specific group, with each group having 2
 
 ### Routines
 
-Expect to join calls with your fellow learners and mentors four days a week. During these group sessions, we strongly encourage you to **voice your questions** and engage actively in discussions. Be prepared to answer queries posed by your mentor. We also recommend turning on your **video camera** to foster a more personable and engaging experience for both participants and mentors. Please join meetings **5 minutes before** they start to show respect to peers and mentors.
+Expect to join calls with your fellow learners and mentors four days a week. During these group sessions, we strongly encourage you to **voice your questions** and engage actively in discussions. Be prepared to answer queries posed by your mentor. We also recommend turning on your **video camera** to foster a more personable and engaging experience for both participants and mentors. Please join meetings **5 minutes before** they start to show respect to peers and mentors. Note, that these meetings will not be recorded.
 
 ### Topology of curriculum
 
@@ -179,6 +179,8 @@ Before merging the pull request into the main branch, you need to receive approv
 Each task of the rustcamp is a [Cargo workspace member][workspace], meaning you can run and test it from the project root using commands like `cargo run -p task_1_8`. We highly recommend using tools like [rustfmt] and [Clippy] while writing your [Rust] code.
 
 Never hesitate to reach out to your mentor or lead with questions. However, be aware that you may not always receive a direct answer. Instead, they may guide you towards a path for your own exploration and discovery. Remember, in this learning journey, it's usually the mentor or lead who asks the questions, expecting thorough and precise responses from you.
+
+If you haven't received the review 3-4 days after the submit, feel free to write to mentors privately to remind them about your PR.
 
 ## Useful links
 
