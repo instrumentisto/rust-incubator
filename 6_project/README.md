@@ -26,7 +26,7 @@ Focus on designing and developing a minimum viable version of your project, rath
 
 ## Task 6.3: Get 4 reviews from peers and mentors
 
-Teamwork is crucial in our program, as is respecting senior team members and acknowledging the strengths of your peers. You are required to obtain four reviews of your work from your peers and mentors. These reviews should incorporate diverse perspectives: at least one should be from a peer and at least one from a mentor outside your immediate group. You're encouraged to consider and apply the majority of the feedback you receive in these reviews.
+Teamwork is crucial in our program, as is respecting senior team members and acknowledging the strengths of your peers. You are required to obtain four reviews of your work from your peers and mentors. These reviews should incorporate diverse perspectives: at least one should be from a peer and at least one from a mentor outside your immediate group. Another review you have to get on the [Rust Forum](https://users.rust-lang.org/) (if you have the blockchain project - get this review at a specialized forum or community). And the last review - of your choice. You're encouraged to consider and apply the majority of the feedback you receive in these reviews.
 
 ## Task 6.4: Present your project
 
