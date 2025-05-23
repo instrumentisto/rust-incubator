@@ -14,8 +14,8 @@ This project represents a hard-way step-by-step [Rust] learning course from lang
 
 ### Toolchain
 
-- [rustup] for installing [Rust] toolchain and keeping it up-to-date.
-- [CLion]/[IntelliJ IDEA] + [IntelliJ Rust] + [Toml][IntelliJ Toml] plugins as development environment (or any other on your choice).
+- [rustup] for installing the [Rust] toolchain and keeping it up-to-date.
+- [CLion]/[IntelliJ IDEA] + [IntelliJ Rust] + [Toml][IntelliJ Toml] plugins as the development environment (or any other of your choice).
 
 
 ### Bookshelf
@@ -24,19 +24,19 @@ This project represents a hard-way step-by-step [Rust] learning course from lang
 - [Rust By Example] teaches you [Rust] basics using editable examples.
 - [Rust Reference] is not a formal spec, but is more detailed and comprehensive than the [Rust Book].
 - [Cheats.rs] and [Rust SVG Cheatsheet] for quick reference.
-- [Rust Edition Guide] for considering improvements of [Rust 2018] and [Rust 2021].
+- [Rust Edition Guide] for considering the improvements in [Rust 2018] and [Rust 2021].
 - [Rust std lib] documentation.
 - [Cargo Book] is a guide to [Cargo], [Rust]'s build tool and dependency manager.
-- [Rustdoc Book] is a guide to `rustdoc` documentation tool.
-- [Rust Cookbook] is a collection of simple examples that demonstrate good practices to accomplish common programming tasks, using the crates of the [Rust] ecosystem.
+- [Rustdoc Book] is a guide to the `rustdoc` documentation tool.
+- [Rust Cookbook] is a collection of simple examples that demonstrate good practices to accomplish common programming tasks, using crates from the [Rust] ecosystem.
 - [Rust Design Patterns] is an open source repository of [Rust] design patterns and idioms.
 - [Effective Rust] is a collection of guidelines that had been learned from real world experience of creating software in [Rust].
 - [Rust API Guidelines] is a set of recommendations on how to design and present APIs for [Rust].
-- [Rust FAQ] answers common question about [Rust].
-- [Rust Playground] allows to share and check runnable [Rust] code snippets online.
+- [Rust FAQ] answers common questions about [Rust].
+- [Rust Playground] allows sharing and checking runnable [Rust] code snippets online.
 - [Awesome Rust] is a curated list of [Rust] code and resources.
 - [This Week in Rust] represents handpicked and subscribable [Rust] weekly updates.
-- [Baby Steps] blog of [Nicholas Matsakis](https://github.com/nikomatsakis) shares useful [Rust] patterns, ideas and design decisions.
+- [Baby Steps] blog by [Nicholas Matsakis](https://github.com/nikomatsakis) shares useful [Rust] patterns, ideas and design decisions.
 - [Learning Material for Idiomatic Rust] is a curated list of resources to help you write ergonomic and idiomatic [Rust] code.
 
 
@@ -47,7 +47,7 @@ This project represents a hard-way step-by-step [Rust] learning course from lang
 
 ### Before you start
 
-[Create][1] a new [GitHub repository] for yourself using this one [as template][11].
+[Create][1] a new [GitHub repository] for yourself using this one [as a template][11].
 
 > __NOTE__: __This learning course is constantly improving and evolving over time.__ 
 >
@@ -67,7 +67,7 @@ This project represents a hard-way step-by-step [Rust] learning course from lang
 
 ### Schedule
 
-Each step must be performed as a separate [PR (pull request)][PR] with an appropriate name and check-marked here in README's schedule after completion. Each step is a [Cargo workspace member][13], so you can run/test it from the project root (i.e. `cargo run -p step_1_8`). __Consider to use [rustfmt] and [Clippy] when you're writing [Rust] code.__
+Each step must be performed as a separate [PR (pull request)][PR] with an appropriate name and check-marked here in the README's schedule after completion. Each step is a [Cargo workspace member][13], so you can run/test it from the project root (i.e. `cargo run -p step_1_8`). __Consider using [rustfmt] and [Clippy] when you're writing [Rust] code.__
 
 - [ ] [0. Become familiar with Rust basics][Step 0] (3 days)
 - [ ] [1. Concepts][Step 1] (2 days, after all sub-steps)
@@ -109,9 +109,9 @@ Each step must be performed as a separate [PR (pull request)][PR] with an approp
 
 ## More practice
 
-- [rustlings] are small exercises to get you used to reading and writing [Rust] code.
+- [Rustlings][rustlings] is a collection of small exercises to get you used to reading and writing [Rust] code.
 - [Rust on Exercism] provides coding exercises with mentoring.
-- [Rust Quiz] is medium to hard [Rust] questions with explanations.
+- [Rust Quiz] for medium to hard [Rust] questions with explanations.
 
 
 
