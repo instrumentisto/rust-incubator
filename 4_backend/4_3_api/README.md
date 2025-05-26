@@ -16,7 +16,7 @@ Since [REST] is rather an __architecture convention/style__ than a strict [speci
 
 This approach, however, __suffers from lacking [API] schema__, and so, makes it hard to build a rich ecosystem around with ready-to-use tooling (or connect with existing ones). Fortunately, this is easily solved by using a concrete [RPC specification][3] on top of [REST] conventions, and following it strictly. 
 
-For more information about [REST], read through the following articles:
+For more information about [REST], read through:
 - [Tyler Charboneau: What’s the Difference Between RPC and REST?][111]
 
 
@@ -32,7 +32,7 @@ In [Rust] ecosystem, most [OpenAPI] crates follow the __code-first approach__ (g
 
 For the opposite (generating source code from [OpenAPI] schema) [Rust] ecosystem lacks its own pure implementation, and the original [OpenAPI] tool [`openapi-generator`] should be used (powered by the [`swagger`] crate).
 
-For more familiarity with [OpenAPI] and using it in [Rust], read through the following articles:
+To be familiar with [OpenAPI] and using it in [Rust], read through:
 - [OpenAPI Initiative]
 - [SwaggerHub Documentation: OpenAPI 3.0 Tutorial][122]
 - [Official `utoipa` crate docs][`cynic`]
@@ -54,7 +54,7 @@ One of the strongest parts of [GraphQL] is its [whole ecosystem][203] built arou
 
 Another strong part of [GraphQL] is that its __protocol is [transport][204]-agnostic__, so the same schema and queries, used via [HTTP], are __easily reusable via [WebSocket]__, allowing to [stream data][205] with almost zero effort atop.
 
-For more familiarity with [GraphQL], read through the following articles:
+To be familiar with [GraphQL], read through:
 - [GraphQL docs: Introduction to GraphQL][206]
 - [The Fullstack Tutorial for GraphQL][207]
 
@@ -65,7 +65,7 @@ For implementing a [GraphQL] server in [Rust], there are two major crates in its
 
 [`juniper-from-schema`] crate, however, tries to take it in opposite direction, and to some degree successfully __provides schema-to-code approach__ (generating [Rust] code using [`juniper`] from a provided [GraphQL] schema).
 
-For more familiarity with implementing [GraphQL] server in [Rust], read through the following articles:
+To be familiar with implementing [GraphQL] server in [Rust], read through:
 - [Official `juniper` crate docs][`juniper`]
 - [Juniper Book]
 - [Official `juniper-from-schema` crate docs][`juniper-from-schema`]
@@ -81,7 +81,7 @@ However, if more static guarantees is needed, then the [`graphql-client`] crate 
 
 [`cynic`] crate takes the __opposite code-to-query approach__ of generating a [GraphQL] query out of [Rust] code and validating it statically against a provided [GraphQL] schema.
 
-For more familiarity with making [GraphQL] requests in [Rust], read through the following articles:
+To be familiar with making [GraphQL] requests in [Rust], read through:
 - [Official `graphql-client` crate description][`graphql-client`]
 - [Official `cynic` crate docs][`cynic`]
 - [Official `cynic` crate guide](https://cynic-rs.dev)
@@ -93,7 +93,7 @@ For more familiarity with making [GraphQL] requests in [Rust], read through the 
 
 [gRPC] is a widely-adopted high performance [RPC] framework, having a __strict schema__, powered with pluggable support for load balancing, tracing, health checking and authentication, built on top of [HTTP/2] (and so, having a __mandatory encryption__), and __heavily using code-from-schema generation__.
 
-For more familiarity with [gRPC], read through the following articles:
+To be familiar with [gRPC], read through:
 - [gRPC docs: Introduction to gRPC][301]
 - [gRPC docs: Core concepts, architecture and lifecycle][302]
 
@@ -104,7 +104,7 @@ For implementing a [gRPC] server in [Rust], there are two main production-ready 
 
 In [gRPC] ecosystem, usually, implementing a [gRPC] client doesn't differ much from implementing a server, since both are auto-generated from the same `.proto` schema. So, for [Rust], the same [`tonic`] and [`grpcio`] crates do the job when it comes to making [gRPC] requests. 
 
-For more familiarity with using [gRPC] in [Rust], read through the following articles:
+To be familiar with using [gRPC] in [Rust], read through:
 - [Official `tonic` crate docs][`tonic`]
 - [Official `grpcio` crate docs][`grpcio`]
 

@@ -33,7 +33,7 @@ However, many types are always freely movable, even when pinned, because they do
 
 Note, that pinning and [`Unpin`] only affect the pointed-to type `P::Target`, not the pointer type `P` itself that got wrapped in `Pin<P>`. For example, whether or not `Box<T>` is `Unpin` has no effect on the behavior of `Pin<Box<T>>` (here, `T` is the pointed-to type).
 
-To better understand [`Pin`]'s' purpose, design, limitations, and use cases, read through:
+To better understand [`Pin`]'s purpose, design, limitations, and use cases, read through:
 - [Official `std::pin` docs][`std::pin`]
 - [Reddit: Pinned objects ELI5?][2]
 - [SoByte: Pin and Unpin in Rust][10]

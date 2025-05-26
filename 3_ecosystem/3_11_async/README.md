@@ -20,7 +20,7 @@ The basic primitive of async story in [Rust] is a [future abstraction][8] (also 
 
 [Rust] provides only basic trait definitions in the [`std::future`] module of its standard library. To use futures with all its power, consider to use the [`futures`] crate (and/or similar ones like [`futures-lite`], [`futures-time`], etc).
 
-To understand [Rust] futures concepts and design better, read through the following articles:
+To understand [Rust] futures concepts and design better, read through:
 - [Aaron Turon: Zero-cost futures in Rust][11]
 - [Aaron Turon: Designing futures for Rust][9]
 - [Rust RFC 2592: `futures_api`][13]
@@ -40,7 +40,7 @@ It's important to mention, that before [futures design has been stabilized][13],
 
 Though, [`async` keyword in not supported in trait methods yet][2], there is the [`async-trait`] crate, which allows this for traits by desugaring into a [`Box`]ed [`Future`] (the main downside of which is being non-transparent over auto-traits like `Send`/`Sync`). 
 
-For better understanding `async`/`.await` keywords design, desugaring, usage, and features, read through the following articles:
+To better understand `async`/`.await` keywords design, desugaring, usage and features, read through:
 - [Rust RFC 2394: `async_await`][16]
 - [Asynchronous Programming in Rust: 3. `async`/`.await`][21]
 - [Hayden Stainsby: how I finally understood async/await in Rust (part 1)][63]
@@ -58,7 +58,7 @@ Except the [future abstraction][8] itself, it's important to understand what is 
 When a task is suspended due to waiting some non-blocking operation to complete (it's used to call it "parked"), there should be a way to signal an executor to continue polling this task once the operation finishes. The [`Waker`] (being provided in the [`task::Context`]) serves exactly this purpose:
 > `Waker` provides a `wake()` method that can be used to tell the executor that the associated task should be awoken. When `wake()` is called, the executor knows that the task associated with the `Waker` is ready to make progress, and its future should be polled again.
 
-For better understanding [`Waker`] design, usage, and features, read through the following articles:
+To better understand [`Waker`]'s design, usage and features, read through:
 - [Official `std::task::Waker` docs][`Waker`]
 - [Asynchronous Programming in Rust: 2.2. Task Wakeups with `Waker`][22]
 - [Hayden Stainsby: how I finally understood async/await in Rust (part 2)][64]
@@ -91,7 +91,7 @@ The async programming is not possible without support for [non-blocking I/O][1],
 
 The low-level crates, like [`mio`] (powering [`tokio`]) and [`polling`] (powering [`async-std`]), provide a single multi-platform unified interface to the majority of those [API]s. There are also low-level crates, specialized on a concrete [API], like [`io-uring`].
 
-For better understanding, read through the following articles:
+To better understand this topic, read through:
 - [Official `mio` crate docs][`mio`]
 - [Official `polling` crate docs][`polling`]
 
@@ -113,7 +113,7 @@ Also, important to classify [Rust] asynchronous runtimes in the following manner
 
 Unfortunately, at the moment, there is no meaningful way to abstract over multiple asynchronous runtimes in [Rust]. That's why authors of the libraries using [non-blocking I/O][1] either stick with a single concrete runtime only ([`tokio`], mostly), or support multiple runtimes via [Cargo features][46].
 
-For better understanding, read through the following articles:
+To better understand this topic, read through:
 - [Official `tokio` crate docs][`tokio`]
 - [Official `async-std` crate docs][`async-std`]
 - [Tokio Tutorial][47]
@@ -149,7 +149,7 @@ The most famous [actors][49] implementation in [Rust] is [`actix`]. At the time 
 
 More general-purpose and complex [actors system][49] implementations (similar to [Akka]) are [`bastion`], [`riker`] and [`hydra`].
 
-For better understanding [actors][49] design, concepts, usage, and implementations, read through the following articles:
+To better understand [actors'][49] design, concepts, usage and implementations, read through:
 - [Karan Pratap Singh: CSP vs Actor model for concurrency][55]
 - [Official `actix` crate docs][`actix`]
 - [Official `actix` user guide][58]

@@ -22,7 +22,7 @@ let small_num: u16 = big_num.try_into().expect("Value is too big");
 
 Note, that __all these traits consume ownership__ of a passed value. However, they [can be implemented for references too][2] if you're treating a reference as a value.
 
-For better understanding [`From`]/[`Into`] and [`TryFrom`]/[`TryInto`] purpose, design, limitations and use cases read through:
+To better understand [`From`]/[`Into`]'s and [`TryFrom`]/[`TryInto`]'s purpose, design, limitations and use cases, read through:
 - [Rust By Example: 6.1. From and Into][8]
 - [Official `From` docs][`From`]
 - [Official `Into` docs][`Into`]
@@ -43,7 +43,7 @@ let bytes: &[u8] = string.as_ref();
 
 [`AsRef`]/[`AsMut`] are commonly implemented for smart pointers to allow referring a data behind it via regular [Rust] references.
 
-For better understanding [`AsRef`]/[`AsMut`] purpose, design, limitations and use cases read through:
+To better understand [`AsRef`]/[`AsMut`]'s purpose, design, limitations and use cases, read through:
 - [Official `AsRef` docs][`AsRef`]
 - [Official `AsMut` docs][`AsMut`]
 - [Ricardo Martins: Convenient and idiomatic conversions in Rust][10]
@@ -72,7 +72,7 @@ So, as a conclusion:
 
 For example, it's natural for an `UserEmail` type to implement `Borrow<str>`, so it may be easily consumed in the code accepting `&str` (converted to `&str`), as they're semantically equivalent regarding `Hash`, `Eq` and `Ord`. And it's good for some execution `Context` to implement `AsRef<dyn Repository>`, so it can be extracted and used where needed, without using the whole `Context`.
 
-For better understanding [`AsRef`]/[`Borrow`] differences, read through:
+To better understand [`AsRef`]/[`Borrow`]'s difference, read through:
 - [Anup Jadhav: AsRef vs Borrow trait (ft. ChatGPT)][12]
 
 
@@ -137,7 +137,7 @@ let m = Box::new(String::from("Rust"));
 hello(&m);
 ```
 
-For better understanding [`Deref`] purpose, design, limitations and use cases read through:
+To better understand [`Deref`]'s purpose, design, limitations and use cases, read through:
 - [Rust Book: 15.2. Treating Smart Pointers Like Regular References with the Deref Trait][3]
 - [Official `Deref` docs][`Deref`]
 - [Tim McNamara: Explaining Rust’s Deref trait][13]

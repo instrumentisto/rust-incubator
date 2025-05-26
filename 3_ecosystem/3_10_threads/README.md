@@ -16,7 +16,7 @@ Traditionally, [threads][3] are used for solving [CPU-bound] problems, as they a
 
 [`crossbeam`] crate also provides implementation of [scoped threads][5], which allow to borrow values from a stack. They are also available in form of [`std::thread::scope`], as of [Rust] 1.63. 
 
-For better understanding [Rust] threads design, concepts, usage, and features (especially [TLS][4] is important and widely used one), read through the following articles:
+To better understand [Rust]'s threads design, concepts, usage, and features (especially [TLS][4] is important and widely used one), read through:
 - [Rust Book: 16.1. Using Threads to Run Code Simultaneously][6]
 - [Rust By Example: 20.1. Threads][7]
 - [Official `std::thread` docs][`std::thread`]
@@ -37,7 +37,7 @@ Threads communication is commonly represented via [channels][14] and is implemen
 
 Despite that, there is also the [`crossbeam`] crate, providing more feature-rich and optimized concurrency and synchronization primitives. The most notable is [`crossbeam-channel`] as [an enhancement][15] of `std` channel implementations.
 
-For better understanding and familiarity with [Rust] synchronization primitives design, concepts, usage, and features, read through the following articles:
+To better understand and be familiar with [Rust]'s synchronization primitives design, concepts, usage, and features, read through:
 - [Rust Book: 16.2. Using Message Passing to Transfer Data Between Threads][16]
 - [Rust Book: 16.3. Shared-State Concurrency][13]
 - [Rust Blog: Fearless Concurrency with Rust][2]
@@ -64,7 +64,7 @@ The important concept to understand is [how concurrency and parallelism differ][
 
 Another way to perform parallel data processing _without using [threads][3]_ is [SIMD] instructions usage. If an algorithm is parallelizable enough, applying [SIMD] instructions may [increase performance drastically][24]. [Rust] ecosystem provides basic support for [SIMD] instructions in a form of [`packed_simd`] crate.
 
-For better understanding and familiarity with parallelism in [Rust], read through the following articles:
+To better understand and be familiar with parallelism in [Rust], read through:
 - [Nicky Meuleman: Concurrent vs parallel][28]
 - [Official `rayon` crate docs][`rayon`]
 - [`rayon` crate FAQ][22]

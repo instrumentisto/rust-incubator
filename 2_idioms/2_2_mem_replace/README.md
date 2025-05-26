@@ -24,7 +24,7 @@ impl<T> Buffer<T> {
 }
 ```
 
-For better understanding [`mem::replace`], [`mem::swap`] and [`mem::take`] purpose, design, limitations and use cases, read through the following articles:
+To better understand [`mem::replace`]'s, [`mem::swap`]'s and [`mem::take`]'s purpose, design, limitations and use cases, read through:
 - [Official `mem::replace` docs][`mem::replace`]
 - [Official `mem::swap` docs][`mem::swap`]
 - [Official `mem::take` docs][`mem::take`]
