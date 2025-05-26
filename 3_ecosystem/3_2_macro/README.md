@@ -37,7 +37,7 @@ The good part about declarative macros is that they are [hygienic][11] (and so, 
 
 Code generation purpose is not the only one declarative macros are used for. Quite often they are used for building abstractions and APIs too, because they all to implement much more ergonomic features than regular functions do: named arguments, [variadics][17], etc.
 
-For better understanding declarative macros design, concepts, usage and features, read through the following articles:
+To better understand declarative macros' design, concepts, usage and features, read through:
 - [Rust Book: 19.6. Macros: Declarative Macros with `macro_rules!` for General Metaprogramming][13]
 - [Rust By Example: 16. macro_rules!][14]
 - [The Little Book of Rust Macros][15]
@@ -103,7 +103,7 @@ On top of them, more ecosystem crates may be used for having less boilerplate, b
 - [`synstructure`] crate, providing helper types for matching against enum variants, and extracting bindings to each of the fields in the deriving struct or enum in a generic way.
 - [`synthez`] crate, providing [derive macros][29] for parsing [AST] (yeah, derive macros for derive macros!) and other helpful "batteries" for daily routine of procedural macro writing.
 
-For better understanding procedural macros design, concepts, usage and features, read through the following articles:
+To better understand procedural macros' design, concepts, usage and features, read through:
 - [Rust Book: 19.6. Macros: Procedural Macros for Generating Code from Attributes][23]
 - [Rust Reference: 3.2. Procedural Macros][26]
 - [Official `syn` crate docs][`syn`]

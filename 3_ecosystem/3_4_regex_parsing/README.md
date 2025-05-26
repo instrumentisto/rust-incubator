@@ -59,7 +59,7 @@ If regular expressions are [not powerful enough][2] for your parsing problem, th
     - [`lalrpop`] crate, generating [LR(1) parser][6] code from custom grammar files.
     - [`parsel`] crate, a library for generating parsers directly from syntax tree node types.
 
-For better understanding parsing problem and approaches, along with some examples, read through the following articles:
+To better understand parsing problem and approaches, along with some examples, read through:
 - [Laurence Tratt: Which Parsing Approach?][9]
 - [Richard L. Apodaca: A Beginner's Guide to Parsing in Rust][10]
 - [Eshan Singh: Practical Parsing in Rust with nom][14]

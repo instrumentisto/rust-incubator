@@ -28,7 +28,7 @@ fn describe(error: &Error) -> Cow<'static, str> {
 }
 ```
 
-For better understanding [`Cow`] purpose, design, limitations and use cases read through:
+To better understand [`Cow`]'s purpose, design, limitations and use cases, read through:
 - [Official `Cow` docs][`Cow`]
 - [Pascal Hertleif: The Secret Life of Cows][1]
 - [Yashodhan Joshi: Using `Cow` in Rust for efficient memory utilization][3]

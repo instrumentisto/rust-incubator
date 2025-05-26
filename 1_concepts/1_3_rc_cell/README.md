@@ -41,7 +41,7 @@ let y = Rc::clone(&a);  // but rather produces new reference to it
 
 The [`Rc`], however, __should be used wisely__ as __won't deallocate memory on references cycle__ which is exactly what a __memory leak__ is. [Rust] is unable to prevent memory leaks at compile time (though makes hard to produce them). If it's still required to have a references cycle, you should use a [`Weak`] smart pointer ("weak reference") in combination with [`Rc`]. [`Weak`] allows to break a references cycle as can refer to a value that has been dropped already (returns `None` in such case). 
 
-For better understanding [`Rc`]/[`Weak`] purpose, design, limitations and use cases read through:
+To better understand [`Rc`]/[`Weak`]'s purpose, design, limitations and use cases, read through:
 - [Rust Book: 15.4. Rc, the Reference Counted Smart Pointer][1]
 - [Rust Book: 15.6. Reference Cycles Can Leak Memory][2]
 - [Official `std::rc` docs][`std::rc`]
@@ -61,7 +61,7 @@ However, quite often there are situations where these rules are not flexible eno
 
 These containers __allow to overcome [Rust] borrowing rules and track borrows at runtime__ (so called "dynamic borrowing"), which, obviously, leads to less safe code as compile-time errors become runtime panics. That's why one should __use [`Cell`]/[`RefCell`] wisely and only as a last resort__.
 
-For better understanding [`Cell`]/[`RefCell`] purpose, design, limitations and use cases read through:
+To better understand [`Cell`]/[`RefCell`]'s purpose, design, limitations and use cases, read through:
 - [Rust Book: 15.5. RefCell and the Interior Mutability Pattern][3]
 - [Official `std::cell` docs][`std::cell`]
 - [Paul Dicker: Interior mutability patterns][6]

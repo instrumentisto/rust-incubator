@@ -69,7 +69,7 @@ Additionally, [`mockito`] and [`wiremock`] crates should be mentioned as a quite
 
 The most powerful, however, is [`mockall`] crate. See [this overview][43] for more details.
 
-For better overview and familiarity with [mocking][41] in [Rust], read through the following articles:
+To better understand and be familiar with [mocking][41] in [Rust], read through:
 - [Alan Somers: Rust Mock Shootout!][43]
 - [Oduah Chigozie: Mocking in Rust: Mockall and alternatives][45]
 - [Official `mockall` crate docs][`mockall`]
@@ -88,7 +88,7 @@ For better overview and familiarity with [mocking][41] in [Rust], read through t
 
 [Rust] ecosystem has quite good [`proptest`] and [`quickcheck`] crates, which provide tools and primitives for [property testing][21].
 
-For better understanding and familiarity with [property testing][21] in [Rust], read through the following articles:
+To better understand and be familiar with [property testing][21] in [Rust], read through:
 - [`proptest` crate description][`proptest`]
 - [`quickcheck` crate description][`quickcheck`]
 - [Proptest Book][22]
@@ -105,7 +105,7 @@ For better understanding and familiarity with [property testing][21] in [Rust], 
 - [afl.rs] allows to run [AFL (american fuzzy lop)][AFL] on code written in [Rust].
 - [`honggfuzz`] is a security oriented fuzzer with powerful analysis options, which supports evolutionary, feedback-driven fuzzing based on code coverage (software- and hardware-based).
 
-For better understanding and familiarity with [fuzzing][31] in [Rust], read through the following articles:
+To better understand and be familiar with [fuzzing][31] in [Rust], read through:
 - [Rust Fuzz Book][34]
 - [Official `cargo-fuzz` crate docs][`cargo-fuzz`]
 - [Official `honggfuzz` crate docs][`honggfuzz`]

@@ -18,7 +18,7 @@ The main alternatives are:
 - [`async-h1`], powering the [`async-std`] ecosystem for [HTTP].
 - [`actix-http`], powering the [`actix-web`] ecosystem.
 
-For more details, read through the following articles:
+For more details, read through:
 - [Official `hyper` crate docs][`hyper`]
 - [Official `async-h1` crate docs][`async-h1`]
 - [Official `actix-http` crate docs][`actix-http`]
@@ -39,7 +39,7 @@ For those who prefer [`async-std`] ecosystem, the definitive choice (and the sin
 
 All the [web frameworks][21] above inherit the [work-stealing][23] from the asynchronous runtime they're run on, and so, require the proper synchronization (being [`Send`]) from user-provided [HTTP] request handlers, which may introduce an unnecessary or undesired overhead. That's why __[`actix-web`] crate was designed__ and implemented specifically with this consideration in mind (__to avoid [work-stealing][23]__), being built on top of [`actix-rt`] crate (leveraging [thread-per-core][24] model), and thus, not requiring any synchronization in its request handlers (allowing `!Send` [`Future`]s). Also, [`actix-web`], at the time, was the first mature and production-ready [web framework][21] in [Rust] ecosystem, possessing a [top of "TechEmpower Web Framework Benchmarks"][25].
 
-For better understanding and familiarity with [HTTP] servers in [Rust], read through the following articles:
+To better understand and be familiar with [HTTP] servers in [Rust], read through:
 - [Official `actix-web` crate docs][`actix-web`]
 - [Official `actix-web` crate guides: Server](https://actix.rs/docs/server)
 - [Official `axum` crate docs][`axum`]
@@ -65,7 +65,7 @@ For [`async-std`] ecosystem, the main crate is [`surf`], which is, however, not 
 
 For [`actix-web`] ecosystem, the meaningful option would be the [`awc`] crate, which supports [WebSocket] connections out-of-the-box (while most other [HTTP] clients lacks that).
 
-For better understanding and familiarity with [HTTP] clients in [Rust], read through the following articles:
+To better understand and be familiar with [HTTP] clients in [Rust], read through:
 - [Official `reqwest` crate docs][`reqwest`]
 - [Joshua Mo: Writing a Web Scraper in Rust using Reqwest][33]
 - [Official `isahc` crate docs][`isahc`]
@@ -83,7 +83,7 @@ Many [HTTP] clients and servers in [Rust] lack a built-in [WebSocket] implementa
 
 For [`actix-web`] ecosystem, the idiomatic solution is the [`actix-web-actors::ws`] module, providing implementation in a form of [actor][41] (via [`actix`]).
 
-For better understanding and familiarity with [WebSocket] implementations in [Rust], read through the following articles:
+To better understand and be familiar with [WebSocket] implementations in [Rust], read through:
 - [Official `tungstenite` crate docs][`tungstenite`]
 - [Official `async-tungstenite` crate docs][`async-tungstenite`]
 - [Official `tokio-tungstenite` crate docs][`tokio-tungstenite`]
