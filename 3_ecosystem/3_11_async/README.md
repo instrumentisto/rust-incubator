@@ -161,6 +161,7 @@ For better understanding [actors][49] design, concepts, usage, and implementatio
 ## More reading
 
 - [Nazmul Idris: Build with Naz: Rust async, non-blocking, concurrent, parallel, event loops, graceful shutdown][73]
+- [Willem Vanhulle: Functional async][74]
 
 
 
@@ -314,3 +315,4 @@ After completing everything above, you should be able to answer (and understand 
 [71]: https://without.boats/blog/futures-unordered
 [72]: https://cybernetist.com/2024/04/19/rust-tokio-task-cancellation-patterns
 [73]: https://developerlife.com/2024/05/19/effective-async-rust
+[74]: https://willemvanhulle.tech/blog/func-async
