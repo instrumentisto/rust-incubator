@@ -227,5 +227,5 @@ After completing everything above, you should be able to answer (and understand 
 [9]: https://doc.rust-lang.org/rust-by-example/types/cast.html
 [10]: https://ricardomartins.cc/2016/08/03/convenient_and_idiomatic_conversions_in_rust
 [11]: https://rust-lang.github.io/rust-clippy/master/index.html#as_conversions
-[12]: https://rusty-ferris.pages.dev/blog/asref-vs-borrow-trait
+[12]: https://web.archive.org/web/20240220233335/https://rusty-ferris.pages.dev/blog/asref-vs-borrow-trait
 [13]: https://timclicks.dev/article/explaining-rusts-deref-trait

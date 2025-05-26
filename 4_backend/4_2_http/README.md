@@ -46,7 +46,7 @@ For better understanding and familiarity with [HTTP] servers in [Rust], read thr
 - [Official `warp` crate docs][`warp`]
 - [Official `rocket` crate docs][`rocket`]
 - [Official `poem` crate docs][`poem`]
-- [Official `salvo` book](https://salvo.rs/book)
+- [Official `salvo` guide](https://salvo.rs/guide)
 - [Official `tide` crate docs][`tide`]
 - [Official `hyper` crate guides: Server][26]
 

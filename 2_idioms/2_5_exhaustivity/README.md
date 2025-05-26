@@ -184,5 +184,5 @@ After completing everything above, you should be able to answer (and understand 
 [8]: https://blog.datalust.co/rust-at-datalust-how-we-organize-a-complex-rust-codebase#maintaininginvariantsthatcoverallstructfields
 [9]: https://doc.rust-lang.org/reference/attributes/type_system.html#the-non_exhaustive-attribute
 [10]: https://rust-lang.github.io/rfcs/2008-non-exhaustive.html
-[11]: https://turreta.com/blog/2019/12/21/using-non_exhaustive-for-non-exhaustive-rust-structs
+[11]: https://web.archive.org/web/20250120122453/https://turreta.com/blog/2019/12/21/using-non_exhaustive-for-non-exhaustive-rust-structs
 [12]: https://en.wikipedia.org/wiki/Future-proof
