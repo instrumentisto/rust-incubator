@@ -1,5 +1,10 @@
 {
   "httpHeaders": [{
+    "urls": ["http"],
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:138.0) Gecko/20100101 Firefox/138.0"
+    }
+  }, {
     "urls": [
       "https://github.com/",
       "https://guides.github.com/",
@@ -12,7 +17,7 @@
   }],
   "ignorePatterns": [{
     "pattern": "^!--"
-  },{
+  }, {
     "pattern": "^https://aayushyavajpayee.substack.com"
   }, {
     "pattern": "^https://github.com/instrumentisto/rust-incubator/generate"
@@ -26,6 +31,12 @@
     "pattern": "^https://dpc.pw"
   }, {
     "pattern": "^https://kerkour.com"
+  }, {
+    "pattern": "^https://naiveai.hashnode.dev"
+  }, {
+    "pattern": "^https://news.ycombinator.com"
+  }, {
+    "pattern": "^https://stackoverflow.com"
   }, {
     "pattern": "^https://www.aspecto.io"
   }, {
@@ -41,5 +52,7 @@
   }, {
     "pattern": "^https://www.patreon.com/stjepang"
   }],
+  "retryOn429": true,
+  "retryCount": 5,
   "timeout": "60s"
 }
