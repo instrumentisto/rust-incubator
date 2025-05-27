@@ -68,6 +68,16 @@ To better understand [`Cell`]/[`RefCell`]'s purpose, design, limitations and use
 - [David Tolnay: Accurate mental model for Rust’s reference types][8]
 
 
+### Advanced borrowing patterns
+
+Notably, if the ownership over the value can be expressed separately from its data, the __interior mutability is possible while preserving compile-time borrowing checks and eliminating run-time overhead__, as proven by the [`qcell`] and [`ghost-cell`] crates.
+
+To better understand their design, limitations and use cases, read through:
+- [Official `qcell` crate docs][`qcell`]
+- [Official `ghost-cell` crate docs][`ghost-cell`]
+- [RustBelt: GhostCell: Separating Permissions from Data in Rust][9]
+
+
 
 
 ## Shared mutability
@@ -166,7 +176,9 @@ After completing everything above, you should be able to answer (and understand 
 
 [`Arc`]: https://doc.rust-lang.org/std/sync/struct.Arc.html
 [`Cell`]: https://doc.rust-lang.org/std/cell/struct.Cell.html
+[`ghost-cell`]: https://docs.rs/ghost-cell
 [`Mutex`]: https://doc.rust-lang.org/std/sync/struct.Mutex.html
+[`qcell`]: https://docs.rs/qcell
 [`Rc`]: https://doc.rust-lang.org/std/rc/struct.Rc.html
 [`RefCell`]: https://doc.rust-lang.org/std/cell/struct.RefCell.html
 [`RwLock`]: https://doc.rust-lang.org/std/sync/struct.RwLock.html
@@ -184,3 +196,4 @@ After completing everything above, you should be able to answer (and understand 
 [6]: https://pitdicker.github.io/Interior-mutability-patterns
 [7]: https://medium.com/@adetaylor/can-the-rust-type-system-prevent-deadlocks-9ae6e4123037
 [8]: https://docs.rs/dtolnay/latest/dtolnay/macro._02__reference_types.html
+[9]: https://plv.mpi-sws.org/rustbelt/ghostcell
