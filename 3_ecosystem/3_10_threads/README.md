@@ -60,7 +60,7 @@ To better understand and be familiar with [Rust]'s synchronization primitives de
 
 The important concept to understand is [how concurrency and parallelism differ][21].
 
-[Rust] ecosystem has support for parallelism in form of [`rayon`] and [`dpc-pariter`] crates, which make it easy to convert a sequential iterator to _execute in parallel threads_.
+[Rust] ecosystem has support for parallelism in form of [`rayon`], [`dpc-pariter`] and [`fork_union`] crates, which make it easy to convert a sequential iterator to _execute in parallel threads_.
 
 Another way to perform parallel data processing _without using [threads][3]_ is [SIMD] instructions usage. If an algorithm is parallelizable enough, applying [SIMD] instructions may [increase performance drastically][24]. [Rust] ecosystem provides basic support for [SIMD] instructions in a form of [`packed_simd`] crate.
 
@@ -72,6 +72,8 @@ To better understand and be familiar with parallelism in [Rust], read through:
 - [Kofi Otuo: Implementing data parallelism with Rayon Rust][34]
 - [Dawid Ciężarkiewicz: Adding parallelism to your Rust iterators with `dpc-pariter`][30]
 - [Official `dpc-pariter` crate docs][`dpc-pariter`]
+- [Ash Vardanian: Fork Union: Beyond OpenMP in C++ and Rust?][36]
+- [Official `fork_union` crate docs][`fork_union`]
 - [Rust Edition Guide: 3.9. SIMD for faster computing][25]
 - [Official `packed_simd` crate docs][`packed_simd`]
 - [vgatherps: Parsing numbers into base-10 decimals with SIMD][33]
@@ -104,6 +106,7 @@ After completing everything above, you should be able to answer (and understand 
 [`crossbeam`]: https://docs.rs/crossbeam
 [`crossbeam-channel`]: https://docs.rs/crossbeam-channel
 [`dpc-pariter`]: https://docs.rs/dpc-pariter
+[`fork_union`]: https://docs.rs/fork_union
 [`packed_simd`]: https://docs.rs/packed_simd
 [`rayon`]: https://docs.rs/rayon
 [`std::sync`]: https://doc.rust-lang.org/std/sync/index.html
@@ -146,3 +149,4 @@ After completing everything above, you should be able to answer (and understand 
 [33]: https://vgatherps.github.io/2022-11-28-dec
 [34]: https://blog.logrocket.com/implementing-data-parallelism-rayon-rust
 [35]: https://www.snoyman.com/blog/2024/01/best-worst-deadlock-rust
+[36]: https://ashvardanian.com/posts/beyond-openmp-in-cpp-rust
