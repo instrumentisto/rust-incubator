@@ -12,6 +12,7 @@ To better understand [`Sized`]'s and `?Sized`'s purpose, design, limitations and
 - [Old Rust Book: 3.31. Unsized Types][4]
 - [Rust Forum: Trait Objects and the Sized Trait][5]
 - [pretzelhammer: Sizedness in Rust][6]
+- [Christian Visintin: Don't you dare to sort your struct fields when using ?Sized][7]
 
 
 
@@ -70,3 +71,4 @@ After completing everything above, you should be able to answer (and understand 
 [4]: https://doc.rust-lang.org/1.26.0/book/first-edition/unsized-types.html
 [5]: https://users.rust-lang.org/t/trait-objects-and-the-sized-trait/14410
 [6]: https://github.com/pretzelhammer/rust-blog/blob/master/posts/sizedness-in-rust.md
+[7]: https://blog.veeso.dev/blog/en/dont-you-dare-to-sort-your-struct-fields-when-using-sized
