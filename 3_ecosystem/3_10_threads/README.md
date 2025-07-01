@@ -48,6 +48,7 @@ To better understand and be familiar with [Rust]'s synchronization primitives de
 - [Official `crossbeam-channel` crate docs][`crossbeam-channel`]
 - [Nicky Meuleman: Multithreading in Rust][29]
 - [Carl Fredrik Samson: Explaining Atomics in Rust][26]
+- [Gray Olson: The plight of the misunderstood memory ordering][37]
 - [Aleksey Kladov: Mutexes Are Faster Than Spinlocks][27]
 - [Mara Bos: Comparing Rust's and C++'s Concurrency Library][31]
 - [Mahmoud Al-Qudsi: Implementing truly safe semaphores in rust][32]
@@ -150,3 +151,4 @@ After completing everything above, you should be able to answer (and understand 
 [34]: https://blog.logrocket.com/implementing-data-parallelism-rayon-rust
 [35]: https://www.snoyman.com/blog/2024/01/best-worst-deadlock-rust
 [36]: https://ashvardanian.com/posts/beyond-openmp-in-cpp-rust
+[37]: https://www.grayolson.me/blog/posts/misunderstood-memory-ordering
