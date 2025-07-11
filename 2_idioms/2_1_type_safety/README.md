@@ -103,6 +103,7 @@ To better understand [typestates][3], read through:
 - [Will Crichton: Type-level Programming in Rust][6]
 - [Sergey Potapov: Builder with typestate in Rust][8]
 - [Azriel Hoh: Compile Time Correctness: Type State][9]
+- [Oleksandr Prokhorenko: From 'It Might Work' to 'It Will Work': Typestate in Rust][12]
 
 
 
@@ -154,3 +155,4 @@ After completing everything above, you should be able to answer (and understand 
 [9]: https://peace.mk/blog/compile-time-correctness-type-state
 [10]: https://fettblog.eu/refactoring-rust-abstraction-newtype
 [11]: https://www.howtocodeit.com/articles/ultimate-guide-rust-newtypes#write-ergonomic-newtype-constructors-with-from-and-tryfrom
+[12]: https://minikin.me/blog/typestate-in-rust
