@@ -29,6 +29,7 @@ After completing these steps, you should be able to answer (and understand why) 
 - Is [Rust] an OOP language? Is it possible to use SOLID/GRASP? Does it have inheritance?
 
 _Additional_ articles, which may help to understand the above topic better:
+- [George He: Thinking in Rust: Ownership, Access, and Memory Safety][19]
 - [Chris Morgan: Rust ownership, the hard way][1]
 - [Adolfo Ochagavía: You are holding it wrong][12]
 - [Vikram Fugro: Beyond Pointers: How Rust outshines C++ with its Borrow Checker][15]
@@ -77,3 +78,4 @@ _Additional_ articles, which may help to understand the above topic better:
 [16]: https://sabrinajewson.org/blog/null-lifetime
 [17]: https://claytonwramsey.github.io/2023/08/14/dumpster.html
 [18]: https://luk6xff.github.io/other/safe_secure_rust_book/intro/index.html
+[19]: https://cocoindex.io/blogs/rust-ownership-access
