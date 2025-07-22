@@ -153,7 +153,7 @@ There are a few potential reasons for expulsion from the group, which include bu
 
 ### Exclusion algorithm
 
-- Write to the person responsible for the expulsion of students - [Stepan](https://t.me/stepko_o)
+- Write to the person responsible for the expulsion of students - [Yulia](x)
 - Say goodbye to everyone in a telegram chat. (You can also write your feedback and tell the reason of your living if you want).
 - Log out of the chat within 24 hours.
 
