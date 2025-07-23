@@ -47,7 +47,7 @@ No, we usually don't record meetings. So, ensure you don't miss them.
 
 ##### <ins>*- What should I do if my contact information has changed?*</ins><br/>
 
-If you change your GitHub username, email, or telegram, be sure to let [Stepan](https://t.me/stepko_o) know.
+If you change your GitHub username, email, or telegram, be sure to let [Bootcamp coordinator](https://t.me/kos_my) know.
 
 ## Completing tasks and PR
 
