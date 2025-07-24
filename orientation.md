@@ -174,7 +174,7 @@ This course is continually evolving, and it's important to stay updated with the
 For each task of the rustcamp, you should create and submit a separate [PR (pull request)][PR]. Make sure to give your PR a [relevant title](https://github.com/rust-lang-ua/rustcamp/blob/master/faq.md#--how-should-i-name-pr). After you've completed your pull request, please remove any markers like "NOT READY", "DRAFT", or "WIP" from the title and specify [our bot](https://github.com/1tbot) as a reviewer and tag all of your mentors in the comments section. All communication about PR-s happens via GitHub, so please always use the PR comment section to tag mentors and ask for a review.
 
 Please, don't do PR merge yourself. 
-Before merging the pull request into the main branch, you need to receive approval from at least one mentor. If more than one mentor has reviewed your Pull Request and requested changes, you must receive approval from all involved mentors. If all the conditions are executed, [our bot](https://github.com/1tbot) will be able to merge your PR.
+To ensure a thorough review and exchange of experience between mentors, your pull request must be approved by **all** of your assigned mentors before it can be merged into the main branch. After receiving approvals from all mentors, [our bot](https://github.com/1tbot) will merge your PR.
 
 Each task of the rustcamp is a [Cargo workspace member][workspace], meaning you can run and test it from the project root using commands like `cargo run -p task_1_8`. We highly recommend using tools like [rustfmt] and [Clippy] while writing your [Rust] code.
 
