@@ -255,7 +255,7 @@ After completing everything above, you should be able to answer (and understand 
 [11]: https://aturon.github.io/blog/2016/08/11/futures
 [12]: https://en.wikipedia.org/wiki/Lazy_evaluation
 [13]: https://rust-lang.github.io/rfcs/2592-futures.html
-[14]: https://conradludgate.com/posts/async
+[14]: https://web.archive.org/web/20240917182746/https://conradludgate.com/posts/async
 [15]: https://rust-lang.github.io/futures-rs/blog/2019/04/18/compatibility-layer.html
 [16]: https://rust-lang.github.io/rfcs/2394-async_await.html
 [17]: https://rust-lang.github.io/rfcs/2394-async_await.html#reference-level-explanation
@@ -315,4 +315,4 @@ After completing everything above, you should be able to answer (and understand 
 [71]: https://without.boats/blog/futures-unordered
 [72]: https://cybernetist.com/2024/04/19/rust-tokio-task-cancellation-patterns
 [73]: https://developerlife.com/2024/05/19/effective-async-rust
-[74]: https://willemvanhulle.tech/blog/func-async
+[74]: https://willemvanhulle.tech/blog/streams/func-async
