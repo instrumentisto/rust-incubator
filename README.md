@@ -111,7 +111,8 @@ Do not hesitate to ask your mentor/lead with questions, however you won't receiv
     - [ ] [4.1. Databases, connection pools and ORMs][Task 4.1]
     - [ ] [4.2. HTTP servers and clients][Task 4.2]
     - [ ] [4.3. API servers, clients and tools][Task 4.3]
-    - [ ] [4.4. Summary Task][Task 4 Summary Task]
+    - [ ] [4.4. gRPC][Task 4.4]
+    - [ ] [4.5. Summary Task][Task 4 Summary Task]
 - [ ] [Agree your capstone project][Task 6.1]
 - [ ] [5. Zero To Production][Task 5] (3 weeks)
     - [ ] [5.1. Basic actix-web][Task 5.1]
@@ -187,6 +188,7 @@ Rustcamp materials were based on the [Rust Incubator](https://github.com/instrum
 [Task 4.1]: 4_backend/4_1_db
 [Task 4.2]: 4_backend/4_2_http
 [Task 4.3]: 4_backend/4_3_api
+[Task 4.4]: 4_backend/4_4_grpc
 [Task 4 Summary Task]: 4_backend/README.md#task
 [Task 5]: 5_zero2prod
 [Task 5.1]: 5_zero2prod/3_chapter
