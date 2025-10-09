@@ -70,6 +70,7 @@ Additionally, [`mockito`] and [`wiremock`] crates should be mentioned as a quite
 The most powerful, however, is [`mockall`] crate. See [this overview][43] for more details.
 
 To better understand and be familiar with [mocking][41] in [Rust], read through:
+- [Jorge Ortiz-Fuentes: Rust unit testing: test doubles & stubs][46]
 - [Alan Somers: Rust Mock Shootout!][43]
 - [Oduah Chigozie: Mocking in Rust: Mockall and alternatives][45]
 - [Official `mockall` crate docs][`mockall`]
@@ -175,6 +176,7 @@ After completing everything above, you should be able to answer (and understand 
 [43]: https://asomers.github.io/mock_shootout
 [44]: https://audunhalland.github.io/blog/how-to-write-a-type-level-mock-library-in-rust
 [45]: https://blog.logrocket.com/mocking-rust-mockall-alternatives
+[46]: https://jorgeortiz.dev/posts/rust_unit_testing_test_doubles_stub
 [51]: https://doc.rust-lang.org/book/ch02-00-guessing-game-tutorial.html
 [61]: https://matklad.github.io/2021/05/31/how-to-test.html
 [62]: https://www.shuttle.rs/blog/2024/03/21/testing-in-rust
