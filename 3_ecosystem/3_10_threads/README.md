@@ -53,6 +53,7 @@ To better understand and be familiar with [Rust]'s synchronization primitives de
 - [Mara Bos: Comparing Rust's and C++'s Concurrency Library][31]
 - [Mahmoud Al-Qudsi: Implementing truly safe semaphores in rust][32]
 - [Michael Snoyman: My Best and Worst Deadlock in Rust][35]
+- [Cuong Le: Inside Rust's std and parking_lot mutexes - who wins?][38]
 
 
 
@@ -152,3 +153,4 @@ After completing everything above, you should be able to answer (and understand 
 [35]: https://www.snoyman.com/blog/2024/01/best-worst-deadlock-rust
 [36]: https://ashvardanian.com/posts/beyond-openmp-in-cpp-rust
 [37]: https://www.grayolson.me/blog/posts/misunderstood-memory-ordering
+[38]: https://blog.cuongle.dev/p/inside-rusts-std-and-parking-lot-mutexes-who-win
