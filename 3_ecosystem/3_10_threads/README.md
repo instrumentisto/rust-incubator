@@ -79,6 +79,7 @@ To better understand and be familiar with parallelism in [Rust], read through:
 - [Rust Edition Guide: 3.9. SIMD for faster computing][25]
 - [Official `packed_simd` crate docs][`packed_simd`]
 - [vgatherps: Parsing numbers into base-10 decimals with SIMD][33]
+- [Sergey Davidoff: The state of SIMD in Rust in 2025][39]
 
 
 
@@ -154,3 +155,4 @@ After completing everything above, you should be able to answer (and understand 
 [36]: https://ashvardanian.com/posts/beyond-openmp-in-cpp-rust
 [37]: https://www.grayolson.me/blog/posts/misunderstood-memory-ordering
 [38]: https://blog.cuongle.dev/p/inside-rusts-std-and-parking-lot-mutexes-who-win
+[39]: https://shnatsel.medium.com/the-state-of-simd-in-rust-in-2025-32c263e5f53d
