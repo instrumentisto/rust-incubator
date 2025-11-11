@@ -71,6 +71,9 @@ The most powerful, however, is [`mockall`] crate. See [this overview][43] for mo
 
 To better understand and be familiar with [mocking][41] in [Rust], read through:
 - [Jorge Ortiz-Fuentes: Rust unit testing: test doubles & stubs][46]
+- [Jorge Ortiz-Fuentes: Rust unit testing: spy and dummy test doubles][47]
+- [Jorge Ortiz-Fuentes: Rust unit testing: mock test doubles][48]
+- [Jorge Ortiz-Fuentes: Rust unit testing test doubles: fakes][49]
 - [Alan Somers: Rust Mock Shootout!][43]
 - [Oduah Chigozie: Mocking in Rust: Mockall and alternatives][45]
 - [Official `mockall` crate docs][`mockall`]
@@ -177,6 +180,9 @@ After completing everything above, you should be able to answer (and understand 
 [44]: https://audunhalland.github.io/blog/how-to-write-a-type-level-mock-library-in-rust
 [45]: https://blog.logrocket.com/mocking-rust-mockall-alternatives
 [46]: https://jorgeortiz.dev/posts/rust_unit_testing_test_doubles_stub
+[47]: https://jorgeortiz.dev/posts/rust_unit_testing_test_doubles_spy
+[48]: https://jorgeortiz.dev/posts/rust_unit_testing_test_doubles_mock
+[49]: https://jorgeortiz.dev/posts/rust_unit_testing_test_doubles_fake
 [51]: https://doc.rust-lang.org/book/ch02-00-guessing-game-tutorial.html
 [61]: https://matklad.github.io/2021/05/31/how-to-test.html
 [62]: https://www.shuttle.rs/blog/2024/03/21/testing-in-rust
