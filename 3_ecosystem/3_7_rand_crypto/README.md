@@ -180,7 +180,7 @@ After completing everything above, you should be able to answer (and understand 
 [3]: https://en.wikipedia.org/wiki/Universally_unique_identifier#Versions
 [11]: https://en.wikipedia.org/wiki/Cryptographic_hash_function
 [12]: https://crates.io/search?q=argon2
-[13]: https://codahale.com/a-lesson-in-timing-attacks
+[13]: https://web.archive.org/web/20250815071532/https://codahale.com/a-lesson-in-timing-attacks
 [14]: https://docs.rs/rustls/#non-features
 [15]: https://kerkour.com/blog/rust-cryptography-ecosystem
 [16]: https://matklad.github.io/2023/01/04/on-random-numbers.html 
