@@ -78,9 +78,6 @@ In this bootcamp, we have the deadlines and expulsions.
 1. **Deadlines**: These are flexible deadlines designed to help keep you on track. Every soft deadline is set for **Thursday** at midnight. We tolerate up to two instances of not meeting a soft deadline. However, if you fail to meet a soft deadline for a third time, this will lead to expulsion.
 2. **Expulsion**: These are strict deadlines that must be adhered to. Each hard deadline is set for **Sunday** at midnight. Failing to meet a hard deadline will result in immediate expulsion.
 
-<img width="851" height="402" alt="Deadlines" src="https://github.com/user-attachments/assets/bf022b9d-7669-43fb-b804-7f1f6dc946fb" />
-
-
 Each chapter of our program has its own deadline. Please note that some chapters may take more than one week to complete. We use a week as our standard unit of measurement.
 
 We encourage you to meet all deadlines to maximize your learning experience and successfully complete the boot camp.
