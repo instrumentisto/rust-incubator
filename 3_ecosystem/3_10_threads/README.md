@@ -54,6 +54,7 @@ To better understand and be familiar with [Rust]'s synchronization primitives de
 - [Mahmoud Al-Qudsi: Implementing truly safe semaphores in rust][32]
 - [Michael Snoyman: My Best and Worst Deadlock in Rust][35]
 - [Cuong Le: Inside Rust's std and parking_lot mutexes - who wins?][38]
+- [Priyanshu Soni: Read Locks Are Not Your Friends][40]
 
 
 
@@ -156,3 +157,4 @@ After completing everything above, you should be able to answer (and understand 
 [37]: https://www.grayolson.me/blog/posts/misunderstood-memory-ordering
 [38]: https://blog.cuongle.dev/p/inside-rusts-std-and-parking-lot-mutexes-who-win
 [39]: https://shnatsel.medium.com/the-state-of-simd-in-rust-in-2025-32c263e5f53d
+[40]: https://eventual-consistency.vercel.app/posts/write-locks-faster
